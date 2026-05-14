@@ -34,17 +34,20 @@ Canada, Latin America. No region is excluded.
 
 Use these as primary search targets. Site-restrict queries where helpful.
 
-- **EU** — ted.europa.eu
+- **EU (aggregator)** — ted.europa.eu
+- **Europe national** — evergabe-online.de (Germany), boamp.fr + marches-publics.gouv.fr (France), tenderned.nl (Netherlands), contrataciondelestado.es (Spain), acquistinretepa.it (Italy), hilma.fi (Finland), doffin.no (Norway), kgv.dk (Denmark), upphandlingsmyndigheten.se (Sweden), bzp.uzp.gov.pl (Poland)
+- **UK** — find-tender.service.gov.uk, contractsfinder.service.gov.uk
 - **USA** — sam.gov, beta.sam.gov
 - **Canada** — buyandsell.gc.ca, canadabuys.canada.ca, bidsandtenders.ca
-- **UK** — find-tender.service.gov.uk, contractsfinder.service.gov.uk
 - **India** — eprocure.gov.in (CPPP), gem.gov.in, tendertiger.com, tenders.tatamotors.com (private), tenderswift, ireps.gov.in
-- **GCC** — etimad.sa (Saudi), tendersbahrain.gov.bh, dgmpd / TejariSA, adnoc.ae procurement, qatarenergy.qa, ejada/Etihad sites
+- **GCC** — etimad.sa (Saudi), tendersbahrain.gov.bh, dgmpd / TejariSA, adnoc.ae procurement, qatarenergy.qa, ejada/Etihad sites, bayanat.ae (UAE federal / Abu Dhabi)
+- **MENA (rest)** — etenders.gov.eg (Egypt), marchespublics.gov.ma (Morocco)
 - **Australia/NZ** — tenders.gov.au (AusTender), gets.govt.nz
-- **APAC** — gebiz.gov.sg (Singapore), pps.go.kr (Korea), jicc (Japan), e-gp.gov.bd (Bangladesh), philgeps.gov.ph
+- **East Asia** — ccgp.gov.cn (China), pps.go.kr (Korea), jicc (Japan)
+- **SE Asia** — gebiz.gov.sg (Singapore), inaproc.id (Indonesia LPSE/SPSE), muasamcong.mpi.gov.vn (Vietnam), gprocurement.go.th (Thailand), eperolehan.gov.my (Malaysia), philgeps.gov.ph (Philippines), e-gp.gov.bd (Bangladesh)
 - **Africa** — etenders.gov.za (South Africa), nigeriabidding.com, kenyabuys
-- **LatAm** — comprasnet.gov.br (Brazil), mercadopublico.cl (Chile), compras.gob.pe (Peru)
-- **Multilateral** — ungm.org, wbgeprocure.worldbank.org, adb.org (consulting opportunities), afdb.org, ebrd.com, iadb.org
+- **LatAm** — comprasnet.gov.br (Brazil), mercadopublico.cl (Chile), compras.gob.pe (Peru), compranet.hacienda.gob.mx (Mexico), colombiacompra.gov.co (Colombia, SECOP II)
+- **Multilateral** — ungm.org, wbgeprocure.worldbank.org, adb.org (consulting opportunities), afdb.org, ebrd.com, iadb.org, disclosures.ifc.org/procurement-notices (IFC), procurement-notices.undp.org (UNDP)
 - **Industry aggregators** — bidnetdirect, tendersinfo, globaltenders, dgmarket, tendersontime
 
 ---
