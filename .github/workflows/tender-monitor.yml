@@ -18,8 +18,11 @@ name: tender-monitor
 
 on:
   schedule:
-    # Every 4 hours. Free Gemini tier handles this comfortably.
-    - cron: "0 */4 * * *"
+    # Once daily at 06:00 UTC (≈11:30 IST). Free-tier Gemini caps at 20
+    # requests/day for gemini-2.5-flash; 9 shards/day leaves headroom for
+    # manual reruns and ad-hoc exploration. If you upgrade to a paid key,
+    # bump to "0 */6 * * *" or finer.
+    - cron: "0 6 * * *"
   workflow_dispatch:        # manual "Run workflow" button
     inputs:
       shard:
