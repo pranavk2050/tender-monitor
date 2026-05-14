@@ -39,7 +39,8 @@ Use these as primary search targets. Site-restrict queries where helpful.
 - **UK** — find-tender.service.gov.uk, contractsfinder.service.gov.uk
 - **USA** — sam.gov, beta.sam.gov
 - **Canada** — buyandsell.gc.ca, canadabuys.canada.ca, bidsandtenders.ca
-- **India** — eprocure.gov.in (CPPP), gem.gov.in, tendertiger.com, tenders.tatamotors.com (private), tenderswift, ireps.gov.in
+- **India (central)** — eprocure.gov.in (CPPP), gem.gov.in, tendertiger.com, tenders.tatamotors.com (private), tenderswift, ireps.gov.in
+- **India (state + PSU)** — mahatenders.gov.in (Maharashtra), etender.gujarat.gov.in (Gujarat), aptenders.gov.in (Andhra Pradesh), etenders.karnataka.gov.in (Karnataka), ongctenders.eproc.in (ONGC), procurement.coalindia.in (Coal India), defproc.gov.in (Defence), nprocure.com (multi-PSU aggregator)
 - **GCC** — etimad.sa (Saudi), tendersbahrain.gov.bh, dgmpd / TejariSA, adnoc.ae procurement, qatarenergy.qa, ejada/Etihad sites, bayanat.ae (UAE federal / Abu Dhabi)
 - **MENA (rest)** — etenders.gov.eg (Egypt), marchespublics.gov.ma (Morocco)
 - **Australia/NZ** — tenders.gov.au (AusTender), gets.govt.nz
