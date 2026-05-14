@@ -1,0 +1,71 @@
+{
+  "runs": [
+    {
+      "file": "india/tenders_2026-05-14T14-45-46Z.json",
+      "shard": "india",
+      "run_utc": "2026-05-14T14:45:46Z",
+      "tenders_found": 8
+    },
+    {
+      "file": "middle_east/tenders_2026-05-14T14-48-07Z.json",
+      "shard": "middle_east",
+      "run_utc": "2026-05-14T14:48:07Z",
+      "tenders_found": 0
+    },
+    {
+      "file": "europe/tenders_2026-05-14T14-55-33Z.json",
+      "shard": "europe",
+      "run_utc": "2026-05-14T14:55:33Z",
+      "tenders_found": 5
+    },
+    {
+      "file": "apac/tenders_2026-05-14T14-57-59Z.json",
+      "shard": "apac",
+      "run_utc": "2026-05-14T14:57:59Z",
+      "tenders_found": 3
+    },
+    {
+      "file": "africa/tenders_2026-05-14T14-58-10Z.json",
+      "shard": "africa",
+      "run_utc": "2026-05-14T14:58:10Z",
+      "tenders_found": 1
+    },
+    {
+      "file": "australia_nz/tenders_2026-05-14T14-58-33Z.json",
+      "shard": "australia_nz",
+      "run_utc": "2026-05-14T14:58:33Z",
+      "tenders_found": 0
+    },
+    {
+      "file": "usa/tenders_2026-05-14T14-59-11Z.json",
+      "shard": "usa",
+      "run_utc": "2026-05-14T14:59:11Z",
+      "tenders_found": 3
+    },
+    {
+      "file": "canada/tenders_2026-05-14T14-59-20Z.json",
+      "shard": "canada",
+      "run_utc": "2026-05-14T14:59:20Z",
+      "tenders_found": 0
+    },
+    {
+      "file": "latin_america/tenders_2026-05-14T14-59-35Z.json",
+      "shard": "latin_america",
+      "run_utc": "2026-05-14T14:59:35Z",
+      "tenders_found": 3
+    },
+    {
+      "file": "uk/tenders_2026-05-14T15-11-08Z.json",
+      "shard": "uk",
+      "run_utc": "2026-05-14T15:11:08Z",
+      "tenders_found": 0
+    },
+    {
+      "file": "india/tenders_2026-05-14T15-11-46Z.json",
+      "shard": "india",
+      "run_utc": "2026-05-14T15:11:46Z",
+      "tenders_found": 5
+    }
+  ],
+  "updated_utc": "2026-05-14T15:11:46Z"
+}

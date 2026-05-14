@@ -1,0 +1,83 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:59:00Z",
+  "lookback_days": 7,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "a1b2c3d4e5f60718",
+      "title": "Development of Digital Twin model for the Bermejo River Basin and The Magdalena River",
+      "region": "Latin America",
+      "country": "Argentina, Belize, Bolivia, Brazil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, French Guiana, Guatemala, Guyana, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Suriname, Uruguay, Venezuela",
+      "tendering_authority": "Inter-American Development Bank (IADB)",
+      "domain_industry": "Environment & Climate; Water, Sanitation & Hygiene",
+      "service_bucket": "AIM",
+      "scope_summary": "Develop and implement digital twin models for the Bermejo River Basin and the Magdalena River to improve water resource management and environmental monitoring. The project aims to enhance climate resilience and support sustainable resource management across multiple Latin American countries.",
+      "key_points": [
+        "Eligibility: Consulting firms (including consortia/joint ventures) from IDB member countries or eligible territories.",
+        "Budget: USD 855,000.",
+        "Date posted: April 20, 2026.",
+        "Focus on environmental protection, natural resource management, and climate change adaptation.",
+        "Firms must register in the IDB Bank-Executed Operations (BEO) system."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-04-20T00:00:00Z",
+      "estimated_value": {
+        "amount": 855000,
+        "currency": "USD"
+      },
+      "source_url": "https://www.developmentaid.org/tenders/view/154780/development-of-digital-twin-model-for-the-bermejo-river-basin-and-the-magdalena-river",
+      "confidence": "high"
+    },
+    {
+      "id": "1e9d1c7f3e8b0a52",
+      "title": "Provision of 3D Laser Scanning and As-Built BIM Services (Framework Agreement - Laser Scanning)",
+      "region": "Latin America",
+      "country": "Chile",
+      "tendering_authority": "MercadoPublico.cl (ChileCompra)",
+      "domain_industry": "Infrastructure, Construction",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender for a framework agreement for 3D laser scanning and as-built BIM services. The services would involve creating high-fidelity Revit models from point clouds and providing detailed documentation for various projects across Chile, supporting infrastructure and construction sectors.",
+      "key_points": [
+        "Access to e-Tender Notices, deadlines, and Tender documents published on mercadopublico.cl.",
+        "Focus on construction, infrastructure, transport, solar, and agriculture sectors.",
+        "Requires proficiency in CAD software and experience with residential design (attic conversions).",
+        "LOD 300 for general layout and LOD 350 for component detail and fabrication data are required for BIM models.",
+        "All geometry must align accurately with the scan, follow standard MEP families, and be organized with clear naming, worksets, and systems."
+      ],
+      "deadline_utc": "2026-06-08T00:00:00Z",
+      "published_utc": "2026-05-01T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.bid-detail.com/tender-112977486-chile",
+      "confidence": "medium"
+    },
+    {
+      "id": "9d1b0c8f7e6a5d4c",
+      "title": "Architectural Technologist for Advanced BIM Modeling and CD Documentation",
+      "region": "Latin America",
+      "country": "Brazil",
+      "tendering_authority": "Workana",
+      "domain_industry": "Architecture, Construction",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Seeking an experienced Architectural Technologist to collaborate on various architectural projects, focusing on creating comprehensive design and construction documentation using advanced Building Information Modeling (BIM) principles and practices. The role involves developing and maintaining 3D architectural BIM models, translating design inputs into construction-ready models, and producing plans, sections, elevations, schedules, and details for construction sets.",
+      "key_points": [
+        "At least 1-2 years of hands-on BIM modeling experience required.",
+        "Bachelor's degree in architecture or civil engineering preferred.",
+        "Strong proficiency in Revit with an architectural modeling focus is essential.",
+        "Working knowledge of AutoCAD and Excel.",
+        "Familiarity with BIM workflows, coordination, and basic clash detection."
+      ],
+      "deadline_utc": "2026-06-14T23:59:59Z",
+      "published_utc": "2026-04-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.workana.com/job/architectural-technologist-for-advanced-bim-modeling-and-cd-documentation",
+      "confidence": "medium"
+    }
+  ],
+  "shard": "latin_america"
+}

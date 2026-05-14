@@ -1,0 +1,101 @@
+name: tender-monitor
+
+# Runs the monitor on a schedule for each region shard, commits results back
+# to the repo, and serves the dashboard via GitHub Pages.
+#
+# To deploy:
+#   1. Push this repo to GitHub.
+#   2. Settings -> Secrets and variables -> Actions -> New repository secret:
+#        Name:  GEMINI_API_KEY
+#        Value: <your free Gemini API key>
+#   3. Settings -> Pages -> Source = "Deploy from a branch", Branch = main, Folder = /
+#   4. Wait for the first scheduled run (or trigger "Run workflow" from the
+#      Actions tab).
+#   5. Open https://<your-username>.github.io/<repo-name>/dashboard.html
+#
+# Caveat: GitHub disables scheduled workflows after 60 days of repo inactivity;
+# the commits this workflow makes count as activity, so it self-keeps-alive.
+
+on:
+  schedule:
+    # Every 4 hours. Free Gemini tier handles this comfortably.
+    - cron: "0 */4 * * *"
+  workflow_dispatch:        # manual "Run workflow" button
+    inputs:
+      shard:
+        description: "Single shard to run (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write           # required to commit results back
+
+concurrency:
+  group: tender-monitor     # don't let two runs race on state files
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false      # one shard's API hiccup shouldn't kill the others
+      max-parallel: 1       # serialize to stay friendly with free-tier rate limits
+      matrix:
+        include:
+          - { shard: india,         regions: "India" }
+          - { shard: middle_east,   regions: "Middle East" }
+          - { shard: europe,        regions: "Europe" }
+          - { shard: apac,          regions: "APAC" }
+          - { shard: africa,        regions: "Africa" }
+          - { shard: australia_nz,  regions: "Australia/NZ" }
+          - { shard: usa,           regions: "USA" }
+          - { shard: canada,        regions: "Canada" }
+          - { shard: latin_america, regions: "Latin America" }
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need full history so the commit step can push without conflicts
+          # when shards finish out of order.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --quiet google-genai
+
+      - name: Skip if a specific shard was requested and this isn't it
+        if: github.event.inputs.shard != '' && github.event.inputs.shard != matrix.shard
+        run: echo "::notice::skipping ${{ matrix.shard }} — manual run targeted ${{ github.event.inputs.shard }}" && exit 0
+
+      - name: Run shard ${{ matrix.shard }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TENDER_REGIONS: ${{ matrix.regions }}
+          TENDER_SHARD:   ${{ matrix.shard }}
+          # Optional: post urgent (<=7d deadline) hits to Slack/Teams.
+          # Add TENDER_WEBHOOK_URL as a separate repo secret to enable.
+          TENDER_WEBHOOK_URL:  ${{ secrets.TENDER_WEBHOOK_URL }}
+          TENDER_WEBHOOK_TYPE: ${{ vars.TENDER_WEBHOOK_TYPE || 'slack' }}
+        run: python tender_monitor.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "tender-bot"
+          git config user.email "tender-bot@users.noreply.github.com"
+          # Pull latest in case another shard already pushed during this run.
+          git pull --rebase origin "$GITHUB_REF_NAME" || true
+          git add tender_state_*.json tender_results/ tender_monitor.log
+          if git diff --quiet --staged; then
+            echo "no changes for ${{ matrix.shard }}"
+            exit 0
+          fi
+          git commit -m "tender run ${{ matrix.shard }} $(date -u +%FT%TZ)"
+          # Retry a couple of times in case a sibling shard raced us.
+          for i in 1 2 3; do
+            git pull --rebase origin "$GITHUB_REF_NAME" && git push && break || sleep 5
+          done

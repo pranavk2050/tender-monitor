@@ -1,0 +1,8 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:58:00Z",
+  "lookback_days": 7,
+  "tenders_found": 0,
+  "tenders": [],
+  "message": "No new tenders found in the last check.",
+  "shard": "australia_nz"
+}

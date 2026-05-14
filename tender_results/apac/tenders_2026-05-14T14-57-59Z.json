@@ -1,0 +1,77 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:57:00Z",
+  "lookback_days": 7,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e43b1897c7247385",
+      "title": "Tender For Digital Twin National Land Service Infrastructure Construction",
+      "region": "APAC",
+      "country": "South Korea",
+      "tendering_authority": null,
+      "domain_industry": "Government - Land Services",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for the construction of infrastructure for a national land service digital twin. The estimated value is KRW 109,000,000.",
+      "key_points": [
+        "Infrastructure construction for Digital Twin National Land Service.",
+        "Estimated value: KRW 109,000,000."
+      ],
+      "deadline_utc": "2026-05-19T00:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": 109000000,
+        "currency": "KRW"
+      },
+      "source_url": "https://www.tendernews.com/tenders/digital-twin-tender-notice.php",
+      "confidence": "high"
+    },
+    {
+      "id": "92ec5d2b70f03125",
+      "title": "Purchase of VR based rehabilitation and assessment system for upper and lower limb movement training",
+      "region": "APAC",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Healthcare",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Tender for the purchase of a VR-based rehabilitation and assessment system designed for upper and lower limb movement training.",
+      "key_points": [
+        "Procurement of VR-based rehabilitation and assessment system.",
+        "System for upper and lower limb movement training.",
+        "Estimated value: INR 24.00 Lakh."
+      ],
+      "deadline_utc": "2026-05-25T00:00:00Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": 2400000,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tender247.com/augmented-and-virtual-reality-device-government-tenders.php",
+      "confidence": "high"
+    },
+    {
+      "id": "19b5b2935817d3b0",
+      "title": "Supply of - AR/VR Module on PRS Based Repair to 15539mm M777 A2 ULH",
+      "region": "APAC",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Defense",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Tender for the supply of an AR/VR module for PRS (Parts Repair System) based repair for 15539mm M777 A2 ULH (Ultra-Light Howitzer).",
+      "key_points": [
+        "Supply of AR/VR module.",
+        "For PRS based repair to 15539mm M777 A2 ULH.",
+        "Quantity: 1 unit.",
+        "Estimated value: INR 6.00 Lakh."
+      ],
+      "deadline_utc": "2026-06-22T00:00:00Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": 600000,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tender247.com/augmented-and-virtual-reality-device-government-tenders.php",
+      "confidence": "high"
+    }
+  ],
+  "shard": "apac"
+}

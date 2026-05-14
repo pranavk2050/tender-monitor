@@ -1,0 +1,1621 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tender Command — Global Digital Engineering Monitor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0b09;
+    --bg-grain:#0e0d0b;
+    --surface:#16151200;
+    --surface-1:#1a1916;
+    --surface-2:#23221e;
+    --border:#2c2a25;
+    --border-strong:#3a3833;
+    --text:#ece7d8;
+    --text-dim:#b6b0a0;
+    --text-muted:#7a7567;
+    --accent:#d4a55c;
+    --accent-soft:#d4a55c33;
+    --critical:#e06a5f;
+    --critical-soft:#e06a5f1f;
+    --safe:#82a978;
+    --safe-soft:#82a9781f;
+
+    /* bucket hues */
+    --b-bim:#6fc1c9;
+    --b-laser:#d4a55c;
+    --b-migration:#a785c9;
+    --b-apm:#d68aa3;
+    --b-aim:#7ab891;
+    --b-digital:#6a96d4;
+    --b-software:#c97ab8;
+    --b-upgrade:#d68a5f;
+
+    --display:'Fraunces', 'Iowan Old Style', Georgia, serif;
+    --sans:'Geist','Helvetica Neue', -apple-system, sans-serif;
+    --mono:'Geist Mono', ui-monospace, Menlo, monospace;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans);
+    color:var(--text);
+    background:
+      radial-gradient(1200px 600px at 80% -10%, #1c1a14 0%, transparent 60%),
+      radial-gradient(900px 500px at -10% 110%, #161510 0%, transparent 60%),
+      var(--bg);
+    background-attachment: fixed;
+    line-height:1.5;
+    font-feature-settings:"ss01","ss02","cv11";
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  body::before{
+    content:"";
+    position:fixed;inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.012) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events:none;
+    z-index:0;
+  }
+
+  a{color:inherit}
+  button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+
+  /* ---------- header ---------- */
+  header.app{
+    position:sticky;top:0;z-index:50;
+    background:linear-gradient(to bottom, rgba(11,11,9,.95), rgba(11,11,9,.75));
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border);
+  }
+  .header-inner{
+    max-width:1500px;margin:0 auto;padding:18px 32px;
+    display:flex;align-items:center;gap:24px;
+  }
+  .brand{flex:1;min-width:0}
+  .brand h1{
+    font-family:var(--display);
+    font-weight:500;
+    font-size:clamp(22px, 2.4vw, 30px);
+    letter-spacing:-0.02em;
+    line-height:1;
+  }
+  .brand h1 .ital{font-style:italic;font-weight:400;color:var(--text-dim)}
+  .brand p{
+    margin-top:4px;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.18em;
+    color:var(--text-muted);
+    font-family:var(--mono);
+  }
+  .header-actions{display:flex;gap:8px;align-items:center}
+  .btn{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    padding:9px 14px;
+    border:1px solid var(--border-strong);
+    background:var(--surface-1);
+    border-radius:2px;
+    transition:all .15s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{background:var(--surface-2);border-color:var(--accent)}
+  .btn.primary{
+    background:var(--accent);color:#1a1410;border-color:var(--accent);
+    font-weight:500;
+  }
+  .btn.primary:hover{background:#e0b16d;border-color:#e0b16d}
+
+  /* ---------- demo banner ---------- */
+  .demo-banner{
+    background:linear-gradient(90deg, var(--accent-soft), transparent 60%);
+    border-bottom:1px solid var(--border);
+    padding:9px 32px;
+    font-size:12px;
+    font-family:var(--mono);
+    color:var(--text-dim);
+    display:flex;align-items:center;gap:10px;
+    position:relative;z-index:10;
+  }
+  .demo-banner::before{
+    content:"●";color:var(--accent);font-size:10px;
+  }
+  .demo-banner.hidden{display:none}
+
+  /* ---------- main ---------- */
+  main{
+    position:relative;z-index:1;
+    max-width:1500px;margin:0 auto;padding:32px;
+  }
+
+  /* ---------- KPI strip ---------- */
+  .kpi-strip{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+    gap:1px;
+    background:var(--border);
+    border:1px solid var(--border);
+    margin-bottom:32px;
+  }
+  .kpi{
+    background:var(--surface-1);
+    padding:20px 22px;
+    position:relative;
+  }
+  .kpi .label{
+    font-family:var(--mono);
+    font-size:10px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+    margin-bottom:10px;
+  }
+  .kpi .value{
+    font-family:var(--display);
+    font-size:34px;
+    font-weight:400;
+    letter-spacing:-0.02em;
+    line-height:1;
+    color:var(--text);
+  }
+  .kpi .value .unit{
+    font-size:14px;color:var(--text-muted);
+    font-family:var(--sans);font-weight:400;
+    margin-left:4px;letter-spacing:0;
+  }
+  .kpi .sub{
+    margin-top:8px;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--text-muted);
+  }
+  .kpi .sub.urgent{color:var(--critical)}
+
+  /* ---------- filters ---------- */
+  .filters{
+    display:flex;flex-wrap:wrap;gap:12px;align-items:stretch;
+    margin-bottom:24px;
+    padding:14px;
+    background:var(--surface-1);
+    border:1px solid var(--border);
+  }
+  .search-wrap{
+    flex:1 1 280px;
+    position:relative;
+  }
+  .search-wrap input{
+    width:100%;
+    padding:11px 14px 11px 36px;
+    background:var(--bg);
+    border:1px solid var(--border-strong);
+    color:var(--text);
+    font-family:var(--sans);
+    font-size:14px;
+    border-radius:2px;
+    outline:none;
+    transition:border-color .15s;
+  }
+  .search-wrap input:focus{border-color:var(--accent)}
+  .search-wrap::before{
+    content:"⌕";
+    position:absolute;left:12px;top:50%;transform:translateY(-50%);
+    color:var(--text-muted);font-size:16px;
+  }
+  .select-wrap{position:relative}
+  .filters select{
+    padding:11px 30px 11px 14px;
+    background:var(--bg);
+    border:1px solid var(--border-strong);
+    color:var(--text);
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    border-radius:2px;
+    appearance:none;
+    -webkit-appearance:none;
+    cursor:pointer;
+  }
+  .select-wrap::after{
+    content:"▾";position:absolute;right:12px;top:50%;
+    transform:translateY(-50%);color:var(--text-muted);
+    pointer-events:none;font-size:10px;
+  }
+
+  .bucket-chips{
+    display:flex;flex-wrap:wrap;gap:6px;
+    padding:14px;
+    background:var(--surface-1);
+    border:1px solid var(--border);
+    border-top:none;
+    margin-top:-24px;margin-bottom:24px;
+  }
+  .chip{
+    font-family:var(--mono);
+    font-size:10px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    padding:6px 10px;
+    border:1px solid var(--border-strong);
+    background:transparent;
+    color:var(--text-dim);
+    border-radius:2px;
+    transition:all .15s;
+    cursor:pointer;
+    display:inline-flex;align-items:center;gap:6px;
+  }
+  .chip::before{
+    content:"";width:7px;height:7px;border-radius:50%;
+    background:var(--chip-color, var(--text-muted));
+  }
+  .chip:hover{border-color:var(--chip-color, var(--accent))}
+  .chip.active{
+    background:var(--chip-color, var(--accent));
+    color:#1a1410;
+    border-color:var(--chip-color, var(--accent));
+    font-weight:500;
+  }
+  .chip.active::before{background:#1a1410}
+  .chip .count{
+    font-size:9px;opacity:.7;margin-left:2px;
+  }
+
+  /* ---------- tender grid ---------- */
+  .tender-meta-row{
+    display:flex;justify-content:space-between;align-items:baseline;
+    margin-bottom:14px;
+    padding:0 4px;
+  }
+  .tender-count{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+  }
+  .tender-count strong{color:var(--text);font-weight:500}
+
+  .tender-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(380px, 1fr));
+    gap:1px;
+    background:var(--border);
+    border:1px solid var(--border);
+  }
+  .tender-card{
+    background:var(--surface-1);
+    padding:22px 22px 18px;
+    position:relative;
+    cursor:pointer;
+    transition:background .15s;
+    display:flex;flex-direction:column;gap:12px;
+    border-left:3px solid var(--card-color, var(--border-strong));
+  }
+  .tender-card:hover{background:var(--surface-2)}
+  .card-top{
+    display:flex;justify-content:space-between;
+    align-items:center;gap:12px;
+  }
+  .bucket-tag{
+    font-family:var(--mono);
+    font-size:10px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--card-color, var(--text));
+    padding:3px 8px;
+    border:1px solid var(--card-color, var(--border-strong));
+    border-radius:2px;
+    background:transparent;
+    white-space:nowrap;
+  }
+  .deadline{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:0.04em;
+    color:var(--text-muted);
+    text-align:right;
+    white-space:nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .deadline.urgent{color:var(--critical)}
+  .deadline.soon{color:var(--accent)}
+  .deadline strong{
+    display:block;
+    font-size:13px;color:inherit;font-weight:500;
+  }
+  .deadline .when{font-size:10px;opacity:.8;display:block;margin-top:2px}
+
+  .card-title{
+    font-family:var(--display);
+    font-size:18px;
+    font-weight:500;
+    letter-spacing:-0.01em;
+    line-height:1.25;
+    color:var(--text);
+  }
+  .card-meta{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--text-muted);
+    letter-spacing:0.02em;
+    display:flex;flex-wrap:wrap;gap:4px 10px;
+  }
+  .card-meta span{display:inline-flex;align-items:center;gap:6px}
+  .card-meta .dot{width:3px;height:3px;background:var(--text-muted);border-radius:50%}
+  .card-meta .country::before{content:"◇ ";opacity:.6}
+
+  .card-summary{
+    font-size:13px;
+    color:var(--text-dim);
+    line-height:1.5;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+  .card-footer{
+    display:flex;justify-content:space-between;align-items:center;
+    padding-top:12px;
+    border-top:1px solid var(--border);
+    margin-top:auto;
+  }
+  .card-value{
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--text);
+    font-variant-numeric: tabular-nums;
+    letter-spacing:0.02em;
+  }
+  .card-value.empty{color:var(--text-muted);font-style:italic}
+  .card-source{
+    font-family:var(--mono);
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--text-muted);
+    text-decoration:none;
+    border:1px solid var(--border-strong);
+    padding:5px 9px;
+    border-radius:2px;
+    transition:all .15s;
+  }
+  .card-source:hover{color:var(--text);border-color:var(--text-dim)}
+  .confidence-mark{
+    position:absolute;top:14px;right:14px;
+    width:6px;height:6px;border-radius:50%;
+  }
+  .conf-high{background:var(--safe)}
+  .conf-medium{background:var(--accent)}
+  .conf-low{background:var(--critical)}
+
+  /* ---------- empty state ---------- */
+  .empty{
+    padding:80px 40px;text-align:center;
+    border:1px dashed var(--border-strong);
+    background:var(--surface-1);
+  }
+  .empty h2{
+    font-family:var(--display);font-weight:400;
+    font-size:24px;margin-bottom:8px;
+    color:var(--text-dim);
+  }
+  .empty h2 .ital{font-style:italic}
+  .empty p{color:var(--text-muted);font-size:14px;max-width:480px;margin:0 auto 20px}
+  .empty .btn{margin:0 6px}
+
+  /* ---------- detail drawer ---------- */
+  .drawer-bg{
+    position:fixed;inset:0;
+    background:rgba(8,8,6,.7);
+    backdrop-filter:blur(4px);
+    z-index:100;
+    opacity:0;pointer-events:none;
+    transition:opacity .2s;
+  }
+  .drawer-bg.open{opacity:1;pointer-events:auto}
+  .drawer{
+    position:fixed;top:0;right:0;height:100%;
+    width:min(640px, 100%);
+    background:var(--bg);
+    border-left:1px solid var(--border);
+    z-index:101;
+    transform:translateX(100%);
+    transition:transform .25s ease;
+    overflow-y:auto;
+    display:flex;flex-direction:column;
+  }
+  .drawer.open{transform:translateX(0)}
+  .drawer-head{
+    padding:24px 32px 20px;
+    border-bottom:1px solid var(--border);
+    position:sticky;top:0;background:var(--bg);z-index:2;
+    display:flex;justify-content:space-between;align-items:flex-start;gap:16px;
+  }
+  .drawer-head .bucket-tag{margin-bottom:12px}
+  .drawer-head h2{
+    font-family:var(--display);font-weight:500;
+    font-size:24px;line-height:1.2;letter-spacing:-0.015em;
+  }
+  .close-btn{
+    flex-shrink:0;
+    font-size:20px;color:var(--text-muted);
+    width:32px;height:32px;
+    display:flex;align-items:center;justify-content:center;
+    border:1px solid var(--border-strong);border-radius:2px;
+  }
+  .close-btn:hover{color:var(--text);border-color:var(--text-dim)}
+  .drawer-body{padding:24px 32px 40px;flex:1}
+  .drawer-section{margin-bottom:28px}
+  .drawer-section h3{
+    font-family:var(--mono);
+    font-size:10px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+    margin-bottom:10px;
+    font-weight:500;
+  }
+  .info-grid{
+    display:grid;grid-template-columns:1fr 1fr;
+    gap:1px;background:var(--border);
+    border:1px solid var(--border);
+  }
+  .info-cell{
+    background:var(--surface-1);
+    padding:14px 16px;
+  }
+  .info-cell .label{
+    font-family:var(--mono);font-size:10px;
+    color:var(--text-muted);text-transform:uppercase;
+    letter-spacing:0.1em;margin-bottom:4px;
+  }
+  .info-cell .val{
+    font-size:14px;color:var(--text);
+  }
+  .info-cell .val.mono{font-family:var(--mono);font-size:13px}
+  .scope-text{
+    font-size:15px;line-height:1.65;color:var(--text-dim);
+    font-family:var(--sans);
+  }
+  .key-points{list-style:none;padding:0}
+  .key-points li{
+    padding:10px 0 10px 28px;
+    border-bottom:1px solid var(--border);
+    font-size:14px;color:var(--text-dim);
+    line-height:1.55;
+    position:relative;
+  }
+  .key-points li:last-child{border-bottom:none}
+  .key-points li::before{
+    content:"●";
+    position:absolute;left:8px;top:11px;
+    color:var(--accent);font-size:8px;
+  }
+  .drawer-actions{
+    display:flex;gap:8px;padding:20px 32px;
+    border-top:1px solid var(--border);
+    background:var(--surface-1);
+    position:sticky;bottom:0;
+  }
+  .drawer-actions .btn{flex:1;text-align:center;text-decoration:none;display:inline-block}
+
+  /* ---------- hide-closed toggle ---------- */
+  .toggle-wrap{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 14px;
+    background:var(--bg);
+    border:1px solid var(--border-strong);
+    border-radius:2px;
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    cursor:pointer;
+    user-select:none;
+  }
+  .toggle-wrap input{accent-color:var(--accent);cursor:pointer}
+  .toggle-wrap:hover{border-color:var(--accent)}
+
+  /* ---------- NEW badge + shard chip on cards ---------- */
+  .new-badge{
+    font-family:var(--mono);
+    font-size:9px;letter-spacing:0.14em;
+    text-transform:uppercase;
+    padding:2px 6px;
+    background:var(--accent);
+    color:#1a1410;
+    border-radius:2px;
+    font-weight:600;
+    margin-right:6px;
+    animation:newPulse 1.6s ease-out 3;
+  }
+  @keyframes newPulse{
+    0%   { box-shadow:0 0 0 0 var(--accent-soft); }
+    70%  { box-shadow:0 0 0 8px transparent; }
+    100% { box-shadow:0 0 0 0 transparent; }
+  }
+  .shard-tag{
+    font-family:var(--mono);
+    font-size:9px;letter-spacing:0.12em;
+    text-transform:uppercase;
+    padding:2px 6px;
+    border:1px solid var(--border-strong);
+    border-radius:2px;
+    color:var(--text-muted);
+    background:var(--bg);
+  }
+
+  /* ---------- URL verification badges ---------- */
+  .url-badge{
+    font-family:var(--mono);
+    font-size:10px;letter-spacing:0.05em;
+    padding:3px 7px;
+    border-radius:2px;
+    border:1px solid var(--border-strong);
+    color:var(--text-muted);
+    background:var(--bg);
+    display:inline-flex;align-items:center;gap:5px;
+  }
+  .url-badge.ok{color:var(--safe);border-color:var(--safe)}
+  .url-badge.broken{color:var(--critical);border-color:var(--critical)}
+  .card-source.broken{
+    color:var(--critical);
+    border-color:var(--critical);
+    opacity:.85;
+  }
+  .grounding-list{list-style:none;padding:0;margin:0}
+  .grounding-list li{
+    padding:8px 0;
+    border-bottom:1px solid var(--border);
+    font-size:12px;
+  }
+  .grounding-list li:last-child{border-bottom:none}
+  .grounding-list a{
+    color:var(--text-dim);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .grounding-list a:hover{color:var(--accent)}
+  .grounding-list .gt{
+    display:block;color:var(--text);font-size:13px;margin-bottom:2px;
+  }
+
+  /* ---------- auto-refresh button states ---------- */
+  #autoBtn.polling{border-color:var(--accent)}
+  #autoBtn.failed{border-color:var(--critical);color:var(--critical)}
+  #autoBtn .ar-dot{
+    display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:var(--text-muted);margin-right:6px;vertical-align:middle;
+  }
+  #autoBtn.primary .ar-dot{background:var(--safe);animation:arPulse 2s ease-in-out infinite}
+  #autoBtn.polling .ar-dot{background:var(--accent);animation:arPulse 0.9s ease-in-out infinite}
+  #autoBtn.failed  .ar-dot{background:var(--critical)}
+  @keyframes arPulse{
+    0%,100%{opacity:1}
+    50%{opacity:.35}
+  }
+
+  /* ---------- file input hidden ---------- */
+  #fileInput{display:none}
+
+  /* ---------- toast ---------- */
+  .toast{
+    position:fixed;bottom:24px;left:50%;
+    transform:translateX(-50%) translateY(20px);
+    background:var(--surface-2);
+    color:var(--text);
+    padding:12px 20px;
+    border:1px solid var(--border-strong);
+    border-radius:2px;
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:0.04em;
+    z-index:200;
+    opacity:0;pointer-events:none;
+    transition:all .25s;
+    box-shadow:0 8px 24px rgba(0,0,0,.4);
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 700px){
+    .header-inner{padding:14px 18px;flex-wrap:wrap;gap:12px}
+    main{padding:18px}
+    .tender-grid{grid-template-columns:1fr}
+    .info-grid{grid-template-columns:1fr}
+    .drawer-head, .drawer-body{padding-left:20px;padding-right:20px}
+    .drawer-actions{padding-left:20px;padding-right:20px}
+  }
+</style>
+</head>
+<body>
+
+<header class="app">
+  <div class="header-inner">
+    <div class="brand">
+      <h1>Tender Command <span class="ital">— global digital engineering monitor</span></h1>
+      <p>BIM · Laser Scanning · APM · AIM · Digital Twin · Migration</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="exportBtn">Export JSON</button>
+      <button class="btn" id="exportCsvBtn">Export CSV</button>
+      <button class="btn" id="autoBtn" title="Poll tender_results/index.json for new runs">Auto-refresh: off</button>
+      <button class="btn" id="clearBtn">Clear</button>
+      <button class="btn primary" id="loadBtn">Load JSON</button>
+      <input type="file" id="fileInput" accept=".json,application/json" multiple>
+    </div>
+  </div>
+</header>
+
+<div class="demo-banner" id="demoBanner">
+  Showing demo data — load JSON files from your <code>tender_results/</code> folder to see live results.
+</div>
+
+<main>
+  <section class="kpi-strip" id="kpiStrip"></section>
+
+  <div class="filters">
+    <div class="search-wrap">
+      <input type="search" id="search" placeholder="Search title, authority, country, scope…">
+    </div>
+    <div class="select-wrap">
+      <select id="regionFilter"><option value="">All regions</option></select>
+    </div>
+    <div class="select-wrap">
+      <select id="shardFilter"><option value="">All shards</option></select>
+    </div>
+    <div class="select-wrap">
+      <select id="confFilter">
+        <option value="">All confidence</option>
+        <option value="high">High only</option>
+        <option value="medium">Medium+</option>
+      </select>
+    </div>
+    <label class="toggle-wrap" title="Hide tenders whose deadline has already passed">
+      <input type="checkbox" id="hideClosed" checked>
+      <span>Hide closed</span>
+    </label>
+    <div class="select-wrap">
+      <select id="sortBy">
+        <option value="deadline">Sort: Deadline ↑</option>
+        <option value="published">Sort: Recently published</option>
+        <option value="value">Sort: Estimated value ↓</option>
+        <option value="title">Sort: Title A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="bucket-chips" id="bucketChips"></div>
+
+  <div class="tender-meta-row">
+    <div class="tender-count" id="tenderCount"></div>
+    <div class="tender-count" id="lastUpdate"></div>
+  </div>
+
+  <section id="tenderArea"></section>
+</main>
+
+<div class="drawer-bg" id="drawerBg"></div>
+<aside class="drawer" id="drawer"></aside>
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+
+// ---------- Bucket metadata ----------
+const BUCKETS = {
+  BIM_SERVICES:               { label: "BIM Services",                 color: "var(--b-bim)" },
+  LASER_SCANNING_GPR:         { label: "Laser Scan & GPR",             color: "var(--b-laser)" },
+  MIGRATION_UPGRADATION:      { label: "Migration",                    color: "var(--b-migration)" },
+  APM:                        { label: "APM",                          color: "var(--b-apm)" },
+  AIM:                        { label: "AIM / Digital Twin",           color: "var(--b-aim)" },
+  DIGITALIZATION_2D_3D:       { label: "2D/3D Digitalization",         color: "var(--b-digital)" },
+  SOFTWARE_AI_MOBILITY:       { label: "AI / AR / Mobility",           color: "var(--b-software)" },
+  UPGRADATION_CATALOG_MODEL:  { label: "Catalog/Model Upgrade",        color: "var(--b-upgrade)" }
+};
+
+// ---------- Demo data ----------
+const DEMO_DATA = {
+  run_timestamp_utc: new Date().toISOString(),
+  is_demo: true,
+  tenders: [
+    {
+      id: "demo01a2b3c4d5e6",
+      title: "Provision of 3D Laser Scanning and As-Built BIM Services for Refinery Unit 4",
+      region: "Middle East", country: "Saudi Arabia",
+      tendering_authority: "Northern Refining Co. (DEMO)",
+      domain_industry: "Oil & Gas — Downstream",
+      service_bucket: "LASER_SCANNING_GPR",
+      scope_summary: "End-to-end 3D laser scanning of refinery process units with point-cloud-to-BIM modelling at LOD 350, including underground utility GPR survey for tie-in planning.",
+      key_points: [
+        "Approximately 18,000 m² of process plant in two phases",
+        "Deliverables: registered point cloud, Revit 2024 + Navisworks federated model",
+        "Class-A contractor qualification with prior Saudi Aramco JESA exposure required",
+        "Site mobilization within 6 weeks of LOA; total programme 24 weeks",
+        "Submissions via portal only — hard copies not accepted"
+      ],
+      deadline_utc: addDays(11),
+      published_utc: addDays(-3),
+      estimated_value: { amount: 2400000, currency: "USD" },
+      source_url: "https://example.tender/north-refining/RFQ-2026-LS-114",
+      confidence: "high"
+    },
+    {
+      id: "demo07f8a9b0c1d2",
+      title: "Digital Twin Implementation for Combined-Cycle Power Plant — Phase 1",
+      region: "Europe", country: "Germany",
+      tendering_authority: "Rheinkraft AG (DEMO)",
+      domain_industry: "Power Generation",
+      service_bucket: "AIM",
+      scope_summary: "Engineering data foundation, tag–document linkages and digital twin platform deployment across two 850 MW units, with integration to existing CMMS and historian.",
+      key_points: [
+        "Asset register reconciliation across 42,000+ tags",
+        "Hexagon SDx or AVEVA AIM acceptable — bidder to justify choice",
+        "Integration with SAP PM and OSIsoft PI required",
+        "Phase 1 scope only; Phase 2 (twin runtime) bid separately in 2027",
+        "Pre-bid site visit mandatory — 02 June 2026, Mannheim"
+      ],
+      deadline_utc: addDays(28),
+      published_utc: addDays(-1),
+      estimated_value: { amount: 3800000, currency: "EUR" },
+      source_url: "https://example.tender/rheinkraft/AIM-2026-001",
+      confidence: "high"
+    },
+    {
+      id: "demo13e4f5a6b7c8",
+      title: "Migration of PDMS Catalogues to AVEVA E3D for FPSO Engineering Office",
+      region: "APAC", country: "Singapore",
+      tendering_authority: "Eastern Marine Engineering Pte Ltd (DEMO)",
+      domain_industry: "Marine — Offshore Oil & Gas",
+      service_bucket: "MIGRATION_UPGRADATION",
+      scope_summary: "Conversion of legacy PDMS 12.1 catalogue libraries to AVEVA E3D 2.2 format with validation against existing 3D models for two active FPSO conversion projects.",
+      key_points: [
+        "≈ 14 catalogue libraries spanning piping, structural, equipment, HVAC",
+        "Geometric and attribute parity testing required on a 500-component sample",
+        "Vendor must demonstrate AVEVA-certified migration toolchain",
+        "Knowledge-transfer workshop for in-house team included",
+        "8-week target turnaround from PO date"
+      ],
+      deadline_utc: addDays(4),
+      published_utc: addDays(-9),
+      estimated_value: { amount: 480000, currency: "USD" },
+      source_url: "https://example.tender/east-marine/SG-2026-MIG-22",
+      confidence: "medium"
+    },
+    {
+      id: "demo23a4b5c6d7e8",
+      title: "AR/VR-Based Safety and Operations Training Suite for Petrochemical Complex",
+      region: "India", country: "India",
+      tendering_authority: "Coastal Petrochemicals Ltd (DEMO)",
+      domain_industry: "Petrochemicals",
+      service_bucket: "SOFTWARE_AI_MOBILITY",
+      scope_summary: "Development and deployment of an immersive training platform covering 12 standard operating procedures, LOTO drills, and emergency response scenarios across three plant sites.",
+      key_points: [
+        "Meta Quest 3 + tethered PC-VR target hardware",
+        "Content authoring tool to be delivered along with runtime",
+        "Multi-user training scenarios for up to 8 simultaneous trainees",
+        "LMS integration via SCORM 2004 + xAPI",
+        "AMC for 3 years post go-live, optional 2-year extension"
+      ],
+      deadline_utc: addDays(45),
+      published_utc: addDays(-2),
+      estimated_value: { amount: 95000000, currency: "INR" },
+      source_url: "https://example.tender/coastal-petro/IN-2026-VR-08",
+      confidence: "high"
+    },
+    {
+      id: "demo30f1a2b3c4d5",
+      title: "Conversion of Legacy P&IDs to Intelligent SmartPlant Format — Brownfield Refinery",
+      region: "USA", country: "United States",
+      tendering_authority: "Gulf Coast Energy Partners (DEMO)",
+      domain_industry: "Oil & Gas — Refining",
+      service_bucket: "DIGITALIZATION_2D_3D",
+      scope_summary: "Conversion of approximately 2,200 legacy P&IDs (scanned + native AutoCAD) into intelligent SmartPlant P&ID format with full data attribution and tag reconciliation.",
+      key_points: [
+        "Quality gate: 99.5% tag accuracy vs as-found documentation",
+        "OCR + manual QC workflow; vendor to provide redline tracking",
+        "Pilot batch of 50 drawings before full release",
+        "Engineering data handover in SPF + Excel export",
+        "Onshore-offshore delivery model permitted; data residency in USA"
+      ],
+      deadline_utc: addDays(19),
+      published_utc: addDays(-5),
+      estimated_value: { amount: 1850000, currency: "USD" },
+      source_url: "https://example.tender/gulf-coast/RFP-2026-PID-44",
+      confidence: "high"
+    },
+    {
+      id: "demo42b3c4d5e6f7",
+      title: "Predictive Maintenance Platform for Mining Haul Fleet — IIoT Rollout",
+      region: "Australia/NZ", country: "Australia",
+      tendering_authority: "Pilbara Resources Holdings (DEMO)",
+      domain_industry: "Mining — Iron Ore",
+      service_bucket: "APM",
+      scope_summary: "Design, supply and commissioning of an IIoT-based predictive maintenance system across a fleet of 86 ultra-class haul trucks, integrated to OEM telematics and CMMS.",
+      key_points: [
+        "Vibration, oil debris and thermal sensors across drivetrain components",
+        "ML model library with explainability for reliability engineers",
+        "Edge-to-cloud architecture with intermittent-connectivity support",
+        "5-year managed service with KPI-linked payment milestones",
+        "Indigenous participation plan required as part of bid"
+      ],
+      deadline_utc: addDays(60),
+      published_utc: addDays(-6),
+      estimated_value: { amount: 14500000, currency: "AUD" },
+      source_url: "https://example.tender/pilbara/AU-2026-APM-12",
+      confidence: "high"
+    },
+    {
+      id: "demo54c5d6e7f8a9",
+      title: "S3D Version Upgrade 2011 R1 → 13.1 Including Catalogue Re-baselining",
+      region: "Middle East", country: "United Arab Emirates",
+      tendering_authority: "Emirates EPC Services (DEMO)",
+      domain_industry: "Engineering, Procurement & Construction",
+      service_bucket: "UPGRADATION_CATALOG_MODEL",
+      scope_summary: "In-place upgrade of Hexagon SmartPlant 3D from 2011 R1 to 13.1 across 14 active project workshares with catalogue re-baselining and reference data harmonisation.",
+      key_points: [
+        "Active project downtime to be minimised to ≤ 72 hours per workshare",
+        "Sample QA on 5% of model objects post-upgrade",
+        "Vendor to provide rollback strategy and tested DR plan",
+        "Hexagon-certified senior consultant required as engagement lead",
+        "Single-stage two-envelope bid; commercial opens after technical pass"
+      ],
+      deadline_utc: addDays(7),
+      published_utc: addDays(-4),
+      estimated_value: { amount: null, currency: null },
+      source_url: "https://example.tender/emirates-epc/UAE-2026-S3D-03",
+      confidence: "medium"
+    },
+    {
+      id: "demo66d7e8f9a0b1",
+      title: "4D/5D BIM Implementation for Metro Line Extension — Civil Package",
+      region: "Europe", country: "United Kingdom",
+      tendering_authority: "Birmingham Metro Authority (DEMO)",
+      domain_industry: "Transportation — Rail Infrastructure",
+      service_bucket: "BIM_SERVICES",
+      scope_summary: "BIM Level 2 modelling at LOD 400 for the civil and structural packages of a 6.4 km metro extension, including 4D construction sequencing and 5D cost integration.",
+      key_points: [
+        "ISO 19650 compliance; CDE in BIM 360 / Asite",
+        "Clash detection cycles every 2 weeks with TIDP/MIDP discipline",
+        "4D model linked to P6 schedule; 5D linked to CostX",
+        "As-built model handover at PC + 60 days",
+        "TUPE of two existing modelling staff in scope of transfer"
+      ],
+      deadline_utc: addDays(34),
+      published_utc: addDays(0),
+      estimated_value: { amount: 4200000, currency: "GBP" },
+      source_url: "https://example.tender/bmm/UK-2026-BIM-19",
+      confidence: "high"
+    }
+  ]
+};
+
+function addDays(n){
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() + n);
+  d.setUTCHours(14, 0, 0, 0);
+  return d.toISOString();
+}
+
+// ---------- Helpers ----------
+function esc(s){
+  if(s == null) return "";
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+// ---------- State ----------
+const state = {
+  tenders: [],          // master list, deduped by id
+  isDemo: true,
+  lastRun: null,
+  filters: {
+    search: "",
+    buckets: new Set(),
+    region: "",
+    shard: "",
+    confidence: "",
+    sort: "deadline",
+    hideClosed: true
+  }
+};
+const NEW_BADGE_MS = 5 * 60 * 1000; // tenders flagged "NEW" for 5 minutes after ingest
+
+// ---------- Storage helpers (graceful degradation) ----------
+function trySave(){
+  try{
+    if(!state.isDemo){
+      localStorage.setItem("tender_dashboard", JSON.stringify({
+        tenders: state.tenders, lastRun: state.lastRun
+      }));
+    }
+  }catch(e){ /* artifact sandbox or quota — ignore */ }
+}
+function tryLoad(){
+  try{
+    const raw = localStorage.getItem("tender_dashboard");
+    if(!raw) return false;
+    const data = JSON.parse(raw);
+    if(data && Array.isArray(data.tenders) && data.tenders.length){
+      state.tenders = data.tenders;
+      state.lastRun = data.lastRun;
+      state.isDemo = false;
+      return true;
+    }
+  }catch(e){ /* ignore */ }
+  return false;
+}
+
+// ---------- File loading ----------
+document.getElementById("loadBtn").addEventListener("click", ()=>{
+  document.getElementById("fileInput").click();
+});
+document.getElementById("fileInput").addEventListener("change", async (e)=>{
+  const files = Array.from(e.target.files || []);
+  if(!files.length) return;
+  await ingestFiles(files);
+  e.target.value = ""; // allow re-loading same file
+});
+
+async function ingestFiles(files){
+  let added = 0, kept = 0, errors = 0;
+  if(state.isDemo){
+    state.tenders = [];
+    state.isDemo = false;
+  }
+  const seenIds = new Set(state.tenders.map(t=>t.id));
+  let newestRun = state.lastRun;
+
+  for(const f of files){
+    try{
+      const text = await f.text();
+      const doc = JSON.parse(text);
+      const arr = Array.isArray(doc) ? doc : (doc.tenders || []);
+      // Shard precedence: explicit field, else filename prefix ("india_..."), else unknown
+      const shard = doc.shard || (f.name.match(/^([a-z0-9_]+)_tenders_/)?.[1]) || "";
+      const grounding = Array.isArray(doc.grounding_urls) ? doc.grounding_urls : [];
+      if(doc.run_timestamp_utc && (!newestRun || doc.run_timestamp_utc > newestRun)){
+        newestRun = doc.run_timestamp_utc;
+      }
+      const now = Date.now();
+      for(const t of arr){
+        if(!t || !t.id) continue;
+        if(seenIds.has(t.id)){ kept++; continue; }
+        seenIds.add(t.id);
+        if(shard && !t._shard) t._shard = shard;
+        if(grounding.length) t._grounding = grounding;
+        t._freshAt = now;
+        state.tenders.push(t);
+        added++;
+      }
+    }catch(err){
+      console.error("Parse failed:", f.name, err);
+      errors++;
+    }
+  }
+  state.lastRun = newestRun;
+  trySave();
+  render();
+  toast(`Loaded ${added} new tender${added===1?"":"s"}` +
+        (kept ? ` · ${kept} duplicate${kept===1?"":"s"} skipped`:"") +
+        (errors ? ` · ${errors} file error${errors===1?"":"s"}`:""));
+}
+
+// drag-and-drop
+window.addEventListener("dragover", (e)=>{ e.preventDefault(); });
+window.addEventListener("drop", async (e)=>{
+  e.preventDefault();
+  const files = Array.from(e.dataTransfer?.files || []).filter(f=>f.name.endsWith(".json"));
+  if(files.length) await ingestFiles(files);
+});
+
+// ---------- Export ----------
+document.getElementById("exportBtn").addEventListener("click", ()=>{
+  const visible = currentVisible();
+  const payload = {
+    exported_utc: new Date().toISOString(),
+    filters: {
+      search: state.filters.search,
+      buckets: [...state.filters.buckets],
+      region: state.filters.region,
+      confidence: state.filters.confidence
+    },
+    tenders_found: visible.length,
+    tenders: visible
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `tender_export_${new Date().toISOString().slice(0,19).replace(/[:T]/g,"-")}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  toast(`Exported ${visible.length} tender${visible.length===1?"":"s"}`);
+});
+
+// ---------- CSV Export ----------
+const CSV_COLS = [
+  "id","title","region","country","tendering_authority",
+  "domain_industry","service_bucket","scope_summary",
+  "deadline_utc","published_utc","value_amount","value_currency",
+  "source_url","confidence"
+];
+function csvEscape(v){
+  if(v === null || v === undefined) return "";
+  if(typeof v === "object") v = JSON.stringify(v);
+  v = String(v);
+  if(/[",\r\n]/.test(v)) return '"' + v.replace(/"/g,'""') + '"';
+  return v;
+}
+document.getElementById("exportCsvBtn").addEventListener("click", ()=>{
+  const visible = currentVisible();
+  const lines = [CSV_COLS.join(",")];
+  for(const t of visible){
+    lines.push(CSV_COLS.map(c=>csvEscape(t[c])).join(","));
+  }
+  const blob = new Blob([lines.join("\r\n")], {type:"text/csv;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `tender_export_${new Date().toISOString().slice(0,19).replace(/[:T]/g,"-")}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  toast(`Exported ${visible.length} tender${visible.length===1?"":"s"} (CSV)`);
+});
+
+// ---------- Auto-refresh (polls tender_results/index.json) ----------
+const auto = {
+  on: false,
+  intervalMs: 60000,
+  timer: null,
+  statusTimer: null,
+  knownFiles: new Set(),
+  inflight: false,
+  lastPollAt: null,
+  lastOk: null,         // timestamp of last successful poll
+  failStreak: 0,
+};
+const autoBtn = document.getElementById("autoBtn");
+
+function fmtAgo(ts){
+  if(!ts) return "—";
+  const s = Math.round((Date.now() - ts)/1000);
+  if(s < 60) return `${s}s ago`;
+  if(s < 3600) return `${Math.round(s/60)}m ago`;
+  return `${Math.round(s/3600)}h ago`;
+}
+function renderAutoBtn(){
+  autoBtn.classList.remove("primary", "polling", "failed");
+  if(!auto.on){
+    autoBtn.textContent = "Auto-refresh: off";
+    return;
+  }
+  if(auto.inflight){
+    autoBtn.classList.add("polling");
+    autoBtn.innerHTML = `<span class="ar-dot"></span>Polling…`;
+    return;
+  }
+  if(auto.failStreak >= 3){
+    autoBtn.classList.add("failed");
+    autoBtn.innerHTML = `<span class="ar-dot"></span>Auto-refresh: failed`;
+    return;
+  }
+  autoBtn.classList.add("primary");
+  const ago = auto.lastOk ? fmtAgo(auto.lastOk) : "starting…";
+  autoBtn.innerHTML = `<span class="ar-dot"></span>Auto-refresh: on · ${ago}`;
+}
+
+async function pollOnce(){
+  if(auto.inflight) return;
+  auto.inflight = true;
+  renderAutoBtn();
+  auto.lastPollAt = Date.now();
+  try{
+    const res = await fetch("tender_results/index.json?_=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw new Error("manifest HTTP " + res.status);
+    const manifest = await res.json();
+    const runs = Array.isArray(manifest.runs) ? manifest.runs : [];
+    const newRuns = runs.filter(r => r.file && !auto.knownFiles.has(r.file));
+    auto.lastOk = Date.now();
+    auto.failStreak = 0;
+    if(!newRuns.length) return;
+    let added = 0, kept = 0;
+    if(state.isDemo){ state.tenders = []; state.isDemo = false; }
+    const seenIds = new Set(state.tenders.map(t=>t.id));
+    let newestRun = state.lastRun;
+    const now = Date.now();
+    for(const r of newRuns){
+      try{
+        const fr = await fetch("tender_results/" + r.file + "?_=" + Date.now(), {cache:"no-store"});
+        if(!fr.ok) continue;
+        const doc = await fr.json();
+        const arr = Array.isArray(doc) ? doc : (doc.tenders || []);
+        const shard = r.shard || doc.shard || "";
+        const grounding = Array.isArray(doc.grounding_urls) ? doc.grounding_urls : [];
+        if(doc.run_timestamp_utc && (!newestRun || doc.run_timestamp_utc > newestRun)){
+          newestRun = doc.run_timestamp_utc;
+        }
+        for(const t of arr){
+          if(!t || !t.id) continue;
+          if(seenIds.has(t.id)){ kept++; continue; }
+          seenIds.add(t.id);
+          if(shard && !t._shard) t._shard = shard;
+          if(grounding.length) t._grounding = grounding;
+          t._freshAt = now;
+          state.tenders.push(t);
+          added++;
+        }
+        auto.knownFiles.add(r.file);
+      }catch(err){ console.warn("fetch failed", r.file, err); }
+    }
+    state.lastRun = newestRun;
+    trySave();
+    render();
+    if(added) toast(`Auto-refresh: +${added} new` + (kept?` · ${kept} dup`:""));
+  }catch(err){
+    console.warn("Auto-refresh poll failed:", err);
+    auto.failStreak += 1;
+    if(auto.on && !auto.warned){
+      auto.warned = true;
+      toast("Auto-refresh needs an HTTP server (run: python -m http.server) in the project root");
+    }
+  }finally{
+    auto.inflight = false;
+    renderAutoBtn();
+  }
+}
+
+function setAuto(on){
+  auto.on = on;
+  if(auto.timer){ clearInterval(auto.timer); auto.timer = null; }
+  if(auto.statusTimer){ clearInterval(auto.statusTimer); auto.statusTimer = null; }
+  if(on){
+    auto.warned = false;
+    auto.failStreak = 0;
+    pollOnce();
+    auto.timer = setInterval(pollOnce, auto.intervalMs);
+    // Refresh the "Xs ago" label every 5s so it doesn't get stale.
+    auto.statusTimer = setInterval(renderAutoBtn, 5000);
+  }
+  renderAutoBtn();
+}
+autoBtn.addEventListener("click", ()=> setAuto(!auto.on));
+
+// ---------- Clear ----------
+document.getElementById("clearBtn").addEventListener("click", ()=>{
+  if(state.isDemo){ toast("Already at empty demo state"); return; }
+  if(!confirm("Clear all loaded tenders? This cannot be undone.")) return;
+  state.tenders = [];
+  state.lastRun = null;
+  state.isDemo = true;
+  try{ localStorage.removeItem("tender_dashboard"); }catch(e){}
+  loadDemo();
+  render();
+  toast("Cleared. Demo data restored.");
+});
+
+function loadDemo(){
+  state.tenders = JSON.parse(JSON.stringify(DEMO_DATA.tenders));
+  state.isDemo = true;
+  state.lastRun = DEMO_DATA.run_timestamp_utc;
+}
+
+// ---------- Filtering / sorting ----------
+function currentVisible(){
+  const f = state.filters;
+  const q = f.search.trim().toLowerCase();
+  const nowMs = Date.now();
+  let out = state.tenders.filter(t=>{
+    if(f.hideClosed && t.deadline_utc){
+      const dms = new Date(t.deadline_utc).getTime();
+      if(!Number.isNaN(dms) && dms < nowMs) return false;
+    }
+    if(f.buckets.size && !f.buckets.has(t.service_bucket)) return false;
+    if(f.region && t.region !== f.region) return false;
+    if(f.shard && (t._shard || "") !== f.shard) return false;
+    if(f.confidence === "high" && t.confidence !== "high") return false;
+    if(f.confidence === "medium" && t.confidence === "low") return false;
+    if(q){
+      const hay = [
+        t.title, t.tendering_authority, t.country, t.region,
+        t.domain_industry, t.scope_summary
+      ].filter(Boolean).join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  const farFuture = "9999-12-31T00:00:00Z";
+  switch(f.sort){
+    case "deadline":
+      out.sort((a,b)=> (a.deadline_utc||farFuture).localeCompare(b.deadline_utc||farFuture)); break;
+    case "published":
+      out.sort((a,b)=> (b.published_utc||"").localeCompare(a.published_utc||"")); break;
+    case "value":
+      out.sort((a,b)=> (b.estimated_value?.amount||0) - (a.estimated_value?.amount||0)); break;
+    case "title":
+      out.sort((a,b)=> (a.title||"").localeCompare(b.title||"")); break;
+  }
+  return out;
+}
+
+// ---------- Rendering ----------
+function render(){
+  renderBanner();
+  renderKPIs();
+  renderRegionOptions();
+  renderShardOptions();
+  renderBucketChips();
+  renderList();
+  renderMetaRow();
+}
+
+function closedCount(){
+  const now = Date.now();
+  return state.tenders.filter(t=>{
+    if(!t.deadline_utc) return false;
+    const dms = new Date(t.deadline_utc).getTime();
+    return !Number.isNaN(dms) && dms < now;
+  }).length;
+}
+
+function renderBanner(){
+  document.getElementById("demoBanner").classList.toggle("hidden", !state.isDemo);
+}
+
+function fmtValue(v){
+  if(!v || v.amount == null) return null;
+  const a = v.amount;
+  let s;
+  if(a >= 1e9) s = (a/1e9).toFixed(2)+"B";
+  else if(a >= 1e6) s = (a/1e6).toFixed(2)+"M";
+  else if(a >= 1e3) s = (a/1e3).toFixed(0)+"K";
+  else s = String(a);
+  return `${s} ${v.currency || ""}`.trim();
+}
+
+function daysUntil(iso){
+  if(!iso) return null;
+  const ms = new Date(iso) - new Date();
+  return Math.ceil(ms / 86400000);
+}
+function fmtDate(iso){
+  if(!iso) return "—";
+  return new Date(iso).toISOString().slice(0,10);
+}
+function fmtDateTime(iso){
+  if(!iso) return "—";
+  return new Date(iso).toISOString().replace("T"," ").slice(0,16) + " UTC";
+}
+function urlBadge(t){
+  const s = t.url_status;
+  if(s === "ok" || s === "redirect_ok")
+    return `<span class="url-badge ok" title="Source URL was reachable when last verified">✓ verified</span>`;
+  if(s === "broken")
+    return `<span class="url-badge broken" title="Source URL did not respond — likely model hallucination. Try the grounded sources in the drawer.">✗ broken</span>`;
+  return ""; // unverified or skipped → no badge
+}
+function relativeTime(iso){
+  if(!iso) return "—";
+  const diffH = (new Date() - new Date(iso))/3600000;
+  if(diffH < 1) return `${Math.round(diffH*60)}m ago`;
+  if(diffH < 24) return `${Math.round(diffH)}h ago`;
+  return `${Math.round(diffH/24)}d ago`;
+}
+
+function renderKPIs(){
+  const ts = state.tenders;
+  const week = ts.filter(t=> { const d = daysUntil(t.deadline_utc); return d!=null && d>=0 && d<=7; }).length;
+  const month = ts.filter(t=> { const d = daysUntil(t.deadline_utc); return d!=null && d>=0 && d<=30; }).length;
+  const high = ts.filter(t=> t.confidence === "high").length;
+
+  // Aggregate value in USD-ish (we just sum amounts naively for display — labelled "≈")
+  const totalVal = ts.reduce((s,t)=> s + (t.estimated_value?.amount && t.estimated_value?.currency === "USD" ? t.estimated_value.amount : 0), 0);
+
+  // Bucket breakdown — top 1
+  const counts = {};
+  ts.forEach(t=>{ counts[t.service_bucket] = (counts[t.service_bucket]||0)+1; });
+  let topBucket = null, topCount = 0;
+  for(const [k,v] of Object.entries(counts)){ if(v>topCount){ topBucket=k; topCount=v; } }
+
+  const kpis = [
+    { label: "Active tenders",     value: ts.length, sub: `${high} high confidence` },
+    { label: "Closing ≤ 7 days",   value: week, sub: week ? "Action required" : "All clear", urgent: week>0 },
+    { label: "Closing ≤ 30 days",  value: month, sub: `${ts.length ? Math.round(month/ts.length*100):0}% of pipeline` },
+    { label: "Top bucket",         value: topCount, unit: topBucket ? BUCKETS[topBucket]?.label : "—", sub: `${Object.keys(counts).length} buckets active` },
+    { label: "USD value (visible)", value: totalVal ? fmtValue({amount:totalVal,currency:"USD"}).split(" ")[0] : "—", unit: totalVal ? "USD" : "", sub: "≈ sum of USD-denominated only" },
+    { label: "Last run",           value: state.lastRun ? relativeTime(state.lastRun) : "—", sub: fmtDate(state.lastRun) }
+  ];
+
+  document.getElementById("kpiStrip").innerHTML = kpis.map(k => `
+    <div class="kpi">
+      <div class="label">${k.label}</div>
+      <div class="value">${k.value}${k.unit?` <span class="unit">${k.unit}</span>`:""}</div>
+      <div class="sub${k.urgent?" urgent":""}">${k.sub||""}</div>
+    </div>
+  `).join("");
+}
+
+function renderRegionOptions(){
+  const sel = document.getElementById("regionFilter");
+  const regions = [...new Set(state.tenders.map(t=>t.region).filter(Boolean))].sort();
+  const current = state.filters.region;
+  sel.innerHTML = `<option value="">All regions</option>` +
+    regions.map(r=>`<option value="${esc(r)}"${r===current?" selected":""}>${esc(r)}</option>`).join("");
+}
+
+function regionSlug(r){
+  return (r || "").toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+}
+// A shard is "meaningful" only when it doesn't trivially restate the region.
+// Examples that ARE meaningful: emea (Europe+Africa+ME), india_hourly, north_america.
+// Example that is NOT: shard=india for region=India.
+function isShardInteresting(t){
+  return t._shard && t._shard !== regionSlug(t.region);
+}
+function renderShardOptions(){
+  const sel = document.getElementById("shardFilter");
+  const shards = [...new Set(state.tenders.filter(isShardInteresting).map(t=>t._shard))].sort();
+  const current = state.filters.shard;
+  // Hide the dropdown unless at least one shard adds info beyond its region.
+  sel.parentElement.style.display = shards.length ? "" : "none";
+  if(!shards.length && state.filters.shard){ state.filters.shard = ""; }
+  sel.innerHTML = `<option value="">All shards</option>` +
+    shards.map(s=>`<option value="${esc(s)}"${s===current?" selected":""}>${esc(s)}</option>`).join("");
+}
+
+function renderBucketChips(){
+  const counts = {};
+  state.tenders.forEach(t => { counts[t.service_bucket] = (counts[t.service_bucket]||0)+1; });
+  const chipsEl = document.getElementById("bucketChips");
+  chipsEl.innerHTML = Object.entries(BUCKETS).map(([key, meta])=>{
+    const n = counts[key] || 0;
+    const active = state.filters.buckets.has(key);
+    return `<button class="chip ${active?"active":""}" data-bucket="${key}" style="--chip-color:${meta.color}">
+      ${meta.label}<span class="count">${n}</span>
+    </button>`;
+  }).join("");
+  chipsEl.querySelectorAll(".chip").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const b = btn.dataset.bucket;
+      if(state.filters.buckets.has(b)) state.filters.buckets.delete(b);
+      else state.filters.buckets.add(b);
+      render();
+    });
+  });
+}
+
+function renderMetaRow(){
+  const visible = currentVisible();
+  const closed = state.filters.hideClosed ? closedCount() : 0;
+  const hiddenHint = closed ? ` · <strong>${closed}</strong> closed hidden` : "";
+  document.getElementById("tenderCount").innerHTML =
+    `Showing <strong>${visible.length}</strong> of <strong>${state.tenders.length}</strong> tenders${hiddenHint}`;
+  document.getElementById("lastUpdate").textContent =
+    state.lastRun ? `Last run · ${fmtDateTime(state.lastRun)}` : "No run timestamp";
+}
+
+function renderList(){
+  const area = document.getElementById("tenderArea");
+  const visible = currentVisible();
+  if(!visible.length){
+    area.innerHTML = `
+      <div class="empty">
+        <h2>No tenders <span class="ital">match.</span></h2>
+        <p>${state.tenders.length ? "Adjust filters or clear search to see more results." :
+          "Load JSON files from your <code>tender_results/</code> folder, or drop them onto this window."}</p>
+        ${state.tenders.length ? "" : `<button class="btn primary" onclick="document.getElementById('fileInput').click()">Load JSON</button>`}
+      </div>`;
+    return;
+  }
+
+  area.innerHTML = `<div class="tender-grid">` + visible.map(t => cardHTML(t)).join("") + `</div>`;
+  area.querySelectorAll(".tender-card").forEach(el=>{
+    el.addEventListener("click", (ev)=>{
+      if(ev.target.closest("a")) return; // don't open drawer when clicking source link
+      openDrawer(el.dataset.id);
+    });
+  });
+}
+
+function cardHTML(t){
+  const meta = BUCKETS[t.service_bucket] || { label: t.service_bucket || "—", color: "var(--text-muted)" };
+  const days = daysUntil(t.deadline_utc);
+  let deadlineCls = "";
+  let deadlineMain = "—";
+  let deadlineWhen = "no deadline";
+  if(days != null){
+    if(days < 0){ deadlineCls = "urgent"; deadlineMain = "Closed"; deadlineWhen = fmtDate(t.deadline_utc); }
+    else if(days <= 7){ deadlineCls = "urgent"; deadlineMain = `${days}d left`; deadlineWhen = fmtDate(t.deadline_utc); }
+    else if(days <= 30){ deadlineCls = "soon"; deadlineMain = `${days}d left`; deadlineWhen = fmtDate(t.deadline_utc); }
+    else { deadlineMain = `${days}d left`; deadlineWhen = fmtDate(t.deadline_utc); }
+  }
+  const val = fmtValue(t.estimated_value);
+  const isFresh = t._freshAt && (Date.now() - t._freshAt) < NEW_BADGE_MS;
+  return `
+    <article class="tender-card" data-id="${esc(t.id)}" style="--card-color:${meta.color}">
+      <div class="confidence-mark conf-${esc(t.confidence||'medium')}" title="confidence: ${esc(t.confidence||'unknown')}"></div>
+      <div class="card-top">
+        <span>
+          ${isFresh ? `<span class="new-badge" title="Ingested in the last 5 minutes">NEW</span>` : ""}
+          <span class="bucket-tag">${esc(meta.label)}</span>
+        </span>
+        <div class="deadline ${deadlineCls}">
+          <strong>${deadlineMain}</strong>
+          <span class="when">${deadlineWhen}</span>
+        </div>
+      </div>
+      <h3 class="card-title">${esc(t.title || "Untitled tender")}</h3>
+      <div class="card-meta">
+        <span>${esc(t.tendering_authority || "Unknown authority")}</span>
+        <span class="dot"></span>
+        <span class="country">${esc(t.country || t.region || "—")}</span>
+        ${t.domain_industry ? `<span class="dot"></span><span>${esc(t.domain_industry)}</span>` : ""}
+        ${isShardInteresting(t) ? `<span class="dot"></span><span class="shard-tag" title="shard">${esc(t._shard)}</span>` : ""}
+      </div>
+      <p class="card-summary">${esc(t.scope_summary || "No scope summary provided.")}</p>
+      <div class="card-footer">
+        <span class="card-value ${val?"":"empty"}">${val ? esc(val) : "value not disclosed"}</span>
+        <span style="display:inline-flex;gap:6px;align-items:center">
+          ${urlBadge(t)}
+          ${t.source_url ? `<a class="card-source ${t.url_status==='broken'?'broken':''}" href="${esc(t.source_url)}" target="_blank" rel="noopener" title="${t.url_status==='broken'?'URL did not respond when last checked':''}">Source ↗</a>` : ""}
+        </span>
+      </div>
+    </article>`;
+}
+
+// ---------- Drawer ----------
+const drawer = document.getElementById("drawer");
+const drawerBg = document.getElementById("drawerBg");
+drawerBg.addEventListener("click", closeDrawer);
+document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrawer(); });
+
+function openDrawer(id){
+  const t = state.tenders.find(x=>x.id===id);
+  if(!t) return;
+  const meta = BUCKETS[t.service_bucket] || { label: t.service_bucket, color: "var(--text-muted)" };
+  const val = fmtValue(t.estimated_value);
+  drawer.innerHTML = `
+    <div class="drawer-head">
+      <div>
+        <span class="bucket-tag" style="--card-color:${meta.color};color:${meta.color};border-color:${meta.color}">${esc(meta.label)}</span>
+        <h2>${esc(t.title || "Untitled tender")}</h2>
+      </div>
+      <button class="close-btn" onclick="closeDrawer()" aria-label="Close">×</button>
+    </div>
+    <div class="drawer-body">
+      <div class="drawer-section">
+        <div class="info-grid">
+          <div class="info-cell"><div class="label">Authority</div><div class="val">${esc(t.tendering_authority||"—")}</div></div>
+          <div class="info-cell"><div class="label">Domain / Industry</div><div class="val">${esc(t.domain_industry||"—")}</div></div>
+          <div class="info-cell"><div class="label">Region</div><div class="val">${esc(t.region||"—")}</div></div>
+          <div class="info-cell"><div class="label">Country</div><div class="val">${esc(t.country||"—")}</div></div>
+          <div class="info-cell"><div class="label">Deadline (UTC)</div><div class="val mono">${esc(fmtDateTime(t.deadline_utc))}</div></div>
+          <div class="info-cell"><div class="label">Published (UTC)</div><div class="val mono">${esc(fmtDateTime(t.published_utc))}</div></div>
+          <div class="info-cell"><div class="label">Estimated value</div><div class="val mono">${val ? esc(val) : "—"}</div></div>
+          <div class="info-cell"><div class="label">Confidence</div><div class="val">${esc(t.confidence||"—")}</div></div>
+        </div>
+      </div>
+      <div class="drawer-section">
+        <h3>Scope summary</h3>
+        <p class="scope-text">${esc(t.scope_summary||"—")}</p>
+      </div>
+      ${t.key_points?.length ? `
+        <div class="drawer-section">
+          <h3>Key points</h3>
+          <ul class="key-points">${t.key_points.map(kp=>`<li>${esc(kp)}</li>`).join("")}</ul>
+        </div>` : ""}
+      <div class="drawer-section">
+        <h3>Identifiers</h3>
+        <div class="info-grid" style="grid-template-columns:1fr">
+          <div class="info-cell"><div class="label">Tender ID</div><div class="val mono">${esc(t.id)}</div></div>
+          <div class="info-cell">
+            <div class="label">Source URL ${urlBadge(t)}</div>
+            <div class="val mono" style="word-break:break-all">${esc(t.source_url||"—")}</div>
+            ${t.source_url_resolved && t.source_url_resolved !== t.source_url ? `<div class="val mono" style="word-break:break-all;margin-top:6px;color:var(--text-muted);font-size:11px">→ resolved to ${esc(t.source_url_resolved)}</div>` : ""}
+          </div>
+        </div>
+      </div>
+      ${Array.isArray(t._grounding) && t._grounding.length ? `
+        <div class="drawer-section">
+          <h3>Grounded sources <span style="font-family:var(--sans);font-size:10px;color:var(--text-muted);text-transform:none;letter-spacing:0;margin-left:8px">— URLs Gemini actually retrieved from Google Search, guaranteed real</span></h3>
+          <ul class="grounding-list">
+            ${t._grounding.slice(0, 20).map(g=>`
+              <li>
+                ${g.title ? `<span class="gt">${esc(g.title)}</span>` : ""}
+                <a href="${esc(g.uri)}" target="_blank" rel="noopener">${esc(g.uri)}</a>
+              </li>`).join("")}
+          </ul>
+        </div>` : ""}
+    </div>
+    <div class="drawer-actions">
+      ${t.source_url && t.url_status !== "broken" ? `<a class="btn primary" href="${esc(t.source_url)}" target="_blank" rel="noopener">Open source ↗</a>` : ""}
+      ${t.url_status === "broken" && t._grounding?.length ? `<a class="btn primary" href="${esc(t._grounding[0].uri)}" target="_blank" rel="noopener">Open grounded source ↗</a>` : ""}
+      ${t.url_status === "broken" && !t._grounding?.length ? `<a class="btn" href="${esc(t.source_url)}" target="_blank" rel="noopener" style="color:var(--critical);border-color:var(--critical)">Try anyway (broken) ↗</a>` : ""}
+      <button class="btn" onclick="copyJSON('${esc(t.id)}')">Copy JSON</button>
+    </div>`;
+  drawer.classList.add("open");
+  drawerBg.classList.add("open");
+}
+function closeDrawer(){
+  drawer.classList.remove("open");
+  drawerBg.classList.remove("open");
+}
+window.closeDrawer = closeDrawer;
+
+window.copyJSON = function(id){
+  const t = state.tenders.find(x=>x.id===id);
+  if(!t) return;
+  navigator.clipboard.writeText(JSON.stringify(t, null, 2)).then(
+    ()=> toast("Tender JSON copied to clipboard"),
+    ()=> toast("Copy failed")
+  );
+};
+
+// ---------- Toast ----------
+let toastTimer;
+function toast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>el.classList.remove("show"), 2400);
+}
+
+// ---------- Bind filter inputs ----------
+document.getElementById("search").addEventListener("input", e=>{
+  state.filters.search = e.target.value;
+  renderList(); renderMetaRow();
+});
+document.getElementById("regionFilter").addEventListener("change", e=>{
+  state.filters.region = e.target.value;
+  renderList(); renderMetaRow();
+});
+document.getElementById("confFilter").addEventListener("change", e=>{
+  state.filters.confidence = e.target.value;
+  renderList(); renderMetaRow();
+});
+document.getElementById("sortBy").addEventListener("change", e=>{
+  state.filters.sort = e.target.value;
+  renderList();
+});
+document.getElementById("shardFilter").addEventListener("change", e=>{
+  state.filters.shard = e.target.value;
+  renderList(); renderMetaRow();
+});
+document.getElementById("hideClosed").addEventListener("change", e=>{
+  state.filters.hideClosed = e.target.checked;
+  renderList(); renderMetaRow();
+});
+
+// Re-render every ~60s so NEW badges expire (and the "Xs ago" hint in
+// the meta row stays fresh even when nothing else changes).
+setInterval(()=>{
+  const anyFresh = state.tenders.some(t => t._freshAt && (Date.now() - t._freshAt) < NEW_BADGE_MS + 60000);
+  if(anyFresh) renderList();
+}, 60000);
+
+// ---------- Init ----------
+const loaded = tryLoad();
+if(!loaded) loadDemo();
+render();
+</script>
+</body>
+</html>

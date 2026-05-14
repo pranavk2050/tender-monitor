@@ -1,0 +1,33 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:58:00Z",
+  "lookback_days": 7,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "e0242252a1d2e132",
+      "title": "Machine Learning Engineer",
+      "region": "Africa",
+      "country": "South Africa",
+      "tendering_authority": "IOCO (Recruiting for a banking environment)",
+      "domain_industry": "Financial Services - Banking / IT",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Seeking a Machine Learning Engineer to design, develop, deploy, and operationalize ML and AI solutions within a banking environment. The role focuses on building scalable, secure, and production-ready ML solutions to support business decision-making, automation, risk management, customer insights, and digital innovation.",
+      "key_points": [
+        "Design, build, test, deploy, and maintain machine learning models and AI-driven solutions.",
+        "Support design, development, deployment, and operationalization of machine learning and AI solutions.",
+        "Focus on scalable, secure, and production-ready ML solutions.",
+        "Support business decision-making, automation, risk management, customer insights, and digital innovation.",
+        "Technical skills include Python (essential), SQL, Scala, R, Java, or C++, Machine Learning / AI Feature Engineering, Model Deployment, Model Monitoring, MLOps, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, MLflow, Docker / Kubernetes, Git / CI/CD, REST APIs, Spark / PySpark / Databricks, AWS / Azure / GCP."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-07T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://ioco.applytojob.com/apply/gXW5Rj9vV7/Machine-Learning-Engineer",
+      "confidence": "high"
+    }
+  ],
+  "shard": "africa"
+}

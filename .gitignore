@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+# Keep state and results in git so GitHub Actions can persist across runs.
+# Debug dumps from JSON parse failures aren't worth keeping.
+tender_results/**/DEBUG_*.txt

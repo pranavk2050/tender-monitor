@@ -1,0 +1,135 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:55:00Z",
+  "lookback_days": 7,
+  "tenders_found": 5,
+  "tenders": [
+    {
+      "id": "b3e34b92c422c54d",
+      "title": "Predictive Maintenance Equipment Tender",
+      "region": "Europe",
+      "country": "France",
+      "tendering_authority": "EXPERTISE FRANCE",
+      "domain_industry": "General/Public Sector",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the procurement of predictive maintenance equipment. This aims to support predictive maintenance planning and reduce unplanned interventions through continuous asset condition monitoring and AI-driven insights.",
+      "key_points": [
+        "Procurement of Predictive Maintenance Equipment.",
+        "Expected to support predictive maintenance planning and reduce unplanned interventions.",
+        "Focus on continuous asset condition monitoring and AI-driven insights.",
+        "Deadline: April 20, 2026."
+      ],
+      "deadline_utc": "2026-04-20T23:59:59Z",
+      "published_utc": "2026-03-22T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersontime.com/tender-details/predictive-maintenance-equipment-tender-138258003/",
+      "confidence": "high"
+    },
+    {
+      "id": "e9b72013f9d51025",
+      "title": "Testbed 2026 Digital Twin as a Service",
+      "region": "Europe",
+      "country": "Netherlands",
+      "tendering_authority": "Geonovum",
+      "domain_industry": "Government/Research \u2014 Geospatial",
+      "service_bucket": "AIM",
+      "scope_summary": "Call for research and implementation proposals to further develop, improve and implement the approach of Digital Twins as a Service, with a focus on unlocking and using dynamic data (sensors) within digital twins.",
+      "key_points": [
+        "Development of Digital Twins as a Service.",
+        "Focus on dynamic data (sensors) within digital twins.",
+        "Open to private and public parties, and consortia.",
+        "Proposals should be in English.",
+        "Published April 1, 2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-04-01T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.geonovum.nl/over-geonovum/nieuws/testbed-2026-digital-twin-as-service",
+      "confidence": "high"
+    },
+    {
+      "id": "f5b82142d7658b73",
+      "title": "HSE 23895 Dynamic Purchasing System Qualification; Health Document Management System",
+      "region": "Europe",
+      "country": "Ireland",
+      "tendering_authority": "Health Service Executive (HSE)",
+      "domain_industry": "Healthcare/Public Sector",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Request to Participate in a Dynamic Purchasing System for a Health Document Management System. The system should enable digital management of health files, support safe and efficient scanning, uploading and management of documents, and allow remote access for a mobile workforce.",
+      "key_points": [
+        "Provision of a Health Document Management System.",
+        "Enable digital management of health files.",
+        "Support safe and efficient scanning, uploading, and management of documents.",
+        "Allow remote access for an increasingly mobile workforce.",
+        "Ensure enhanced security and regulatory compliance.",
+        "Lower carbon emissions.",
+        "Published May 9, 2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.etenders.gov.ie/epps/cft/viewContractNotice.do?resourceId=dps&DPS=Qualification&caId=1130833",
+      "confidence": "high"
+    },
+    {
+      "id": "d04a625a510526e8",
+      "title": "Topographical and GPR Surveys for Shamrock Stores Social Housing, Athy, Co. Kildare",
+      "region": "Europe",
+      "country": "Ireland",
+      "tendering_authority": null,
+      "domain_industry": "Construction/Social Housing",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender for topographical and GPR surveys for a social housing project in Athy, Co. Kildare.",
+      "key_points": [
+        "Provision of Topographical Surveys.",
+        "Provision of GPR Surveys.",
+        "Project located in Athy, Co. Kildare, Ireland.",
+        "Published January 13, 2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-01-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tenderimpulse.com/topographical-and-gpr-surveys-for-shamrock-stores-social-housing-athy-co-kildare-Ireland-101160352.html",
+      "confidence": "high"
+    },
+    {
+      "id": "fd9081e7d23a4b6c",
+      "title": "VantageRE - ICT & Telephony Tender",
+      "region": "Europe",
+      "country": "United Kingdom",
+      "tendering_authority": "VANTAGE RE LIMITED",
+      "domain_industry": "IT Services/Financial Services",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Request for Proposal (RFP) to engage a qualified Managed Service Provider (MSP) for comprehensive outsourced IT services, including end-user support, infrastructure and network management, cybersecurity, mobile telephony support, printer management, and strategic IT enablement. The technology environment is designed to support a modern, mobile workforce.",
+      "key_points": [
+        "Procurement of comprehensive outsourced IT services.",
+        "Includes end-user support, infrastructure and network management, cybersecurity.",
+        "Requires mobile telephony support and printer management.",
+        "Designed to support a modern, mobile workforce.",
+        "ISO 27001 certification is mandatory.",
+        "Anticipated contract term is 36 months with extension options.",
+        "Published January 26, 2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-01-26T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://bidstats.uk/tenders/2026/W04/866759715",
+      "confidence": "high"
+    }
+  ],
+  "shard": "europe"
+}

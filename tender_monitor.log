@@ -1,0 +1,35 @@
+[2026-05-14T14:23:29+00:00] FATAL: ANTHROPIC_API_KEY not set
+[2026-05-14T14:40:59+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T14:41:17+00:00] FATAL: Gemini API error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-05-14T14:41:29+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T14:42:20+00:00] FATAL: model did not return valid JSON: Invalid control character at: line 22 column 31 (char 1102)
+[2026-05-14T14:42:20+00:00]   raw response saved to D:\tender\tender_v1\tender_results\india\DEBUG_20260514T144220Z.txt
+[2026-05-14T14:42:35+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T14:43:27+00:00] FATAL: model did not return valid JSON: Expecting property name enclosed in double quotes: line 21 column 46 (char 873)
+[2026-05-14T14:43:27+00:00]   raw response saved to D:\tender\tender_v1\tender_results\india\DEBUG_20260514T144327Z.txt
+[2026-05-14T14:44:15+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T14:44:18+00:00] FATAL: Gemini API error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-05-14T14:44:40+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T14:45:46+00:00] DONE: 8 new tender(s) -> tender_results\india\tenders_2026-05-14T14-45-46Z.json
+[2026-05-14T14:47:39+00:00] Calling gemini-2.5-flash  shard=middle_east  seen_ids cached: 0, sent: 0
+[2026-05-14T14:48:07+00:00] DONE: 0 new tender(s) -> tender_results\middle_east\tenders_2026-05-14T14-48-07Z.json
+[2026-05-14T14:55:18+00:00] Calling gemini-2.5-flash  shard=europe  seen_ids cached: 0, sent: 0
+[2026-05-14T14:55:33+00:00] DONE: 5 new tender(s) -> tender_results\europe\tenders_2026-05-14T14-55-33Z.json
+[2026-05-14T14:57:47+00:00] Calling gemini-2.5-flash  shard=apac  seen_ids cached: 0, sent: 0
+[2026-05-14T14:57:59+00:00] DONE: 3 new tender(s) -> tender_results\apac\tenders_2026-05-14T14-57-59Z.json
+[2026-05-14T14:58:01+00:00] Calling gemini-2.5-flash  shard=africa  seen_ids cached: 0, sent: 0
+[2026-05-14T14:58:10+00:00] DONE: 1 new tender(s) -> tender_results\africa\tenders_2026-05-14T14-58-10Z.json
+[2026-05-14T14:58:11+00:00] Calling gemini-2.5-flash  shard=australia_nz  seen_ids cached: 0, sent: 0
+[2026-05-14T14:58:33+00:00] DONE: 0 new tender(s) -> tender_results\australia_nz\tenders_2026-05-14T14-58-33Z.json
+[2026-05-14T14:58:34+00:00] Calling gemini-2.5-flash  shard=usa  seen_ids cached: 0, sent: 0
+[2026-05-14T14:59:11+00:00] DONE: 3 new tender(s) -> tender_results\usa\tenders_2026-05-14T14-59-11Z.json
+[2026-05-14T14:59:12+00:00] Calling gemini-2.5-flash  shard=canada  seen_ids cached: 0, sent: 0
+[2026-05-14T14:59:20+00:00] DONE: 0 new tender(s) -> tender_results\canada\tenders_2026-05-14T14-59-20Z.json
+[2026-05-14T14:59:22+00:00] Calling gemini-2.5-flash  shard=latin_america  seen_ids cached: 0, sent: 0
+[2026-05-14T14:59:35+00:00] DONE: 3 new tender(s) -> tender_results\latin_america\tenders_2026-05-14T14-59-35Z.json
+[2026-05-14T15:11:01+00:00] Calling gemini-2.5-flash  shard=uk  seen_ids cached: 0, sent: 0
+[2026-05-14T15:11:08+00:00] DONE: 0 new tender(s) -> tender_results\uk\tenders_2026-05-14T15-11-08Z.json
+[2026-05-14T15:11:26+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 0, sent: 0
+[2026-05-14T15:11:43+00:00] verifying 5 source URL(s)...
+[2026-05-14T15:11:46+00:00]   url verification: 3 ok, 2 broken
+[2026-05-14T15:11:46+00:00] DONE: 5 new tender(s) -> tender_results\india\tenders_2026-05-14T15-11-46Z.json

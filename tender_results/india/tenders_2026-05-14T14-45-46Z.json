@@ -1,0 +1,196 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:44:00Z",
+  "lookback_days": 7,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "90e03e2c65f80b95",
+      "title": "DEVELOPMENT OF DIGITAL TWIN OF A SUBMARINE",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Tender Tiger Neo (Likely for a Government Entity)",
+      "domain_industry": "Defense - Maritime",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for the development of a digital twin for a submarine. The project is located in Visakhapatnam, Andhra Pradesh, India.",
+      "key_points": [
+        "Tender Type: Contract.",
+        "Key Location: Visakhapatnam, Andhra Pradesh, India.",
+        "Published on: March 27, 2026.",
+        "Due on: April 07, 2026."
+      ],
+      "deadline_utc": "2026-04-07T00:00:00Z",
+      "published_utc": "2026-03-27T00:00:00Z",
+      "estimated_value": {
+        "amount": 166000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tendertiger.com/tender-details/378419/development-of-digital-twin-of-a-submarine-at-visakhapatnam-andhra-pradeshindia",
+      "confidence": "high"
+    },
+    {
+      "id": "aa9482b811802959",
+      "title": "UPGRADE THE EXISTING 5G USE CASE LAB WITH 5G INDUSTRIAL IOT (IIOT) GATEWAY",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Communications Academy (NCA-T), Ghaziabad",
+      "domain_industry": "Telecommunications / Education",
+      "service_bucket": "APM",
+      "scope_summary": "Online bids are invited for upgrading an existing 5G Use Case Lab with a 5G Industrial IoT (IIoT) Gateway at NCA-T, Ghaziabad. The contract will initially be for one year, with a possible extension for another year based on satisfactory performance.",
+      "key_points": [
+        "Tender via GeM Portal.",
+        "Bidder must deal with Wireless and 5G Equipment.",
+        "Average Annual Turnover of not less than Rs. 3.0 Lakh for the last three Financial Years (2022-23, 2023-24 & 2024-25).",
+        "Experience: Successfully executed/completed similar supply over the last 1 year to at least 2 government organizations/educational institutions, for a value of at least Rs. 10 Lakh.",
+        "Includes 5 years of AMC."
+      ],
+      "deadline_utc": "2026-01-19T00:00:00Z",
+      "published_utc": "2026-01-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://gem.gov.in/bid-detail/GEM/2026/B/7060801",
+      "confidence": "high"
+    },
+    {
+      "id": "c7110e54b0351f0b",
+      "title": "Procurement, Supply of Goods, Tools & Equipment for an International Standard IToT in Electrician Trade at ITI Vyara, Gujarat, India (AR-VR Training Set Up)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Cooperative Consumers' Federation of India Ltd. (NCCF), Ahmedabad Branch",
+      "domain_industry": "Education / Vocational Training",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "NCCF invites bids for the procurement and supply of goods, tools, and equipment, including an AR-VR training setup, for an International Standard IToT in Electrician Trade at ITI Vyara, Gujarat. The vision is to establish multiple Centres of Excellence (CoEs) and Institutes of Training of Trainers (iToTs) across the state.",
+      "key_points": [
+        "Includes AR-VR Training Set Up.",
+        "Vendor must not be blacklisted/debarred by any Government/PSU/Autonomous body.",
+        "Performance Security: 5% of contract value, validity up to completion of contract including warranty period."
+      ],
+      "deadline_utc": "2026-02-24T00:00:00Z",
+      "published_utc": "2026-02-24T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://nccf-india.com/tender-details.php?tid=176",
+      "confidence": "high"
+    },
+    {
+      "id": "1d3b41315e9e07f6",
+      "title": "Appointment of Consultant for \u201cDigital Transformation of VOC Port: Strategic Roadmap development and Implementation support\u201d",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "V.O.Chidambaranar Port Authority",
+      "domain_industry": "Port Management",
+      "service_bucket": "AIM",
+      "scope_summary": "The V.O. Chidambaranar Port Authority is seeking a consultancy firm for process study, DPR preparation, and PMU services, and transaction advisory for business process enhancement. The scope includes Digital Twin, IoT, Cybersecurity Architecture, and implementation of Just-In-Time (JIT) systems.",
+      "key_points": [
+        "Selection Methodology: Quality and Cost Based Selection (QCBS) 80:20.",
+        "Contract period: 12 months, with possible extension.",
+        "Technical Presentation on approach & methodology scheduled for March 02, 2026.",
+        "Subcontracting for specialized parts is allowed."
+      ],
+      "deadline_utc": "2026-02-24T15:30:00Z",
+      "published_utc": "2026-02-11T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.vocport.gov.in/RFP-VOCPA-Digital-Transformation-Consultant.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "038317e3f4214227",
+      "title": "Procurement of 500 Nos. Asset Performance Management System (APMS) for different capacity Transformers",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "HESCO",
+      "domain_industry": "Power Distribution",
+      "service_bucket": "APM",
+      "scope_summary": "HESCO invites sealed bids for the procurement of 500 Asset Performance Management Systems (APMS) for various capacity transformers as per Specification No. DD-76:2023. The bidding is open to all registered bidders on EPADS (www.eprocure.gov.pk).",
+      "key_points": [
+        "Bid Security: PKR 2,000,000/-.",
+        "Bid Security must be submitted to Manager Material Management HESCO on or before the closing date.",
+        "Bidding conducted in line with 36(a) procedure of Public Procurement Rules 2004."
+      ],
+      "deadline_utc": "2026-05-07T11:00:00Z",
+      "published_utc": "2026-05-04T00:00:00Z",
+      "estimated_value": {
+        "amount": 2000000.0,
+        "currency": "PKR"
+      },
+      "source_url": "https://ppra.org.pk/Documents/2691_57917.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "28e7e163b40026e6",
+      "title": "Bids are invited for LIDAR 3D Laser Scanning and Imaging System",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Boards / Undertakings / PSU - Bhopal - Madhya Pradesh (as per TendersInfo)",
+      "domain_industry": "Government / Surveying",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Bids are invited for a LIDAR 3D Laser Scanning and Imaging System. The tender mentions a total quantity of 1 system.",
+      "key_points": [
+        "Due Date: February 19, 2026.",
+        "Tender Value: Refer Document.",
+        "Published on TendersInfo."
+      ],
+      "deadline_utc": "2026-02-19T00:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersinfo.com/tenders/3d-lidar-tenders-in-india.html",
+      "confidence": "medium"
+    },
+    {
+      "id": "312781561f5f24f6",
+      "title": "Tender for services for periodically compliance of environmental conditions and monitoring of environmental clearance for ABD project BSCDCL",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Departments - Bhopal - Madhya Pradesh (as per TendersInfo)",
+      "domain_industry": "Environmental / Urban Development",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for services related to periodic compliance of environmental conditions and monitoring of environmental clearance for the ABD project BSCDCL. This is listed under 'Condition Monitoring Tenders'.",
+      "key_points": [
+        "Due Date: May 16, 2026.",
+        "Tender Value: Refer Document.",
+        "Published on TendersInfo."
+      ],
+      "deadline_utc": "2026-05-16T00:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersinfo.com/tenders/condition-monitoring-tenders-in-india.html",
+      "confidence": "medium"
+    },
+    {
+      "id": "4b6a512066804561",
+      "title": "Supply installation and implementation of asset information management",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Boards / Undertakings / PSU - Raipur - Chhattisgarh (as per TendersInfo)",
+      "domain_industry": "Government / Public Sector",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for the supply, installation, and implementation of asset information management.",
+      "key_points": [
+        "Due Date: May 16, 2026.",
+        "Tender Value: Refer Document.",
+        "Published on TendersInfo."
+      ],
+      "deadline_utc": "2026-05-16T00:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersinfo.com/tenders/asset-management-tenders-in-india.html",
+      "confidence": "medium"
+    }
+  ],
+  "shard": "india"
+}

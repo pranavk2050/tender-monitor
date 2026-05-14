@@ -1,0 +1,91 @@
+{
+  "run_timestamp_utc": "2026-05-14T14:58:00Z",
+  "lookback_days": 7,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e668ff79a55427d2",
+      "title": "5999--New Building Automation System (BAS) Sustainment, Maintenance, Repair, and Lifecycle | PO: VA American Lakes Campus, Tacoma, Washington",
+      "region": "USA",
+      "country": "United States",
+      "tendering_authority": "Department of Veterans Affairs",
+      "domain_industry": "Government - Healthcare Facilities",
+      "service_bucket": "APM",
+      "scope_summary": "The Department of Veterans Affairs (VA) is seeking a contractor to provide sustainment services for its mission-critical Building Automation System (BAS) at the American Lake VA Medical Center. The services include 24/7 technical support, preventive and corrective maintenance, replacement of end-of-life hardware, and optimization services. The BAS ecosystem includes proprietary controllers, supervisory controllers, operator workstations, networked building controls, and integrated analytics, digital twin, and performance optimization platforms.",
+      "key_points": [
+        "Provide 24/7 technical support, remote diagnostics, and troubleshooting.",
+        "Develop and perform scheduled preventive maintenance based on OEM recommendations and system condition indicators.",
+        "Diagnose and repair BAS faults, alarms, and failures; restore affected system components.",
+        "Support the replacement of failed or retired BAS hardware components.",
+        "Provide actionable performance reports within 30 days of evaluation, including recommendations for energy efficiency, reliability, risk mitigation, and lifecycle extension.",
+        "Provide analytics-based monitoring of system performance, alarms, and asset health, generating real-time or near-real-time recommendations for optimization and risk reduction.",
+        "Maintain configuration control over system changes.",
+        "Place of Performance: 9600 Veterans Drive, VAMC American Lake BLDG 18 B108, Tacoma WA 98493."
+      ],
+      "deadline_utc": "2026-04-22T23:00:00Z",
+      "published_utc": "2026-04-08T18:09:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://sam.gov/opp/2816f5c5b1b4421aa09819875f5b6151/view",
+      "confidence": "high"
+    },
+    {
+      "id": "270881954ed66f06",
+      "title": "indefinite delivery architect-engineer services multiple award task order contract (matoc) for mechinical-electrical design and related projects, primarily various locations, alaska - w911kb27ra006",
+      "region": "USA",
+      "country": "United States",
+      "tendering_authority": "US Army Corps of Engineers",
+      "domain_industry": "Government - Engineering Services",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "The U.S. Army Corps of Engineers (USACE) is seeking architect-engineer firms for an Indefinite Delivery/Indefinite Quantity (IDIQ) Multiple Award Task Order Contract (MATOC) for mechanical-electrical design and related projects, primarily in various locations in Alaska. The contract requires capabilities in BIM modeling and LEED energy consumption modeling, and the ability to provide designs using BIM software.",
+      "key_points": [
+        "Provide drawings in AutoCAD (version as required by the project).",
+        "Have the capability to provide designs using building information modeling (BIM) software.",
+        "Use the latest version of M2 (cost estimating software furnished by the Government).",
+        "Provide a cost estimate in work breakdown structure (WBS).",
+        "Provide draft DD Form 1354, Transfer and Acceptance of Military Real Property.",
+        "Provide electronic bid set (EBS) documents.",
+        "Use SPECSINTACT for all projects unless otherwise directed in the Task Order.",
+        "Experience in BIM modeling and LEED energy consumption modeling.",
+        "Experience in AFFF and high expansion foam (HEF) fire suppression systems, and fire detection systems.",
+        "Demonstration of the business's experience as a prime contractor on projects of similar size, type and complexity within the past five years."
+      ],
+      "deadline_utc": "2026-05-04T22:00:00Z",
+      "published_utc": "2026-04-20T22:04:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://sam.gov/opp/68a9b2b3b0d24c048b3c3b0f5b1d5c5a/view",
+      "confidence": "high"
+    },
+    {
+      "id": "e61e053d266e7784",
+      "title": "Lethal Innovation Foundry Technologies (LIFT) Program",
+      "region": "USA",
+      "country": "United States",
+      "tendering_authority": "U.S. Army Contracting Command \u2013 New Jersey (ACC-NJ)",
+      "domain_industry": "Government - Defense Research & Development",
+      "service_bucket": "AIM",
+      "scope_summary": "The U.S. Army Contracting Command \u2013 New Jersey (ACC-NJ) is conducting market research for the Lethal Innovation Foundry Technologies (LIFT) Program. They are seeking responses from US and Canadian companies with capabilities in advanced/additive manufacturing techniques, digital twin modeling, and simulation software for ballistics or durability testing. This is a Sources Sought notice, not a request for proposal.",
+      "key_points": [
+        "Advanced/additive manufacturing techniques.",
+        "Digital twin modeling.",
+        "Simulation software for ballistics or durability testing.",
+        "Responses are restricted to US companies and Canadian companies within the Joint Certification Program.",
+        "Submissions must be sent electronically to melissa.s.jimenez-tenesaca.civ@army.mil AND stephanie.g.kless.civ@army.mil."
+      ],
+      "deadline_utc": "2026-05-29T20:00:00Z",
+      "published_utc": "2026-05-04T17:08:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://sam.gov/opp/22b102a900984a92911b3b0f5b1d5c5a/view",
+      "confidence": "high"
+    }
+  ],
+  "shard": "usa"
+}

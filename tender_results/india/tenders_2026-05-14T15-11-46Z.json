@@ -1,0 +1,165 @@
+{
+  "run_timestamp_utc": "2026-05-14T15:11:00Z",
+  "lookback_days": 7,
+  "tenders_found": 5,
+  "tenders": [
+    {
+      "id": "e8a9f6d7c1b2a345",
+      "title": "e-Tender for Empanelment of Agencies for Supply, Installation, Testing & Commissioning (SITC) of External Glow/Non-lit Sign Boards",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Punjab & Sind Bank",
+      "domain_industry": "Banking & Financial Services",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "Empanelment of agencies for the supply, installation, testing, and commissioning of external glow/non-lit sign boards for branches, ATMs, and offices across India, including the replacement of flex, vinyl, and related accessories of existing sign boards. The tender requires BIS certified LED module systems.",
+      "key_points": [
+        "Supply, installation, testing, and commissioning of external glow/non-lit sign boards.",
+        "Replacement of flex, vinyl, and related accessories of existing sign boards.",
+        "Requirement for BIS certified LED module systems.",
+        "OEM or Authorized Converters/Channel Partners/Dealers in business for last 5 years with 50% Indian Stake Holding.",
+        "Single work contract of Rs. 270.00 Lac for PAN India or Rs. 54.00 Lac for each region (multiple options for value/region).",
+        "Bid submission end date: 2026-05-20, 15:00 hrs UTC+5:30 (IST).",
+        "Bid opening date: 2026-05-20, 15:30 hrs UTC+5:30 (IST)."
+      ],
+      "deadline_utc": "2026-05-20T09:30:00Z",
+      "published_utc": "2026-05-06T06:30:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://punjabandsind.bank.in",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "029a8a7e02e8647c",
+      "title": "IoT Based Energy Monitoring and Asset Management",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Artificial Limbs Manufacturing Corporation Of India (ALIMCO)",
+      "domain_industry": "Manufacturing",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for Material Energy Meter WiFi Type, Material MFM, Material Multifunction Energy Meter, Material Time Switch, and integration of Water Automation Pump System with IIoT 4.0 Platform Old Pump House.",
+      "key_points": [
+        "Supply of High Profile Multifunction Energy Meter (LED Display), Accuracy Class 0.5S, Demand Monitoring, Wi-Fi Communication, 5A CT Input.",
+        "Supply of Multifunction Energy Monitoring Device, Accuracy Class 1.0, Without Display, Wi-Fi Communication, 3-Phase System, 100A Direct Measurement.",
+        "Supply of Multifunction Energy Meter, Accuracy Class 1.0, RS485 Communication, 5A CT Input.",
+        "Supply of Time Switch with Integrated Load Disconnector and Energy Monitoring, Accuracy Class 1.0, Wi-Fi Communication, 80A Direct Measurement, Real Time Clock.",
+        "Integration of Water Automation Pump System with IIoT 4.0 Platform.",
+        "Bid opening date: 2026-05-21."
+      ],
+      "deadline_utc": "2026-05-21T00:00:00Z",
+      "published_utc": "2026-04-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendorkart.com/tender-detail/GEM-2026-B-7490596-9274496-IoT-Based-Energy-Monitoring-and-Asset-Management",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "e7225c56d2524d77",
+      "title": "Retail ERP Modernization for Omnichannel Inventory Accuracy and Financial Control",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Not Specified",
+      "domain_industry": "Retail",
+      "service_bucket": "UPGRADATION_CATALOG_MODEL",
+      "scope_summary": "Modernizing retail ERP systems to improve omnichannel inventory accuracy and financial control. This involves cloud ERP migration, process rationalization, and integrating various retail functions.",
+      "key_points": [
+        "Support for inventory accuracy at item, location, channel, ownership status, and financial valuation levels.",
+        "Integrated financial posting for inventory movements, cost adjustments, revenue recognition, and channel settlements.",
+        "Governed item, supplier, customer, and location master data.",
+        "Scalable cloud architecture to support seasonal peaks, acquisitions, and new channel launches.",
+        "Cloud ERP migration as an enabler for operating model modernization.",
+        "Evaluating where channel-specific customizations can be replaced with standard workflows.",
+        "Eliminating manual reconciliations through improved processes."
+      ],
+      "deadline_utc": "2026-05-27T10:00:00Z",
+      "published_utc": "2026-05-13T10:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.netsuite.com/portal/resource/articles/erp/retail-erp-modernization.shtml",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "a931a57e3f2275b1",
+      "title": "Construction of 2 No. Security Morcha at Old Store Behali of Parbati-III Power Station",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NHPC Limited",
+      "domain_industry": "Power Generation",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "Tender for the construction of two security morchas at the Old Store Behali of Parbati-III Power Station, issued by NHPC Limited.",
+      "key_points": [
+        "Construction of 2 security morchas (posts).",
+        "Location: Old Store Behali, Parbati-III Power Station.",
+        "Part of NHPC Limited projects.",
+        "e-Published Date: 2026-05-13 05:00 PM (IST).",
+        "Bid Submission Closing Date: 2026-06-03 05:00 PM (IST)."
+      ],
+      "deadline_utc": "2026-06-03T11:30:00Z",
+      "published_utc": "2026-05-13T11:30:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://eprocure.gov.in/eprocure/app?page=FrontEndLatestTenders&service=page",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "1804d9426f8303f5",
+      "title": "Tender for Expression Of Interest (Eoi) For Exploring Potential Sale Of Solar Pv Modules Stored At Multiple Locations In India",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Sjvn Limited",
+      "domain_industry": "Renewable Energy",
+      "service_bucket": "APM",
+      "scope_summary": "Expression of Interest (EOI) for the potential sale of solar PV modules stored at multiple locations across India.",
+      "key_points": [
+        "Exploring potential sale of solar PV modules.",
+        "Modules stored at various locations in India.",
+        "Issued by Sjvn Limited.",
+        "Due Date: June 02, 2026.",
+        "Tender Value: \u20b99999.99 Crore."
+      ],
+      "deadline_utc": "2026-06-02T00:00:00Z",
+      "published_utc": "2026-05-13T00:00:00Z",
+      "estimated_value": {
+        "amount": 99999900000,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tenderdetail.com",
+      "confidence": "high",
+      "url_status": "ok"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXe5rE-AcXavAzz0fnmRIi-JX1YrWVPMUh25A0b9Gi6QgezElsg-y5-hJM8hpKhUpbMhMT7cgzr8vQEk9avCT7j7z6S9rNMprOs3epYYQxaGHXw9m_-AqFZ247AvU1pCWhGjsvF6E3GIJJ2L7d1hdaQEWYWy0uRrMpJp-8EoSOwfdJm29bhjxn6MZf",
+      "title": "bank.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG68AofxuBQFQPF8zdgfoE09FWJg2LQh7op9aGjPQOZ8dSU73hmr_Vq257rSpsXMFtdvJhYrEpawwOdj1Q0E0dCzzbzxNRYxI6x38-B5oISf8We8Na8eC8PbEy35j00Wy_vMpsC97EdBxRoO06wesr62wlHlUXwUGUTF-IQ",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMsz_PD6QLUD06J523uye-QiofHbCCCZ47Y-mxXTHxU2BjjL7klp0yRsny9AFdw8nVEdL2zmtLirYW1CvJc-sTKmxsovBeLIyRSs_d8FBwyZTD_cKnqn7FG9YU3lsC1ULwnhwEzufT2WosTufqYc7ti0aYUm_lrhyCagGvyYo_0fIVfMTa-qgr94mVUOn42ktYwirhT_IqvH0GJdQg7OVwvSBL9rj8Djcr8jOVZbRJtMk=",
+      "title": "sysgenpro.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEwyjrqwcZGmOhzLK0RyfrFB6vSaSTO4Wme0DM-wvCiqasPlTlGAmvJ0qOTy3fAOLURLuKKO6W12L2KEQHtqJx9TFS8gvR0yNFRFz4TSzFuHxYBRW4ss5gq-B2V_NQ7VFr3PBE4s1BTRUv-GJqEBuGktzY-g_P7PvJrXENax4qrZz75xbB-o6VGJAnTf9GoBAQEZU2pYggcGs=",
+      "title": "eprocure.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHlp8SpmryZfKTx53eVe7dhS9Y4NK91ke7bZ-Nr9IQxAdMKTOHscjo7KWOCi_jP4g9ycSVS_iPoF0aT8chHMY5X0GgXzp6i5-tOw7ZOo7AaXzruh1SBG9p",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
