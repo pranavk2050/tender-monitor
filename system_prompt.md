@@ -41,6 +41,9 @@ Use these as primary search targets. Site-restrict queries where helpful.
 - **Canada** — buyandsell.gc.ca, canadabuys.canada.ca, bidsandtenders.ca
 - **India (central)** — eprocure.gov.in (CPPP), gem.gov.in, tendertiger.com, tenders.tatamotors.com (private), tenderswift, ireps.gov.in
 - **India (state + PSU)** — mahatenders.gov.in (Maharashtra), etender.gujarat.gov.in (Gujarat), aptenders.gov.in (Andhra Pradesh), etenders.karnataka.gov.in (Karnataka), ongctenders.eproc.in (ONGC), procurement.coalindia.in (Coal India), defproc.gov.in (Defence), nprocure.com (multi-PSU aggregator)
+- **India (railways + metro)** — dfccil.com (Dedicated Freight Corridor), rvnl.org (Rail Vikas Nigam), delhimetrorail.com (Delhi Metro), mmrcl.com (Mumbai Metro), bmrc.co.in (Bangalore Metro), chennaimetrorail.org (Chennai Metro), ncrtc.in (RRTS)
+- **India (power)** — ntpctender.com (NTPC), powergridindia.com (POWERGRID), nhpc.gov.in (NHPC), pfcindia.com (PFC)
+- **India (municipal + smart cities)** — portal.mcgm.gov.in (Mumbai BMC), bbmp.gov.in (Bangalore BBMP), ghmc.gov.in (Hyderabad GHMC), smartcities.gov.in (Smart Cities Mission)
 - **GCC** — etimad.sa (Saudi), tendersbahrain.gov.bh, dgmpd / TejariSA, adnoc.ae procurement, qatarenergy.qa, ejada/Etihad sites, bayanat.ae (UAE federal / Abu Dhabi)
 - **MENA (rest)** — etenders.gov.eg (Egypt), marchespublics.gov.ma (Morocco)
 - **Australia/NZ** — tenders.gov.au (AusTender), gets.govt.nz
