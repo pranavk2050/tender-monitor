@@ -653,16 +653,15 @@
     <div class="header-actions">
       <button class="btn" id="exportBtn">Export JSON</button>
       <button class="btn" id="exportCsvBtn">Export CSV</button>
-      <button class="btn" id="autoBtn" title="Poll tender_results/index.json for new runs">Auto-refresh: off</button>
+      <button class="btn primary" id="autoBtn" title="Poll tender_results/index.json for new runs">Auto-refresh: off</button>
       <button class="btn" id="clearBtn">Clear</button>
-      <button class="btn primary" id="loadBtn">Load JSON</button>
       <input type="file" id="fileInput" accept=".json,application/json" multiple>
     </div>
   </div>
 </header>
 
 <div class="demo-banner" id="demoBanner">
-  Showing demo data — load JSON files from your <code>tender_results/</code> folder to see live results.
+  Showing demo data — turn on <strong>Auto-refresh</strong> to pull live results, or drop a JSON file from <code>tender_results/</code> anywhere on this window.
 </div>
 
 <main>
@@ -965,9 +964,6 @@ function tryLoad(){
 }
 
 // ---------- File loading ----------
-document.getElementById("loadBtn").addEventListener("click", ()=>{
-  document.getElementById("fileInput").click();
-});
 document.getElementById("fileInput").addEventListener("change", async (e)=>{
   const files = Array.from(e.target.files || []);
   if(!files.length) return;
@@ -1420,8 +1416,7 @@ function renderList(){
       <div class="empty">
         <h2>No tenders <span class="ital">match.</span></h2>
         <p>${state.tenders.length ? "Adjust filters or clear search to see more results." :
-          "Load JSON files from your <code>tender_results/</code> folder, or drop them onto this window."}</p>
-        ${state.tenders.length ? "" : `<button class="btn primary" onclick="document.getElementById('fileInput').click()">Load JSON</button>`}
+          "Turn on <strong>Auto-refresh</strong> to fetch your latest runs, or drop a JSON file from <code>tender_results/</code> anywhere on this window."}</p>
       </div>`;
     return;
   }
