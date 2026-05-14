@@ -33,3 +33,7 @@
 [2026-05-14T15:11:43+00:00] verifying 5 source URL(s)...
 [2026-05-14T15:11:46+00:00]   url verification: 3 ok, 2 broken
 [2026-05-14T15:11:46+00:00] DONE: 5 new tender(s) -> tender_results\india\tenders_2026-05-14T15-11-46Z.json
+[2026-05-14T15:26:53+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 5, sent: 5
+[2026-05-14T15:27:04+00:00] verifying 3 source URL(s)...
+[2026-05-14T15:27:04+00:00]   url verification: 1 ok, 2 broken
+[2026-05-14T15:27:04+00:00] DONE: 3 new tender(s) -> tender_results/india/tenders_2026-05-14T15-27-04Z.json

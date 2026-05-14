@@ -1,0 +1,101 @@
+{
+  "run_timestamp_utc": "2026-05-14T15:26:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "787c9f80b2d6a5e1",
+      "title": "Tender For Request for Quotation for Implementation of an Integrated Enterprise GIS and 3D Digital Twin Platform for Geo-Analytics Property Tax Enhancement Asset",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Smart Cities / Government",
+      "service_bucket": "AIM",
+      "scope_summary": "Request for Quotation (RFQ) for an integrated Enterprise GIS and 3D Digital Twin Platform for geo-analytics, property tax enhancement, and asset management. The platform aims to leverage advanced geospatial technologies for urban planning and administration.",
+      "key_points": [
+        "Implementation of an integrated Enterprise GIS platform.",
+        "Development of a 3D Digital Twin for geo-analytics and property tax.",
+        "Focus on asset management capabilities.",
+        "The tender was published on May 8, 2026."
+      ],
+      "deadline_utc": "2026-05-14T23:59:59Z",
+      "published_utc": "2026-05-08T00:00:00Z",
+      "estimated_value": {
+        "amount": 250000,
+        "currency": "INR"
+      },
+      "source_url": "https://www.globaltenders.com/digital-twin-tenders-india.php",
+      "confidence": "medium",
+      "url_status": "ok"
+    },
+    {
+      "id": "e6f4a8b7c0d1e2f3",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "Implementation of an integrated GIS-based asset management platform for Cochin International Airport, including comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support (6 years AMC).",
+      "key_points": [
+        "Creation of high-quality basemaps and integration with existing systems.",
+        "Capture and integration of infrastructure and utility changes.",
+        "Advanced 3D visualization of indoor and outdoor airport infrastructure creating a Digital Twin.",
+        "Provision of GIS-enabled asset management and operational solutions, including mobile inspection applications, workflow management, and dashboards.",
+        "Bidder/OEM must have experience supplying Enterprise GIS software for 3 projects, including at least one in a Port and an Airport in India in the last 3 financial years.",
+        "Net Worth of the Bidder should be positive for the last 3 financial years (FY 2022-23, 2023-24 & 2024-25)."
+      ],
+      "deadline_utc": "2026-05-27T23:59:59Z",
+      "published_utc": "2026-05-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://cochin-airport.com/tenders",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "89c0b1d2e3f4a567",
+      "title": "IoT Based Energy Monitoring and Asset Management",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Artificial Limbs Manufacturing Corporation Of India (ALIMCO), Ministry Of Social Justice And Empowerment",
+      "domain_industry": "Manufacturing",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for IoT-based energy monitoring and asset management, including supply, installation, testing, and commissioning of various energy monitoring devices, digital circuit breaker controllers, ground monitoring devices, and integration of a water automation pump system with an IIoT 4.0 platform.",
+      "key_points": [
+        "Supply of High Profile Multifunction Energy Meters (LED Display) with Wi-Fi communication.",
+        "Supply of Multifunction Energy Monitoring Devices (without display) with Wi-Fi communication.",
+        "Supply of Multifunction Energy Meters with RS485 Communication.",
+        "Supply of Time Switches with integrated load disconnector and energy monitoring, and Wi-Fi communication.",
+        "Integration of Water Automation Pump System with IIoT 4.0 Platform.",
+        "Supply of Industrial IoT Communication Gateway with RS485 Device Connectivity and WiFi Communication."
+      ],
+      "deadline_utc": "2026-05-21T23:59:59Z",
+      "published_utc": "2026-04-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tenderkart.com/tender/iot-based-energ-2026-b-7490596-9274496",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu18nBUsgZn1dNgZ_4EKBkPh3-7V4z3ObeNtYkzpzKTR540vc39D4sIGHmfvadjbBb510bpwLh4p_0Vbo8663U7dIWQR_L1SrP-4SJI2IBXTS0rx0fH3JYSAVTI8aj38jSKKpkiurwwoyvXqpILFnNswYnsp2fnHO0A6lWcg==",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc5x0MXAJFsvO9d3HrT40p0k6d_y7lXSa4huK0v6iQCsgtNEhUn_Re51sP_vDGTPts8JdwVg52uEvoEqVlMIJFnzv0uzySowdIR6v3gcEptxWkjw70MH2jABikGktWgzHyn9upACdniiI=",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZwGTilGOsdF5j_hU0pHnhjxT76suoYT9lUapEioGCc_iVdcZ2PJvV49m84w7BZls1xQtGSQCbOUl5_08JIUVEn1N9mXtX1tSBUsL_xqEMKGXiyEbTMSyEKZS5NN_T9LMuD8ZM5NkxXFPzYcWyag7JmpXwwnoJUlqeX5BC",
+      "title": "tenderkart.in"
+    }
+  ],
+  "shard": "india"
+}
