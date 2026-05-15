@@ -1,0 +1,95 @@
+{
+  "run_timestamp_utc": "2026-05-15T08:46:00Z",
+  "lookback_days": 1,
+  "tenders_found": 2,
+  "tenders": [
+    {
+      "id": "e4125f190a424a6e",
+      "title": "Supply, Installation, Testing and Commissioning of IoT-based Ultrasonic-type Digital water meters Confirming to ISO:4064-2014 for water supply lines to the additional Buildings at IIT Hyderabad, Kandi, Sangareddy.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Hyderabad",
+      "domain_industry": "Education & Research - Infrastructure",
+      "service_bucket": "APM",
+      "scope_summary": "This tender is for the supply, installation, testing, and commissioning of IoT-based ultrasonic digital water meters, confirming to ISO:4064-2014, for water supply lines in additional buildings at IIT Hyderabad. It also includes associated software and maintenance.",
+      "key_points": [
+        "Supply, Installation, Testing and Commissioning of IoT-based Ultrasonic-type Digital water meters.",
+        "Meters must conform to ISO:4064-2014.",
+        "For water supply lines to additional buildings at IIT Hyderabad, Kandi, Sangareddy.",
+        "Includes associated software and operation & maintenance.",
+        "Similar work experience required: one work of not less than 80% of estimated cost in the last 7 years.",
+        "Tender open for acceptance for 90 days from the last date of submission.",
+        "Tenders with conditional rebates will be rejected."
+      ],
+      "deadline_utc": "2026-07-23T17:00:00Z",
+      "published_utc": "2026-04-24T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://iith.ac.in/assets/files/tenders/2026/NIT-for-IoT-based-Digital-Water-Meter-Works.pdf",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "713480164c39b922",
+      "title": "Supply and Installation of PC-Based CNC Controller with EtherCAT, OPC UA, and IIoT Connectivity",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Bhilai",
+      "domain_industry": "Education & Research - Technology",
+      "service_bucket": "APM",
+      "scope_summary": "This tender is for the supply and installation of a PC-Based CNC Controller with EtherCAT, OPC UA, and IIoT Connectivity at IIT Bhilai.",
+      "key_points": [
+        "Supply and installation of PC-Based CNC Controller.",
+        "Must include EtherCAT, OPC UA, and IIoT Connectivity.",
+        "For IIT Bhilai.",
+        "Deadline for bid submission: February 24, 2026."
+      ],
+      "deadline_utc": "2026-02-24T00:00:00Z",
+      "published_utc": "2026-02-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.iitbhilai.ac.in/tenders/",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9qS8gYrPS0L25gy2wAlEwhAYOJkBB3-uaMH53G3hCIQ_a5oRpthHsYGtF-C7e16-ujDsbzlFFNhHgDJ2B-t79ih8Lis8gHXsShLNXgXsY8Zs_-mKq8UriXnhRFRhN4SESd-5DTCtwqzCrnqhOUD-TnD3WRkdYLajcFXSg0eq9_fi7wUYAhy87g==",
+      "title": "iith.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF98P9jCDB2RnFxKZjyd0UwU8YK-K4WiC9kzDYphSWjkFCPulqH1tiYd5HK5VDk3CinZIHdWKtaDlQ0u-glvuZwRn6dDw77E6JbVvp-huFl3Gsvf6rfBKWixXiHmedJc-LQfra6RTKnlyQkXYhbyAk=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZErt3-fzClkUTaf52187Ck0-0RefPDRbQx46ojE2jzXgiXAl6LkmPB7qz-Q_Z8Ci2PArItfX5fe-NUmPnNOGS3hPzPTCZ4wscH375Nocq6j52AATRHl-DsMpKLh9qWSOo8uGhZnT2mlqKhc8fOPNIHIY6Js1aNJsZX13aiSLr9m4lyCb_jNx4xZWBCDCyUjbsSvysmgrBr1GqPsXqPve7WEayftP5W4qcVA87f3aB5YIwaQgODOxQwUaLAT-BXBF5yb0=",
+      "title": "skillspedia.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtX3L-i3ZAomOsq0Oc0weBLCEMqoqNLdAG_8tSJBTmXJDDYHFzoZN1XaNpw0qqd0eSJFg9XWxUarYMeMd7CIby8phTKCptt_Vx-DHv4_dreMgSIJLjY5vz1H-ZlIrmcPCL0Nvu-SllZHCx5FQxiMptBTkZy8gVZqn1J80M6a5_7fd3X9R5FhtGO5FT40fRO6fdJQMlFtTFWusy9sp2J-bgOM85gcFrEWfQ9ZOfqfPH5jiCslWDbWHMF2PT0mAS_gfH-8A6QNf3kBPGBE0SgqPR-AG-i8Be6wizB1H-",
+      "title": "gcekarad.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp5Uu1Zjnh6YeZEK11HIKOrFXuwGcm-0WePv7-tlKD1PsRtxYEH_oT9T7vaWoV2xsGQ-rpUXbwRb6YV8PbzjRHf8bivDYvWAnjzpK2coDliomPkRcvpWdBxHU64eJ-auBJHP1Qfz6AAMz-1judDxIRKbT1qYtaXyGTO_H_Nx-eSg0G2E-qGmtTCM3PhUEJ2-CFNQ==",
+      "title": "bank.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEIXAmFthy0bDS0syLA-RFcfoq8qOPuWqTbnP9oOTCCD_4GyrNYPM9QuYz2HlynJ5IDoa8LUrTVMk_MEv3ANhSMipSx716HbTYXJeJvuDZ39hk4a-Xxmm2lDcbmjxg3kSYHII-VWnbddrx37okZX4iiXicCTvNIfow4melnxtTIiQV49NDZqDw",
+      "title": "oil-india.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7ixwW5ndlT6Q1bPfuLyvKP0_wRThSy5EYWZugJePGbN8bo06Y6p7GdHIvby4sFgXfw9Rupy6L91Wx6zTMkE0IMevNG53OIhJRDb0R3-Kf8GD2Disbf1l56hJfWw5Z7MqX4XAUU3ADz4HVUzqM92iYbEL5MpEuMPZewobvYT82efAC0Kd7Rg==",
+      "title": "iitism.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2BRWa-pY6UE-4hrURaTe9vgg91nK345qy0-f93g-NgyeqmlLkgYGKqyTIartfQRJxsANIBFNG3uTIavxo2yuMPj2Ip44pNPRC1mkvMkJMxAqMUAr5QTdInPdKltn_EJer_ag4tOLpbK7P0fflvQBlrLR6pOTb3DF0tzY=",
+      "title": "tenderkart.in"
+    }
+  ],
+  "shard": "india"
+}
