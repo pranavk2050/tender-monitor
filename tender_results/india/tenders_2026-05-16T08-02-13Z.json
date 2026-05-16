@@ -1,0 +1,89 @@
+{
+  "run_timestamp_utc": "2026-05-16T08:01:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "b3e04e9c3e533036",
+      "title": "Hiring of services for NDT testing and 3D Laser Scanning of inter-connecting bridges at BHS, ICP, SH, NQO, MHN, NEELAM, HEERA and TAPTI process complexes of Western Offshore",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Tender247 (likely for an Oil & Gas PSU like ONGC)",
+      "domain_industry": "Oil & Gas",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender seeks services for Non-Destructive Testing (NDT) and 3D laser scanning of inter-connecting bridges located at various process complexes in the Western Offshore region. The services are crucial for assessing the integrity and dimensional accuracy of critical infrastructure in an offshore oil and gas environment.",
+      "key_points": [
+        "Hiring of services for NDT testing and 3D laser scanning.",
+        "Project location: BHS, ICP, SH, NQO, MHN, NEELAM, HEERA and TAPTI process complexes of Western Offshore.",
+        "Published on Tender247 portal (T247 ID - 99379830).",
+        "Opening Date: 04 May 2026.",
+        "Estimated cost and EMD details refer to document."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-04T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHgvw5zXizgGOUBcjjYS38REYdsshDuQxQ79nQLVYreE9Djqkx5db9UA0fzsQWYlI04aPz3_L4AFx28Vc6WsJMn7YT0B7NlEgl4G4qmt0c5psZM5Cz5aju6GdNsVPiS5_r3DWgzqazx2mtG6n9YF4ij6czYTD1dHlRwEFe-MSFg_S_rIe-3ru_cn9IdjT7RNiRYe0GSGxhGNkpHI7sJZPrNMSifO4v_moJ0r71ovta-4U=",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tender247.com/tender-details/99379830?tesd=04-05-2026&searchtext=nd+testing&search_text=nd+testing&count=5"
+    },
+    {
+      "id": "1894d3a25ef90b8f",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Ltd (CIAL)",
+      "domain_industry": "Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "This tender is for the selection of a bidder to implement an integrated GIS-based asset management platform for Cochin International Airport Limited (CIAL). The scope includes comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support for 96 months, with 6 years of AMC.",
+      "key_points": [
+        "Implementation of an integrated GIS-based asset management platform.",
+        "Includes comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support.",
+        "Solution should provide GIS-enabled asset management and operational solutions.",
+        "The bidder/OEM should have experience supplying Enterprise based GIS software for 3 projects, at least one in each for Port and an Airport in India in the last 3 financial years.",
+        "Project duration: 96 months (12 months for Implementation & Commissioning, 12 months of Defects Liability Period & 72 months AMC).",
+        "Tender document issued by CIAL/OPS/TENDER/2026/2."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-12T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETmmY-DQhlNzPicQYZbEZQZedlS1eaHnNVpw7IT9mHZN-EdJ1wrkkDa5_lxiIwLzulOCL_J0SvGeYDOeHjO16q8wCDDHzwkmc12WoqUdFyIuJUeZ7NxLQOgqi_fAteBSsiI51uYS3S6uI=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.cial.aero/Tender-Details?TdId=2766"
+    },
+    {
+      "id": "ce51a9c370211a7a",
+      "title": "Tender Invited For Artificial Intelligence Enabled Condition Based Monitoring and Predictive Maintenance of AFV Engines Quantity: 1",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government e-Marketplace (GeM) for an unknown Security Services entity",
+      "domain_industry": "Defense / Security Services",
+      "service_bucket": "APM",
+      "scope_summary": "This tender, published on GeM, seeks a solution for Artificial Intelligence Enabled Condition Based Monitoring and Predictive Maintenance for AFV (Armored Fighting Vehicle) Engines. The scope involves the supply of a system that can monitor the condition of AFV engines and predict potential maintenance needs using AI.",
+      "key_points": [
+        "Artificial Intelligence Enabled Condition Based Monitoring and Predictive Maintenance for AFV Engines.",
+        "Quantity: 1.",
+        "Tender on GeM, with TID:95703434.",
+        "Estimated EMD: INR 3.80 Lac."
+      ],
+      "deadline_utc": "2026-05-16T00:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsa298O_eLls5IFEOjs991ihkX28Zb_PdrZ5G3j2rklqU5_OII7VonWSYx3tJOGtTQfLiRBoQ3YdDJb3i2ypS31-6GW9SPMBLKqkauRhoddFqoUDigvl0_rcFgVhh9F_drxZCnae_xLstJWp_fvtpRaPU4hbP5PLwwScKRFL2km0Humxgi_HvMnK_ECLtIRsl8QQ=",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
