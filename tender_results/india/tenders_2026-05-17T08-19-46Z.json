@@ -1,0 +1,87 @@
+{
+  "run_timestamp_utc": "2026-05-17T08:19:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e7b001a1d6e1c2d3",
+      "title": "Provision of Remote Diagnostic and Predictive Maintenance System (RDPMS) at 54 Stations in Southern Railway",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "SOUTHERN RAILWAY",
+      "domain_industry": "Railways",
+      "service_bucket": "APM",
+      "scope_summary": "The tender is for the provision of a Remote Diagnostic and Predictive Maintenance System (RDPMS) at 54 railway stations across Southern Railway (MAS-11, SA-22, PGT-21 stations). The system will enable remote diagnostics and predictive maintenance capabilities for railway assets.",
+      "key_points": [
+        "Implementation of RDPMS at 54 stations.",
+        "System for remote diagnostics and predictive maintenance.",
+        "Project location: Chennai, Tamil Nadu.",
+        "Tender Value: \u20b9 444,535,954.85.",
+        "EMD: \u20b9 2,372,700.00."
+      ],
+      "deadline_utc": "2025-01-03T15:00:00Z",
+      "published_utc": "2024-12-13T19:54:00Z",
+      "estimated_value": {
+        "amount": 444535954.85,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tendersontime.com/provision-of-remote-diagnostic-tender-id-111706032",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "77e3871ee94939b7",
+      "title": "Supply and Installation of Digital Twin of Thermal Management System for Electric Vehicle",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIITDM Kancheepuram",
+      "domain_industry": "Education & Research - Automotive",
+      "service_bucket": "AIM",
+      "scope_summary": "This tender is for the supply and installation of a Digital Twin of a Thermal Management System for an Electric Vehicle. The system will include specific hardware and software components as detailed in the annexure.",
+      "key_points": [
+        "Supply and installation of Digital Twin for EV Thermal Management.",
+        "Includes hardware and software components.",
+        "Bid validity: 90 days.",
+        "EMD: \u20b9 1,05,000/-.",
+        "Local supplier preference (Class-I / Class-II) with minimum 20% local content."
+      ],
+      "deadline_utc": "2024-09-09T00:00:00Z",
+      "published_utc": "2024-09-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://eprocure.gov.in/eprocure/app",
+      "confidence": "medium",
+      "url_status": "ok"
+    },
+    {
+      "id": "3127242137e3d178",
+      "title": "BIM Services for Demolition of Standard Design Factory 1 and Construction of New Enterprises and Services Tower 3 in SEEPZ SEZ",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Santacruz Electronics Export Processing Zone Special Economic Zone Mumbai",
+      "domain_industry": "Infrastructure & Construction",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "The tender is for Project Management Consultancy (PMC) for the demolition of Standard Design Factory 1 and the construction of a new Enterprises and Services Tower 3 in SEEPZ SEZ, Mumbai. This includes preparing 3D BIM models (LOD 300/350) for all disciplines as per ISO 19650 standards for design coordination, clash detection, and quantity estimation.",
+      "key_points": [
+        "PMC for demolition and new construction in SEEPZ SEZ.",
+        "Preparation of 3D BIM models (LOD 300/350) for all disciplines.",
+        "BIM models to support design coordination, clash detection, and quantity estimation.",
+        "Compliance with ISO 19650 standards.",
+        "Architectural design aligned with Master Plan under Package 1."
+      ],
+      "deadline_utc": "2025-12-17T17:00:00Z",
+      "published_utc": "2025-11-27T09:00:00Z",
+      "estimated_value": {
+        "amount": 0.0,
+        "currency": "INR"
+      },
+      "source_url": "https://eprocure.gov.in/eprocure/app?page=TenderInformation&serviceFilter=1&tnid=2025_SEEPZ_887305_1",
+      "confidence": "high",
+      "url_status": "ok"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
