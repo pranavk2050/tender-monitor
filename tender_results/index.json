@@ -89,7 +89,13 @@
       "shard": "india",
       "run_utc": "2026-05-17T08:19:46Z",
       "tenders_found": 3
+    },
+    {
+      "file": "australia_nz/tenders_2026-05-18T10-01-22Z.json",
+      "shard": "australia_nz",
+      "run_utc": "2026-05-18T10:01:22Z",
+      "tenders_found": 0
     }
   ],
-  "updated_utc": "2026-05-17T08:19:46Z"
+  "updated_utc": "2026-05-18T10:01:22Z"
 }
