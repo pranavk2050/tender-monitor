@@ -1,0 +1,217 @@
+{
+  "run_timestamp_utc": "2026-05-22T08:58:00Z",
+  "lookback_days": 1,
+  "tenders_found": 7,
+  "tenders": [
+    {
+      "id": "2d294025d259e0a2",
+      "title": "SELECTION OF Architects / Architectural Firms for providing architectural designs and services towards Development of Research Park and associated facilities at IIT Bhilai",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Bhilai",
+      "domain_industry": "Education - Research Infrastructure",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "IIT Bhilai invites proposals from architects/architectural firms for providing design services for their Research Park and associated facilities. The scope includes BIM modeling, sustainability assessment, quantity surveying, and cost estimation, with a focus on advanced design and coordination platforms.",
+      "key_points": [
+        "Demonstrable experience in using BIM platforms (Autodesk Revit, ArchiCAD or equivalent) is required; all drawings must be prepared in BIM/Revit.",
+        "Proficiency in CAD, 3D visualization, and documentation tools.",
+        "Service integration (internal and external) to be prepared and submitted in BIM/Revit model with clash detection features.",
+        "Minimum average annual turnover of Rs. 3.0 Crores in the last three financial years (2022-23, 2023-24, 2024-25).",
+        "Submission of technical bid (without financial bid) as hard copies.",
+        "Evaluation based on Quality-cum-Cost Based Selection (QCBS) methodology.",
+        "Tender fee Rs 1000/- and EMD Rs 3,00,000/-."
+      ],
+      "deadline_utc": "2026-06-15T14:00:00Z",
+      "published_utc": "2026-05-05T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.iitbhilai.ac.in/wp-content/uploads/2026/05/RFP-Architectural-Consultancy-Research-Park.pdf",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "c00f91a5e1c3b2a4",
+      "title": "INTERIOR DECORATION AND AESTHETIC UPLIFTMENT OF LOBBY AREA OF OFFICE OF R&D, IIT Kharagpur",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Indian Institute of Technology Kharagpur",
+      "domain_industry": "Education - Campus Infrastructure",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "IIT Kharagpur invites bids for interior decoration and aesthetic upliftment of the Lobby Area of the Office of R&D. The scope includes space planning, 2D layout, 3D design, and virtual walkthroughs.",
+      "key_points": [
+        "Space Planning & 2D layout and 3D design along with virtual walkthrough.",
+        "Provide and install a suspended wooden ceiling system.",
+        "Coordination with MEP services and precise cut-outs for lighting and fixtures.",
+        "Average Annual Turnover of at least 30,00,000 INR during last 3 financial years (2023-24, 2024-25, and 2025-26).",
+        "Past experience of an integrated project of similar nature with an order value of Rs. 30 lakhs and above.",
+        "Warranty of 5 years after successful installation and demonstration."
+      ],
+      "deadline_utc": "2026-06-01T12:00:00Z",
+      "published_utc": "2026-05-18T00:00:00Z",
+      "estimated_value": {
+        "amount": 6000000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&session=T&sp=S8m52HjM5xOQY0xGjLh9lEw%3D%3D",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "233f8102d1d0c3a2",
+      "title": "Supply, Installation, Testing and Commissioning of IoT-based Ultrasonic-type Digital water meters Confirming to ISO:4064-2014 for water supply lines to the additional Buildings at IIT Hyderabad, Kandi, Sangareddy.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Hyderabad",
+      "domain_industry": "Education - Smart Campus",
+      "service_bucket": "APM",
+      "scope_summary": "IIT Hyderabad invites bids for the supply, installation, testing, and commissioning of IoT-based ultrasonic digital water meters for new buildings. The system should support data logging, transmission, and internal storage for a minimum of one year.",
+      "key_points": [
+        "IoT-based Ultrasonic-type Digital water meters confirming to ISO:4064-2014.",
+        "Data logging & transmission frequency: Every 24 hours / 8 hours by default, configurable over the air.",
+        "Data storage internally in the meter for minimum 1 year.",
+        "Lithium battery with a minimum life of 5 years with 1 transmission per day, replaceable on field.",
+        "Bid will be treated as abnormally low if the quoted bid amount is lesser than 80% of the estimated cost.",
+        "Predictive maintenance of devices."
+      ],
+      "deadline_utc": "2026-05-28T00:00:00Z",
+      "published_utc": "2026-04-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.iith.ac.in/assets/files/tenders/2026/NIT_Civil-IIT_H-71-2025-26.pdf",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1e2f7b8c9a0d1e2f",
+      "title": "Framework agreement of topographical survey gpr survey bathymetric survey and geotechnical investigation for upcoming projects.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Power Sector",
+      "domain_industry": "Power Generation",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender seeks an agency for a framework agreement covering topographical surveys, GPR surveys, bathymetric surveys, and geotechnical investigations for upcoming projects in the power sector.",
+      "key_points": [
+        "Topographical survey services.",
+        "GPR survey services.",
+        "Bathymetric survey services.",
+        "Geotechnical investigation services.",
+        "Stay updated daily with genuine government tender listings."
+      ],
+      "deadline_utc": "2026-06-04T00:00:00Z",
+      "published_utc": "2026-01-05T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersniper.com/gpr-survey-tenders-in-india",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "a93c7f1e6b5d0824",
+      "title": "Tender for preparing the estimate for the work of item no. 1 adivali small irrigation scheme, tal. shahapur, dist. thane dam safety, on a pilot basis, measuring the dam with lider technology, structural audit and digitization 3d laser scanning etc.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Departments - Thane - Maharashtra",
+      "domain_industry": "Water Resources - Dam Safety",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender is for preparing an estimate for dam safety work at Adivali Small Irrigation Scheme, Thane, Maharashtra. The work includes measuring the dam with LiDAR technology, structural audit, and digitization through 3D laser scanning.",
+      "key_points": [
+        "Preparation of estimate for dam safety work.",
+        "Measuring the dam with LiDAR technology.",
+        "Structural audit.",
+        "Digitization through 3D laser scanning."
+      ],
+      "deadline_utc": "2026-05-19T00:00:00Z",
+      "published_utc": "2026-05-18T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendertiger.com/laser-scanning-tenders-in-india",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/Home/Index"
+    },
+    {
+      "id": "0d1e2f3a4b5c6d7e",
+      "title": "Supply of AR/VR based emotion evoking experimental kit",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Boards / Undertakings / PSU - Delhi",
+      "domain_industry": "Public Sector - Research & Development",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "This tender is for the supply of an AR/VR based emotion evoking experimental kit for a PSU in Delhi.",
+      "key_points": [
+        "Supply of AR/VR based emotion evoking experimental kit.",
+        "Tender published in 2026."
+      ],
+      "deadline_utc": "2026-05-20T00:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendertiger.com/ar-vr-tenders-in-india",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/Home/Index"
+    },
+    {
+      "id": "84a5b6c7d8e9f012",
+      "title": "Bids are invited for AR/VR training module developement total quantity : 1.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Departments - Bangalore - Karnataka",
+      "domain_industry": "Government - Training & Development",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Bids are invited for the development of an AR/VR training module by a government department in Bangalore, Karnataka.",
+      "key_points": [
+        "AR/VR training module development.",
+        "Total quantity: 1.",
+        "Tender published in 2026."
+      ],
+      "deadline_utc": "2026-05-20T00:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendertiger.com/ar-vr-tenders-in-india",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/Home/Index"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDfLUm4wxU6eT3s3GvYGOVI7FJ7uy2x6c882BRDQCX2tKRsXLN29Wy9tURsMg4WZVQCVgZcLHl0XCHDA1x_JyF7YMsQRjA26B89EKS4fSKBS_l4EPjqPL-m8U7t78QfoaDHo9xzrBGNyCszhR7oFxDFTk=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGothsM_8uORF_1xjqwlAtJDvrEKEa1cFxIXDUNlQoTvRuIc1uKs0_6vA2oWJP7W1QJxEKH8-VlxaMaB2lQrwAmPcUnNy0rSY8aBFsQ6hIUL0ZRq3bFKc5ghuDBy_kvsw_xnAdXdQOteciO2PGLzo4mmR5PfxI1uxWf6cMM0GSRhjuvRWKND8B3TzQ=",
+      "title": "iitkgp.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsg3vColRf3_1AqLzn3wJ41YVQe-KuUNc_jsVfOF0Xy-jMkVcCsxjzcR14zOrAfeGfkutGuTArxzRKc2fQmySSlAMHP0r3lwFUrqVZJ9kjNvp0Y11GT-GwBIKtZf4TI45XSEyXEbguRnBG_MzABRIkB5qwZPQKbC5eap81OAziNi_xt-9s2dllXgI7cNairjWhjDE=",
+      "title": "iith.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Bshy2UxUB9_gom0tkyMSYzbtpfuaJ9ln1aga5oOjrOvh3RYNvSorgCu8z0Q4VexWUvnodQhjJfUqHrl5q99OMMuqpBnFr-wrXFbQNnaoTSrLn6CCAdhjkFvbcTAfUCLn7EDXq8_Yl_egBP9TWnCw-P5sUXE2",
+      "title": "tendersniper.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbV3hKyX5KlIMD0MGRPPaKuOV8KZBxHLMU_6yhPiZKllIqZz0hu0g6fi48guTUoednNT8o8ErWJ9cNTzBawfPohZX-innzDb5lSyr8skKY9DR50QYvz1hFVhYG0K9hdaBLqEzW8Zf_L6cX9iccgJHkjSUi7SfwIaIRvw9J",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6jIDJAB1kWy0SS1i3vUAXJHkCLk9WoO4yOAvc1HjnnlfcUjUvVRGg2REQf0QGUsxpllBx9gZY8b9A0doG0jUXCo6O_yz8_ZOr9OS-6G1CkhFO7D5xnB3ntHVSSKyVofifWIz333tvq4x6pN8oMbb0N518",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
