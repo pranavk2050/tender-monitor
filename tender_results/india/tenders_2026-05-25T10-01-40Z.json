@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-05-25T10:01:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGucwGv6Q66DggxinmHT85mq4sbDQOXBPafFQpJcYhsWnqAvxKERN_DcTKpUGGcWnj8z9h9U3owWXOkqSpDJEY4LSJMBPDrYudhdv3BBhn_JloQlAD4AvlfvfhZmI0ln1XD0aRu0VXsAA==",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoDmLOz9ePa1ToaHuY3PHXpWB4PiCGXSzjMdfTG0U3I3ElXk6zQYIC_YMfcGCRbuCimSWlbi8-3Gfb5etLSQ7WJ2b37wIzqn736CHTtMR1xBEKsa_9_tEfPJs-CXT9MXKM0gE3-mQ5DpFx4WMhLp8oaClB3twjketOAESN974ABgMm-M5rWqyjiWXdkQ==",
+      "title": "iiml.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPfgwF8ReP-O4S0D3gsvCRguAZxPHcQSTo_RFWVMo4JP4eOfX4cvIcP2uFqmv9motjaMjP2Ef_EAzUIfNk-b8eU-Z6THuKvMBHwewtfhPMTk8wNCCWH5LQ14WVDqQB-cO2ivphPjjOuCwr9p0eJQ185U5yZ78ca4tsfIABrRFbme1R-wlLmGvevdrQHyADQjxR-sW01RHfcKboMlWF10i3XfTdP16_PFdCTCCihWrLGwOPjNDr",
+      "title": "mdi.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb6gtH1B8l5gIxSFjRxpMfRVAZImuWSLvH37LJ2SzC5-rABZxr-_vGMqTli4RyNZQO-CIPJjEKQkIFCEgluvpl7tsqM2MKaV068ih9mxkwPzhOFHejzDiKyPS5WEDBXqtSU7_OyzCxgQtWSYJlcUaAjHulMYOVPScCf5CgzKGbQsLA3szIhwNhgQPKYHiZyzwWMbMiknw5LnpchcH-tmO8T13A",
+      "title": "telanganatender.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfNKgH87MshX_7XfjZKGWJRSlofmpIPnSNCffChWqcoq3UFVajStXqQN7vTSGZtCuRVZurSWDeCexqdFnGmFniDwYTLD9BBrgJnIjjpCa6KezAOqPWzC3_MAFBI1DOs6ut_wSx2B_5y_FMwWHUWZTe8HAhuwW-8FpA0JG1MoPtcxiimOD9",
+      "title": "seepz.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7NgnPgOtL2v41BUFvaLtkX1SBlKjwowDJMg2KD6J3tfyY8-lKV3eA7GKDkWMu55OLHkB6P8hjMpwOFTv4neo17Ma6HrisDraRlUWrun7-QcqcMOzswF7fwg5RjuInyeUM9xZh0XCqZcumS7iULqJ-gjnDdJw=",
+      "title": "icfoss.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmXaZZnDgThk3HZogPsk9Y86fH-YgcF1slyNA3lBSAEiPc5SJgRs77tIEkrr0fWe3bhahU3r_SRNzNCyD1nOmTiOUiv_TYKv3Jb1lm1tbEkbJiYe6C4Qps4brOlZ6TjfXB9bxe_fNI3BWz",
+      "title": "ncpor.res.in"
+    }
+  ],
+  "shard": "india"
+}
