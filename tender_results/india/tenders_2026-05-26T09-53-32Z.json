@@ -1,0 +1,151 @@
+{
+  "run_timestamp_utc": "2026-05-26T09:52:00Z",
+  "lookback_days": 1,
+  "tenders_found": 5,
+  "tenders": [
+    {
+      "id": "c13837265a0b656e",
+      "title": "Expression Of Interest For Development Of Digital Twin Platform",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Bharat Electronics Limited (BEL)",
+      "domain_industry": "Software & IT Solutions",
+      "service_bucket": "AIM",
+      "scope_summary": "Bharat Electronics Limited (BEL) invites Expressions of Interest for the development of a Digital Twin Platform. This tender, referenced BEL/Software/800016184, seeks services related to miscellaneous services in Bangalore.",
+      "key_points": [
+        "Development of a Digital Twin Platform.",
+        "Tender Reference Number: BEL/Software/800016184.",
+        "Location: Software SBU, Bangalore.",
+        "No tender fee or EMD is required.",
+        "All inquiries should be directed to Indrajit M Patel, Software SBU, Bangalore."
+      ],
+      "deadline_utc": "2026-05-25T04:30:00Z",
+      "published_utc": "2026-05-15T10:20:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMvc_KuRZsE8d9kEWvNuGCCO4D-D4kb4qg9rE777kswquV4EOY40-PBsqSlHatoXp_Mnm1iPmPRQ5CU6NFHxKR5BoBohQ7k_e1eLDcC1Rrnsm4fQL9kC8OT2bTLDSFXgYj34nEOg6uHnDngTawNVU_yfus9Mq63FLaAy8Gxrmzy7Lu35jWoZX6kY16YE15idzf6rKqcBxHRGu_NKFh679K6Sfv_Spzol4ThD_uoOw",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendershark.com/details/karnataka-tender/bharat-electronics-limited/5514c6a1-79bd-4cfc-b744-153725983bbe"
+    },
+    {
+      "id": "e301211e03264c76",
+      "title": "Tender Invited For GEOTECH INVESTIGATION",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Departments",
+      "domain_industry": "Environmental Work",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender invited for Geotech Investigation by a Government Department in Chennai, Tamil Nadu.",
+      "key_points": [
+        "Geotech Investigation services.",
+        "Hiring of Consultants - Milestone/Deliverable Based.",
+        "Quantity: 1."
+      ],
+      "deadline_utc": "2026-05-26T10:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": 3000000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHRyK0CqERRU02zbNDFF6yAu11ojNMFdm8DBhZbGjiP40J9EyA-9D6qr9oiENOtL2RrZ64lLhEmOEOvv0MXVMLpbWyVpM2o9p4YX8e3ZMCm4zoeQLj1v1lEzdHkDO8X0WrEbYmwHazbV-Ui33yy0lkOEsRDoRgvMJUil3oh4xFJHFfzsv-J_ctVNGvbojHaIDwcxGx0inJ3s3gWQ",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/TenderAI/TenderAIList?searchtext=geotechnical%20investigation-tenders"
+    },
+    {
+      "id": "422c54f4949a0b0d",
+      "title": "Carrying out GPR Survey for geophysical investigations and assessing likely cavities underneath the raft at Sundilla barrage Telangana",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Power Plant",
+      "domain_industry": "Power Plant",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender for conducting GPR Survey for geophysical investigations and assessing potential cavities beneath the raft at Sundilla barrage in Telangana.",
+      "key_points": [
+        "GPR Survey for geophysical investigations.",
+        "Assessment of cavities underneath the raft.",
+        "Location: Sundilla barrage, Telangana."
+      ],
+      "deadline_utc": "2026-05-21T10:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHRyK0CqERRU02zbNDFF6yAu11ojNMFdm8DBhZbGjiP40J9EyA-9D6qr9oiENOtL2RrZ64lLhEmOEOvv0MXVMLpbWyVpM2o9p4YX8e3ZMCm4zoeQLj1v1lEzdHkDO8X0WrEbYmwHazbV-Ui33yy0lkOEsRDoRgvMJUil3oh4xFJHFfzsv-J_ctVNGvbojHaIDwcxGx0inJ3s3gWQ",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/TenderAI/TenderAIList?searchtext=geotechnical%20investigation-tenders"
+    },
+    {
+      "id": "776734199ce5b8f6",
+      "title": "Supply and Installation of Digital Twin of Thermal Management System for Electric Vehicle",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIITDM Kancheepuram",
+      "domain_industry": "Education & Research",
+      "service_bucket": "AIM",
+      "scope_summary": "IIITDM Kancheepuram invites tenders for the supply and installation of a Digital Twin of a Thermal Management System for Electric Vehicles.",
+      "key_points": [
+        "Supply and Installation of Digital Twin of Thermal Management System.",
+        "For Electric Vehicles.",
+        "Tender Number: IIITDMK/24-25/SP/DTTMS/015."
+      ],
+      "deadline_utc": "2026-05-21T09:30:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkVv99lqmfYNv-CTCZTBBDPCjPxc-5uI-Wsgl3fibtZZ8A64_n3XC-AsK_KYdHlpAQwGJpFpZUntBCiSStxTGYsZ6nBXPPfFkDYuN6lHFeJq5FWER5_7FB-w",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "a909623e6b72f1c8",
+      "title": "Bids are invited for AR/VR training module developement total quantity : 1",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Boards / Undertakings / PSU",
+      "domain_industry": "Education & Training",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Bids are invited for the development of an AR/VR training module. The total quantity required is 1.",
+      "key_points": [
+        "Development of AR/VR training module.",
+        "Total quantity: 1."
+      ],
+      "deadline_utc": "2026-05-20T00:00:00Z",
+      "published_utc": "2026-05-18T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb6LlNnu4bKzGm2FiHiur_oWWHdxSMisPHk0IAK0nYfn9h788Top1E27Km4zDT0GxwjxTpWZ4I6e2rKe7bQEk6NiBpZcr0o8AJcr6j21PiCYV0kBSwj3tCLtgo0dbwKl0J1qu9O4Bkw636Qf6VbCKBZgw",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/ar-vr-tenders"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMvc_KuRZsE8d9kEWvNuGCCO4D-D4kb4qg9rE777kswquV4EOY40-PBsqSlHatoXp_Mnm1iPmPRQ5CU6NFHxKR5BoBohQ7k_e1eLDcC1Rrnsm4fQL9kC8OT2bTLDSFXgYj34nEOg6uHnDngTawNVU_yfus9Mq63FLaAy8Gxrmzy7Lu35jWoZX6kY16YE15idzf6rKqcBxHRGu_NKFh679K6Sfv_Spzol4ThD_uoOw=",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHRyK0CqERRU02zbNDFF6yAu11ojNMFdm8DBhZbGjiP40J9EyA-9D6qr9oiENOtL2RrZ64lLhEmOEOvv0MXVMLpbWyVpM2o9p4YX8e3ZMCm4zoeQLj1v1lEzdHkDO8X0WrEbYmwHazbV-Ui33yy0lkOEsRDoRgvMJUil3oh4xFJHFfzsv-J_ctVNGvbojHaIDwcxGx0inJ3s3gWQ==",
+      "title": "tendertiger.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkVv99lqmfYNv-CTCZTBBDPCjPxc-5uI-Wsgl3fibtZZ8A64_n3XC-AsK_KYdHlpAQwGJpFpZUntBCiSStxTGYsZ6nBXPPvFkDYuN6lHFeJq5FWER5_7FB-w==",
+      "title": "iiitdm.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb6LlNnu4bKzGm2FiHiur_oWWHdxSMisPHk0IAK0nYfn9h788Top1E27Km4zDT0GxwjxTpWZ4I6e2rKe7bQEk6NiBpZcr0o8AJcr6j21PiCYV0kBSwj3tCLtgo0dbwKl0J1qu9O4Bkw636Qf6VbCKBZgw=",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
