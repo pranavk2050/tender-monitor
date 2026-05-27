@@ -1,0 +1,86 @@
+{
+  "run_timestamp_utc": "2026-05-27T09:41:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e605d39e248b04a8",
+      "title": "Carrying out digital survey, digital mapping & ground penetration radar (GPR) survey and providing drawings of the built-up properties and open area including details of underground utility services of various Sports Complexes/Golf Courses under sports zone (Specialized work)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Delhi Development Authority (DDA)",
+      "domain_industry": "Urban Development & Infrastructure",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender involves conducting digital survey, digital mapping, and GPR survey for sports complexes and golf courses. The scope includes providing drawings of built-up properties and open areas, with detailed information on underground utility services.",
+      "key_points": [
+        "Digital survey and mapping of sports complexes and golf courses.",
+        "Ground Penetration Radar (GPR) survey.",
+        "Provision of drawings for built-up properties and open areas.",
+        "Detailed mapping of underground utility services.",
+        "Estimated cost: Rs. 1,71,69,243.00.",
+        "Earnest Money: Rs. 3,43,385.00."
+      ],
+      "deadline_utc": "2026-05-25T11:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": 17169243.0,
+        "currency": "INR"
+      },
+      "source_url": "https://eprocure.gov.in/eprocure/app",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "762f275e7a9e9a6c",
+      "title": "Maintenance of Various Schemes Under Na-ii (east Zone)sh-gpr Survey For Detection Of Underground Pipeline Alignment And Defect/leakage Identification Of Pump House, Gazipur (Specialized Work)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Not specified (listed on Infinity Tenders Private Limited platform)",
+      "domain_industry": "Water & Sanitation Infrastructure",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "The tender is for GPR survey work to detect underground pipeline alignment and identify defects/leakages in the pump house at Gazipur. This is a specialized work under the maintenance of various schemes in the Na-ii (East Zone).",
+      "key_points": [
+        "GPR survey for underground pipeline alignment detection.",
+        "Defect/leakage identification of pump house.",
+        "Specialized work under maintenance schemes.",
+        "Document Cost: Rs. 6,783.00.",
+        "EMD: Rs. 339,148.00."
+      ],
+      "deadline_utc": "2026-05-25T23:59:59Z",
+      "published_utc": "2026-05-26T00:00:00Z",
+      "estimated_value": {
+        "amount": 339148.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.tenderduniya.com/tender-details/45249211",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "ed76b4a3a30a7d90",
+      "title": "Supply of LIDAR - 3D Laser Scanning and Imaging System as per MHA QRS",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Not specified (listed on Tender247)",
+      "domain_industry": "Public Safety & Security",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender is for the supply of a LIDAR - 3D Laser Scanning and Imaging System, adhering to the specifications outlined in the Ministry of Home Affairs (MHA) Quality Requirements for Systems (QRS).",
+      "key_points": [
+        "Supply of LIDAR - 3D Laser Scanning and Imaging System.",
+        "Compliance with MHA QRS specifications.",
+        "Quantity: 1 unit."
+      ],
+      "deadline_utc": "2026-05-26T23:59:59Z",
+      "published_utc": "2026-05-23T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tender247.com/imaging-system-government-tenders.php",
+      "confidence": "medium",
+      "url_status": "ok"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
