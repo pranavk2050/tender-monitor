@@ -1,0 +1,88 @@
+{
+  "run_timestamp_utc": "2026-05-29T09:50:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "906c646b5a374667",
+      "title": "Implementation of Digital Twin Technology for Port Operations",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Jawaharlal Nehru Port Authority (JNPA)",
+      "domain_industry": "Ports & Logistics",
+      "service_bucket": "AIM",
+      "scope_summary": "JNPA has floated a tender on the Government e-Marketplace (GeM) for the implementation of a Digital Twin project. This initiative aims to create a virtual replica of the port's physical assets, processes, and systems for real-time monitoring, predictive analysis, and data-driven decision-making.",
+      "key_points": [
+        "Create a virtual replica of port assets, processes, and systems.",
+        "Enable real-time monitoring and predictive analysis.",
+        "Facilitate data-driven decision-making for sea-side and land-side operations.",
+        "Support optimization of environmental management, safety standards, and hinterland connectivity.",
+        "Integrate key stakeholders like shipping lines, terminal operators, customs authorities, transporters, and Container Freight Stations (CFS)."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-04-01T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwPapwiLS25l9O24mEVOK5iDQBY8ErmQBU7FQpC8GrKBohImydbQqctwB_x0hm2FiKR5jNOFPAsT2MFtonDKEEvA9PxkAzW3dK4-iINCDwM5ypNI-EnoTl4zPjdkTsbdGZ8Ked6Py1kfNGA_L8fTyMsfKhBuPRG1G_dh-ssgWJxiHLG5qvREac5XC2QFA5rOlum0OAvP39a2KMFqBX_gZXZRfX1QGeI4Btnnk2cWzJuE",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "98144b6c31df95e2",
+      "title": "Monitoring Infrastructure Projects using IDDP (Integrated Digital Delivery Platform) for MMRDA",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Mumbai Metropolitan Region Development Authority (MMRDA)",
+      "domain_industry": "Infrastructure - Metro & Urban Development",
+      "service_bucket": "AIM",
+      "scope_summary": "MMRDA is implementing an Integrated Digital Delivery Platform (IDDP) to manage Metro and Infrastructure construction projects. This involves leveraging BIM, GIS integration, 5D BIM, drone technology, and ERP integration for enhanced data management, collaboration, visualization, and efficient monitoring.",
+      "key_points": [
+        "Utilize BIM for managing digital representations of physical and functional characteristics.",
+        "Integrate GIS for visual and geo-tagged information of land, property, and utilities.",
+        "Employ 5D BIM for real-time cost estimation and schedule visualization.",
+        "Integrate drone technology for project monitoring.",
+        "Integrate with ERP for data management and decision-making."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-05T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYvtRiz9CzDIygcEP0Nlk8W0wLtvFEzAo5wJZsvOPjJII7ljNQm9H9ba6XTDgoV23It255LVYxb1GkZwTPLt-FXwXOym-xbK_tsQ9CwwbDeDjd-7BgiBnbGsI9J53vAD7jp5hN0GAfPIsN0u6B0okI9SEYQ016asIlYver0srFyw6d3GmVWx7yqkKDn0m05Q",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1e5f8b9d0c1a2e3f",
+      "title": "Artificial Intelligence Enabled Condition Based Monitoring and Predictive Maintenance of AFV Engine",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government of India (via TendersOnTime)",
+      "domain_industry": "Defense",
+      "service_bucket": "APM",
+      "scope_summary": "This tender seeks solutions for AI-enabled condition-based monitoring and predictive maintenance for Armoured Fighting Vehicle (AFV) engines. The scope includes deploying AI/ML technologies to predict potential engine failures and optimize maintenance schedules.",
+      "key_points": [
+        "Implement AI for condition-based monitoring of AFV engines.",
+        "Develop predictive maintenance capabilities for engine health.",
+        "Utilize AI/ML technologies to anticipate failures.",
+        "Optimize maintenance schedules to increase operational readiness.",
+        "Tender floated by the Government of India."
+      ],
+      "deadline_utc": "2026-05-16T00:00:00Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQp6bEgX6dsrkEvLJ4kal8Kv2G56zN_098GRkqdgl_rawojTPEGKlv_gBq-wRYhCTuYNQ5m_mnCujikaxSTVAO_CUuHZdiMNUb-aYVMDL0vbcWmF2rLQgraumu5llJQLr8i89mog9pA0UNBihdf4nzsCxK3KHMPwcwFRYlkABQxMvE-O04coWtQoZcmNZ_pDdB",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendersontime.com/new%20caledonia-tenders/artificial-intelligence-tenders/"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
