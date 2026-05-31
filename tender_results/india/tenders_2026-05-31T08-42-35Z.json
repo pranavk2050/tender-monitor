@@ -1,0 +1,133 @@
+{
+  "run_timestamp_utc": "2026-05-31T08:42:00Z",
+  "lookback_days": 1,
+  "tenders_found": 5,
+  "tenders": [
+    {
+      "id": "d040854d92248ce9",
+      "title": "BIM Electrical Engineer for diverse projects across UK, US, and Gulf regions",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Everest Technical Services",
+      "domain_industry": "Consulting - Engineering",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Development and coordination of electrical designs using Building Information Modeling (BIM) for projects in the UK, US, and Gulf regions. Responsibilities include BIM Modeling on Revit, MEP services modeling and coordination, clash detection and resolution using Navisworks Manage, and preparation of LOD 400 shop drawings and LOD 300 tender drawings.",
+      "key_points": [
+        "Hands-on experience in BIM Modelling on Revit software is required.",
+        "Proficiency in Revit MEP, AutoCAD, Revit Fabrication, BIM 360, Navisworks is essential.",
+        "Clash detection and resolution using Navisworks Manage.",
+        "Preparation of LOD 400 shop drawings for construction issue and LOD 300 drawings for tender issue.",
+        "Knowledge of Dynamo and Autodesk COBie is an advantage."
+      ],
+      "deadline_utc": "2026-07-29T23:59:59Z",
+      "published_utc": "2026-05-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTaGuRaVdSMZtzWAK5MWKBmnZnFZgKjlrXrP342yKbYSxDoNRqxKEYbhMiCNzVLODZi7pY7uUSR-zvTf8MGpjW5uKtkgpUWaaC7gy0bZiiqqFQ8pFLziw3aqSFYK8YeRO44yp1CGR3F6Djv15vrIUQIxEGc8ToDYJ4tadiACoNXpRNvSaMoQ2l57jvEkQ3n8lTXg02-xXlpc3HAg==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.ziprecruiter.in/jobs/538171814-engineer-bim-electrical-at-everest-technical-services"
+    },
+    {
+      "id": "c76d2146e507b973",
+      "title": "MEP Engineer-Design & BIM for projects across various sectors",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Clancy Global",
+      "domain_industry": "Engineering & Construction",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Develop MEP design deliverables (concept, schematic, detailed design, tender, GFC) for diverse projects and create MEP BIM models in Autodesk Revit (LOD 200-500). Drive multidisciplinary clash detection and resolution using Navisworks Manage, and implement project BIM Execution Plans.",
+      "key_points": [
+        "Develop MEP design deliverables (concept, schematic, detailed design, tender, and GFC).",
+        "Develop MEP BIM models in Autodesk Revit across LOD 200 to LOD 500 for various disciplines.",
+        "Drive multidisciplinary clash detection and resolution using Navisworks Manage.",
+        "Implement and follow project BIM Execution Plans (BEP), LOD matrices, and in-house BIM standards.",
+        "Use collaborative platforms such as BIM 360 / Autodesk Construction Cloud (ACC) for model sharing and issue tracking."
+      ],
+      "deadline_utc": "2026-06-30T23:59:59Z",
+      "published_utc": "2026-05-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRDYCrmhbRcdRBLZOFOUCEb0dKtCNKiAyIbKhNAUDmHhLDbClWTCozzxAPkbHwNiJfbrSs6hCDd-o3O2yC0DFwhLe4CqDtPVkquAXQ8XK4oHvfVqMPOgiy4zLqYsHeX7sK7mHnhmZqNxxbnAGzLbwbQH3ov8rLk6YxI6dmEo0QNHnDfut5wttfYx_HMH4A2OzreGYlLzcaIic9JpUjx8MQUJhzzg==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://bebee.com/in/jobs/mep-engineer-design-bim-clancy-global-bengaluru-karnataka--theirstack-695482934"
+    },
+    {
+      "id": "9426f07d2f954002",
+      "title": "Tender for Digital Twin Modeling & Software for Naval Dockyard Visakhapatnam",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Naval Dockyard Visakhapatnam",
+      "domain_industry": "Defense",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for Digital Twin Modeling & Software services. Details are available in the tender document.",
+      "key_points": [
+        "Specific scope details are available in the tender document.",
+        "The tender is issued by Naval Dockyard Visakhapatnam."
+      ],
+      "deadline_utc": "2026-06-15T23:59:59Z",
+      "published_utc": "2026-05-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYqEvKjH6mjRi9fM5jV0trpztt3pYDbkaE-2XJIHrqiEyYljOo3-Gzx5920iGIl4xzTKYQ6-npvqFhg3PD5JS8WeAvEW2xVIbIGH9NmY2PuZ_S4NhadxYRAw4O_N5K8BtTnH9lRKoxVWYR-SnVNkwCfMRNlx0mwtEnjboApeAg224WesLnTbX6TcnrTXA==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "b05e0325400d3a7e",
+      "title": "Tender for Comprehensive Maintenance and Repairs/Replacement of Defective Parts of 15 Nos of IES make Lifts",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Naval Dockyard Visakhapatnam",
+      "domain_industry": "Defense",
+      "service_bucket": "APM",
+      "scope_summary": "Comprehensive Maintenance and Repairs/Replacement of Defective Parts for 15 IES make Lifts. This tender focuses on ensuring the continuous operational performance of critical equipment.",
+      "key_points": [
+        "Maintenance and repair of 15 IES make Lifts.",
+        "Includes replacement of defective parts.",
+        "Part of Naval Dockyard Visakhapatnam infrastructure."
+      ],
+      "deadline_utc": "2026-06-27T23:59:59Z",
+      "published_utc": "2026-05-30T00:00:00Z",
+      "estimated_value": {
+        "amount": 9000000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYqEvKjH6mjRi9fM5jV0trpztt3pYDbkaE-2XJIHrqiEyYljOo3-Gzx5920iGIl4xzTKYQ6-npvqFhg3PD5JS8WeAvEW2xVIbIGH9NmY2PuZ_S4NhadxYRAw4O_N5K8BtTnH9lRKoxVWYR-SnVNkwCfMRNlx0mwtEnjboApeAg224WesLnTbX6TcnrTXA==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "31b0e3524c9c1a0c",
+      "title": "Tender for REPAIRS & MAINTENANCE OF CENTRAL AC PLANTS",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Naval Dockyard Visakhapatnam",
+      "domain_industry": "Defense",
+      "service_bucket": "APM",
+      "scope_summary": "Repairs and Maintenance of Central AC Plants at Naval Dockyard Visakhapatnam. This tender addresses the upkeep and performance of essential facility infrastructure.",
+      "key_points": [
+        "Maintenance and repair of Central AC Plants.",
+        "Part of Naval Dockyard Visakhapatnam infrastructure."
+      ],
+      "deadline_utc": "2026-06-27T23:59:59Z",
+      "published_utc": "2026-05-30T00:00:00Z",
+      "estimated_value": {
+        "amount": 5500000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYqEvKjH6mjRi9fM5jV0trpztt3pYDbkaE-2XJIHrqiEyYljOo3-Gzx5920iiGIl4xzTKYQ6-npvqFhg3PD5JS8WeAvEW2xVIbIGH9NmY2PuZ_S4NhadxYRAw4O_N5K8BtTnH9lRKoxVWYR-SnVNkwCfMRNlx0mwtEnjboApeAg224WesLnTbX6TcnrTXA==",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
