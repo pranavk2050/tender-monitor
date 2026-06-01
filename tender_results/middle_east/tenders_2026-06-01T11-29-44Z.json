@@ -1,0 +1,96 @@
+{
+  "run_timestamp_utc": "2026-06-01T11:29:00Z",
+  "lookback_days": 18,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e30e1f7a01d51a66",
+      "title": "International Open Tender No.1 for Crushing and Screening Equipment and Mobile Stone Crushing Equipment",
+      "region": "Middle East",
+      "country": "Turkmenistan",
+      "tendering_authority": "State Agency for Management of Road Construction in Turkmenistan",
+      "domain_industry": "Road Construction",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "The tender seeks the purchase of crushing and screening equipment and mobile stone crushing equipment. It is an international open tender, with bids accepted within 30 business days from publication.",
+      "key_points": [
+        "Lot No.2: Crushing and screening equipment and mobile stone crushing equipment.",
+        "Lot No.4: Spare parts for crushing and screening equipment.",
+        "Written application required, applications from companies with accounts in offshore zones are not accepted.",
+        "Tender documentation fee: 500 US dollars or equivalent in manats per lot.",
+        "Submission requires a sealed envelope containing the complete tender proposal, an electronic questionnaire, main contract terms (Word), and technical/economic specification (Excel)."
+      ],
+      "deadline_utc": "2026-07-15T12:00:00Z",
+      "published_utc": "2026-06-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.oilreviewmiddleeast.com/latest-news/state-agency-for-management-of-road-construction-in-turkmenistan-announces-an-international-open-tender",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "281697926715f33f",
+      "title": "Development and Implementation of a Port of Los Angeles Digital Twin",
+      "region": "Middle East",
+      "country": "United States",
+      "tendering_authority": "City of Los Angeles Harbor Department",
+      "domain_industry": "Ports & Logistics / Government",
+      "service_bucket": "AIM",
+      "scope_summary": "This Request for Proposals (RFP) invites proposals for digital twin services to create a dynamic, data-driven virtual representation of the Port's physical assets, processes, and systems. The project will incrementally connect systems, data, and workflows into a unified spatial environment, focusing on ten key capabilities to deliver measurable results and establish a scalable foundation for future expansion.",
+      "key_points": [
+        "Develop a digital twin platform for the Port of Los Angeles.",
+        "Integrate real-time data from environmental sensors into the Digital Twin platform.",
+        "Develop digital inspection tools for infrastructure and environmental compliance.",
+        "Improve operational awareness, support regulatory compliance, and guide long-term investments."
+      ],
+      "deadline_utc": "2026-07-25T17:00:00Z",
+      "published_utc": "2026-02-10T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.governmentnavigator.com/port-of-los-angeles-digital-twin-request-for-proposals-february-2026/",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "d049b1625f1b6352",
+      "title": "Consultancy Services for Design and Supervision for Sewer Network",
+      "region": "Middle East",
+      "country": "KSA",
+      "tendering_authority": "Unspecified (listed on Energy Info - KSA Tenders)",
+      "domain_industry": "Water & Wastewater",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "The tender is for consultancy services related to the design and supervision of a sewer network. Further details would be available upon accessing the specific tender documents on the source portal.",
+      "key_points": [
+        "Consultancy services for design.",
+        "Supervision for sewer network projects."
+      ],
+      "deadline_utc": "2026-11-18T00:00:00Z",
+      "published_utc": "2026-05-18T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.theenergyinfo.com/tenders-by-country/ksa/",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAPPMnzQPQoXFYRpURSXuVbUzEQWgMq44anJzByTctdX4XYK4cBCERXFHvC9oWZHn1s9FCc6_xqGSewpmNTggntvF1YFTXS5tMZtLnPk9QZH2jPWFnS8ZI1oyKb9ukI7gOUCqwYuIgFVkZFrElKjnenXG1zdOL5zReZgNbsUCwIm36FppRONNH0GrDh0Hzr49j3YvFq2MtNUggg66wtOU_JARNwSKlqYSzrtrBkoiYBFp5k6oWbw2lYyDHNOexC24Df98KcA==",
+      "title": "business.com.tm"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtaiwwvybeZUu3xAxFL-FjoLoaoefC1boq-GU9gkKbPFfhnnz3iampEFRwf4WgB5y4IfG4JJUyXYmWLawMeE7wqi9kZhgpEc3YZVLdCBk7Koc6GpihzQdiTHWO4PLUiOo0Lq32ZwA8yj8LQkjUw2Q4_zGFh73qnAISg4UK_3gEh7rIpBpvdACIvhxtWED57r_f_QzNQ5hOJuWvsLi4DMAj8HtlF9h-9e4sYWcMe7AZd7mTi-GrPkA7jLmwVyCP4UVMzyTMAY3kXmPK",
+      "title": "governmentnavigator.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq8IQxrYdJaBJEYG-hdIE8nOt4rQpMCl4Ka_61zY0LLZUmrdDbGD1_0rUpWyQHIzDMlMY8tB4Wf9Y7FAx7kL6Zt3BMfLt2YobYWGgzpKVeb8hBy9vwWsk8YJomrbShea15bSIsWzeO",
+      "title": "theenergyinfo.com"
+    }
+  ],
+  "shard": "middle_east"
+}
