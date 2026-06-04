@@ -1,0 +1,248 @@
+{
+  "run_timestamp_utc": "2026-06-04T09:53:00Z",
+  "lookback_days": 1,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "9d6b2c8a1e3f4d50",
+      "title": "Planning Designing and Obtaining all Local Body Approvals and Construction of Teaching and Research Lab G Plus 4 in Precast RCC Structure System Consisting of all Civil E M Works and Services as per Conceptual P and D of BIM Models on EPC IISERB",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Indian Institute Of Science Education And Research",
+      "domain_industry": "Education / Construction",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "This tender is for the planning, designing, and construction of a G+4 teaching and research lab using a precast RCC structure system, including all civil and E&M works and services, based on conceptual P&D of BIM models on an EPC basis for IISERB.",
+      "key_points": [
+        "EPC contract for a G+4 teaching and research lab.",
+        "Utilizes precast RCC structure system.",
+        "Includes all civil and E&M works and services.",
+        "Requires conceptual P&D of BIM models.",
+        "Deadline: June 4, 2026"
+      ],
+      "deadline_utc": "2026-06-04T18:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": 850900000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.railwaytenders.com/bim-tender/bim-tender-128224",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "aa1513220d91d897",
+      "title": "Supply & Fixing of Plastic Dust Bins (12 Ltrs) and Home Composting Bims (60 Ltrs) Capacity for Sanitation Divisions in GMC",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Greater Mumbai Municipal Corporation (GMC)",
+      "domain_industry": "Urban Sanitation",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "This tender involves the supply and fixing of plastic dust bins (12 liters) and home composting BIMs (60 liters capacity) for sanitation divisions within the Greater Mumbai Municipal Corporation.",
+      "key_points": [
+        "Supply and fixing of 12 Ltr plastic dust bins.",
+        "Supply and fixing of 60 Ltr home composting BIMs.",
+        "For sanitation divisions in GMC.",
+        "Deadline: June 4, 2026"
+      ],
+      "deadline_utc": "2026-06-04T18:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersontime.com/indian-tenders/bim-tenders",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendersontime.com/indian-tenders/bim-tenders/"
+    },
+    {
+      "id": "19b78e35181156e7",
+      "title": "Supply, Installation and Commissioning of Differential Scanning Calorimeter (DSC) for O/o DGM CACT, CACT Complex, Dooravani Nagar, BSNL, QA and I Circle, Bangalore 560016",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Bharat Sanchar Nigam Limited (BSNL)",
+      "domain_industry": "Telecommunications",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender is for the supply, installation, and commissioning of a Differential Scanning Calorimeter (DSC) for the BSNL QA and I Circle in Bangalore.",
+      "key_points": [
+        "Supply, installation, and commissioning of DSC.",
+        "For BSNL QA and I Circle, Bangalore.",
+        "Deadline: June 4, 2026"
+      ],
+      "deadline_utc": "2026-06-04T18:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": 2000000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.railwaytenders.com/scanning-tender",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "3e9b165b45281a8f",
+      "title": "Reliability Improvement Work by Provision of IoT Based Remote Monitoring System for ATD in DAC-NLK and BHTA-Okha Section of Rajkot Division",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Indian Railways (Rajkot Division)",
+      "domain_industry": "Railways",
+      "service_bucket": "APM",
+      "scope_summary": "This tender seeks to improve reliability by providing an IoT-based remote monitoring system for ATD in specific sections of the Rajkot Division of Indian Railways.",
+      "key_points": [
+        "Implementation of IoT-based remote monitoring system.",
+        "Focus on ATD (Asset & Track Diagnostics).",
+        "Applicable in DAC-NLK and BHTA-Okha sections.",
+        "Deadline: June 4, 2026"
+      ],
+      "deadline_utc": "2026-06-04T18:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersontime.com/indian-tenders/predictive-maintenance-tenders",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendersontime.com/indian-tenders/predictive-maintenance-tenders/"
+    },
+    {
+      "id": "355d1425e4c0571f",
+      "title": "Engagement of DGR Empanelled Security Agency for Providing Security Services on Contractual Basis at ICMR \u2013 National Institute of Virology, Mumbai Unit",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "ICMR \u2013 National Institute of Virology, Mumbai Unit",
+      "domain_industry": "Healthcare / Security Services",
+      "service_bucket": "APM",
+      "scope_summary": "This is a limited tender enquiry for the engagement of a DGR empanelled security agency to provide security services on a contractual basis at the ICMR \u2013 National Institute of Virology, Mumbai Unit.",
+      "key_points": [
+        "Engagement of DGR empanelled security agency.",
+        "Provision of security services on contractual basis.",
+        "For ICMR \u2013 National Institute of Virology, Mumbai Unit.",
+        "Published Date: June 3, 2026.",
+        "Last date of receipt of Tender: June 18, 2026 (Upto 16:00 Hrs.)."
+      ],
+      "deadline_utc": "2026-06-18T10:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.niv.co.in/NIV_Mumbai/docs/Limited_Tender_Enquiry_DGR_Security_Services_Mumbai_Unit.pdf",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "f51b9e27c7f993d3",
+      "title": "Supply, Installation, Testing, Commissioning and Trial Runs of 2D & 3D Scanners",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Department (Punjab)",
+      "domain_industry": "Technology / Manufacturing",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender is for the supply, installation, testing, commissioning, and trial runs of 2D and 3D scanners in Punjab, India.",
+      "key_points": [
+        "Supply of 2D and 3D scanners.",
+        "Includes installation, testing, commissioning, and trial runs.",
+        "Location: Punjab, India.",
+        "Published Date: May 25, 2026.",
+        "Deadline: June 12, 2026."
+      ],
+      "deadline_utc": "2026-06-12T18:30:00Z",
+      "published_utc": "2026-05-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tenders.gov.in/latest-3d-laser-scan-tender-notice",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "0d6a4a1c5d8e7b9f",
+      "title": "Performing Sub Surface Utility Engineering (SUE) Survey Using Ground Penetrating Radar (GPR) And Electronic Cable and Pipe Locator (EPL) to Find out the Depth , Alignment and Diameter of Underground Utilities",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Department",
+      "domain_industry": "Infrastructure / Urban Planning",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender focuses on performing Subsurface Utility Engineering (SUE) surveys using Ground Penetrating Radar (GPR) and Electronic Cable and Pipe Locators (EPL) to determine the depth, alignment, and diameter of underground utilities.",
+      "key_points": [
+        "Conducting SUE surveys.",
+        "Utilizing GPR and EPL technologies.",
+        "Identifying depth, alignment, and diameter of underground utilities.",
+        "Published Date: May 25, 2026.",
+        "Deadline: June 9, 2026."
+      ],
+      "deadline_utc": "2026-06-09T18:30:00Z",
+      "published_utc": "2026-05-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersontime.com/indian-tenders/gpr-survey-tenders",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendersontime.com/indian-tenders/gpr-survey-tenders/"
+    },
+    {
+      "id": "b32c6d9a1f0e8a7c",
+      "title": "Custom Bid for Services - Rate Contract for Development of 2D and 3D Manufacturing Models for Spare",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Department",
+      "domain_industry": "Manufacturing",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "This tender is for a rate contract for the development of 2D and 3D manufacturing models for spare parts.",
+      "key_points": [
+        "Rate contract for 2D and 3D manufacturing model development.",
+        "Focus on spare parts.",
+        "Published Date: June 3, 2026.",
+        "Deadline: June 5, 2026."
+      ],
+      "deadline_utc": "2026-06-05T18:30:00Z",
+      "published_utc": "2026-06-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersontime.com/government-3d-modelling-tender-online",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDlO9FBQepp16djGp-rlfwxPAJwXqhjEmyLzL_taB1XDoOXOtlxLAxTnXInEKU8SZR-HdnSl4GA8ScU3uh5ZNJsde2qJsNJ_z-hnvNvCZfsoFa09ceuX83tx98dvGnc0MoOiyTPpPAzw-fk-BbIZm9YrClEUNOxOPzPuUCzcDy_p749t54",
+      "title": "railway-tenders.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsQJ2bpNacy1HWCMKPfaONcF7kh4PcpyDb_h0d1sm3hL4-47_4D4W_rnS0zHxJsS33hIdkBIHri8p2cKKOQhsTzIMlAKQZnIyKEgWDYN1FMob_hgUkXe7_p4Jn9eRzOjQMnGjI6PkNkOX_YK5zI64VpF1FtefyQ0cKyshUd7mgFg==",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4FLQeKcG4V7GRMcrQMmCGSPat_IlQTbKKbMN9bNxDKiJ-qbTZtJU9KJ9vgDozdY0ms-YG4WkVZaoptZaIf5NvpbxAgduokmfWvV-oj3BD4HNbPL70tReCGm57SFiD8m4yKHhK5MyUt-cuhXwycFRHgzZHNxGV-mF7U0QNG-nJnY1Jelm1Y1wD8jg=",
+      "title": "railway-tenders.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4JdjskzRGjjracSWiBM3RHt9U6f3GO9pmVj_JyRU2jmCm_rEvDPA_dnXRqw_SZCS6Y3syMByWOkr5gg9v2u70Uq-GEuMRc6uHpXY5jDec52b5LYedVUJGE4c1BYXK8I8nX3UvJnB6Is87PIoiM6NVHhRrfufrUfwcSMM_WaU5HI-pk8t08mxtnS-erKN8eVhu3no=",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1GAOwpan3MfIzLHlJ1PlUvZRMUgGs2LuG_EYeIXkCzyzkvgsgcier9U9WRekqozJrL_W1qng7eGEiHO_X6KpApgvJK5_UOA9xt7dGCbAF_vFgatt8bzZ43nwxpqPDlJMZzE7hey977kBntKryqO1Fviv11arbRz9WHadYtQ-ITdU-nsbQLDzzYC6SI8i9zWYGQCA8rT0Cm5alQJOQ63YNQsEml9QHA==",
+      "title": "icmr.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8WkrmzmfBBxyzb8cbPAR_XQ3mMRp02GNaxni7fB7ZrVDgR9WZWXz8jQud-AEPmMHBUrkRblL36Kw0NNQfEKYZVceoHxMAZKDXL99f_nuw-QPlJxMhFy-QL66Ws60dASvJ7GisfBqw7E33QDRXn0JHsVzxRH_LmePvOhAKXZE=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLeGTzIce03NyFPtABXA9jc6kZNfVT08wJzgQR_h4f0uohoPqC_cyCkJKhU4VrbnA3CBON2FU4UPcCZal_am3IOBkwRIoDbpYmqolLip5CUYq8k2pPRGsRGwaXgXq13eo2tKOMvPOT0PO2YiNbzz8v-6LSZH4XCXCbKpz8yYcnQheab9rBwdo=",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0qvfdGrNUO_NOSefyzV6cbcW4bvUR3gVGSEd3rQh4CPkvfDZ_oCO_9TWthvdqHuCOg56KKeHkym5CV8HB8O7z3ud7MALUXxJSg5z532721L39QkIo7Tq-l5uRwSr3DhMNgWCLaK0FuRcuVxkhW4hobtc_eDwtjEogJnfhkpebAIBrXoIMVUPT",
+      "title": "tendersontime.com"
+    }
+  ],
+  "shard": "india"
+}
