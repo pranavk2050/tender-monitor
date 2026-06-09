@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-06-09T09:39:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTT1eYc7r86lwZkcolzCNj-cP9fb-D7LV7mVGzFhTEUAqrgZAGuAVgAWp2YGG1CQdVe8YCpSnZYNWZb2ShTXKSM-z0bohepdbVD4SeAC0RFCy9jb7ymuCDSt-ngk5gIuIXDWIU6vjk6lr6oenHng==",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrQcYFirpPoOVFZlZbvJ6ni0VfI35qDigvQ8Jeoc_k6HKTr1Y2DqVvbnp9tEmy0Kh6o7xSbT538AMnE9ZyIxmPzs7u9eFBoMCquR-57pFqrAd8ZzhfXdQRqvglRBjjfAC7Omo5Xl49I_Bi5wTBDi7LGbwYjjJsy4YMF53EJ09NKzv9j_VEO6SJmheNIarQn0cmjOxpNPwcDlFtZ5Bmpz_X5OjLilmtiUeBv71PA8W-V2-dRVA-XbLZsqSgXeVxiG-ncg==",
+      "title": "gujarattenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2rGj6SBdtnPLuBUwWnfMgAl3WceAeR2Hh4rLfo02QWjBAGSHi2u5Q_-6nrP6HZmQ5a_I-qus-5_Aq4RE4kD_I28-Sm-Q38ZGj7crrRze1VTL62ML5yQ5A3DlVsFsQQyUof3ECg6dDeQuQjiuVaiFkFQ--zoRasG_nAeqHmStHknrJygzW3vkbl0=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiaR4P3nhTgaTgZNi8WtkFOH1oi9KUqoHwgnZOSeL0hhQeQjaAHO_hZjZLyQ2PY8AoueUkRjZ91ITjXMoeOyoF7hjElKmfZ85magThmasAJOP9tSqWLfv3k127g1bXCLJ3TRZ1SBFE2MLjWW8oTx-LDvCjVfe5WPY=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKvPr33DZAnGtn1sclcs7Fi0hosbkr-3N_npYmiDEB_BO_vgekS37f5rKNV21WFTOdQ202Yy8cN-YTv7Uwvt2PQEJ8YR52awNHppAknpJJVduDeTn2ccGQdVE_kgqaT1NWZPU9jivu6bq21SOR2SWePkboCpcpElQvwRWu5jWJ",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqtARXPub0rrkpvsBterCeQo8UmymWyuBET3H_9fObdaYTfswSrzbWJxRudGCbtWg8O4_X3KH-DVtTCjbGo3QcKmhwWVnJ92_HxcCM9RmbAczUc0R8RTWadvEJ2GKnQiHmXXVs9LJMulf1l11bWGHIn5bwq_ITqgXh7r9IuzC6x_XnFE-gFgLSeTPVyWrEM0GW4UgZusTjnuBDODChFES_Uq8l5nZToHiZf0otV4b4Wz4YfAVr3su3Ss=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0gtUY2giGxhU0p2zwJa33MVJPljK7AmWO3QG_kkrboHYUrQR4frwWvohqPDnmH5qDwkhjR09B2QFa96KPXw4XjEdWePH95LJy58w-avsIBxoA-izSthtEeA2Wg5ITrCM6cxj3OVsUkbM2Hna-jqpJ2hL3qe2Gl3gf5qdP",
+      "title": "tenderkart.in"
+    }
+  ],
+  "shard": "india"
+}
