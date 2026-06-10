@@ -750,7 +750,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(11),
       published_utc: addDays(-3),
       estimated_value: { amount: 2400000, currency: "USD" },
-      source_url: "https://example.tender/north-refining/RFQ-2026-LS-114",
+      source_url: "https://example.com/demo/north-refining/RFQ-2026-LS-114",
       confidence: "high"
     },
     {
@@ -771,7 +771,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(28),
       published_utc: addDays(-1),
       estimated_value: { amount: 3800000, currency: "EUR" },
-      source_url: "https://example.tender/rheinkraft/AIM-2026-001",
+      source_url: "https://example.com/demo/rheinkraft/AIM-2026-001",
       confidence: "high"
     },
     {
@@ -792,7 +792,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(4),
       published_utc: addDays(-9),
       estimated_value: { amount: 480000, currency: "USD" },
-      source_url: "https://example.tender/east-marine/SG-2026-MIG-22",
+      source_url: "https://example.com/demo/east-marine/SG-2026-MIG-22",
       confidence: "medium"
     },
     {
@@ -813,7 +813,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(45),
       published_utc: addDays(-2),
       estimated_value: { amount: 95000000, currency: "INR" },
-      source_url: "https://example.tender/coastal-petro/IN-2026-VR-08",
+      source_url: "https://example.com/demo/coastal-petro/IN-2026-VR-08",
       confidence: "high"
     },
     {
@@ -834,7 +834,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(19),
       published_utc: addDays(-5),
       estimated_value: { amount: 1850000, currency: "USD" },
-      source_url: "https://example.tender/gulf-coast/RFP-2026-PID-44",
+      source_url: "https://example.com/demo/gulf-coast/RFP-2026-PID-44",
       confidence: "high"
     },
     {
@@ -855,7 +855,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(60),
       published_utc: addDays(-6),
       estimated_value: { amount: 14500000, currency: "AUD" },
-      source_url: "https://example.tender/pilbara/AU-2026-APM-12",
+      source_url: "https://example.com/demo/pilbara/AU-2026-APM-12",
       confidence: "high"
     },
     {
@@ -876,7 +876,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(7),
       published_utc: addDays(-4),
       estimated_value: { amount: null, currency: null },
-      source_url: "https://example.tender/emirates-epc/UAE-2026-S3D-03",
+      source_url: "https://example.com/demo/emirates-epc/UAE-2026-S3D-03",
       confidence: "medium"
     },
     {
@@ -897,7 +897,7 @@ const DEMO_DATA = {
       deadline_utc: addDays(34),
       published_utc: addDays(0),
       estimated_value: { amount: 4200000, currency: "GBP" },
-      source_url: "https://example.tender/bmm/UK-2026-BIM-19",
+      source_url: "https://example.com/demo/bmm/UK-2026-BIM-19",
       confidence: "high"
     }
   ]
@@ -939,14 +939,22 @@ const state = {
 const NEW_BADGE_MS = 5 * 60 * 1000; // tenders flagged "NEW" for 5 minutes after ingest
 
 // ---------- Storage helpers (graceful degradation) ----------
+const MAX_STORED_TENDERS = 2000;
 function trySave(){
   try{
     if(!state.isDemo){
+      // Cap stored tenders to prevent hitting localStorage quota
+      const toStore = state.tenders.length > MAX_STORED_TENDERS
+        ? state.tenders.slice(-MAX_STORED_TENDERS)
+        : state.tenders;
       localStorage.setItem("tender_dashboard", JSON.stringify({
-        tenders: state.tenders, lastRun: state.lastRun
+        tenders: toStore, lastRun: state.lastRun
       }));
     }
-  }catch(e){ /* artifact sandbox or quota — ignore */ }
+  }catch(e){
+    console.warn("localStorage save failed (quota?):", e);
+    toast("Warning: local storage full — oldest tenders may not persist across reloads");
+  }
 }
 function tryLoad(){
   try{
@@ -1081,6 +1089,8 @@ document.getElementById("exportCsvBtn").addEventListener("click", ()=>{
 const auto = {
   on: false,
   intervalMs: 60000,
+  maxIntervalMs: 300000,   // back off to 5 min when idle
+  noChangeStreak: 0,
   timer: null,
   statusTimer: null,
   knownFiles: new Set(),
@@ -1132,7 +1142,9 @@ async function pollOnce(){
     const newRuns = runs.filter(r => r.file && !auto.knownFiles.has(r.file));
     auto.lastOk = Date.now();
     auto.failStreak = 0;
-    if(!newRuns.length) return;
+    if(!newRuns.length){ auto.noChangeStreak++; rescheduleAuto(); return; }
+    auto.noChangeStreak = 0;
+    rescheduleAuto();
     let added = 0, kept = 0;
     if(state.isDemo){ state.tenders = []; state.isDemo = false; }
     const seenIds = new Set(state.tenders.map(t=>t.id));
@@ -1179,6 +1191,15 @@ async function pollOnce(){
   }
 }
 
+function currentInterval(){
+  // Back off: 60s -> 120s -> 180s -> ... -> 300s max after consecutive no-change polls
+  return Math.min(auto.intervalMs + auto.noChangeStreak * 60000, auto.maxIntervalMs);
+}
+function rescheduleAuto(){
+  if(!auto.on) return;
+  if(auto.timer){ clearInterval(auto.timer); auto.timer = null; }
+  auto.timer = setInterval(pollOnce, currentInterval());
+}
 function setAuto(on){
   auto.on = on;
   if(auto.timer){ clearInterval(auto.timer); auto.timer = null; }
@@ -1186,6 +1207,7 @@ function setAuto(on){
   if(on){
     auto.warned = false;
     auto.failStreak = 0;
+    auto.noChangeStreak = 0;
     pollOnce();
     auto.timer = setInterval(pollOnce, auto.intervalMs);
     // Refresh the "Xs ago" label every 5s so it doesn't get stale.
@@ -1245,7 +1267,12 @@ function currentVisible(){
     case "published":
       out.sort((a,b)=> (b.published_utc||"").localeCompare(a.published_utc||"")); break;
     case "value":
-      out.sort((a,b)=> (b.estimated_value?.amount||0) - (a.estimated_value?.amount||0)); break;
+      // Group by currency first so cross-currency amounts aren't compared directly
+      out.sort((a,b)=> {
+        const ca = (a.estimated_value?.currency||"ZZZ"), cb = (b.estimated_value?.currency||"ZZZ");
+        if(ca !== cb) return ca.localeCompare(cb);
+        return (b.estimated_value?.amount||0) - (a.estimated_value?.amount||0);
+      }); break;
     case "title":
       out.sort((a,b)=> (a.title||"").localeCompare(b.title||"")); break;
   }
@@ -1544,7 +1571,7 @@ function openDrawer(id){
       ${t.source_url && t.url_status !== "broken" ? `<a class="btn primary" href="${esc(t.source_url)}" target="_blank" rel="noopener">Open source ↗</a>` : ""}
       ${t.url_status === "broken" && t._grounding?.length ? `<a class="btn primary" href="${esc(t._grounding[0].uri)}" target="_blank" rel="noopener">Open grounded source ↗</a>` : ""}
       ${t.url_status === "broken" && !t._grounding?.length ? `<a class="btn" href="${esc(t.source_url)}" target="_blank" rel="noopener" style="color:var(--critical);border-color:var(--critical)">Try anyway (broken) ↗</a>` : ""}
-      <button class="btn" onclick="copyJSON('${esc(t.id)}')">Copy JSON</button>
+      <button class="btn copy-json-btn" data-tid="${esc(t.id)}">Copy JSON</button>
     </div>`;
   drawer.classList.add("open");
   drawerBg.classList.add("open");
@@ -1555,14 +1582,17 @@ function closeDrawer(){
 }
 window.closeDrawer = closeDrawer;
 
-window.copyJSON = function(id){
+drawer.addEventListener("click", (e)=>{
+  const btn = e.target.closest(".copy-json-btn");
+  if(!btn) return;
+  const id = btn.dataset.tid;
   const t = state.tenders.find(x=>x.id===id);
   if(!t) return;
   navigator.clipboard.writeText(JSON.stringify(t, null, 2)).then(
     ()=> toast("Tender JSON copied to clipboard"),
     ()=> toast("Copy failed")
   );
-};
+});
 
 // ---------- Toast ----------
 let toastTimer;

@@ -71,11 +71,8 @@ jobs:
       - name: Install deps
         run: pip install --quiet google-genai
 
-      - name: Skip if a specific shard was requested and this isn't it
-        if: github.event.inputs.shard != '' && github.event.inputs.shard != matrix.shard
-        run: echo "::notice::skipping ${{ matrix.shard }} — manual run targeted ${{ github.event.inputs.shard }}" && exit 0
-
       - name: Run shard ${{ matrix.shard }}
+        if: github.event.inputs.shard == '' || github.event.inputs.shard == matrix.shard
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TENDER_REGIONS: ${{ matrix.regions }}
@@ -87,6 +84,7 @@ jobs:
         run: python tender_monitor.py
 
       - name: Commit results
+        if: github.event.inputs.shard == '' || github.event.inputs.shard == matrix.shard
         run: |
           git config user.name  "tender-bot"
           git config user.email "tender-bot@users.noreply.github.com"

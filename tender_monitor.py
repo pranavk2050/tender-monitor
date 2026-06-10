@@ -41,6 +41,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -78,12 +79,24 @@ def slugify(s: str) -> str:
     return s or "global"
 
 
+LOG_MAX_LINES = 500
+
+
 def log(msg: str) -> None:
     stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     line = f"[{stamp}] {msg}"
     print(line, flush=True)
     with LOG_FILE.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
+
+
+def rotate_log() -> None:
+    """Keep the log file to the last LOG_MAX_LINES lines."""
+    if not LOG_FILE.exists():
+        return
+    lines = LOG_FILE.read_text(encoding="utf-8").splitlines()
+    if len(lines) > LOG_MAX_LINES:
+        LOG_FILE.write_text("\n".join(lines[-LOG_MAX_LINES:]) + "\n", encoding="utf-8")
 
 
 def load_state(path: Path) -> dict:
@@ -218,6 +231,11 @@ def write_csv(path: Path, tenders: list[dict]) -> None:
         w.writeheader()
         for t in tenders:
             row = {k: t.get(k, "") for k in CSV_COLUMNS}
+            # Flatten nested estimated_value into CSV columns
+            ev = t.get("estimated_value") or {}
+            if isinstance(ev, dict):
+                row["value_amount"] = ev.get("amount") or ""
+                row["value_currency"] = ev.get("currency") or ""
             # flatten anything non-scalar
             for k, v in list(row.items()):
                 if isinstance(v, (list, dict)):
@@ -250,7 +268,10 @@ def update_manifest(shard: str, json_name: str, run_ts: str, count: int) -> None
     manifest["runs"] = runs[-500:]
     manifest["updated_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(
         timespec="seconds").replace("+00:00", "Z")
-    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    # Atomic write: write to temp file then rename to avoid partial reads
+    tmp_path = manifest_path.with_suffix(".tmp")
+    tmp_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    tmp_path.replace(manifest_path)
 
 
 # ---------------------------------------------------------------------------
@@ -339,7 +360,11 @@ def run() -> int:
         return 2
 
     model = os.environ.get("TENDER_MODEL", "gemini-2.5-flash")
-    max_tokens = int(os.environ.get("TENDER_MAX_TOKENS", "8000"))
+    try:
+        max_tokens = int(os.environ.get("TENDER_MAX_TOKENS", "8000"))
+    except ValueError:
+        max_tokens = 8000
+        log("WARN: invalid TENDER_MAX_TOKENS, defaulting to 8000")
     regions = os.environ.get("TENDER_REGIONS", "all")
     shard = os.environ.get("TENDER_SHARD") or slugify(regions if regions != "all" else "global")
 
@@ -381,24 +406,36 @@ def run() -> int:
     log(f"Calling {model}  shard={shard}  seen_ids cached: {len(seen)}, sent: {len(seen_to_send)}")
 
     client = genai.Client(api_key=api_key)
-    try:
-        response = client.models.generate_content(
-            model=model,
-            contents=user_msg,
-            config=genai_types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                max_output_tokens=max_tokens,
-                tools=[genai_types.Tool(google_search=genai_types.GoogleSearch())],
-                # Disable thinking budget — flash burns most of max_output_tokens
-                # on thinking, leaving the JSON reply truncated mid-string.
-                thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
-            ),
-        )
-    except Exception as e:
-        log(f"FATAL: Gemini API error: {e}")
-        return 3
+    response = None
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=user_msg,
+                config=genai_types.GenerateContentConfig(
+                    system_instruction=system_prompt,
+                    max_output_tokens=max_tokens,
+                    tools=[genai_types.Tool(google_search=genai_types.GoogleSearch())],
+                    # Disable thinking budget — flash burns most of max_output_tokens
+                    # on thinking, leaving the JSON reply truncated mid-string.
+                    thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
+                ),
+            )
+            break
+        except Exception as e:
+            if attempt < 2:
+                wait = 2 ** (attempt + 1)
+                log(f"WARN: Gemini API error (attempt {attempt+1}/3): {e} — retrying in {wait}s")
+                time.sleep(wait)
+            else:
+                log(f"FATAL: Gemini API error after 3 attempts: {e}")
+                return 3
 
-    raw = (response.text or "").strip()
+    try:
+        raw = (response.text or "").strip()
+    except Exception as e:
+        log(f"FATAL: could not read response text (safety filter?): {e}")
+        return 3
     cleaned = strip_fences(raw)
 
     try:
@@ -412,12 +449,14 @@ def run() -> int:
 
     seen_set = set(seen)
     new_tenders = []
+    new_ids = []
     for t in result.get("tenders", []):
         tid = t.get("id")
         if not tid or tid in seen_set:
             continue
         new_tenders.append(t)
         seen_set.add(tid)
+        new_ids.append(tid)
 
     # Attach the verified URLs that Google Search actually returned.
     # These are vertexaisearch.cloud.google.com redirect URLs that resolve
@@ -458,7 +497,7 @@ def run() -> int:
     write_csv(csv_path, new_tenders)
     update_manifest(shard, json_path.name, now_iso, len(new_tenders))
 
-    state["seen_ids"] = sorted(seen_set)
+    state["seen_ids"] = seen + new_ids
     state["last_run_utc"] = now_iso
     state["total_runs"] = state.get("total_runs", 0) + 1
     save_state(state_file, state)
@@ -474,6 +513,7 @@ def run() -> int:
             log("no tender with deadline within 7 days — webhook skipped")
 
     log(f"DONE: {len(new_tenders)} new tender(s) -> {json_path.relative_to(ROOT)}")
+    rotate_log()
     return 0
 
 
