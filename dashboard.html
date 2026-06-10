@@ -314,16 +314,12 @@
 
   /* advanced panel */
   .filter-bar-advanced{
-    display:grid;
-    grid-template-rows:0fr;
-    transition:grid-template-rows .3s ease,padding .3s ease;
-    padding:0 16px;
-  }
-  .filter-bar-advanced > *{overflow:hidden}
-  .filter-bar-advanced.open{
-    grid-template-rows:1fr;
+    display:none;
     padding:14px 16px 16px;
     border-top:1px solid var(--border);
+  }
+  .filter-bar-advanced.open{
+    display:block;
   }
   .filter-groups{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start}
   .filter-group{display:flex;flex-direction:column;gap:6px}
@@ -697,19 +693,23 @@
     .pagination{flex-direction:column;align-items:stretch;text-align:center}
 
     .filter-bar-advanced{
+      display:block;
       position:fixed;top:0;left:0;bottom:0;
       width:min(320px,85vw);z-index:90;
       background:var(--surface);
       box-shadow:var(--shadow-lg);
       transform:translateX(-100%);
       transition:transform .25s ease;
-      max-height:none;overflow-y:auto;
+      overflow-y:auto;
       padding:24px !important;
       border-top:none !important;
     }
+    .filter-bar-advanced:not(.open){
+      visibility:hidden;
+    }
     .filter-bar-advanced.open{
       transform:translateX(0);
-      max-height:none;
+      visibility:visible;
     }
   }
   @media (max-width:480px){
@@ -1396,7 +1396,10 @@ function currentVisible(){
 }
 
 // ---------- Rendering ----------
+let _filterPanelOpen = false;
 function render(){
+  // Preserve filter panel open/close state across re-renders
+  _filterPanelOpen = filterAdvanced.classList.contains("open");
   renderBanner();
   renderKPIs();
   renderRegionOptions();
@@ -1404,6 +1407,9 @@ function render(){
   renderList();
   renderMetaRow();
   updateFilterCount();
+  // Restore panel state (in case any render path disturbed it)
+  filterAdvanced.classList.toggle("open", _filterPanelOpen);
+  filterToggle.classList.toggle("active", _filterPanelOpen);
 }
 
 function closedCount(){
