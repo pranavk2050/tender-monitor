@@ -227,7 +227,13 @@
       "shard": "india",
       "run_utc": "2026-06-09T09:39:58Z",
       "tenders_found": 0
+    },
+    {
+      "file": "apac/tenders_2026-06-10T09-58-47Z.json",
+      "shard": "apac",
+      "run_utc": "2026-06-10T09:58:47Z",
+      "tenders_found": 3
     }
   ],
-  "updated_utc": "2026-06-09T09:39:58Z"
+  "updated_utc": "2026-06-10T09:58:47Z"
 }
