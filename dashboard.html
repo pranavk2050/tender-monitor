@@ -1777,11 +1777,14 @@ const filterToggle = document.getElementById("filterToggle");
 const filterAdvanced = document.getElementById("filterAdvanced");
 const filterOverlay = document.getElementById("filterOverlay");
 
+function isMobile(){ return window.innerWidth <= 768; }
 filterToggle.addEventListener("click", ()=>{
   const opening = !filterAdvanced.classList.contains("open");
   filterAdvanced.classList.toggle("open");
   filterToggle.classList.toggle("active");
-  if(filterOverlay) filterOverlay.classList.toggle("open", opening);
+  // Only show overlay on mobile (where the panel is a fixed slide-out)
+  if(filterOverlay && isMobile()) filterOverlay.classList.toggle("open", opening);
+  if(filterOverlay && !isMobile()) filterOverlay.classList.remove("open");
 });
 if(filterOverlay){
   filterOverlay.addEventListener("click", ()=>{
