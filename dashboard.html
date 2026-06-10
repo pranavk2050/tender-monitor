@@ -1538,7 +1538,7 @@ document.getElementById("bucketChips").addEventListener("click", (e)=>{
   if(state.filters.buckets.has(b)) state.filters.buckets.delete(b);
   else state.filters.buckets.add(b);
   state.page = 1;
-  render();
+  renderCategoryChips(); renderList(); renderMetaRow(); renderKPIs(); updateFilterCount(); trySave();
 });
 
 function renderMetaRow(){
@@ -1845,17 +1845,17 @@ document.getElementById("search").addEventListener("input", e=>{
   state.filters.search = e.target.value;
   state.page = 1;
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(()=>{ renderList(); renderMetaRow(); updateFilterCount(); trySave(); }, 250);
+  searchTimer = setTimeout(()=>{ renderCategoryChips(); renderList(); renderMetaRow(); updateFilterCount(); trySave(); }, 250);
 });
 document.getElementById("regionFilter").addEventListener("change", e=>{
   state.filters.region = e.target.value;
   state.page = 1;
-  render(); trySave();
+  renderCategoryChips(); renderList(); renderMetaRow(); renderKPIs(); updateFilterCount(); trySave();
 });
 document.getElementById("confFilter").addEventListener("change", e=>{
   state.filters.confidence = e.target.value;
   state.page = 1;
-  render(); trySave();
+  renderCategoryChips(); renderList(); renderMetaRow(); updateFilterCount(); trySave();
 });
 document.getElementById("sortBy").addEventListener("change", e=>{
   state.filters.sort = e.target.value;
@@ -1865,7 +1865,7 @@ document.getElementById("sortBy").addEventListener("change", e=>{
 document.getElementById("hideClosed").addEventListener("change", e=>{
   state.filters.hideClosed = e.target.checked;
   state.page = 1;
-  render(); trySave();
+  renderCategoryChips(); renderList(); renderMetaRow(); renderKPIs(); updateFilterCount(); trySave();
 });
 
 // Re-render every ~60s so NEW badges expire
