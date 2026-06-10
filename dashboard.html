@@ -239,7 +239,6 @@
     border:1px solid var(--border);
     border-radius:var(--radius-md);
     margin-bottom:24px;
-    overflow:hidden;
   }
   .filter-bar-main{
     display:flex;flex-wrap:wrap;gap:10px;align-items:center;
@@ -299,6 +298,9 @@
   }
   .filter-toggle:hover{border-color:var(--border-strong);background:var(--surface-2)}
   .filter-toggle.active{border-color:var(--accent);color:var(--accent)}
+  .filter-clear{color:var(--critical);border-color:var(--critical-soft)}
+  .filter-clear:hover{background:var(--critical-soft);border-color:var(--critical)}
+  .filter-clear.hidden{display:none}
   .filter-toggle svg{width:15px;height:15px}
   .filter-count{
     background:var(--accent);color:var(--accent-text);
@@ -312,12 +314,14 @@
 
   /* advanced panel */
   .filter-bar-advanced{
-    max-height:0;overflow:hidden;
-    transition:max-height .3s ease,padding .3s ease;
+    display:grid;
+    grid-template-rows:0fr;
+    transition:grid-template-rows .3s ease,padding .3s ease;
     padding:0 16px;
   }
+  .filter-bar-advanced > *{overflow:hidden}
   .filter-bar-advanced.open{
-    max-height:500px;
+    grid-template-rows:1fr;
     padding:14px 16px 16px;
     border-top:1px solid var(--border);
   }
@@ -761,6 +765,10 @@
         Filters
         <span class="filter-count" id="filterCount"></span>
       </button>
+      <button class="filter-toggle filter-clear hidden" id="clearFilters" title="Reset all filters">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        Clear
+      </button>
     </div>
     <div class="filter-bar-advanced" id="filterAdvanced">
       <div class="filter-groups">
@@ -775,9 +783,9 @@
           </div>
         </div>
         <div class="filter-group">
-          <label class="toggle-label">
+          <label class="toggle-label" title="Hides tenders whose deadline has passed. Tenders with no deadline are always shown.">
             <input type="checkbox" id="hideClosed" checked>
-            <span>Hide expired tenders</span>
+            <span>Hide past-deadline tenders</span>
           </label>
         </div>
         <div class="filter-group" style="flex-basis:100%">
@@ -1021,7 +1029,6 @@ const state = {
     search: "",
     buckets: new Set(),
     region: "",
-    shard: "",
     confidence: "",
     sort: "deadline",
     hideClosed: true
@@ -1031,6 +1038,25 @@ const NEW_BADGE_MS = 5 * 60 * 1000;
 
 // ---------- Storage helpers ----------
 const MAX_STORED_TENDERS = 2000;
+function serializeFilters(){
+  return {
+    search: state.filters.search,
+    buckets: [...state.filters.buckets],
+    region: state.filters.region,
+    confidence: state.filters.confidence,
+    sort: state.filters.sort,
+    hideClosed: state.filters.hideClosed
+  };
+}
+function restoreFilters(saved){
+  if(!saved) return;
+  if(typeof saved.search === "string") state.filters.search = saved.search;
+  if(Array.isArray(saved.buckets)) state.filters.buckets = new Set(saved.buckets);
+  if(typeof saved.region === "string") state.filters.region = saved.region;
+  if(typeof saved.confidence === "string") state.filters.confidence = saved.confidence;
+  if(typeof saved.sort === "string") state.filters.sort = saved.sort;
+  if(typeof saved.hideClosed === "boolean") state.filters.hideClosed = saved.hideClosed;
+}
 function trySave(){
   try{
     if(!state.isDemo){
@@ -1038,7 +1064,7 @@ function trySave(){
         ? state.tenders.slice(-MAX_STORED_TENDERS)
         : state.tenders;
       localStorage.setItem("tender_dashboard", JSON.stringify({
-        tenders: toStore, lastRun: state.lastRun
+        tenders: toStore, lastRun: state.lastRun, filters: serializeFilters()
       }));
     }
   }catch(e){
@@ -1055,6 +1081,7 @@ function tryLoad(){
       state.tenders = data.tenders;
       state.lastRun = data.lastRun;
       state.isDemo = false;
+      restoreFilters(data.filters);
       return true;
     }
   }catch(e){}
@@ -1339,7 +1366,6 @@ function currentVisible(){
     }
     if(f.buckets.size && !f.buckets.has(t.service_bucket)) return false;
     if(f.region && t.region !== f.region) return false;
-    if(f.shard && (t._shard || "") !== f.shard) return false;
     if(f.confidence === "high" && t.confidence !== "high") return false;
     if(f.confidence === "medium" && t.confidence === "low") return false;
     if(q){
@@ -1468,8 +1494,26 @@ function renderRegionOptions(){
 }
 
 function renderCategoryChips(){
+  // Count from filtered subset (excluding bucket filter itself) so counts stay relevant
+  const f = state.filters;
+  const q = f.search.trim().toLowerCase();
+  const nowMs = Date.now();
+  const base = state.tenders.filter(t=>{
+    if(f.hideClosed && t.deadline_utc){
+      const dms = new Date(t.deadline_utc).getTime();
+      if(!Number.isNaN(dms) && dms < nowMs) return false;
+    }
+    if(f.region && t.region !== f.region) return false;
+    if(f.confidence === "high" && t.confidence !== "high") return false;
+    if(f.confidence === "medium" && t.confidence === "low") return false;
+    if(q){
+      const hay = [t.title,t.tendering_authority,t.country,t.region,t.domain_industry,t.scope_summary].filter(Boolean).join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
   const counts = {};
-  state.tenders.forEach(t => { counts[t.service_bucket] = (counts[t.service_bucket]||0)+1; });
+  base.forEach(t => { counts[t.service_bucket] = (counts[t.service_bucket]||0)+1; });
   const chipsEl = document.getElementById("bucketChips");
   chipsEl.innerHTML = Object.entries(BUCKETS).map(([key, meta])=>{
     const n = counts[key] || 0;
@@ -1478,16 +1522,18 @@ function renderCategoryChips(){
       ${meta.label}<span class="count">${n}</span>
     </button>`;
   }).join("");
-  chipsEl.querySelectorAll(".chip").forEach(btn=>{
-    btn.addEventListener("click", ()=>{
-      const b = btn.dataset.bucket;
-      if(state.filters.buckets.has(b)) state.filters.buckets.delete(b);
-      else state.filters.buckets.add(b);
-      state.page = 1;
-      render();
-    });
-  });
 }
+
+// Event delegation for category chips (avoids re-binding on every render)
+document.getElementById("bucketChips").addEventListener("click", (e)=>{
+  const btn = e.target.closest(".chip");
+  if(!btn) return;
+  const b = btn.dataset.bucket;
+  if(state.filters.buckets.has(b)) state.filters.buckets.delete(b);
+  else state.filters.buckets.add(b);
+  state.page = 1;
+  render();
+});
 
 function renderMetaRow(){
   const visible = currentVisible();
@@ -1612,7 +1658,18 @@ function cardHTML(t){
 const drawer = document.getElementById("drawer");
 const drawerBg = document.getElementById("drawerBg");
 drawerBg.addEventListener("click", closeDrawer);
-document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrawer(); });
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape"){
+    // Close filter panel first if open, then drawer
+    if(filterAdvanced.classList.contains("open")){
+      filterAdvanced.classList.remove("open");
+      filterToggle.classList.remove("active");
+      if(filterOverlay) filterOverlay.classList.remove("open");
+    } else {
+      closeDrawer();
+    }
+  }
+});
 
 function openDrawer(id){
   const t = state.tenders.find(x=>x.id===id);
@@ -1736,7 +1793,24 @@ function updateFilterCount(){
   const badge = document.getElementById("filterCount");
   badge.textContent = count || "";
   badge.classList.toggle("visible", count > 0);
+  // Show "Clear" button when any filter (including main bar) is active
+  const anyActive = count > 0 || state.filters.search || state.filters.region;
+  document.getElementById("clearFilters").classList.toggle("hidden", !anyActive);
 }
+
+document.getElementById("clearFilters").addEventListener("click", ()=>{
+  state.filters.search = "";
+  state.filters.buckets = new Set();
+  state.filters.region = "";
+  state.filters.confidence = "";
+  state.filters.sort = "deadline";
+  state.filters.hideClosed = true;
+  state.page = 1;
+  syncFilterDOM();
+  render();
+  trySave();
+  toast("Filters cleared");
+});
 
 // ---------- Theme toggle ----------
 function getPreferredTheme(){
@@ -1760,30 +1834,32 @@ document.getElementById("themeToggle").addEventListener("click", ()=>{
 });
 
 // ---------- Bind filter inputs ----------
+let searchTimer;
 document.getElementById("search").addEventListener("input", e=>{
   state.filters.search = e.target.value;
   state.page = 1;
-  renderList(); renderMetaRow();
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(()=>{ renderList(); renderMetaRow(); updateFilterCount(); trySave(); }, 250);
 });
 document.getElementById("regionFilter").addEventListener("change", e=>{
   state.filters.region = e.target.value;
   state.page = 1;
-  renderList(); renderMetaRow();
+  render(); trySave();
 });
 document.getElementById("confFilter").addEventListener("change", e=>{
   state.filters.confidence = e.target.value;
   state.page = 1;
-  renderList(); renderMetaRow(); updateFilterCount();
+  render(); trySave();
 });
 document.getElementById("sortBy").addEventListener("change", e=>{
   state.filters.sort = e.target.value;
   state.page = 1;
-  renderList();
+  renderList(); trySave();
 });
 document.getElementById("hideClosed").addEventListener("change", e=>{
   state.filters.hideClosed = e.target.checked;
   state.page = 1;
-  renderList(); renderMetaRow(); updateFilterCount();
+  render(); trySave();
 });
 
 // Re-render every ~60s so NEW badges expire
@@ -1792,10 +1868,20 @@ setInterval(()=>{
   if(anyFresh) renderList();
 }, 60000);
 
+// ---------- Sync filter DOM from state ----------
+function syncFilterDOM(){
+  document.getElementById("search").value = state.filters.search;
+  document.getElementById("regionFilter").value = state.filters.region;
+  document.getElementById("confFilter").value = state.filters.confidence;
+  document.getElementById("sortBy").value = state.filters.sort;
+  document.getElementById("hideClosed").checked = state.filters.hideClosed;
+}
+
 // ---------- Init ----------
 applyTheme(getPreferredTheme());
 const loaded = tryLoad();
 if(!loaded) loadDemo();
+syncFilterDOM();
 render();
 </script>
 </body>
