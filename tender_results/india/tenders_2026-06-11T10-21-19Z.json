@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-06-11T10:20:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFd_UJHOYI4r0irlA8BlHUnTbvP7fzb_D4SmJbAxb709gJxDHLn8mZ47m2ZJvOqzkRFkisoxq5E-ErZLv03ab5YmnLTOc6WTgb41VNcKSq1rVMPyKpOuP3xYRoRt-0Xp_p9mY_pPPeR73whUGsP64FNzY=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp2TAcB7arWrgf3RtF46g5CLxRziUQivZ_4u6tBgVm-lMpzJ3Qk4J4IrI8-5ths1D5IT5sOLzYRwlkTqoNJelDOtRhaM5kNQAJQIddAy5O4huUd1vFEiiHx5kyce8UpBq5p_UaUTb8GTCcIlTTc_PJv1PBdg==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6ADto_qyUMtwFbSDoTCKDBVBgunGIWZ8LICX6mMtmdAWbJeTAo8VHfHE_SHAo6LwUyudKeh2cBjt37YzJX5CZRnx4O5MHVXJY1AiH938V18Lik9lmOXWWuT2frMunuv78MkG2P9S4U7zYcRTb1X6T8c2ns-nHSftXgai9ICnVNVmmVWHJ5d6Mld6c0fS6WxDOqa4icOyxZwh4547DkXiyPO9TH7rXtb7ke2PVDA6CBqzNXznUzdVh9RGix5gZ9WhJoQ==",
+      "title": "gujarattenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL3GlV782s9TCdz0f7THCOeIX8dhp0-XBQdnOs6p273D54dETelw-gAQ7q2cNwydBf-tjm77DnHJt9MSMyYmRaJsOBRikqrpBEd3QsYg6R0peIMclc_o3WF84qYTHvz2UgqK4_9ZmsJzqJ_VyBgyuZvFZ6iSiq63w=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQfGduu9SNj2WchiA1rUhDvjw0pJZAqUd06w0Qr1X9hqQwd_YEYTKY1Z7JMBpqN_LqAY6cKkB1CkWpG0_FXtlJQoL09eNkqAV1d6B__xOXXCeJ-8KvJ1WhUbf35KrtTC-MR4ZSL9hwLseUxnrQzlHelh8NWMvIX16rRoE3W0HL",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE4w26oiyv0E6rs7U8bK6959cD9NhyGDOrrEmWks37N2q4XV9caAvNe-TsebIFyOkH8OItRM5STfSN6lIUDW-9NRLZUNFRk0w5GrEjuKq2fvkFsfIeDKxjeoq3jKc_HfudaRHJceg79XERJ2lYXr-5EDW_qHJQqE_OoIjzqd4jB4X-k59GXYcNhGs=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMphh65lwsC3iiZH791bAE-uc8vFQOF0NeEXCvtp3O5oA-0BwWWVUQxIbCZk9nU_USob8pUI0Njo8DdLzuR47pfMHVym6n0BKJ1e5Eov-8Z6vEwbwKG5Lag8EweD9Bg1_2PgIELrCFqgDuvHHHjKnCZ4VsNUTcB2ihidTH",
+      "title": "tenderkart.in"
+    }
+  ],
+  "shard": "india"
+}
