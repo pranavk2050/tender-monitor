@@ -1,0 +1,33 @@
+{
+  "run_timestamp_utc": "2026-06-13T08:55:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk2JNjPj7RqfHv_IZ_E6jNqWQUQaX5x2V6XxRZkkP4Cbm5UyJSKXVhTpvonQmGmnCBCpYZRhbWeUhVI2zA6TvBFBkq7m8LmjjsNefl0d-IdYUqwqy1An60O-EPcO8f8CLlg0E6jqFz85Em1bIkVg==",
+      "title": "tenderdekho.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfH9W1P_Zv-S7kiSyzLJOx3zYhleITf5X2EnPpQQniCcuPSWwzI30MwN2QYlbPDZw6i0bn1_m0MruJDtTeSncbausLDrNntgJqIGvYuW-jPtVnDGqvwkXqE7FO-tDTn-eMgA0aYPXrl1osCSX0S4ErFjFwW7nPGt-SjZ7p",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZbLfO0Tt8o5XQ8FkoucXitqQsQmWwocbN0iPYzaDJd_XxdVm6DB_wr9tVR_W0rbmzVwoAy18vmU5tE5wCrPE6xSL5YndwKiR26eID84ePDEduKah9MzIUUFpbRMW9qhJyeZk3tSWiT5ZMbwZZaSMIvkLtGJa_CTiWr6PXlvVT",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzlUrNxmkhemth3gqkPuNqkO7NBptPFHpggrdo5GwO4NiWmiljQx3DdCbyudsdBn11LVy1uoeA00wPvc1BaVKakQRAaED0187UMCOliRwrqsl26CswKgE_mJ-HN7x7ff81LEsopXz-Nv4MLC5aJPaVdiIter8XlL6mqdn4AXzceIPiuUws03-xbhg=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4L-Mokbii73ZZq8Mfe1Wv7eE5RLqXuabeuU7xc4IOleL8l7dh1Gd1JQO-gLSC0K1wUumlTG6vyD0b50U2sWygoTsvw26GQGpAZpIITmXrrMR6Z15cx6QeIsMFqBgzzSoIx5DLm76xr5NZJvhS5aiJU2Nq_iVr6GvoiV8d",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYokExYjk_3uB2DpVsvg-YV28JYg_DbPJWJb2OG63cXXSWo-RN1i4zvjc3vXROKC6CQpudaQEfDp3jjBRR364L5yI4IgfCtwpWlsgzzlwMMfEHiKy-zmW85si0ihQuEUP2gotUVEsKGwrd3H_gW1k2MIVyPCPUIFyFFsVi1MgoC4BXFtI=",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
