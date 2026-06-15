@@ -1,0 +1,101 @@
+{
+  "run_timestamp_utc": "2026-06-15T12:09:00Z",
+  "lookback_days": 14,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "843187c31e217d84",
+      "title": "BIM Design Engineer - Wet Utilities",
+      "region": "Middle East",
+      "country": "United Arab Emirates",
+      "tendering_authority": "Egis",
+      "domain_industry": "Infrastructure - Water & Wastewater",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Egis is seeking a BIM Design Engineer specializing in Wet Utilities for infrastructure and building projects in the Middle East. The role involves leveraging BIM technology to design, coordinate, and optimize wet utilities systems, working collaboratively with multidisciplinary teams to ensure efficient project delivery and adherence to design standards. The position is based in Bengaluru, India, but is explicitly for projects in the Middle East.",
+      "key_points": [
+        "2-5 years of professional experience in BIM design, wet utilities engineering, or related infrastructure projects.",
+        "Advanced proficiency in Revit MEP or equivalent BIM modeling software.",
+        "Strong knowledge of wet utilities systems design, including water supply, wastewater, and drainage systems.",
+        "Proficiency in CAD software and 3D modeling techniques.",
+        "Experience with clash detection and coordination workflows in BIM environments."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-07T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://trabajo.org/job/bim-design-engineer-wet-utilities-egis-645396",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.trabajo.org/"
+    },
+    {
+      "id": "c76f6b158580c841",
+      "title": "Junior Electrical & Low Current Technical Office Engineer",
+      "region": "Middle East",
+      "country": "Saudi Arabia",
+      "tendering_authority": "Middle East Technical Solutions (METS)",
+      "domain_industry": "Electrical Contracting",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Sisco Jobs, on behalf of Middle East Technical Solutions (METS), is looking for a Junior Electrical & Low Current Technical Office Engineer in Riyadh, Saudi Arabia. This role involves supporting tendering, estimation, engineering, and execution activities, with a focus on reviewing tender documents, preparing shop drawings, and conducting various electrical calculations crucial to project success.",
+      "key_points": [
+        "3-6 years of experience in Electrical Contracting and Technical Office functions.",
+        "Proficiency in AutoCAD Advanced 2D Drafting, Revit MEP (BIM modeling and quantity extraction), DIALux/DIALux Evo, ETAP/Cable Sizing Software, and Electrical Estimation & Quantity Surveying.",
+        "Review tender drawings, specifications, and BOQs for scope verification.",
+        "Prepare RFIs and pre-tender clarifications for design discrepancies.",
+        "Perform accurate Material Take-Offs (MTOs) and prepare shop drawings, containment layouts, and Single Line Diagrams (SLDs)."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://jooble.org/jdp/4710899039607835848/Junior-Electrical-Low-Current-Technical-Office-Engineer-Riyadh",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "18f9e61c77d24268",
+      "title": "Program Director - Rail (including BIM framework and Master Information Delivery Plan)",
+      "region": "Middle East",
+      "country": "Middle East (Specifics not provided)",
+      "tendering_authority": "Parsons",
+      "domain_industry": "Rail Infrastructure",
+      "service_bucket": "AIM",
+      "scope_summary": "Parsons is seeking a Program Director for a major rail program in the Middle East. This role involves leading a multidisciplinary consultancy team across all project stages, with a key responsibility to govern the project's BIM framework and Master Information Delivery Plan (MIDP) in line with PAS 1192. The Program Director will also lead tender preparation for the Design & Construct contract.",
+      "key_points": [
+        "Minimum 20 years' experience, with at least 10 years managing large-scale rail or metro infrastructure programmes at Project or Program Director level.",
+        "Proven track record delivering major rail programmes from feasibility through commissioning and close-out.",
+        "Experience managing D&C contracts exceeding $1bn, and complex multi-stakeholder environments.",
+        "Oversee airport-rail interface definition and coordination with airport stakeholders.",
+        "Govern the project's BIM framework and Master Information Delivery Plan (MIDP) in line with PAS 1192."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://bebee.com/job/20260613-cf859f14300302b1154563a6f9c98516",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmDdizHd1UT5b2QO0BS01LwRi4NYuxJRgCOawbUeKqq2JQ5fZ4YLB_y816wlu2TDwrDQdyiLKTvnVeNwymWQe8BCjzrcwIqm76dhc2nvq41EqfPrHHE5ieyrBV7kvooS25",
+      "title": "jobsora.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFbjVtX3ZC3spF0aFBAZf4au3GEKH9dmLs1Fg97mPvugd6ZLXqFa9gAOnNi9zXEhyG6B6UKVuV4hhrJTfIDJlWwvWLO-hfYC0EcOxDdGe5cgpkNwSPeWvYi9Mibd50QnrEEQcosmtHtcLrxDRIPG-HCAwGu8HieiwA7N3h14-SC6KQ9E8cwsDRqhW855HAuF2sy_M6ZDHV5oS7h9LCTRuDcJI1V6wBhjLGEGjGT6zm4L3eJnrC_pT0aGD3WFl0rSeDXx3ULQ48",
+      "title": "jobleads.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLBUg0G-7t3Q2BQWdFFyzNHiE69rNp4yRU8OZK38qPtLwFZxtnCsq4IOu9ivKyMuv3idS5N8r2cN35rEsJBLbZipKeMEO26WMajuINHYtw-aCFWQdjYAVt-BujidDcKJf9oKui6x-DMKuOBrENtH4ecViDGHG7aKNEKw53Pg6Wi-SzgTfGUz9lJKb-zEQs",
+      "title": "bebee.com"
+    }
+  ],
+  "shard": "middle_east"
+}
