@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-06-18T10:17:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWjEnWvF8Cetzg39RKCUlBL6zm8ZyLS9BKeHTvlS_RYCfXmDGdMMHYJnUQtA8yI1HWecJC1Bh9Px6eowVsrwwf_uMbKfsZnNDfWA_YJAzCmO7P2JUBVPFz1LEX3yX4KDvUO2bBVgKxKVfuwYrUi2i4MlHlDQ==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElGO3mxdHfRXlG1rZPmYgbv3s4lSKL47dMrd__xU6QxaBMpHi-iM9gnssbA-9oQLAhJQ4Dq9QE3GPLrtWLfvaYrbMBXMWlX6EMS9bvV3rccf3yBrg2kw08Zi9ClS1rajHJbbFFjmmKLhazRf6srQA4czk1eJKAZILWQvg=",
+      "title": "dda.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ZaMgpu-1P1BAYupSwRwT3RCxY_ylcR82tzvp_sH_Q7nt3aNGFCjrm050ehtxzNSzKXfE3DmqfAoOOWiJsgm3I3ijXsLpsRSyOE2sF7WBTSSsnPo6CxHi9GlACw1Mib9sb2xeJXhKewjSK796wuK1KzI=",
+      "title": "iitbhilai.ac.in"
+    }
+  ],
+  "shard": "india"
+}
