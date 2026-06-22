@@ -1,0 +1,246 @@
+{
+  "run_timestamp_utc": "2026-06-22T11:49:00Z",
+  "lookback_days": 2,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "87b322312b982635",
+      "title": "VR Training Module for Pot Room Activities at Smelter Plant, Angul",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NALCO",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Development and commissioning of an enterprise-grade AR/VR training solution for safety, operations, and maintenance activities at the Pot Line of NALCO Smelter Plant, Angul. The solution will include hardware, software, and integration services for immersive training in critical plant areas such as Pot Room activities, anode change processes, and emergency workflows.",
+      "key_points": [
+        "Develop an enterprise-grade AR/VR training solution for safety, operations, and maintenance.",
+        "Solution must include hardware, software, and integration services.",
+        "Focus on Pot Room activities, anode change processes, and emergency workflows.",
+        "Bid closing date: May 30, 2026, 10:00 AM.",
+        "Minimum average annual turnover of \u20b911.36 Lakhs during the last three financial years required.",
+        "Bidder should have executed/supplied at least 1 VR Training Module during the last 7 years, successfully operating for at least 2 years."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpGsC3FQ06mqWqLu5bQrZDh0jNU1cqEdvT9uQKrEhHVo04JkUCByVviHagFHqqDanQJXTW7VizjmaD5feAIjYtSmxhwP4unMf3w60ZOhmZyRDLPhCMp3-MdoUxlxRACiD9KkcHDNuMBv1peL5LlU1RGOw2vw==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1e78440d96a75905",
+      "title": "Selection of Implementation Partner for Design, Develop and Implementation of a Digital Twin Project",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Various State and Central Government Tendering Authorities (aggregator)",
+      "domain_industry": "Government (various)",
+      "service_bucket": "AIM",
+      "scope_summary": "Selection of an implementation partner for the design, development, and implementation of a digital twin project. This is a corrigendum notice.",
+      "key_points": [
+        "Corrigendum to a previous tender.",
+        "Deadline: June 5, 2026."
+      ],
+      "deadline_utc": "2026-06-05T00:00:00Z",
+      "published_utc": "2026-05-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0e2y0C43xE_vy7YzbmXrgXf7_90sYkKOQTtrZNAo4w7JRpAFP0XkHpOhhb_c6z1I0S2OmJjymyEQojzYt1A_Od6kKZYl9RoHDmUOq_aMJDmi-_r-7xeoFkK-ZSnbgK8Wtjte9Wv5HmFqF-wK5I7qWzCykP3axHk05SXAoQ4csJ9o2Q-gQyq6e1x0=",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "e0d049f7e8c1b2a3",
+      "title": "Expression of Interest for Development of Digital Twin Platform",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Various State and Central Government Tendering Authorities (aggregator)",
+      "domain_industry": "Government (various)",
+      "service_bucket": "AIM",
+      "scope_summary": "Expression of Interest for the development of a digital twin platform. This is a corrigendum notice.",
+      "key_points": [
+        "Corrigendum to a previous Expression of Interest.",
+        "Deadline: June 3, 2026."
+      ],
+      "deadline_utc": "2026-06-03T00:00:00Z",
+      "published_utc": "2026-05-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0e2y0C43xE_vy7YzbmXrgXf7_90sYkKOQTtrZNAo4w7JRpAFP0XkHpOhhb_c6z1I0S2OmJjymyEQojzYt1A_Od6kKZYl9RoHDmUOq_aMJDmi-_r-7xeoFkK-ZSnbgK8Wtjte9Wv5HmFqF-wK5I7qWzCykP3axHk05SXAoQ4csJ9o2Q-gQyq6e1x0=",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "f5f0f0c0d0e0a1a2",
+      "title": "Annual Rate Contract for a Laser Scanning Mapping Profiling Plant",
+      "region": "India",
+      "country": "Gujarat",
+      "tendering_authority": "Undisclosed (via TendersInfo)",
+      "domain_industry": "Industrial/Manufacturing",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender for an Annual Rate Contract for a Laser Scanning Mapping Profiling plant.",
+      "key_points": [
+        "Annual Rate Contract for Laser Scanning Mapping Profiling.",
+        "Deadline: June 29, 2026."
+      ],
+      "deadline_utc": "2026-06-29T00:00:00Z",
+      "published_utc": "2026-06-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKmMACFfydBQCX6FWdoJiNK1VlkiUeczlnFOtlCCTJg_91aSByEWzpylyeDeYh9H-UhxnWq9i7L8v_o2Z9b9Mhf5cERN8t0N0v3CnUkWyQIMNh3B3NFZl3sGxL8maYyZoKQ7qNWtnreRehk06XTmk8dDw44aB5rejj8mL1QzsSTHUZGHL--eNJYlPujrCgGn8=",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendernews.com/tenders/latest-tender/3d-laser-scanning-and-modelling.html"
+    },
+    {
+      "id": "c16111a8b2c3d4e5",
+      "title": "Tender Invited For 3D Laser Scanning and Imaging System as per MHA QRs",
+      "region": "India",
+      "country": "Rajasthan",
+      "tendering_authority": "Security Services, Ajmer",
+      "domain_industry": "Security Services",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender invited for the supply of a 3D Laser Scanning and Imaging System as per MHA QRs. Quantity: 1.",
+      "key_points": [
+        "Supply of 3D Laser Scanning and Imaging System.",
+        "Quantity: 1.",
+        "Deadline: June 23, 2026."
+      ],
+      "deadline_utc": "2026-06-23T00:00:00Z",
+      "published_utc": "2026-06-20T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNKadnAZTLEGVn_gz8xkDFEI9mshmfEwXi019ycyWMqpHHhv_lJ1y0GftTrRzawyv-iIch6cfnBvXzAIAxfzUWvTHSKf7wnylRGrPj5uInH9kjWx-FFj8emD6Cb7hNVDBuYrgXZ53i5EsUQx8C5tfgh1hbU6Y5j2XQcDqmTji7",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendersinfo.net/global-keyword/3d-imaging-system-tenders"
+    },
+    {
+      "id": "92f7c2d1e0a3b4c5",
+      "title": "Supply of Asset Performance Management System (APMS)",
+      "region": "India",
+      "country": "Assam",
+      "tendering_authority": "Undisclosed (via TendersOnTime)",
+      "domain_industry": "Utilities",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the supply of an Asset Performance Management System (APMS).",
+      "key_points": [
+        "Supply of Asset Performance Management System.",
+        "Deadline: July 16, 2026."
+      ],
+      "deadline_utc": "2026-07-16T00:00:00Z",
+      "published_utc": "2026-06-19T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEytTWMVlp0mUvKCZKsFbpE2qRNaa4rGqYVegBF4x8BrS70UOznDV8sBqDDyOrmmcb_5v8QYkVjtpxd8YKNTNJtamPce3pK1LMPQj4cXGDN3ja2YdbptR9Yd6TRIrkcITugLAkHg9nRuXc-mPQy9w_NtUddYTuMGluL8s47phS3_Go=",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendernews.com/tenders/latest-tender/asset-management.html"
+    },
+    {
+      "id": "03e4d5c6b7a8f901",
+      "title": "BIM Modeler - Hitachi Energy Technology Services Private Limited",
+      "region": "India",
+      "country": "Tamil Nadu",
+      "tendering_authority": "Hitachi Energy Technology Services Private Limited",
+      "domain_industry": "Engineering & Science",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "Hitachi Energy is seeking a BIM Modeler to produce discipline-specific BIM models, develop models to required LOD/LOI, populate models with accurate geometry, attributes, parameters, and metadata, and ensure compliance with BIM standards and naming conventions. The role also involves supporting BIM Coordinators during model federation, clash detection, and issue resolution.",
+      "key_points": [
+        "Produce discipline-specific BIM models to required LOD/LOI.",
+        "Populate models with accurate geometry, attributes, parameters, and metadata.",
+        "Ensure compliance with BIM standards and naming conventions.",
+        "Support BIM Coordinator during model federation, clash detection, and issue resolution.",
+        "Resolve assigned clashes and model issues within agreed timelines.",
+        "Maintain version control and update history.",
+        "Requires Master's or bachelor's degree in electrical, civil, or mechanical engineering with 1-5+ years of BIM experience."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-10T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqU56JYA7c4c7xyNC1sfc2nforQIsCz6WM1yKvCBZ_1dkxCdoKcxxLTw34MkJ65zMafEEfA9nfbaAa7WhkfCv4OMjfYQT1LD9asGiMcsQPAP6TGDgd_bM4bbT4Jipq-IQXZiIt28RLrMX4tpjOg69AHKjkwbrA3sWtZlDcUnDI0kTTgj8DsAs=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/BIM-Modeler_R0131548"
+    },
+    {
+      "id": "7662c722e0300a0b",
+      "title": "Carrying out digital survey, digital mapping & ground penetration radar (GPR) survey and providing drawings of the built-up properties and open area including details of underground utility services of various Sports Complexes/Golf Courses under sports zone (Specialized work)",
+      "region": "India",
+      "country": "Delhi",
+      "tendering_authority": "DDA (Delhi Development Authority), Executive Engineer, Sports Management Cell",
+      "domain_industry": "Urban Development/Sports Infrastructure",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Carrying out a digital survey, digital mapping, and Ground Penetration Radar (GPR) survey, and providing drawings of built-up properties and open areas, including details of underground utility services for various Sports Complexes/Golf Courses under the DDA Sports Zone.",
+      "key_points": [
+        "Conduct digital survey, digital mapping, and GPR survey.",
+        "Provide drawings of built-up properties and open areas.",
+        "Include details of underground utility services.",
+        "Location: Various Sports Complexes/Golf Courses under DDA Sports Zone, Delhi.",
+        "Estimated cost: \u20b91,71,69,243.00.",
+        "Earnest Money: \u20b93,43,385.00.",
+        "Contract period: 120 days.",
+        "Last date for submission: June 23, 2026, up to 11:00 AM.",
+        "Technical bid opening: June 24, 2026, at 11:30 AM.",
+        "Similar work experience: Any survey work including GPR survey.",
+        "Bidder must own specific survey equipment."
+      ],
+      "deadline_utc": "2026-06-23T11:00:00Z",
+      "published_utc": "2026-06-18T00:00:00Z",
+      "estimated_value": {
+        "amount": 17169243.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr2owQveSpFgaaVYXe8b4HtNQ6VVpwF4y5iWacJQs45rU_ZSW_bzUF8W_xQJ0PPyV3GIJbaOPsa2XUCDnG1KkbMv93l0NdtKJq9npnR0cssND2QU7-a1D27qf_ULxmYEcOUSPCfplAKz0aclzshZtXeO-zcOZ1H2NTFBI=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://dda.gov.in/sites/default/files/tender/notice18062026.pdf"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpGsC3FQ06mqWqLu5bQrZDh0jNU1cqEdvT9uQKrEhHVo04JkUCByVviHagFHqqDanQJXTW7VizjmaD5feAIjYtSmxhwP4unMf3w60ZOhmZyRDLPhCMp3-MdoUxlcRACiD9KkcHDNuMBv1peL5LlU1RGOw2vw==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0e2y0C43xE_vy7YzbmxrgXf7_90sYkKOQTtrZNAo4w7JRpAFP0XkHpOhhb_c6z1I0S2OmJjymyEQojzYt1A_Od6kKZYl9RoHDmUOq_aMJDmi-_r-7xeoFkK-ZSnbgK8Wtjte9Wv5HmFqF-wK5I7qWzCykP3axHk05SXAoQ4csJ9o2Q-gQyq6e1x0=",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKmMACFfydBQCX6FWdoJiNK1VlkiUeczlnFOtlCCTJg_91aSByEWzpylyeDeYh9H-UhxnWq9i7L8v_o2Z9b9Mhf5cERN8t0N0v3CnUkWyQIMNh3B3NFZl3sGxL8maYyZoKQ7qNWtnreRehk06XTmk8dDw44aB5rejj8mL1QzsSTHUZGHL--eNJYlPujrCgGn8=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNKadnAZTLEGVn_gz8xkDFEI9mshmfEwXi019ycyWMqpHHhv_lJ1y0GftTrRzawyv-iIch6cfnBvXzAIAxfzUWvTHSKf7wnylRGrPj5uInH9kjWx-FFj8emD6Cb7hNVDBuYrgXZ53i5EsUQx8C5tfgh1hbU6Y5j2XQcDqmTji7",
+      "title": "tendersinfo.net"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEytTWMVlp0mUvKCZKsFbpE2qRNaa4rGqYVegBF4x8BrS70UOznDV8sBqDDyOrmmcb_5v8QYkVjtpxd8YKNTNJtamPce3pK1LMPQj4cXGDN3ja2YdbptR9Yd6TRIrkcITugLAkHg9nRuXc-mPQy9w_NtUddYTuMGluL8s47phS3_Go=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqU56JYA7c4c7xyNC1sfc2nforQIsCz6WM1yKvCBZ_1dkxCdoKcxxLTw34MkJ65zMafEEfA9nfbaAa7WhkfCv4OMjfYQT1LD9asGiMcsQPAP6TGDgd_bM4bbT4Jipq-IQXZiIt28RLrMX4tpjOg69AHKjkwbrA3sWtZlDcUnDI0kTTgj8DsAs=",
+      "title": "myworkdayjobs.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr2owQveSpFgaaVYXe8b4HtNQ6VVpwF4y5iWacJQs45rU_ZSW_bzUF8W_xQJ0PPyV3GIJbaOPsa2XUCDnG1KkbMv93l0NdtKJq9npnR0cssND2QU7-a1D27qf_ULxmYEcOUSPCfplAKz0aclzshZtXeO-zcOZ1H2NTFBI=",
+      "title": "dda.gov.in"
+    }
+  ],
+  "shard": "india"
+}

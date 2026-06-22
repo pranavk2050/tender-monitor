@@ -299,7 +299,13 @@
       "shard": "india",
       "run_utc": "2026-06-21T09:47:05Z",
       "tenders_found": 0
+    },
+    {
+      "file": "india/tenders_2026-06-22T11-50-05Z.json",
+      "shard": "india",
+      "run_utc": "2026-06-22T11:50:05Z",
+      "tenders_found": 8
     }
   ],
-  "updated_utc": "2026-06-21T09:47:05Z"
+  "updated_utc": "2026-06-22T11:50:05Z"
 }
