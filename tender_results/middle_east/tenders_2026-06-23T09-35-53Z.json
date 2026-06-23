@@ -1,0 +1,39 @@
+{
+  "run_timestamp_utc": "2026-06-23T09:35:00Z",
+  "lookback_days": 8,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "e7b0c8d1f2a3b4c5",
+      "title": "Oman Digital Twin AI Initiative for Electrical Engineering Sector",
+      "region": "Middle East",
+      "country": "Oman",
+      "tendering_authority": "Oman Electricity Transmission Company (OETC)",
+      "domain_industry": "Energy & Utilities",
+      "service_bucket": "APM",
+      "scope_summary": "Oman is considering the implementation of a Digital Twin AI solution for the electrical engineering sector to enhance electricity consumption management. The project aims for real-time monitoring, predictive maintenance, and overall smarter infrastructure.",
+      "key_points": [
+        "Deployment across key areas, including national electricity consumption.",
+        "Digital twin technology, an AI-powered innovation, creates dynamic virtual replicas of physical systems.",
+        "Continuously updated through IoT sensor data and machine learning for real-time monitoring, simulation, and predictive analysis.",
+        "Aims to significantly enhance electricity consumption management."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-04-08T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://mitsloan.mit.edu/middle-east/oman-advances-smart-grid-ambitions-digital-twin-ai-initiative",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbKLdruHN78z_lLiIMAQdMht0ZLdwfisubXeKO8SSebjiadxUhYJq-mDi-UsxOpRqTDCK9p7hiSY5EgfxAQWXTkkC-abzchm6gwH_AQtMjVoQ2y2dHi09mewGgY3ttGiVcNAzJOf003p_QJP5j4v0QveZQnVQsbLHB8BDz9nUUPSq0-a4ikcLd2DTXYQDtf3L8yYA7I2QA3yC_gBD_-dhDUQ==",
+      "title": "mitsloanme.com"
+    }
+  ],
+  "shard": "middle_east"
+}
