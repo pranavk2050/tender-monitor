@@ -311,7 +311,13 @@
       "shard": "middle_east",
       "run_utc": "2026-06-23T09:35:53Z",
       "tenders_found": 1
+    },
+    {
+      "file": "middle_east/tenders_2026-06-24T09-25-32Z.json",
+      "shard": "middle_east",
+      "run_utc": "2026-06-24T09:25:32Z",
+      "tenders_found": 0
     }
   ],
-  "updated_utc": "2026-06-23T09:35:53Z"
+  "updated_utc": "2026-06-24T09:25:32Z"
 }
