@@ -1,0 +1,34 @@
+{
+  "run_timestamp_utc": "2026-06-25T08:58:00Z",
+  "lookback_days": 3,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "972688005391c491",
+      "title": "Tender for detailed drone survey of 66kv transmission lines including AI analytics for predictive & preventive maintenance",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Boards / Undertakings / PSU - Ludhiana - Punjab",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "This corrigendum relates to a tender for a detailed drone survey of 66kV transmission lines. The scope includes AI analytics of captured data to generate reports for predictive and preventive maintenance of the lines.",
+      "key_points": [
+        "Detailed drone survey of 66kv transmission lines.",
+        "AI analytics of captured data.",
+        "Generation of reports for predictive maintenance.",
+        "Generation of reports for preventive maintenance."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVPwSYFLHbvZvk2XE1cIrMaNgw69w9emvFxB5D0MRew9mT56nr7BA1J-JokelrcWr1Zk57kQzJSsWA_IYcwEsM2anG5HEeFOT8W8_MqCxadKABFcvzNILe34Ba5FsHhdA0W0AH101TMasbI5lNGtJd-eusy4KnfmD-zcsx2Q9op-XCgzk=",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
