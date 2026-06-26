@@ -1,0 +1,9 @@
+{
+  "run_timestamp_utc": "2026-06-26T09:21:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "message": "No new tenders found in the last check.",
+  "grounding_urls": [],
+  "shard": "india"
+}
