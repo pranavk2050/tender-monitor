@@ -1,0 +1,33 @@
+{
+  "run_timestamp_utc": "2026-06-27T08:33:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0rEsiYE5pIALlah7q88T2-_K_MlijYq20a4t7qG9nrmY9OnPgCQd8GrW1CShT0RxV3wcmhAIWZWMng_Hhf8FKV_BSKS4unX83fSbaufDXgXYyG-YfQG3MtoRmi6kT7psQ_aF6ahmL_FaGPUCaox6gfZS16HxJ-64apcCbShFubMQ1vjuPgnnb",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs5LyJqYRb2Tql39E3z0RSTGM9yau16aIJxiz7FBVp1AKoKqr_4HZ1zZn-vbi5oZD2M2A_br9XTNEn22l1gvvMgDAbwn_e9Puw_DorwUE8fmsuwUWHnH04Hxk_JyJaPF6ycD9FjgLey-f3-jho_RsYqapTj5ppmutGf-yTyJk_naMVHlDMTpugdiA=",
+      "title": "tendersontime.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGHLPDH_5YcugKVEtLlsmAa-3z5pHfvA2JjU-MeK1hO2uf8WO5azlkrkkYHnhSgKjvWOHA0nN-bF-YjJ1195756zypyKKcSHMCZ9hBfL2hw7hjQCDsQyMu5PUopdb03VMAWdDgrZJdZLs25jPZzTak93a8MvVeI0GzhW_ES5oaVTd_hEYb89VYjxmfeTs6eUfoiksP5zQ=",
+      "title": "ncam.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBiycCbs95lqG4mVfzDX-Nfrmg7gdtdjQj0GCpv756qi1RZEHH4iWYXum8UF57CTIR2HASIP63NvXntr1n_yRoL15KQrot0dhqPIuDsPsD9t2Al26y7zeF6oTdXpItB5KtU8W-VJ8sMO1BE12ufU69M0adH-03LKnpy0wGxHzJ4QIrUHQHsJp4HO0=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvQ4vLfnhjLa8TEC04hOIa_3c3nu435a631AArehzMaUx6wAbRC4BR-ROaMllO6rX9ZldRaXnaKmO6iBuFFIbfngS-OR5zU6YPLtf_i4k3mEm8KdbfcJZusytdwiSKwhz70ek88yodtdtjfkWAi_WuFDRIM8cAv6vnzqxtMykXbrf8abvqI9TGNgl-5cUQUC1eUQ==",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5S2bsk9AH-Sczont0mXRZ6UH2xYGbqZ3rdlcSQSsugOE_5THIUFZsGQY_xpP6bUA71ky6IubmP4ftR381JNTpBmEWperv5084U_3YP31SVk_q7JkfaIuLTJK5ViVITqp-XSLlUnhP37UEZ4_IHCs-IN9TcQ==",
+      "title": "skillcouncils.com"
+    }
+  ],
+  "shard": "india"
+}
