@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-06-29T10:53:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTd52tNcwUh31fqwpqST4uH62pu-bkKIX_aFyrqYwZABUgFeWUiJSoBv_6AquQtPSJ8-UidbdxmT-GnMdKHn4Z56B_Dq5sUVnXk_FsCROXfwolhHeODJDSUiwLxAy-g-CWYI5YeHromGwbt8EHlBf4dwSawkP1ylaeZtnYirrjXUycsv2JOS3XCe1RHaZ8j1cB",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj1Ciga5E4cphWlk9duP-Ji2QSg3UXj0RmIlNiJMMgTx1woR2-wJHc7EJE8VbxQyyclIPD5PQG8E08G2VL6N3j_DsRlQarZgMdvkf-Nj81M4t7lmfUwAa6NXjwpVPXOY16JUNfeVTO4Bdi0GRh0OZAAbVwB0UrdSov5vQ=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF43WTktbs8CUgo9ShSIqzV75clReqfKyz3amUW1Nz3U_bjjmHujdNzwbLvB9ORl5L5u1JMlz1DXY8UPVY0_U8Eo4LIztXkcQp4D9LMvwBdNUgf6EZ1y5C8q_B7YLbwU0dC7SxV-wzLEI3B86ZCWAH7ertA5co3k5ftK_BAB6F56yZ",
+      "title": "tendernews.com"
+    }
+  ],
+  "shard": "india"
+}
