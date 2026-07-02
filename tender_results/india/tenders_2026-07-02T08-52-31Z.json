@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-07-02T08:52:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCeuHNSNbu_LnxYSnzJWZZe50NcctBnN5pyxkHdEsOyrxyqOash9qoVBuH1rfPUulvncKSDb0yIPqEY-IjIX0kmI-BJ96evl5yz0c7-78qqD9MEDthjLUbXnOSy_mBGSBUjDngNdnc9p-3VNXl5b6CQ==",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg80qt04B_NcK-CPnwUZeA29rR8v6_eNtAkl4qs8Tte4dc11iQbXIuVLAS2C7BtIojga9tJ9T_DUYNMnw9t0WMEhibETS6LSPMhJL3FIlv9XIw5TBjz7YctcCt7d0nAbiyOvHf4o6_3MLTHQ==",
+      "title": "tender18.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0wCvag4sO8Fn5pW5Xtx8kxvlxLZrwLbl7ZhXZ7Qs87JaO_VvBE8xc2KyJ-MQXFiV8ipVs6Qj1ZQZ1rpTYglDf2gjCzmvxd_wDOV4hCq2QrhdGo1895-v_bdn8MreLwvT0iDy9wJVYEjo-ilb_GZzKfxVXv0gNntSSiW8QFXZWwMBwKkNdGtdGJEoZnQpNUyIs",
+      "title": "tendertiger.com"
+    }
+  ],
+  "shard": "india"
+}
