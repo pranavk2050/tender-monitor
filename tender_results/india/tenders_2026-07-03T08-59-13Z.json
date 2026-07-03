@@ -1,0 +1,112 @@
+{
+  "run_timestamp_utc": "2026-07-03T08:58:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "b3f02e1c9e8d7f6a",
+      "title": "SELECTION OF Architects / Architectural Firms for providing architectural designs and services towards Development of Research Park and associated facilities at IIT Bhilai",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Indian Institute of Technology Bhilai (IIT Bhilai)",
+      "domain_industry": "Education & Research - Infrastructure Development",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "This tender seeks architectural firms for design services for a Research Park at IIT Bhilai, encompassing BIM modeling, sustainability assessment, quantity surveying, and cost estimation. The selected firm will be responsible for preparing all drawings in BIM/RIVET and conducting clash detection.",
+      "key_points": [
+        "The work involves architectural designs and services for the development of a Research Park and associated facilities at IIT Bhilai.",
+        "Services include BIM modelling and sustainability assessment.",
+        "Quantity surveying and cost estimation are part of the scope.",
+        "Proficiency in BIM platforms (Autodesk Revit, ArchiCAD or equivalent), CAD, 3D visualization, and documentation tools is required.",
+        "All drawings must be prepared in BIM/RIVET with clash detection features.",
+        "Minimum average annual turnover of Rs. 3.0 Crores in the last three financial years (2022-23, 2023-24, 2024-25) is required.",
+        "Evaluation will be based on Quality-cum-Cost Based Selection (QCBS) methodology.",
+        "Tender fee is Rs 1000/- and EMD is required."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-05T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8DizVm2YwR1FBkPwUYWwUDGJUOtJk4uKM0AvsUbxeFXWiBqdQXy8LH8jfLzZjR_pkhR8lI0l0U1WzdNsmUmf7HxVBeotRkJ1X5g6__6SNXtPmocMOfurLhC7SxRvhxYz00h3BVNJBPoojdrlTTcZ-cA==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "c76d2146e507b972",
+      "title": "GeM Bid for 3D Laser Scanning and Imaging System as per MHA QRs",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Bhubaneswar (via GeM)",
+      "domain_industry": "Security Services / Education and Research",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This GeM tender is for the procurement of a 3D Laser Scanning and Imaging System as per Ministry of Home Affairs (MHA) Quality Requirements. MSEs and Startups are eligible for relaxation in experience criteria.",
+      "key_points": [
+        "The tender is for a 3D Laser Scanning and Imaging System as per MHA Quality Requirements.",
+        "MSEs and Startups are eligible for relaxation in experience criteria and turnover criteria.",
+        "The bid is split into technical and financial components.",
+        "Documents required from seller include experience criteria, past performance, bidder turnover, certificates, and OEM authorization.",
+        "Minimum average annual turnover of the bidder for 3 years is 30 Lakhs.",
+        "Years of past experience required for same/similar service is 3 years.",
+        "The local content requirement for Class 1 and Class 2 local suppliers is 50% and 25% respectively."
+      ],
+      "deadline_utc": "2026-06-23T00:00:00Z",
+      "published_utc": "2026-05-26T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHszUK2i9oNT_-XcWz4i1Io_tIYyPt0lUVyOieDtNfqEhC_I1FeTdP8Bv83q8U3yLJXRzufoicknCNfieT8P4o-CcOJxO3opeB6NeSyIjJC7q7sLiIcjwcHkrHGAREipIoENB46tDWwg8ltHvmgUZVsqIwW-u7OFd31M-KAsVX5bg0KigQK_Es",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.iitbbs.ac.in/wp-content/uploads/2026/05/GeM-Bidding-9288088-2.pdf"
+    },
+    {
+      "id": "1e9a2b3c4d5e6f7a",
+      "title": "NALCO GeM Tender 2026 for VR Training Module at Smelter Plant, Angul",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NALCO (National Aluminium Company Limited) via GeM",
+      "domain_industry": "Mining & Metals - Industrial Safety Training",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "NALCO has released a GeM tender for the development and commissioning of a VR Training Module for Pot Room Activities at its Angul Smelter Plant. The project aims to strengthen industrial safety training through immersive AR/VR-based simulations, SOP-based learning, PTM simulator operations, hazard identification, emergency workflows and performance analytics.",
+      "key_points": [
+        "Development and commissioning of a VR Training Module for Pot Room Activities at Angul Smelter Plant.",
+        "The solution must include hardware, software, and integration services for immersive training in critical plant areas.",
+        "The proposed system includes a VR Safety Training Module for SOPs, hazard identification, PPE usage, emergency response, and plant walkthroughs.",
+        "Eligible OEMs, authorized dealers, agencies, or channel partners with relevant VR training module experience and required financial credentials can participate.",
+        "Minimum average annual turnover of \u20b911.36 Lakhs during the last three financial years is required.",
+        "Bidder should have executed/supplied at least 1 VR Training Module during the last 7 years."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKJwTKfuYpXUixSp_wNoF2Z5poRkLTIgNhkIgX-9c7eEI-YFN_7X043QAGCAU-weEm0racXSLznZgicxt-713eA1atsYOIv5Bd6dGtF2CKhd67zyRZA37U86Hek9C0zMH8_HMapgMjKe5K0pVPPsOxzaDU",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.skillcouncils.com/tender-details.php?jid=1874"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8DizVm2YwR1FBkPwUYWwUDGJUOtJk4uKM0AvsUbxeFXWiBqdQXy8LH8jfLzZjR_pkhR8lI0l0U1WzdNsmUmf7HxVBeotRkJ1X5g6__6SNXtPmocMOfurLhC7SxRvhxYz00h3BVNJBPoojdrlTTcZ-cA==",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHszUK2i9oNT_-XcWz4i1Io_tIYyPt0lUVyOieDtNfqEhC_I1FeTdP8Bv83q8U3yLJXRzufoicknCNfieT8P4o-CcOJxO3opeB6NeSyIjJC7q7sLiIcjwcHkrHGAREipIoENB46tDWwg8ltHvmgUZVsqIwW-u7OFd31M-KAsVX5bg0KigQK_Es=",
+      "title": "iitbbs.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsqFMRQC7RWYu5CqbBktmcSOJ6jIsEIVZ6iB9Imbk-CQgVlqgdLOnokJXRdtx_Q9wx4jC3WhnftppHvQoAlgusGZI9U46E7nqLBC8DT6aF_soy6JFd8foBO06YzHdLf4swvwsLLsdRLjfCfeQ0hl3D7EteAXMmUrIjSneV1sdYiJwPYTPRHi2ZRsxQzo2SJO5X8A==",
+      "title": "neigrihms.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKJwTKfuYpXUixSp_wNoF2Z5poRkLTIgNhkIgX-9c7eEI-YFN_7X043QAGCAU-weEm0racXSLznZgicxt-713eA1atsYOIv5Bd6dGtF2CKhd67zyRZA37U86Hek9C0zMH8_HMapgMjKe5K0pVPPsOxzaDU",
+      "title": "skillcouncils.com"
+    }
+  ],
+  "shard": "india"
+}

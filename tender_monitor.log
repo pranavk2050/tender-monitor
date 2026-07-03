@@ -170,3 +170,7 @@
 [2026-07-01T09:41:11+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-07-01T09-41-11Z.json
 [2026-07-02T08:52:15+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 66, sent: 66
 [2026-07-02T08:52:31+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-07-02T08-52-31Z.json
+[2026-07-03T08:58:47+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 66, sent: 66
+[2026-07-03T08:59:10+00:00] verifying 3 source URL(s)...
+[2026-07-03T08:59:13+00:00]   url verification: 2 ok, 1 broken
+[2026-07-03T08:59:13+00:00] DONE: 3 new tender(s) -> tender_results/india/tenders_2026-07-03T08-59-13Z.json
