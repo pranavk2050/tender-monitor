@@ -1,0 +1,29 @@
+{
+  "run_timestamp_utc": "2026-07-08T08:24:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxII_MnLgUXHrEmw1xKcHmZLbkApO2rO0d1QSBTy4fLPQC9d47_7PtcxOWwKE1e9nm_uJzCohihlw6jkJHxu205oP2TfjrUa1xqa2663OKE1OImsMhc4rR22da86vbAr2z6W5743lGceMUY7AMdlmv_87ys32U66RjPpX_eEbB0rW203I9dEeADV0z3H-CSIzX4X1KLcn1LN0gPp47PTH3nQVglX5xAc_WYnhKEwsCRclUbYACvw==",
+      "title": "mdi.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38rxNqBzTICG5RvaeTHSFGZkfu6BwK4tgi8-qd60MoNEURjfNhR0kIK656fGO0xHEXbSDrpiUIlBTpoEp0iJuNYoNta4VEDgIP1ISAtu6hUiGY1E3mmsmbvN2rUUOh_jwLUxSr7P8PEF0RwVsQ7WG42nbpJi5ILmOzWw=",
+      "title": "dda.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYsAUkFwCUzJ6U2k_YH-1eIgoDtZdSdzKc0Pj72wel_dA114N9e04uVPO6DYQjvUTezDTnviij5kJDm5dnRQBqHqRqaX77FDNTm1WhVrKTQNR0p3gS9zrHS7mnQan5HRTxg7kSvFvlfZLBzVxOK7bhF7_rdiKF",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0ceP7wzdBY7kT8yYjrwpPdlfpZJbqPu-6U3yI9zI7Om0B3CfetzodmRql3e1W5LX4w6F1mJV7fMMIoChBJ7Eeq9k5ZnnTgQ5T50wH2FrulxniJSqWeJsVut_IsFBSqpWCN_z0js3DBpAfNGx3KEWo9FwVO8sn5SF0uFFlaoehp3HBt9Jw9Kx5BGLlM-xAmdIoYA9NxNwdHpy-TmsQEr8JlUNnqVRfnJg94rIiPI=",
+      "title": "rajasthantenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZeymm5h8ADRjnlT23uP-3w0WtocaoKqNy94vwrQEhNAubiPnUJHQrKfTGNDv8fFVQOVwDKWZAqJl3PjKsDtIx2H7mWupx9mqrIFKXqN35sTQtOlwvE650TE83vSC8jHpTm0CgJQSUtH5XDg5myU5_CUY=",
+      "title": "growwindia.info"
+    }
+  ],
+  "shard": "india"
+}
