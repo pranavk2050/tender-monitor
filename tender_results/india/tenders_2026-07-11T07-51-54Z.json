@@ -1,0 +1,29 @@
+{
+  "run_timestamp_utc": "2026-07-11T07:51:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzqFySyIld69slnzKngR5hOmEYqLfaXI1N17q67bctOq6aJsh30uGcYm-1Vw3WNHRoupnzYFhrKOQJ8pk0Bxmc1j62P78GjOh-qr9e7CHow6keWclJwR9ZhXlKVkJoEnol3Lz3cARgFfXIzHFyQHCaxK8=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETpZWHCD-IhLTvqA4txU754HXd-SsAl409z9lsRFcBYDl8d3SQGPNhq7XrXwaC9DLCBaHMk2cyci55szWhU1NC6Z--hya5oo0zPTXyHuusslgiLe2FZS5BKwS4E0GhXCZsrSxPzd5AhAXw0eLVHd0I0U3uDQ==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrc6HyBauog6iNE1p2-fbE0YbxT2hHWfNPKrx-BhlW4o7kXWUYqiceY8NEJHpwYItob8trK0Uv92f9rsHlmp-kcmFv0laRtUi3jBUztqhAN0zJ_Zak-mlAmn-6HC2Xze3EhZkgW6QTox-WBD2YZgd71wrIGxPcRLUHiuZXFSU8utBwAskr45dtPL9K3ifW20fSaabHTbjmYLB-akkQ6nfrEKuMxuHjDDPEj13ocVGR1JM2pA==",
+      "title": "maharashtra.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpPF6ptMedxwAAsn5l9b0VDyBErNY_GkV-xjFrQQBP58u_IUO1GPyjrW5CN4lUleSnrI-wQMsxjdadT0BQEeKooalXY1A6hTdIgmBDxrz8enC2g1N0Tv-pfCHeaDRpio8sylAVUciXTOLxzuyX_rc-E15mg5DRdjjl9TlfW0ieZVW4O_Gs5DPK",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwHG-T5UizSOWq-qOpI7E3Gssrno5-Hb2AkLbZTnHE8zhB8E0ZpZugEgk-BqnaH2yRHt4xES2p02T14ry6HJxyuaVID1m7PDwkd9ltsuRMzdtyX8_55lOYoeWGZK3pMbrkf3uhRMnsbE8B0TtYl4CfeRD9OUrtSvfKTdGxovUCrB6U8yQ=",
+      "title": "iith.ac.in"
+    }
+  ],
+  "shard": "india"
+}
