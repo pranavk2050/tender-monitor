@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-07-14T07:59:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy1azdZiBRcl9WMUXaX249aYrX-32XJi2CvJ2eYMsrlWH8kzBBCAVsrTYkIJECPDded6B1nkhpIwtYbU2DmKg2IsV6w_TY-ES_pds8u-8r7npoIWC1vYc5a6UYLG1huvpfmFH8WaWjshslgSwCfJa2nCcg",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHmgsMzHLsqHTn3w684CabF6mfH0m-YrHKh6TYhQjhGJkPuYNBZILjWfV6GJmvztVX1NTuNPhf_b50nyZ8YOA88FHDKjzISfXFK4yf7moFvNFh4zcMM_j0FVT60nNo1HkGJX-sXFbafxZ81pGPVdETssuFZ_TTn84Hr71m-ZTvO5XrS1bBWY0Xp9nvIKUEWbrVh8nV06kbVrxNCfSvQ1DJ3174yfFr7j9EmuMoTlh5Sha",
+      "title": "maharashtra.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_KIt9MMXtl_yxBEEMWUiSFSIT-wZwWDUZN7j7KR1evIiGk8HepAXhKhhuHsWPoaPA2P7L1IyEzjfWfZ0wHomJbHR19071yHHDf2jPRqjTsRpd1k8i6o5AnDy_c39wtoGKfL_qjE07PP3Ch6wfOmNC6Q==",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN9d62ZrlO8YF_SawsE97kYY4GnJYC5uejwZvzNoeC3qGog6A3kYfkJeiEVn6yNoSuDaYzQMEyxGk-C52TYP6b-kTTqmVPpf1ScZq0bqa4qLFNWZW2n2VEiPekc1cZW92L2RBRCZeMWwAuAzFeO1E12k1QT5OE-GBn6k-AAawelsbwhuMU",
+      "title": "seepz.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDkYH6eFFp99Mic9XFTTGkk8RKvv-c6v2bRAMB5selXXyOuqF-VSA1S-A5yMHBrwLlxz0kNdCXRGpyxgm9WxnWmCbqNj5OuncvV1Lj2WKDLSysO8mSO9_k3nsMMoSX0eku-CPb5gIZFLP5PhBHWvIDeXG_MEJ5QhOMn6NHLqWL56ptBYaXnBvqOAriTN2IiLP1e4gEga7uTHpk6tiFYIw05WxrBMBlqr2iAxW15Gb5VbBgl3V4w-_rB7bLKcikJjqn",
+      "title": "odishatenders.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaHmKihe7RtVslihjpAfEbNKOOX9O1LAgAG8jI2BuW_hTVXgywqdcG0LiS7QBrczPl8gyioLVKz4bLaVTLvZ5qO9q__0KNQxCyeCMmE8ZPhp7lJrLuyRYjpArdascV65T5OCpPvKFa9PmF6dLmMD8jzz3b-de14J2a8tvR9aXxxgDCNqj2ihvENX10LUSLQlZ4Ok5IB_g5aroscgyH9Dhl3N7M",
+      "title": "telanganatender.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk-vzQ12THQ2YsqtHEvE0Cbxo6iEXcMHSufzfa0ao_P8kOgUeBeLnr1lAK4LMpbShFut4l_l7h18P-v4_5cOqB47kujIx_tT1dZdwc9KxaHYpE_PLc0FX4PcmKBRZQLibn395EjzJHsA==",
+      "title": "cial.aero"
+    }
+  ],
+  "shard": "india"
+}
