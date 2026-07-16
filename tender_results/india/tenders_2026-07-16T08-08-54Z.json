@@ -1,0 +1,45 @@
+{
+  "run_timestamp_utc": "2026-07-16T08:08:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Bpm5vpFGHLAhTWMlkwRHV6u0I8YC4okHA_0qEfcIm0AvaR4zKa1yn-7lx6CWjD54C8yE_vMA1GNBF7OYvLeKh7H0uI6Apud3wQInmATHUDuxup_nDB49cc3_--nzyrYT2zYl4-JVA9x89zEyANaR6KEdjq94YGuolUIjJtBTTZM=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7Vk59DJdBbOTT_nI9ESBtLDMCPFtRcJyWG8c-HJkydJmLqXudYxQLmYtaF1JO0uf0UWwQ7xiU9T-fiEVZZAqmF3PaFZQmIVmiJjdyWsVkRZEzLG2tJDHjsBpsJDJbzhC1L6FTVUQpcaNWM2DMTYxQQRYVcfZexXYr10DiQCNH8kWifGJUAD6FcME=",
+      "title": "bidassist.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHIAY7473X--s7olTmnilNewhvTlxAEUeEfk_qeO0xOLNLbsmjAyt5-Nid4tP1_sHtcXwXgvUYJ5sfG3ijY9mkDg5twz8wa751p9zZQuqOkv1Jo608w5qIBiRQzi3cxI8OTyYp6D1Plut1qnQ5e70pYk4nf1I-E1nspjyAXKRui7AC0akn8bRi7IIcmF7nnac24Ywo5U1w7d0=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbHTsP62IxRJ1-FAfhgMqnKtuJe_aQh1hHXCSbDFdEFXFyCma3VGlXwRwhIRrzMvMjonRqh-Cqb7Efov7mcWEApGVh-X4Llga_xne44AU5uBFG482ws5ZXcLe23sSalT4EXG_8xwhHe1B4La54M3xNbRT3",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlN4hYFWw2BpUQqIBiMPBnDYPOwZcizW_lXltWq6f4wVlxmBIklBo3U0qOFFOwZ_I74XxPVhgSaXgD6nkA-ifcyAQKDyU97XvVhbGn_Khtzx76HjYe1ZJLl0J7JEak7Trxx-W9RzGWhwXo-fOSdCxSqhK8gFbp",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWuZQ5TLtJXcl5KLYmRHcdHp7O-Wn7BKxhyrzJtNeiUW2lifTVpfph6zl2avS3f9eTFw-4A9SVWcFf6clZWGydWUw3dQBjMVwpOHQtkSR8AuNBRowFMz1vCt5FVhQrNV4U1Q25jmsfAYQnhYbd5y7a8jg=",
+      "title": "karnataka-tenders.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHqtusx7TXXySy7Ftw92uxK56tcEMvLrGUqLGNqbBYjUFK48LJ0X2MV56913PtgJGWqZCoeALhmzP9pgJvpbkI7yu2OqVoKiQBlARPHzO2bK9tqg2ZQNOlENTogJeyIXBtbsKYkLqpajbn07GAPlde",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6MbvloRYWPyD3nASr3oHaIZ2ATvywNKU7rqHRZ-FO6Q6NRGjAWPvQLAY8ReOLitPEdZPKn0_ficSC8u0_4-BBj09-jFWiGFKZ9vdRzA6tGlkaLhdU5Wkl6axIIHJ1N17Aj3N6I2DdvCVEz0ynfAgzTXCu0TJUBNOwwBSFkvnM2ikNBMvCU3dXo44H-95hS1tCGJBl1XyFNl9vM-OOKMqN",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPYLkJZ7OK9CqvYRimDX6GWLBJk1EEgVQ3viAFEuneYg2sY8oDHc6HQqJWH7C4Lh7gggm7g1mZRYaCbgWQuAAbNe17O5oloRmAub6o5g1fToTLTpkZsHPSGQq_sRfEdoFVZbJwfyPpDER-JtxlRXBe_Bu648Lerw==",
+      "title": "tendersplus.com"
+    }
+  ],
+  "shard": "india"
+}
