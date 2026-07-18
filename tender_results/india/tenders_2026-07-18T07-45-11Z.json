@@ -1,0 +1,25 @@
+{
+  "run_timestamp_utc": "2026-07-18T07:44:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGex7aD8VLsB6r1IZ-0kjTKJFMjaOPtmOR6BBcAxBLNSdXHIWwT3aRcy_S2lmgtInanKjVFvyhRYnEHhjgTt_0sj8AmX1aAq_gumQGFZsvFu9QR1qofdKeKU31SRJG8BlrJj4W7vWYMEhGcM769QiUDEa9ml7DfDSplVwWdvm9znJ2WnXIE0EzefTstG0rtqKZclJwCRyJgEHCBoZIBl5cssl4ChZz7PsgjqHmhr1qXuzzrGheHsP9WLhQpVpJ8Pj-r2G-BES44jTc0Y9RjrcUbRlGmnUXSPxuQypftYw==",
+      "title": "gcekarad.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9r6BBjNhjmrdlSAvpwyRRkF0bHPwz6oQTIM0sihXxiOPRG5WDbDyohC3JSyPerX63Cq6fEmAAz83IpmpbFqfud3zgQGGgZEbbzjUk-KVxLJWwxC2MUdK6Y_whcACh2y3qQY7QFnxUw9_mvXiJffRkrPIz55gMTgqydnT456pXfHw6vAD8t6jA8D-dePsAkXuJxxO0DdpS2nWxjiKtMqChw0rJqqCEx-r8bE_DVEdtrl3gclbiajRH3n2SwLf4BOpFUOf9QS5Ejh_dTCNF8B1JP56yx7yQss607nzAY-D5QmvlWt9eNtjBI64LIlPuGZR0",
+      "title": "tendercart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7zOiMWPqYPLifu6c_itbofcEAW3yaEWq4JY7c1j5unjvl_BInKRdo0Ohf4K4qHcJiMLPdPWxlToaHdwCRGOdFGUVGufGEIIQOoJ_aVf61VSzoXnebiFJ-i0kcYVJhU3F5",
+      "title": "bsdma.org"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1F-IJLwpcIKcRs3r2-6jc7UdCPafPYD_kf3iSzsH7b9205R4glk2_5wbRvgJ7v0V_GdKUBE0t__yoZRaq5UUSE428dNqe5Q0iG5E7kE0NmZONMWAXppaF2zHQvwGXIIUPX8uHKyopiXIHf2bE3Bxos-QtSGQqgwc=",
+      "title": "nhai.gov.in"
+    }
+  ],
+  "shard": "india"
+}
