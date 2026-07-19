@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-07-19T08:12:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHiViAeFfTw0P8XfpO8MBrhie84MlDZ3tAJo105HdAAFEu0-CVpauIS7CdehkWvwLsXUANKwFXLFD4Nqgr-6oMYkq8SuDMUCQzv_5ViDeokCmpUPcj5w01QpBZboZLGkmiu9BzvB3vTTmENWaAzZ_EzmaHQT1g8Gu0v4JNbfbpClF3_owgnSlsYcHcD0sD",
+      "title": "dpiit.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFOvkxVZtSdSbgJIsQsBxC4lXMcAA23oIhPxjNFXO4IQxGCbMvz_FhOWjVx-eYS_QjBdBKzn8DsMMpJDyksd2Sm1uYe7rBVgud-NBIK0EuE7E7BD9-lpqeYxzCuyerC9HqjWaIWb8NG4Dh9wWhTG5igGn6Sg==",
+      "title": "amazonaws.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-K8EHm4WHtkwp9SyZ_ajA2WL_QYLBfVF-gALNo699mkXIo-MrnTDIMOGaTy7UUiTx7pIzLE_ZfWVRUA1DD6QsSaJ5iAu0CVgOTJdvAEW99DBtCJvfVda8nLb0KNvMubPKAR60R79tW9bicu_JhLvhKTGE5hM3om6IM8rGTcwtwxIS80mqLGCU6PU7SqYazJwOovfkTi3",
+      "title": "tendersontime.com"
+    }
+  ],
+  "shard": "india"
+}
