@@ -1,0 +1,41 @@
+{
+  "run_timestamp_utc": "2026-07-22T08:24:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3tuCg-3OAdpI7Y1UevZdhS-Us13K_CutQPnyzo9G6IJL7gDsnyYEDQ_xWDsTKbn-qdBHl6I5QgtAXTApTsy43J-XdV2zejt7o6Og4zRIxz5OLGaZ46UCyJR4CarMzKHDKe4ujWxblS4iPDaGrmWeM3rs=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYy8oRT5oCsqMrun4Dbm5za3sC2VRGnvKHUmZhivomNSgK3AO0pFzPAqHmF7vkiCGH6dHItvCW0wMPfaYNdEJx0ean6peAJurgwQL_pHHWcCB4ZQzw4EUXMDmz1nqGvqdnZtACYAXG908nBL48AdfWsm0SCiBgE0nIqyx4McoIwr1gaAol60N6uUHDlnmkOpG_",
+      "title": "mcgm.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUyrCMgHQrEl26ljcE06_vf7MnLyNZzqxp0uuBKbIDjTctgYyFeyoTm-JaOZZJJiZCxJp-18rqwVLwpnXA1vwJOBkOajSMbse03mGeAaP8WclFwx441ulN2NY5nwI9Jno7rELyHdO-lVswPJnl2DKzf6LzeFKss0oT3jxHrs1s2la61aD29VQ3",
+      "title": "celindia.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyc5o78krtnVS7xj_V3NaJrgTFKqnM6CzeLgNwMZ-BcxtB5IxliNoR2tKw8XfJ5ZCZl4F-293Zy-RQ2Au1uN3kR8jhOmkqDqdsiGA1OYI8cI0qc6eydbAC_f7AcN24JTj1GcX7Tw72TqlTNDKhmnnI8fsIxWrgu-DZYjRmpBOvN4oKTR1RLI6DQW3D1N70j16hPBA0hKjwAX-8vidI1xz9qjCyvGKLrdZaeOZB_vZGlCYzLmz9xF3kpblt8SdgOQDXZVNcd6bCeoLR4v217S5ARN2wtg==",
+      "title": "assam.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXTkuv3JMtRVdW1kgwtnPpYl8YAHhQMi2Y1wzzA4DNgPKoA0Eh6phN_yiTM-SopsPbDczXl7KBlUEsh2R7z2ckUE7Mhzq2bWb3R6Jt7Jq0apNjGl34kxjH4LmWCpmBRcIR42ns9FdUc7rFDcU8EFhCeZabjQnride4sC9arFAUrO2B0zepnyNbK68_rimuBw==",
+      "title": "giftgujarat.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUuajDksE07blTaYWor40n9gGFrZf9iVseTOwv9hXLviNN7GN-lMQp5-LZPp1V5IDIGRy2WSV7GQAELvHZm_ppAb0XBdjvgymbLtCuLNQUBWfiMyQ9xRSwcwykITWKK4ASsb3OVQvnJH0hJaib-fY_8tXDUziAWb0=",
+      "title": "scribd.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcnrWyHb_c6r7rwcWyXxzP7he4vcW2gmSwJECRRcDjSwUTaAF1K2T5UBUsY5zflp_6PSxDqeesM9KhyUxvV6ADJP8mhfIx8n3uaxQb21z35U8a9v7EdHD_NMcICnqfxSF8yotJ7PQ603b_nT27C1hiFBEGEp-1Iseg1xjPv3_uBzcaJK8E4X4xaMw=",
+      "title": "vocport.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQ_nIewPvPdrRPvtO-vzb7k48vSeaefgR4qzh6qnMtEAKQeHdBlVIC7aFJnKqFGF6Aq_pkz5A7Zamy62JgvplhECFdA9_fl392Zj3d_VmtmfXHbzZUToWJcOOSS5hNTY7GsoifgPJhEbsVkoWsjqv72HHe4afl1m-8UHI",
+      "title": "indianembassyusa.gov.in"
+    }
+  ],
+  "shard": "india"
+}
