@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-07-25T08:02:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4af4o0Q8eSQacX_-6CKqQS4VhakbSocTkfdqliFwe-yY8_3sC7Qt9qW0WXRAI4vA3AT4F_mYOucbs-HVshddu3mSh_X2v-PixHWYkH9EXBh9k174ZFJaux1Q6hwc-7DeG3O7m1jxxbhe7YzEmE7AewY7uEw==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1VGEWVhpVnVjzEbgltmltZVNozryuY-ap975RXNOa3mmPWhjObjMuZkbcSmXnV8j9jZ4zSLh0c_7K2oKNSOHbF_1BnrH71N5x_9mhhtmCUsGeS5P2TmuiD2KCu39B0gkknq5MYak75KS8bSEhVIeukHknFQjIcGsx4CV3",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIkg6okOT5HyoRdQYt3Va1QSq56Pnuo7meiI30r9JSuLtB0bHMyNB7RaVkZ9PUNa-68p2G3zzgCiAgOIGnSxu535YSWjB6fRFjmu5q5_NjW8eEVVjJ_Au0rtB28cMpT4FLKdBwJqcJ62etMbBdwB7xFoetDwAL",
+      "title": "indiantenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLcm0Bj1qbWEDraGK7NcCwux4EpY3lnPMZZlx4A6rjng6QkjE3dxM84Kvkn3NhQm932I2hd4CR7IOGXdfxHzAkV-1HuAenCJIZJ_sU306eoEp58TTsuPMc3RPUJKsmnUIjztQao5pMxQTNuAa64Hgn7Q==",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4g5W5_vcapkj-K6LOcq8kG1yZ65HU44MqcUkDmvgnBmd_ZC-FSRpIP0-uUQRFJxJRGv2yo4WCFHSkCRtDf-mphoKiuFNWXDmx5P_F3C6CC3dPuBJx_4NDEtHipj6V7Foar2lnx65TzlOJTMoPurwgnlI6",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfdfTlM2czsXt4IQMmMmKHsV1beI7qbKdX6adPySkexRDCfA7fkjr8CwXV5ShUnCZ7aq6dkzwQDD9j0F8g6f_6ZgjzzeLZN0LSVphrFzmMMP75IFWsT6aVmsgRVbx4Zdq0bxXNe9v6tgAz2R5i-hdLowPIDqevx3astTfn5nDJK3-roZ1SfpDl6VlIPluwlzCekMvXpTjLiLLxisPZeYgeTt1n0dZ_1fkG_0upiRdzptrDknHFRUzM3SBB3InLItxSADYHKYNxXYPji8dxwcyrdrMQJt9LpugJbthaEkdjdg6NZr5nTk8AM7XUbd7Y0vs6crZ6",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrU1cn_mATxLY-oBxJfL-vIoZiLVfda3L43MGAzmZiSn1RQW7i0zmINAsLiS_aI8er3MeZa09rTTZ6LUCpTCW6Of5Im3A5XIvmDu-sYXxFz8K7KVwJzsHZktAtRIPNCraWz-DvCqQVnj4=",
+      "title": "cial.aero"
+    }
+  ],
+  "shard": "india"
+}
