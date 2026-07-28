@@ -1,0 +1,106 @@
+{
+  "run_timestamp_utc": "2026-07-28T08:29:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "b3e04e9c3e533037",
+      "title": "Development, Supply, Installation, Testing and Commissioning of Virtual Reality (VR) Training Module for Pot Room Activities at NALCO Smelter Plant, Angul, Odisha",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Aluminium Company Limited (NALCO)",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "NALCO seeks to implement an enterprise-grade AR/VR training solution for safety, operations, and maintenance activities at its Angul Smelter Plant. The project includes hardware, software, and integration services for immersive training in critical plant areas such as Pot Room activities, anode change processes, and emergency workflows.",
+      "key_points": [
+        "Development and commissioning of a VR Training Module for Pot Room Activities.",
+        "Solution must include hardware, software, and integration services.",
+        "Immersive training for SOPs, hazard identification, PPE usage, emergency response, and plant walkthroughs.",
+        "Includes a VR PTM Simulator for simulating PTM operation.",
+        "Bidder should have executed or supplied at least one VR Training Module project in the last seven years.",
+        "EMD of \u20b920,000 required, with exemptions available as per GeM GTC and NALCO conditions.",
+        "Bid closing deadline: May 30, 2026, 10:00 AM."
+      ],
+      "deadline_utc": "2026-05-30T04:30:00Z",
+      "published_utc": "2026-05-09T08:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_ywl6RmggPfU670A1go1mOk2t_5UcxyIWBDwSflb7K26o33HbifbHyBlmW-0P808PpTUTl3tozJZo2S0W8G3j62Sscs_1CYHmOl3l0yqmggnxbHWat5pcBp9bfK8Msi4alDS3V7dtQ1S8NxoMNmmXpdoI",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "c16111a8b2c3d4e6",
+      "title": "Supply of Asset Performance Management System (APMS) for Numaligarh Refinery Expansion Project",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Numaligarh Refinery Limited (NRL)",
+      "domain_industry": "Oil & Gas - Refinery",
+      "service_bucket": "APM",
+      "scope_summary": "Tender invited for the supply of an Asset Performance Management System (APMS) for the Numaligarh Refinery Expansion Project. The scope includes design, engineering, manufacturing, procurement of materials, assembly, inspection, testing, packing, and training for owner engineers.",
+      "key_points": [
+        "Supply of Asset Performance Management System (APMS).",
+        "Includes design, engineering, manufacturing, procurement, assembly, inspection, testing, and packing.",
+        "Training for owner engineers is part of the scope.",
+        "Tender document, BOQ, and corrigendum available.",
+        "Deadline: July 30, 2026."
+      ],
+      "deadline_utc": "2026-07-30T17:30:00Z",
+      "published_utc": "2026-07-27T08:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8a1Qw64KOEAFiv3tg0Xhq3Qd3Lz76f_RVOn0O9rXoatpwKsBoxRP5mlXlVgozgOVmMAfbuBxaLntG4Ipm-9pn2JgYsq1Cm4z17qzwpEhMz2ZQv7yz-VZgfYV2brHYxwN1LpvXYIaGIidDpvkVK1wV-QthFYu8a7sgsJqNuA==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/asset-management-tenders"
+    },
+    {
+      "id": "87b322312b982636",
+      "title": "Provision of Development of Web Based Asset Management Application for GE (North) Meerut Cantt",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Security Services, Meerut Cantt.",
+      "domain_industry": "Government - Defence",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender invited for the development of a web-based asset management application for GE (North) Meerut Cantt. The project aims to provide a digital solution for managing assets within the specified government entity.",
+      "key_points": [
+        "Development of a web-based asset management application.",
+        "For GE (North) Meerut Cantt.",
+        "EMD of INR 6.78 K.",
+        "Deadline: August 07, 2026."
+      ],
+      "deadline_utc": "2026-08-07T17:30:00Z",
+      "published_utc": "2026-07-27T08:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlc-M4LvZ5ViU7FAprsZbFk1hTge3PTKWskxqj2s-oiMjL4NU3lQ0raHVJiPjqbVYcKSKjQB2kjcIWZgY81eY3G_wEzDIu3aa0koPmKpscyoQPtzAGY2vIb-hDmXYXAXOMe84pILzZO06L1S_iMidbt2Dgaf53i9WMlE2BUUR9P4Xd_E28Kq83cl_YVU8JkjOe",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_ywl6RmggPfU670A1go1mOk2t_5UcxyIWBDwSflb7K26o33HbifbHyBlmW-0P808PpTUTl3tozJZo2S0W8G3j62Sscy_1CYHmOl3l0yqmggnxbHWat5pcBp9bfK8Msi4alDS3V7dtQ1S8NxoMNmmXpdoI",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8a1Qw64KOEAFiv3tg0Xhq3Qd3Lz76f_RVOn0O9rXoatpwKsBoxRP5mlXlVgozgOVmMAfbuBxaLntG4Ipm-9pn2JgYsq1Cm4z17qzwpEhMz2ZQv7yz-VZgfYV2brHYxwN1LpvXYIaGIidDpvkVK1wV-QthFYu8a7sgsJqNuA==",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnA-WjsWkzNhfb_FM_6HriXCT_fipXazU6xwKwa-zn_Ip35O1Ed1HBKw3nZl2S4fPreHRm6eTTLeOqAzBOSjN6hxpPm9XiUWMG3AACK6XiHG-2e8-UBRl15EAoywvLiPzpoRRbpbRhHCr8GszqhcABaxv_60JWnxa2pDyDYgNsg-xbq7fB-MlYRKe_ub8=",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlc-M4LvZ5ViU7FAprsZbFk1hTge3PTKWskxqj2s-oiMjL4NU3lQ0raHVJiPjqbVYcKSKjQB2kjcIWZgY81eY3G_wEzDIu3aa0koPmKpscyoQPtzAGY2vIb-hDmXYXAXOMe84pIL8ZO06L1S_iMidbt2Dgaf53i9WMlE2BUUR9P4Xd_E28Kq83cl_YVU8JkjOe",
+      "title": "tendertiger.co.in"
+    }
+  ],
+  "shard": "india"
+}
