@@ -1,0 +1,17 @@
+{
+  "run_timestamp_utc": "2026-07-31T08:45:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkKzWJua5_cZTWCNV0GzX74NY0Y-QfwV6aF3oGhNhMRLAqM8Nub_rcWBufL7zt8ou_aKUrpG-6H390Fjjz5rAfLYUz5vR5d4Pg-iXWVjW4ZRzUIHCK7CsXXKWrb9oCVcPNxRjgIUxGOx3mjBt67R_RK-mjDhLQ",
+      "title": "indiamart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxrMMD8KDQ69plw9aMa0BNoQRgTvNJbpAIg1_swQSkH8kKIZ6yaFzoH84IBAMJbER69WqA-DoHZvdvFG0DsE_KM4j7GwuKcGF8DIsbBB6igJeE9eflaMcYNjCkKeTFS2st1iAQzecIgJMyS0iqdRCys0b54TUI20=",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
