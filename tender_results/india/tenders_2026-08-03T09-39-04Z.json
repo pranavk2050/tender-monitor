@@ -1,0 +1,45 @@
+{
+  "run_timestamp_utc": "2026-08-03T09:38:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwgjxjn4bOaT7jiL8hz5AXuYQ3ddn4wIh03TyRz-hH-HrW-_OjwehdrtdmSGJfbmEf3d-FZuCbJT5sR5rL1TzpEWxlG_ZLoKDPj1VEe5lrAsRFDe065mlO8rZYKOBKxFeoUs19fHcU4JwcChF7WXZZQManecAVj54pcvamtkOMF1kHzrhmQ==",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7cx1-6z0rZbN_hZE98HUAZzaxAbbjzEzr8cCW9MKLj74oIKn6L4jiiQ4l48Vi04eb88TZcU2-bjfWRBlVV4gYGxHUnsjUATgjdOTpBxqksYAwTxxeoFnoa49juGc6c53bWpKZBowIeJBdzoPWBL3Mp4XBtJqVPl_YgYrXVu3ywdfP_SHcewzIWeM=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8To8pZrMP2AR82rd6C-t9u018VzxdR423lciWIToCtBa5qDy0TGFpfgXG6Qa0uG_XLkM6i5NmRiD4F3DWinox7lXKJmGHMVojmIQ2tfBxLgSSb-6yZbzx0ewwl8zHyC4SZHOE2c3T8G16nLabm22EKembqMiRdrw=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi9FnGZywxXd1UQ9okV_RutLWkIdSxlZwazvryNIZ2DGg-eHs5tVST937uPfjwB3EJo6ORLnHWivwGpesUIX2Djt0biPC6nY5dqXOWPuUKsrL1FGqyXc1zUPA5uX_YzgkJ57PQJV0xYGkq6ah8568C6cilm2XKXRmHwP7Hilp9OXGWFbDIQA==",
+      "title": "wbhidcoltd.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPgcxldFlfG-81-FcBdxgJkiuhOhV14ZCyQ2M57Wu1J9H907tcSich6nIeGvJaPTFiHLLXsPxCZJsQGdQ7EH-pUKUO3bZaG12YcgQGvL4AodpibZrgFe6IcqjqexD2EfJLxFuMAFDDj-xjmaK0yGnNIbXZr76_A2EmgvBlsUMrtp5zbps=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOrj-lJNUXxh2RSMaceMXAc6TpexYcCC1jwW4qRee0TrDcrIASzo2BpcU6xh3D0f38yj9aELw7UGl4QQo2Ow4gP7XBLzUQgE4j4iOfaulKv84c3AbVgoFTulZddESKanIKKgASYkfc19uQ3HaETXW9swC3vtFn1KT5rBI6TnM=",
+      "title": "iiitdm.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMiF8QqUTGFsv7oLvsT9NyEZf81CqUPdS6L3STwBQPcWEdiHNMfc-gf9tUav5w5CK2P48oWFT_LiYSDGVSs5eAgWtzOwANLbu2MHlyBmaNa0D5-n-qkQQIn0n2BUYLT3B5CH0h2sYE5N3Wux2MkTZ6tSzytVDaly2J-2oTfm_i8n7cNH5IZ1r3jFx8cEncX7S6iRp_XU6Jm4BQ",
+      "title": "tender18.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5i89rG0R3D8CS-U1-oh0Aa50IFxTDkgO-vhlMol7ULtpapco6jxb5oRnnXTUa8IcEeQbL4Csqxn-elSA-cR_-gvs7XCQx0tHi4tG8M6pp925EKpti9sdRJBXyeuBc90TgF10FU3d98xg8D5cOG7kl20h1QtraRf8jTMy-s95Ei6_Ylds8qJdhkvo=",
+      "title": "vocport.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy2JUYNLktHd9Q20v5wIKs3cl8ZjKKBdFQm43EiJ9o3CNDDt_ZqDeVLIwr2dta-_9-dsxNAnfGVR1uso5NP4O4pQ3ynBzknZ4Oa0TmBsXlZi85b9zdAR1uYJM1BEwF8w0b",
+      "title": "bsdma.org"
+    }
+  ],
+  "shard": "india"
+}
