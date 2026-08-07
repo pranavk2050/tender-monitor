@@ -1,0 +1,39 @@
+{
+  "run_timestamp_utc": "2026-08-07T07:12:00Z",
+  "lookback_days": 44,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "d748f21e031c19b6",
+      "title": "RFQ for Laser Scanning Services for New Local Marketing Depot Project at Matla",
+      "region": "Middle East",
+      "country": "Kuwait",
+      "tendering_authority": "Kuwait National Petroleum Company (KNPC) via Larsen & Toubro Limited",
+      "domain_industry": "Oil & Gas",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Larsen & Toubro Limited is issuing a Request for Quotation (RFQ) for laser scanning services for the New Local Marketing Depot Project at Matla for the Kuwait National Petroleum Company. Vendors are required to submit their technical and commercial offers by the due date.",
+      "key_points": [
+        "Technical and commercial offers required.",
+        "Project located at Matla, North Kuwait.",
+        "Focus on large-scale infrastructure projects in the hydrocarbon sector."
+      ],
+      "deadline_utc": "2024-11-11T00:00:00Z",
+      "published_utc": "2024-11-07T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.scribd.com/document/752115167/RFQ-KNPCMATLA-0098",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.scribd.com/document/752115167/Cuaderno-de-Ingles-para-imprimir-cubierta-de-color-azul-claro-y-rojo-con-ilustraciones"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJX3agDylS0qwFfh2jpdwpUtuB05qOi1YIRDwgVuoLcC92Qc_WoGRZqcUdDF_6RMRp1LKY0R8KQ4lUdDqduj5UBcSBfKh-qSMS0iyyP3m22x5oQJ5x-ur0GfGGlRyUQA5GMimVTCziPbLNNEQLrxM4KkG_TqBx",
+      "title": "scribd.com"
+    }
+  ],
+  "shard": "middle_east"
+}

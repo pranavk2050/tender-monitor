@@ -246,3 +246,8 @@
 [2026-08-05T08:31:26+00:00] DONE: 5 new tender(s) -> tender_results/india/tenders_2026-08-05T08-31-26Z.json
 [2026-08-06T08:31:22+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 77, sent: 77
 [2026-08-06T08:31:52+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-08-06T08-31-52Z.json
+[2026-08-07T07:11:59+00:00] Calling gemini-2.5-flash  shard=middle_east  seen_ids cached: 7, sent: 7
+[2026-08-07T07:12:14+00:00] WARN: Gemini API error (attempt 1/3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} — retrying in 2s
+[2026-08-07T07:12:27+00:00] verifying 1 source URL(s)...
+[2026-08-07T07:12:28+00:00]   url verification: 1 ok, 0 broken
+[2026-08-07T07:12:28+00:00] DONE: 1 new tender(s) -> tender_results/middle_east/tenders_2026-08-07T07-12-28Z.json
