@@ -1,0 +1,40 @@
+{
+  "run_timestamp_utc": "2026-08-08T06:46:00Z",
+  "lookback_days": 2,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "21e10266e7464010",
+      "title": "RFP for Service Provider Selection for BGSSL Inbound & Outbound Call Centre Solution",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "BGSSL",
+      "domain_industry": "Business Process Outsourcing / ITES",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "BGSSL is seeking proposals from service providers for an Inbound & Outbound Call Centre Solution. The solution should include features like lead recycling, DNC management, and reporting capabilities.",
+      "key_points": [
+        "The RFP document outlines requirements for an inbound and outbound call centre solution.",
+        "The service provider will be responsible for setting up and operating the call centre.",
+        "The company reserves the right to amend or reject any responses.",
+        "The information provided by bidders will become the property of BGSSL."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs-ZfiEkxYJRtDtjTyYza-gnMmCdZx0hxFAJJ_kzpuGe2mXTLV8ssF6ja3CAorlCfDl8l1dElerH6yqDI_B0HrPzOfCbDQqEqFsoRCs7z3VQYC9xVN4XthfbqtO8UUYB_KcSFLF6ViP-xh4-87ABC8JbHSyQso6cOlnhNt6_OLAG7F",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "message": "No new tenders found in the last check.",
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs-ZfiEkxYJRtDtjTyYza-gnMmCdZx0hxFAJJ_kzpuGe2mXTLV8ssF6ja3CAorlCfDl8l1dElerH6yqDI_B0HrPzOfCbDQqEqFsoRCs7z3VQYC9xVN4XthfbqtO8UUYB_KcSFLF6ViP-xh4-87ABC8JbHSyQso6cOlnhNt6_OLAG7F",
+      "title": "bgss.in"
+    }
+  ],
+  "shard": "india"
+}
