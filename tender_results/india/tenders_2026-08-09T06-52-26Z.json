@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-08-09T06:51:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVJK4kLQTG6vFJ11jZKeN7H7SaaAWzepfJxQjkoz7rn5MCYelmpYee-BwVsASds4U1sGrBtewMBg2HZUMotLFbqP2W-LpnDi5pfn3lNlo_UgW_cW3A0I58AeQGA7PHVuymmJOVcHuOp8g=",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6oV7XjkRQTQ0boBtMZYupvQa0UU9TxQ6LAFCMtIKXBYyDsiiNFiEgOo3Gz_4NNZKUKazFFb4gOUTFzJu2eZK25WmSDhbF3uG8zlk0wr1FxpBas1BVSSnLRZ_JQ9bli3Rv19cSWWUmlsMm2t1Svb49SwI=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES1K1WbBeWOvjhxYZO6GIXloD17t6kaIEjcoN5LUukKymOKn79lEspIquATApWpwTiscHm_tnPdg7hDbZ35Ukac0aIdCPxUvQWnx-3TEc7HKSlf0NtEuZNiOOIHV2ZnOGgqe8iEwcVOHgpEns6jksvKexuP1-m2YKbKAexTQoMHzS74J9n00k-e5lDMpSvcYrJPSIJb-zBcluD6U5fv70PD2el9FF86iT7bMnjdM2aIWc=",
+      "title": "saurenergy.com"
+    }
+  ],
+  "shard": "india"
+}
