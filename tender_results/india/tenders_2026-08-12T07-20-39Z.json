@@ -1,0 +1,42 @@
+{
+  "run_timestamp_utc": "2026-08-12T07:20:00Z",
+  "lookback_days": 1,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "21e10266e7464011",
+      "title": "Request for Proposal for Appointment of Master System Integrator for Supply, Implementation & Support of Digital Project Management Platform including 5D-BIM, ERP, GIS, CDE and Analytics for Projects of MMRDA",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Mumbai Metropolitan Region Development Authority (MMRDA)",
+      "domain_industry": "Infrastructure & Urban Development",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "MMRDA is seeking a Master System Integrator for a digital project management platform including 5D-BIM, ERP, GIS, CDE and analytics. The project aims to integrate schedule management with the 5D BIM system (4D BIM Simulation) and enable automatic creation of work packages by extracting quantities from 3D BIM, budgets from 4D Cost, and schedules from 5D BIM. The system should also support online tendering through its own portal system or integration with existing e-procurement systems.",
+      "key_points": [
+        "Supply, implementation, and support of a Digital Project Management Platform.",
+        "Includes 5D-BIM, ERP, GIS, CDE, and Analytics for MMRDA projects.",
+        "Integration of Schedule Management with 5D BIM system (4D BIM Simulation).",
+        "Automatic creation of work packages extracting quantities from 3D BIM, budgets from 4D Cost, and schedules from 5D BIM.",
+        "Platform should support online tendering.",
+        "Bidder's average annual turnover should be at least INR 100 Crore in the last 3 financial years.",
+        "Value of work done for completed projects will be updated to the price level as on 28 days before the last date of bid submission."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.mmrda.maharashtra.gov.in/tenders",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJGIvu-TeY9J9oZGAIG-lKsIi5x8htPWtu0wNQyHjXLMiQ2E2m8sFLbBzZ9wa4YdnobeP4SdWWnCWLC3LFPq_O-IJfPKoWyJ_lHcj_6DqrYDAEjt1DCa--4D33CmX2DafI0-NowQpwdscfRh6g1pCU7UnW8C1DPDgbYa85FivFds8YgTNvB5gohn896NT10Cr480cNeSpu9i1iDoRorKBJsyWDQVf_3FN0dEeaioe-6bwy",
+      "title": "maharashtra.gov.in"
+    }
+  ],
+  "shard": "india"
+}
