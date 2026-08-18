@@ -1,0 +1,72 @@
+{
+  "run_timestamp_utc": "2026-08-18T06:37:00Z",
+  "lookback_days": 1,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "99224399224399",
+      "title": "Supply of Elevated Geographical Nakxa 3D Map and related services",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Security Services, Tinsukia",
+      "domain_industry": "Security / Municipal Services",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "The tender is for the supply of an Elevated Geographical Nakxa 3D Map, which includes the provision of related services as specified in the bid document, such as 3D Surface and contour mapping Software, Dental Elevators to Loosen the Teeth - RBSK, 3D Laser Scanning and Imaging System, Maps, Vehicle Lift.",
+      "key_points": [
+        "Supply of Elevated Geographical Nakxa 3D Map.",
+        "Includes 3D Surface and contour mapping Software.",
+        "Includes 3D Laser Scanning and Imaging System.",
+        "Deadline: August 17, 2026."
+      ],
+      "deadline_utc": "2026-08-17T00:00:00Z",
+      "published_utc": "2026-08-16T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendertiger.com/satellite-imagery-tenders-in-india",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/Home/Index"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtski0nUBQwgQpKv4XR_Ebvx8EnxlU1JGvsHKbF-PCTw6W2rtLwv1U0JaEE6PneKsAyHugpBjSMtKOXV9RR09VKT3sDbOPIc3MVrxguFOG_j7w73l2eSvMdsCrirXEmZi1sO6HgljPJAQ0OoVCgYAvJP79rpV3RUAi48XfCXxNHCc=",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWC-PsjtOW8uxOv0T3iwSQCiDSlginyoC5eS3iAStw7Vs4fWGWZa87MEFr2zZsNhlWNl1sX8Xz9WrJQ24KJ8OXBzvVvh4Y7YW7upcxw7BXE82AzHWgIz0S9j_KmgYVaVxrhn6c6QCw9hg=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR6-7DdyDVyiZRQw1bP37D-d--Qi4LYJGX1a0BIYZLuxg0SJO4g9xrmPLbOccH1osZUu3L1TnbfVilxPQ4wLPsr0wtmpq_vfQzq1C4hAiUJabG1KwCvW1Z_hBzpaPcLPs_rivWH8-wl6ntrRMPYzbO5Ynjvckomg==",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvIQbGFTt51RcPD3EWVtkmCuubmCX7gYH1cBvXtgh3SEfuRv4fimRDY1j8D2BZXtR9J_VVFy0kXC3t0qFmuHGGXJ47LwXyaHbT1jLdLi2d9XvTCBwuYva9ES7cD3lvVlk=",
+      "title": "prl.res.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHna40fVTWggajx6E9f4DavEpxY_K-R7Nrhq0sNw8anbuB3HmE-Ay6P8NzBtVUsVOzt85m6lHQv8ZQDnQc0NB-KDLdtKmI5ymU6gOCBrOWgcuC_UiFOrbkFIOtBmIuYR2YeL7KAe0WQjn1z-khg-I159sVxX0R96YKJ_zoJK-4-74LHJKUdlKVgRtl0lYh7IyCqbMkBbwda9tLi53HL1aUCCD_m12eIeAK0BoAdEYJX3fv3DG2V-JzFik09rH4r9s=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5iilYxvmmRJgyqmnmBj4wmk07uAFo3yXI7gIC1vvvInnaAljRAmlCTnAsdX3icY7ngDH1jSjmPqmJsHXdGFMJqC1mfNxE_Ff2ET4j-PusZ_YNA-REFT90-gNRhyX0jqPyVMLjkZuGUYVu8EqdfK3M_ZBE54DX3oPEs8JbU5IvzrEGjwi5uUAHmM4-w_spBqxeWkEiczmhcOw6uE8sMNM-gB0GZaf9VMRrnJNbe3FJqds2ag==",
+      "title": "haryanatenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfrplKghMFAz8zpINapHc8WpeQQu2rdcKKZi8lNt1kOPErt7r4FWh5mf8WE7YtUwUjO5W0_GtQ3vH8_4Uruci-rLEVps7v3Ps8-2XxlHecnpXPCcuxw62ENjaL9l38VlIQCccu",
+      "title": "oil-india.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjKs2elIBjIEA1bRdxWBam7Wyo3U32-40JQFPWpme43D_lUU8C3QtLcaCvEvNg4nTqmzrsV2pHEKTkReeb3vT7fhcGlgOnQ6DyhTv1nFA9COrVq2lTqXeR1RkT8gfWZue7Zre8DXezN7bS31e8aEcnwsTarm39cRbZzP7xJzImYv66_y-aAoE=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO8DbkY3AXWDnrsqfS-t9XCgolnUmy-XuYbLE2xXci-_ggN8akyqPY6kHs-NGc6dTYRiobt_LQ3Wu_ZGBIAK4Zyc481jwW7AFGCTq6tnOW6jJn2Zzwb2GZimxs2ln89FVHgf7qpW6gIVA=",
+      "title": "cial.aero"
+    }
+  ],
+  "shard": "india"
+}
