@@ -1,0 +1,352 @@
+{
+  "run_timestamp_utc": "2026-08-19T06:38:00Z",
+  "lookback_days": 1,
+  "tenders_found": 11,
+  "tenders": [
+    {
+      "id": "e7b001a1d6e1c2d4",
+      "title": "Provision of Annual Maintenance Contract without Spares for SCADA/DMS Control centre, RTU and FRTU of SCADA/Tirunelveli for one Year in respect of Tirunelveli EDC.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Power Distribution",
+      "service_bucket": "APM",
+      "scope_summary": "This tender seeks bids for an Annual Maintenance Contract (AMC) without spares for the SCADA/DMS Control Centre, Remote Terminal Units (RTU), and Feeder Remote Terminal Units (FRTU) of SCADA/Tirunelveli. The contract duration is for one year, serving the Tirunelveli Electricity Distribution Company (EDC).",
+      "key_points": [
+        "Annual Maintenance Contract (AMC) without spares.",
+        "Covers SCADA/DMS Control Centre, RTU, and FRTU.",
+        "Location: SCADA/Tirunelveli, Tirunelveli EDC.",
+        "Contract duration: One year."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEanKtkyUphiCcdbcsA6GPNDSMbSKVyLGniXJbzPpfLc2NPjZYE9JENEZTdgITalBI9HGfsnJenJcsBE-fJA-oawj7NV0whmic4WART0vXJhcdhOtqp9g7j60P_K6GmdYPBOKwycgEIJGGxA7E79n2STZL8U7fSIXRN5dcoRwMT572KP8emVrnjlIRdKA",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://deepbloo.com/solutions/calls-for-tenders/energy-infrastructure/scada/asia"
+    },
+    {
+      "id": "99224399224398",
+      "title": "Development and commissioning of a VR Training Module for Pot Room Activities at its Angul Smelter Plant.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NALCO",
+      "domain_industry": "Mining & Metallurgy",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "NALCO is inviting bids for the development and commissioning of a Virtual Reality (VR) Training Module for Pot Room Activities at its Angul Smelter Plant. The project aims to enhance industrial safety training through immersive AR/VR-based simulations, SOP-based learning, PTM simulator operations, hazard identification, emergency workflows, and performance analytics.",
+      "key_points": [
+        "Development and commissioning of a VR Training Module for Pot Room Activities.",
+        "Location: NALCO Angul Smelter Plant.",
+        "Focus on industrial safety training through immersive AR/VR simulations.",
+        "Includes SOP-based learning, PTM simulator operations, hazard identification, and emergency workflows.",
+        "Bid Closing Date: 30 May 2026, 10:00 AM.",
+        "EMD: \u20b920,000.",
+        "Minimum Average Annual Turnover: \u20b911.36 Lakhs during the last three financial years.",
+        "Minimum Experience: Execution/supply of at least 1 VR Training Module during the last 7 years, or an LSTK contract including a VR Training Module."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGewu2CugtR2gj1W33bAIPREglAaNF1ZWE9jGahqApZPN39ykZxMqFmwFoY1uRB6qHUMte3IHtg3fQRUFDoVdz8KAPdNA-uZZ9zK21jtIN75NJDLWjMS8bCJEiJ4dSwvZFiujldLHOrS0NpESxCHdJdGNfO2Q==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.skillcouncils.com/tender-details.php?jid=1874"
+    },
+    {
+      "id": "e0d049f7e8c1b2a5",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC).",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "The tender is for a GIS-based Integrated Airport Asset Management System at Cochin International Airport, including a 6-year Annual Maintenance Contract (AMC). The selected bidder will be responsible for comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support.",
+      "key_points": [
+        "GIS-based Integrated Airport Asset Management System implementation.",
+        "Includes 6 years of Annual Maintenance Contract (AMC).",
+        "Covers data acquisition, processing, modeling, system integration, application development, deployment, training, and support.",
+        "Mandatory experience in supplying Enterprise-based GIS software for 3 projects, at least one in each for Port and an Airport in India in last 3 financial years.",
+        "Minimum Average Annual Turnover (MAAT) of Rs 50 Crores during the last 3 fiscal years."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-02-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzIuC0VQpiSVkruEL_JhCOIIXlWFCX2vZDrR9CkKnE_Fo9g4Dq6WHWrFW6L0GWEozi7a1P5WGRAVACShohxCS4TLHUAEgsv8zXnfHoN5EG8BHIZqw16dCduJcknHBdpKlpfazCHl9e70s=",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "21e10266e7464012",
+      "title": "Request for Proposal for Appointment of Master System Integrator for Supply, Implementation & Support of Digital Project Management Platform including 5D-BIM, ERP, GIS, CDE and Analytics for Projects of MMRDA.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Mumbai Metropolitan Region Development Authority (MMRDA)",
+      "domain_industry": "Urban Development & Infrastructure",
+      "service_bucket": "BIM_SERVICES",
+      "scope_summary": "MMRDA seeks a Master System Integrator for a Digital Project Management Platform. The platform will include 5D-BIM, ERP, GIS, CDE, and Analytics capabilities for various MMRDA projects. The project aims to integrate various digital tools to enhance project planning, execution, and monitoring.",
+      "key_points": [
+        "Supply, implementation, and support of a Digital Project Management Platform.",
+        "Platform components: 5D-BIM, ERP, GIS, CDE, and Analytics.",
+        "For projects of Mumbai Metropolitan Region Development Authority (MMRDA).",
+        "Average Annual Turnover of INR 100 Crores in the last 3 financial years from IT / ITES Services.",
+        "Experience of completed or substantially completed IT application Project with minimum value of INR 50 crores in the last 7 years.",
+        "Experience of 5D BIM Implementation in the last 10 Years for an infrastructure Development Sector."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFddm9-IXaAWvExs4hQFXJ2pYuY2GiPL6vRHfp74GoZGhy0MH130fY8wEnCBYYdIpLcqqm_DllF1G-EmOqTpBMSlfMvi4vruhV4S0RoesZvLqE1x69kxHjwHmbuZrG8GqP33oL8InJc00cIqeKihxQNuZWt5JLkWbwbaf_teR_8IGXJtJpSTfjlQa2lmoMgs3xvrP26N8i9bbAb9-OsJiI7xJInVc7dd2h6Kek-e-falEoHOA==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "c16111a8b2c3d4e7",
+      "title": "Tender for Supply, Installation, Testing and Commissioning of IoT based Ultrasonic Digital Water meters to the Water Supply lines located at any levels & heights including enabling of associated Software etc., complete its Operation & Maintenance.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIT Hyderabad",
+      "domain_industry": "Utilities",
+      "service_bucket": "APM",
+      "scope_summary": "IIT Hyderabad invites tenders for the supply, installation, testing, and commissioning of IoT-based Ultrasonic Digital Water meters for water supply lines. The scope also includes enabling associated software and comprehensive operation and maintenance.",
+      "key_points": [
+        "Supply, Installation, Testing and Commissioning of IoT based Ultrasonic Digital Water meters.",
+        "Includes associated software and complete Operation & Maintenance.",
+        "Similar work experience of value not less than 80% of estimated cost in the last 7 years.",
+        "Similar work defined as \"Supply, Installation, Testing and Commissioning of IoT based Ultrasonic Digital Water meters to the Water Supply lines located at any levels & heights including enabling of associated Software etc., complete its Operation & Maintenance.\""
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-04-24T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER7AywGZIw42IWt4M1K5PltaCXIjCck70s2tTxGhZKfsOkdxzGljEQqZM_GTu9FpkwwjYCK7_Y3cu-N3EIWoiaMaN35aRrJl4xoA5auUVz8-xTL-IyXSQObYb5aGtKU90hJkkPUDwis7sx4UcLRMIUlhxyr-s5ZC0IbFNVlnV8HA6hkoS66s06pIM=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://iith.ac.in/assets/files/tenders/IITH-CMD-CIV-2026-27-NIT-02-2ndCall.pdf"
+    },
+    {
+      "id": "e43b17c992d9c02f",
+      "title": "Appointment of Third Party Quality Assurance (QA) consultants for the projects mentioned in this tender document. The consultant shall use Digital Twin software tool for the project management.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "IIITDM Kancheepuram",
+      "domain_industry": "Education & Infrastructure",
+      "service_bucket": "AIM",
+      "scope_summary": "IIITDM Kancheepuram is seeking Third Party Quality Assurance (QA) consultants. The selected consultant will be responsible for project management utilizing a customized Digital Twin software tool for the specified projects. This includes progress monitoring, hindrance reporting, root cause analysis, and forecasting delays.",
+      "key_points": [
+        "Appointment of Third Party Quality Assurance (QA) consultants.",
+        "Consultant to use Digital Twin software tool for project management.",
+        "Scope includes progress monitoring, hindrance reporting, root cause analysis, and delay forecasting.",
+        "EMD of Rs. 86,000/- to be paid online.",
+        "Joint ventures and amalgamations will be summarily rejected."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-03-20T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTHpq8-4MmXt52nOQUj8pDJyfyPmyxjHNPlXayOiTAbcqEmcxUaqgY3dFaP9jRakaisFfILSr7AEajxZCfnBEkE2U02J7MS6s6TAuLLDDlFM_2xWcbdjYkEI4tG7GPkzXtA8LhnmKGA8yLLCjZl-W9fpFH5YKzoMS9QDLAqw==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://old.iiitdm.ac.in/img/tender/2026/Tendernotice_%20TPQAS.pdf"
+    },
+    {
+      "id": "b3e04e9c3e533039",
+      "title": "Tender for selection of software solution provider for iiot-based scada saas platform for government building rooftop solar/wind and renewable energy systems under geda.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "GEDA (Gujarat Energy Development Agency)",
+      "domain_industry": "Renewable Energy",
+      "service_bucket": "APM",
+      "scope_summary": "This tender is for the selection of a software solution provider to implement an IIoT-based SCADA SaaS platform. The platform will be used for government building rooftop solar/wind and renewable energy systems under the Gujarat Energy Development Agency (GEDA).",
+      "key_points": [
+        "Selection of software solution provider for IIoT-based SCADA SaaS platform.",
+        "For government building rooftop solar/wind and renewable energy systems.",
+        "Under Gujarat Energy Development Agency (GEDA).",
+        "Bid Closing Date: 18-08-2026 (4 Days Left).",
+        "EMD: \u20b9 2.25 Lakh."
+      ],
+      "deadline_utc": "2026-08-18T23:59:59Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMvKE1kuxdXlxxMQ5K1jAk8zTelNuX2tPliAv453oL7Qb5Ku1m2s_5w0StzuNsIdnXaEVoNCSRY60RJ71ai7_UqQFznmSgS8H_8ntmTt_-L4w5DsI567hqZAeA2wJve_uSJjJRLYrEQbg=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tender247.com/keyword/iiot+tenders"
+    },
+    {
+      "id": "1e78440d96a75907",
+      "title": "Tender for supply of plaxis 3d - 3d laser scanner, high end desktop computer, 3d coordinate measuring machine, industrial composite color 3d printer, 3d surface and contour mapping software, entry and mid level desktop computer, interactive panels with cpu, 3d laser scanning and imaging system (forensic use), xlpe cable for working voltage up to and including 1.1 kv marked to is 7098 (part 1), 3d laser scanning and imaging system as per mha qrs.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Forensics & Surveying",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender calls for the supply of various equipment including a Plaxis 3D laser scanner, high-end desktop computers, a 3D coordinate measuring machine, an industrial composite color 3D printer, 3D surface and contour mapping software, interactive panels with CPU, and 3D laser scanning and imaging systems (for forensic use).",
+      "key_points": [
+        "Supply of Plaxis 3D laser scanner and 3D laser scanning and imaging systems (forensic use).",
+        "Includes high-end desktop computers, 3D coordinate measuring machine, and industrial composite color 3D printer.",
+        "Also requires 3D surface and contour mapping software and interactive panels with CPU.",
+        "Estimated cost: \u20b9 22.00 Lakh.",
+        "EMD: \u20b9 66.00 K.",
+        "Submission Date: 31 JUL 2026.",
+        "Site location: North 24 Pargana, West Bengal."
+      ],
+      "deadline_utc": "2026-07-31T23:59:59Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": 2200000,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVJSjaF-xlk133hqShjiTxoNpQ6gfPDzLl8ZTG6XTh6yBU__BTV1iP2A6JC-QBuuqcTs53SXUZGDJDlBVWI1tzbSZnntKKTTEgrSBIWF1842gywORs1S3XVBaV0-T9rby6p7cX1UebYnrO6hamEjIWGtpns7cGDZOtyIQLH5M5v2w4r8OxGFY_EHUgR5mm_MQwQVMg1ppVJd0XuzV8F8j7aqwFlVNkMXWzp7EBT1yvJT51dVhr0CHomRwvb6ZiNlc=",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "87b322312b982638",
+      "title": "Carrying Out Feasibility Studies by Final Location Surveys including Traffic Survey as per the Railway Board Guidelines, Preparation of Detailed Project Reports, Bridge Designs & Drawings, Preparation of EPC Tender Documents, Preparation of Short Video Film about the projects showing the highlights, Conducting Soil Investigation including Hydrological Studies for various location in Chakradharpur Divisions.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Railway Infrastructure",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender involves feasibility studies, final location surveys (including traffic surveys), preparation of Detailed Project Reports, bridge designs and drawings, EPC tender documents, and a short video film. It also includes soil investigation and hydrological studies for various locations in Chakradharpur Divisions. The survey work includes 3D point cloud data using LiDAR.",
+      "key_points": [
+        "Feasibility studies and final location surveys (including traffic survey).",
+        "Preparation of Detailed Project Reports, bridge designs & drawings, and EPC Tender Documents.",
+        "Preparation of short video film about the projects.",
+        "Conducting soil investigation including hydrological studies.",
+        "3D point cloud data work using engineering grade survey Aircraft/Drone based LiDAR system.",
+        "Submission Closes: 07 Aug 2026."
+      ],
+      "deadline_utc": "2026-08-07T23:59:59Z",
+      "published_utc": "2026-07-15T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6Muiw-YfQ4CZsNWXmATdqo_Ip5DHV49HXR9uu9xaXdnzy_IvBNcevFUmsSaKQzNVGNzwXtRM_jS6suaP3chA0eTHETYYtjstduAzUSx1tdwFoRbtC6tR7NZW-J3HyYHH5b8vcJLaepRsCYwZVKa6RzKNTLf-24F6Icu2",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://tenderkart.in/tender/b01f61cf-261f-40b5-a261-3530533a544f"
+    },
+    {
+      "id": "972688005391c492",
+      "title": "Tender for Supply and Installation of AR/VR Training Lab.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NSIC-Technical Service Centre",
+      "domain_industry": "Education & Training",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "The NSIC-Technical Service Centre, a Government of India Enterprise, is inviting tenders for the supply and installation of an AR/VR training lab.",
+      "key_points": [
+        "Supply and Installation of AR/VR Training Lab.",
+        "Tendering authority is NSIC-Technical Service Centre (A Government of India Enterprise)."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGopQYJcAW2-TyxTmgh52Rhn9OVUmw28hHRiwh1jg3QxNgoalp0MONbct7WdXQgnZYnmrCm5Yk5gpWQYY7FMk0QOPiVOVgoEWWnzQ9k86LryFuRxV8j8st08JeZa7CIgtcxRsywoUdoS_EaEjTYfl_ZowFkFC1e",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "e6f4a8b7c0d1e2f4",
+      "title": "Expression of Interest (EoI) for Sovereign Cloud Services - Digital Twin Platform, IoT Device Ecosystem, Marketplace.",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "C-DAC",
+      "domain_industry": "Information Technology",
+      "service_bucket": "AIM",
+      "scope_summary": "C-DAC has issued an Expression of Interest (EoI) for Sovereign Cloud Services. This includes a Digital Twin Platform to create digital replicas of real-world systems, an IoT Device Ecosystem, and a Marketplace to discover and integrate compatible IoT hardware.",
+      "key_points": [
+        "Expression of Interest for Sovereign Cloud Services.",
+        "Includes Digital Twin Platform, IoT Device Ecosystem, and Marketplace.",
+        "Digital Twin Platform aims to create digital replicas of real-world systems.",
+        "IoT Device Ecosystem and Marketplace for integrating compatible IoT hardware."
+      ],
+      "deadline_utc": "2026-08-11T23:59:59Z",
+      "published_utc": null,
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmdqSTyI6iTijoN5FQ9V9utyMxIurEoCsFQnkbEOOlgL696RhwQe-oK-Q3r90oh9WXKYEDS4HF_LDjDfXOm7t636KZCRhcWfwvr2U3W9jz0qVuX2vQHWDybqEGd2MTRl-Ir_YnapYy5zYmi3JHcardEgPyGhyfwPh2ucE=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.cdac.in/index.aspx?id=dl_EoI_Document_Cloud_Services"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGewu2CugtR2gj1W33bAIPREglAaNF1ZWE9jGahqApZPN39ykZxMqFmwFoY1uRB6qHUMte3IHtg3fQRUFDoVdz8KAPdNA-uZZ9zK21jtIN75NJDLWjMS8bCJEiJ4dSwvZFiujldLHOrS0NpESxCHdJdGNfO2Q==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzIuC0VQpiSVkruEL_JhCOIIXlWFCX2vZDrR9CkKnE_Fo9g4Dq6WHWrFW6L0GWEozi7a1P5WGRAVACShohxCS4TLHUAEgsv8zXnfHoN5EG8BHIZqw16dCduJck9HBdpKlpfazCHl9e70s=",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFddm9-IXaAWvExs4hQFXJ2pYuY2GiPL6vRHfp74GoZGhy0MH130fY8wEnCBYYdIpLcqqm_DllF1G-EmOqTpBMSlfMvi4vruhV4S0RoesZvLqE1x69kxHjwHmbuZrG8GqP33oL8InJc00cIqeKihxQNuZWt5JLkWbwbaf_teR_8IGXJtJpSTfjlQa2lmoMgs3xvrP26N8i9bbAb9-OsJiI7xJInVc7dd2h6Kek-e-falEoHOA==",
+      "title": "maharashtra.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER7AywGZIw42IWt4M1K5PltaCXIjCck70s2tTxGhZKfsOkdxzGljEQqZM_GTu9FpkwwjYCK7_Y3cu-N3EIWoiaMaN35aRrJl4xoA5auUVz8-xTL-IyXSQObYb5aGtKU90hJkkPUDwis7sx4UcLRMIUlhxyr-s5ZC0IbFNVlnV8HA6hkoS66s06pIM=",
+      "title": "iith.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTHpq8-4MmXt52nOQUj8pDJyfyPmyxjHNPlXayOiTAbcqEmcxUaqgY3dFaP9jRakaisFfILSr7AEajxZCfnBEkE2U02J7MS6s6TAuLLDDlFM_2xWcbdjYkEI4tG7GPkzXtA8LhnmKGA8yLLCjZl-W9fpFH5YKzoMS9QDLAqw==",
+      "title": "iiitdm.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMvKE1kuxdXlxxMQ5K1jAk8zTelNuX2tPliAv453oL7Qb5Ku1m2s_5w0StzuNsIdnXaEVoNCSRY60RJ71ai7_UqQFznmSgS8H_8ntmTt_-L4w5DsI567hqZAeA2wJve_uSJjJRLYrEQbg=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEanKtkyUphiCcdbcsA6GPNDSMbSKVyLGniXJbzPpfLc2NPjZYE9JENEZTdgITalBI9HGfsnJenJcsBE-fJA-oawj7NV0whmic4WART0vXJhcdhOtqp9g7j60P_K6GmdYPBOKwycgEIJGGxA7E79n2STZL8U7fSIXRN5dcoRwMT572KP8emVrnjlIRdKA==",
+      "title": "deepbloo.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVJSjaF-xlk133hqShjiTxoNpQ6gfPDzLl8ZTG6XTh6yBU__BTV1iP2A6JC-QBuuqcTs53SXUZGDJDlBVWI1tzbSZnntVKTTEgrSBIWF1842gywORs1S3XVBaV0-T9rby6p7cX1UebYnrO6hamEjIWGtpns7cGDZOtyIQLH5M5v2w4r8OxGFY_EHUgR5mm_MQwQVMg1ppVJd0XuzV8F8j7aqwFlVNkMXWzp7EBT1yvJT51dVhr0CHomRwvb6ZiNlc=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkmKnSnWeQ8UwnG5HeFRCNUi2w1t8LjKiLsEyjq_qWv6Piebdtb7QAyHeleseEOBe9_Cp4WZgwosBVezULfqDK2bBJjUj9AipgMGSwNfzp7W7oRtZsWK5kuh23Ozqi3ho2PFFAb7jdblPBHN7Q",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6Muiw-YfQ4CZsNWXmATdqo_Ip5DHV49HXR9uu9xaXdnzy_IvBNcevFUmsSaKQzNVGNzwXtRM_jS6suaP3chA0eTHETYYtjstduAzUSx1tdwFoRbtC6tR7NZW-J3HyYHH5b8vcJLaepRsCYwZVKa6RzKNTLf-24F6Icu2",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGopQYJcAW2-TyxTmgh52Rhn9OVUmw28hHRiwh1jg3QxNgoalp0MONbct7WdXQgnZYnmrCm5Yk5gpWQYY7FMk0QOPiVOVgoEWWnzQ9k86LryFuRxV8j8st08JeZa7CIgtcxRsywoUdoS_EaEjTYfl_ZowFkFC1e",
+      "title": "nsic.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmdqSTyI6iTijoN5FQ9V9utyMxIurEoCsFQnkbEOOlgL696RhwQe-oK-Q3r90oh9WXKYEDS4HF_LDjDfXOm7t636KZCRhcWfwvr2U3W9jz0qVuX2vQHWDybqEGd2MTRl-Ir_YnapYy5zYmi3JHcardEgPyGhyfwPh2ucE=",
+      "title": "cdac.in"
+    }
+  ],
+  "shard": "india"
+}
