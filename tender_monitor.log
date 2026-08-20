@@ -283,3 +283,5 @@
 [2026-08-19T06:38:58+00:00] verifying 11 source URL(s)...
 [2026-08-19T06:39:28+00:00]   url verification: 7 ok, 4 broken
 [2026-08-19T06:39:28+00:00] DONE: 11 new tender(s) -> tender_results/india/tenders_2026-08-19T06-39-28Z.json
+[2026-08-20T06:40:10+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 91, sent: 91
+[2026-08-20T06:40:35+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-08-20T06-40-35Z.json
