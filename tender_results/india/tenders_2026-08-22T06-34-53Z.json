@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-08-22T06:34:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHkXfdgFM4PUaydvtfH5Fj8r9WbDrKWifyea7DG6-y0r9TT3LSk-kyv23Hc77JHSB6w9jLpkPYVtHh4ViyLTpjOh6wXA-qsoSw-KUOj86uMegPnXzBazyr2TNNMhHFHwcl9MavkOOr9CTubowpVKQdvQk85ek=",
+      "title": "dgmarketbd.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB_lKm4Z9ynmf6ijKEhAj8wkdAGLmMtD11L5z41IKbDt9652MzzQLL2_t7mah1277L9wGZN-Jrf1fgrAafgLoew3A6pVUEaqReztnT1g3hATfO",
+      "title": "nitw.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZIdifli8zM7XOMB0X7lSNXHPgCfb3W4KoKpoWJAaIMKfIR909HPfd-UsflRfj6NsvMeC4g-ZrozJQoGiBc6cALZu0oSxJbMD0P0qZGo2BavTfz3ZiulPA10vRWaQV0FhhoSKbXPRgV-UDYV0mWRWzxyk545FrbnDXtSeHLuVxVCp1pE_9HyVoJM6UdOqyLvk7L2UstMLsyG_obRKm9-B3p1TaNLviTEx8XeqBI5M8_PM0ILTBN2JfziGWOngOuHvBCDaqZ5lANGKzL_r64KTBtpGuN7lwEKaBgWDYdw0SFhZbTsLIIirzNwil2loQ_fYQsoDdy2VPDt1ipAuZ9-9G8v5eN0_oR5v3PY8ZK5x52JtOUcO5KZPvq4gqwrrNfEpNp5TPpPbk1t3K6JaBSKq25j7h_pp-3_p8IBwgvoCwZEfviKDy3RoX7PlEyuCYbgcRF7wsn4xFRJKUNyJGt7Y4mQTYSpX-POcCtVKg3hQqY2By1EIF1IIach6UCyVXh-blwfa9egfwudbiikSNLLRa9CLyGhkM0rHzQH2ghQNiznUbLS4Tid4UiB4G9f0_",
+      "title": "facebook.com"
+    }
+  ],
+  "shard": "india"
+}
