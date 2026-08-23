@@ -1,0 +1,223 @@
+{
+  "run_timestamp_utc": "2026-08-23T06:35:00Z",
+  "lookback_days": 1,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "b3e04e9c3e53303a",
+      "title": "VR Training Module for Pot Room Activities at Angul Smelter Plant",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Aluminium Company Limited (NALCO)",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Development and commissioning of a Virtual Reality (VR) Training Module for Pot Room Activities at NALCO's Angul Smelter Plant to enhance industrial safety training through immersive simulations. This includes AR/VR-based simulations, SOP-based learning, PTM simulator operations, hazard identification, emergency workflows, and performance analytics.",
+      "key_points": [
+        "Development of an enterprise-grade AR/VR training solution for safety, operations, and maintenance.",
+        "Solution must include hardware, software, and integration services.",
+        "Focus on Pot Room activities, anode change processes, and emergency workflows.",
+        "Minimum average annual turnover of \u20b911.36 Lakhs during the last three financial years.",
+        "Bidder should have executed at least 1 VR Training Module in the last 7 years, successfully operational for at least 2 years.",
+        "EMD of \u20b920,000."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhkUwcdzr4q0q1CMDfwMxfCOhWYsI_tBHuy7bb6qli3NXilFo5WIsMw-Oz5LhwO5DZNXJLB4dVrd5lfYTfBXAuVD8WchQ8GUiP4ToVMO2aOyHex_fF6hlzG0JhHH1ya6zxpBNZCJB2eF2yGnlmtYnGYlaceg==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.skillcouncils.com/tender-details.php?jid=1874"
+    },
+    {
+      "id": "c16111a8b2c3d4e8",
+      "title": "Purchase of IIOT Laboratory Platforms",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Dr.B.R.Ambedkar National Institute of Technology-Jalandhar",
+      "domain_industry": "Education",
+      "service_bucket": "APM",
+      "scope_summary": "Procurement of IIoT Laboratory Platforms for Dr. B.R. Ambedkar National Institute of Technology, Jalandhar. The tender is for the supply of goods related to laboratory and scientific equipment for research purposes.",
+      "key_points": [
+        "Purchase of IIoT Laboratory Platforms.",
+        "Two-packet bid, offline payment via Demand Draft or Bankers Cheque.",
+        "Tender fee \u20b9500, EMD \u20b930,000.",
+        "Bid validity 120 days, period of work 60 days.",
+        "Location: Dr B R Ambedkar National Institute Jalandhar."
+      ],
+      "deadline_utc": "2026-07-29T16:00:00Z",
+      "published_utc": "2026-06-04T16:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEJ0qvg_OIy6PnA03bgvwS9Lc4btEvAn5WbRyuLPCW8ZA32mzkkxHjuBFgs16bo-37ieFn5ik0yLaUXispxehmxGkjyyuOFK23HatIycLvuy3krBRRRxzMp13QAYloOU_og5G4vMtypOJdgtTFWLPCm1y2bzIgLkat9uAgW7pbbBgrUCKfXpL4vd1DXMDqr9bnvHkvPWxxI3E7P29kRJ6cIDIn-9CovUn17vb4QgwQU3XdSr52f7jMv5aEdeWr9Zg==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "e43b17c992d9c030",
+      "title": "3D Laser Scanning and Imaging System as per MHA QRs",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Ministry of Defence (Indian Army)",
+      "domain_industry": "Defence",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Procurement of a 3D Laser Scanning and Imaging System as per Ministry of Home Affairs (MHA) Quality Requirements for the Indian Army. The tender specifies the acquisition of a single unit and adherence to MHA QRs (Q3).",
+      "key_points": [
+        "Acquisition of one 3D Laser Scanning and Imaging System.",
+        "System must strictly adhere to MHA QRs (Q3).",
+        "Tendering authority: Ministry of Defence (Indian Army).",
+        "Location: Pune, Maharashtra.",
+        "Tender Reference: GEM/2026/B/7893128."
+      ],
+      "deadline_utc": "2026-08-11T09:00:00Z",
+      "published_utc": "2026-08-08T09:01:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo3zDouEWlJZj0_0HjhT4AXn90qO3EknelVe7wDaAc85QDQVBgmOkXh_b58k5esG1HjcMmp1ezBTDWWBAnTvolw0NrXwCejxaWCfeGvp9hyh6kzpKWioaLjpW3t-YJIS4zpJVqATE1R5EFPDdMkpYeYnWko3UJOgnpWqQfLq_L7U6dRIQ48jkl1iuxp-hRcS70b9cFKZzLQA6_mDweKl6fdHM=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendershark.com/details/maharashtra-tender/indian-army/8687cfdd-77dc-4273-8593-9d044eb5c0d5"
+    },
+    {
+      "id": "87b322312b982639",
+      "title": "AI Studio Procurement for National Institute of Technology Digital Twin Research",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Institute of Technology (NIT)",
+      "domain_industry": "Education",
+      "service_bucket": "AIM",
+      "scope_summary": "Procurement of an AI Studio specifically designed for Digital Twin Applications for research and development within the National Institute of Technology. This tender is issued under the Department of Higher Education, Ministry of Education.",
+      "key_points": [
+        "Procurement of one AI Studio for Digital Twin Applications.",
+        "Issued by National Institute of Technology (NIT).",
+        "EMD of INR 20,000.0 required.",
+        "Location: Bhopal, Madhya Pradesh.",
+        "Bid number: GEM/2026/B/7334050."
+      ],
+      "deadline_utc": "2026-08-17T11:00:00Z",
+      "published_utc": "2026-08-14T11:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPSoT1rIem9jTv1zyPd_9P7k-NQuOoMlnR6YInhYZT2UHAKFSZQ2_S9hjznT6Kkpg1aRE9Wftf1yA8MZWMwbjVQryw-XAyhNgg8U3cF8wn4jUkVh1UAOrbgHzApcdYA-Fb9byUFq-et5F5clhON8tJfABXtNRAwEUDdUL3PqBy81aYZ5i9qgQNCyZ8n5Aft_lvgJua8nwZy2t0qnVM6SiBhht60XZbS7Qxh_-h62q4N12B4GNg5b1_WaI=",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendershark.com/details/madhya-pradesh-tender/national-institute-of-technology/9da0e10d-b851-4ce2-a5cf-62895ca0c45e"
+    },
+    {
+      "id": "1e78440d96a75908",
+      "title": "AI/ML as a Service for Engineering/Process Digital Twin Development",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Oil India Limited",
+      "domain_industry": "Oil & Gas",
+      "service_bucket": "AIM",
+      "scope_summary": "Oil India Limited invites proposals for Artificial Intelligence, Machine Learning, and Deep Learning as a Service for the development and implementation of an Engineering/Process Digital Twin across multiple sites (Makum OCS, Hebeda GCS, Madhuban CGGS, and OTP). The tender seeks end-to-end AI/ML services, design, development, deployment, and ongoing support for a scalable digital twin.",
+      "key_points": [
+        "AI/ML as a Service for Engineering/Process Digital Twin.",
+        "Deployment across Makum OCS, Hebeda GCS, Madhuban CGGS, and OTP.",
+        "EMD amount: \u20b913,018,000.",
+        "MSE purchase preference applies.",
+        "Bidders must propose precise data governance, integration, and deployment milestones."
+      ],
+      "deadline_utc": "2026-09-11T00:00:00Z",
+      "published_utc": "2026-08-14T00:00:00Z",
+      "estimated_value": {
+        "amount": 13018000,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGeTUgcFo2o3_JKT-ANBYz-jO1VMF-AURpWfFCYiNbfkNmTJ_sWQD8IeqoMJ9dL_z0SM_PY-XPo-mvIOqL1pynCHnH7WqTN_x_7Fva6ZIFLbiEG8UzZSN4IJmuOo3pEMcsLdPmFCqFqc2DeSBkgw==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "e0d049f7e8c1b2a6",
+      "title": "Contract For Implementation Of Ai-Based Predictive Maintenance And Asset Management Solution For Stage-1 Tdbfp Auxiliary Oil Pumps",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Thermal Power Corporation Limited (NTPC)",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the implementation of an AI-based predictive maintenance and asset management solution for Stage-1 TDBFP Auxiliary Oil Pumps. This aims to enhance the reliability and efficiency of critical power plant equipment.",
+      "key_points": [
+        "Implementation of AI-based predictive maintenance.",
+        "Focus on asset management solution for Stage-1 TDBFP Auxiliary Oil Pumps.",
+        "Issued by NTPC.",
+        "Closes: August 27, 2026.",
+        "Refer document for bid cost, document cost, and EMD."
+      ],
+      "deadline_utc": "2026-08-27T00:00:00Z",
+      "published_utc": "2026-08-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmOJU8lFMDb_7dX-45SpKXSp4MIUpTLmEHtqNF117G7wUmSg90DnRo8jbreAyF78ZzZD1PHXZRsCUaBy41EchJc5ulp5e1zzB3ZazNUVZFSDDhmi4kx7Xi4CkdPUynTg3hzm-KeHO3HLRMWvQ9q2Y0MqFq7vbMi2tNJx1hlJd1fQ==",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "972688005391c493",
+      "title": "Supply of Asset Performance Management System (APMS)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Odisha Boards / Undertakings / PSU",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the supply of an Asset Performance Management System (APMS), including design, engineering, manufacturing, procurement of materials, assembly, inspection, testing, packing, and training for owner engineers.",
+      "key_points": [
+        "Supply of APMS system.",
+        "Includes full lifecycle from design to training.",
+        "Issued by Odisha Boards / Undertakings / PSU.",
+        "Closes: August 27, 2026.",
+        "Refer document for bid details."
+      ],
+      "deadline_utc": "2026-08-27T00:00:00Z",
+      "published_utc": "2026-08-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHtMX4uP6ZSMa1OGnjxVHrn6culF1wGLXtjF0MCwzm95ctjLGqeXomtpVnIPGkD6z7dgqY9hMYLMFw-08JB4Iv9xaoKjthYF8E4tLqSYDTfMCDY2lOs-_QfG1qkT_ZbpveEdrN8qfUC2n2-KJ-Ih4CxFDNPtrH0JnpKNXQCPc=",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/asset-management-tenders"
+    },
+    {
+      "id": "e6f4a8b7c0d1e2f5",
+      "title": "Procurement of Advanced Diagnostic Tool For Predictive Maintenance Of Various Transmission Lines Under Kumaon Zone, Haldwani And Garhwal Zone, Roorkee",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Power Department",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the procurement of an advanced diagnostic tool for predictive maintenance of transmission lines in the Kumaon Zone (Haldwani) and Garhwal Zone (Roorkee). The system should provide real-time equipment health monitoring, alerts, analytics, and support predictive maintenance with IT/OT cybersecurity.",
+      "key_points": [
+        "Procurement of advanced diagnostic tool for predictive maintenance.",
+        "Covers transmission lines in Kumaon Zone (Haldwani) and Garhwal Zone (Roorkee).",
+        "System must offer real-time equipment health monitoring, alerts, analytics, and IT/OT cybersecurity.",
+        "Closes: August 21, 2026.",
+        "Refer document for details."
+      ],
+      "deadline_utc": "2026-08-21T00:00:00Z",
+      "published_utc": "2026-08-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ3ewFQgOmN6XRml4qjzvamLhGN-FvwKxA4QZ0RtAzmLOG7m2HM3TLUYw2k5mKILEsOu4TatKJNupmstXo28bK2mPZh-Os0pipyDvDJVU36ZuqJ7r46ISYipyrD7YsEW35aY_bs_loz6Iv5eYnm2x-QfdGsqtLcjc6ZsPuFo2fmkNdKD8=",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/predictive-maintenance-tenders"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
