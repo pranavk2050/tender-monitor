@@ -1,0 +1,100 @@
+{
+  "run_timestamp_utc": "2026-08-28T18:10:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "b064c15320092c69",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "The tender seeks a comprehensive GIS-based integrated airport asset management system, including data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support. The scope includes ICAO-compliant aerial surveys, high-resolution photogrammetry, DGPS ground control, and Ground Penetrating Radar (GPR) surveys for surface and subsurface utilities.",
+      "key_points": [
+        "Comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support for a GIS-based asset management platform.",
+        "Includes ICAO-compliant aerial survey, high-resolution photogrammetry, DGPS ground control surveys, and GPR surveys for accurate mapping of surface and subsurface utilities.",
+        "Data processing and modeling to generate 2D/3D topographic maps, orthophotos, DEM/DSM, classified point clouds, and enterprise-grade GIS datasets.",
+        "Creation of high-quality basemaps, integration with existing and third-party enterprise systems, real-time data services, change detection mechanisms, and advanced 3D visualization for a Digital Twin.",
+        "Provision of GIS-enabled asset management and operational solutions, including mobile inspection applications, workflow/work-order management, indoor/outdoor navigation, and configurable role-based dashboards.",
+        "Solution must support open standards, integration with existing enterprise systems, and scalability.",
+        "Project duration is 96 months (12 months for Implementation & Commissioning, 12 months Defects Liability Period & 72 months AMC).",
+        "Application forms for prequalification to be submitted by March 13, 2026."
+      ],
+      "deadline_utc": "2026-04-06T10:30:00Z",
+      "published_utc": "2026-02-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.cial.aero/tenders",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "f5e933e14a1a384b",
+      "title": "Procurement & Installation of IIOT based UT sensors at Visakh Refinery",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Hindustan Petroleum Corporation Limited (HPCL)",
+      "domain_industry": "Oil & Gas",
+      "service_bucket": "APM",
+      "scope_summary": "HPCL is inviting tenders for the procurement and installation of IIOT-based Ultrasonic Testing (UT) sensors at its Visakh Refinery. Bidders must submit their offers online via the Government e-Marketplace.",
+      "key_points": [
+        "Procurement and installation of IIOT-based UT sensors.",
+        "Submission of offers online via the Government e-Marketplace.",
+        "Earnest Money Deposit (EMD) of INR 17,50,000 is required.",
+        "Bid security must be valid for 6 months from the original bid due date.",
+        "Tender fee is not applicable."
+      ],
+      "deadline_utc": null,
+      "published_utc": null,
+      "estimated_value": {
+        "amount": 1750000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.scribd.com/document/63265489/HPCL-IIOT-Sensors-Tender-Document",
+      "confidence": "medium",
+      "url_status": "ok"
+    },
+    {
+      "id": "c6a1e3b2d4e5f8g9",
+      "title": "Digital Twin solution for A03-A02 stretch of NCRTC",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Capital Region Transport Corporation (NCRTC)",
+      "domain_industry": "Railways / Metro",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender invited for Design, Development, Procurement and ITC (Installation, Testing, and Commissioning) of Digital Twin solution for A03-A02 stretch of NCRTC.",
+      "key_points": [
+        "Design, Development, Procurement and ITC of Digital Twin solution.",
+        "Solution for the A03-A02 stretch of NCRTC."
+      ],
+      "deadline_utc": "2025-07-03T17:00:00Z",
+      "published_utc": "2025-07-03T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tenderimpulse.com/tender-invited-for-design-tender-in-india-8535965",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEznC4_qGifbfnPaVjskoT7sm7LwHyo8cI5Z8xX21wVi2vQ9pqRsMk3QCk12pV6hDrmKKMvJuh_a753JMsiD_uOAED82Z0UGb12Abg-xbZDmIqJBEv7PxqITjQDtMIBiqtKrjmWpaHLoSM=",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9hkFAbkNNMl_4HZNvWgxqcE1ULmdeHelMeVDojGYRMlAGR7IJEWFXFjVhobd50bhgGtXv-E4LHcpwtScQsEOmtE3theHqhZFTqAHpjjZ-KpsfOH_jKgFGMHRLHmPnfGLy1JXqlbMdZE2m1Q0OVOgsrK5Xdj5TEZbUoo5Q77U8GkU4Ds0Y3NY=",
+      "title": "scribd.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvHLV6N9XVHDu57q6-fttkIwfcpb9-Am-4jvGEw5FEcvtgvxqZ7upMOykpkNoFbv0bu56kMocgE8hmVK9I3yagFN9f678Cic15hO4QHtH1k9kSmxzyaZaiaHn77BfYi5KiUmTdLYZkWaOqHgzKjwlGQOMRMgwfFZA3uiRIU_HLibF7O91ztS751zvYIy0yaCAo0IL1OaQ218-z3Sj0pLuQPmPyxBBJpFNOAJg1QUTcBy3dsDKGuVlbW0bORD9qFxYuHhD7ScQZ",
+      "title": "tenderimpulse.com"
+    }
+  ],
+  "shard": "india"
+}
