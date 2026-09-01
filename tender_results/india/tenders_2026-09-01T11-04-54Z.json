@@ -1,0 +1,97 @@
+{
+  "run_timestamp_utc": "2026-09-01T11:04:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e6f4a8b7c0d1e2f6",
+      "title": "Procurement Of Advanced Diagnostic Tool For Predictive Maintenance Of Various Transmission Lines",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Power",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Tender for the procurement of an advanced diagnostic tool for predictive maintenance of transmission lines under Kumaon Zone, Haldwani and Garhwal Zone, Roorkee. The system is expected to provide real-time equipment health monitoring, alerts, analytics, and support predictive maintenance with requisite IT/OT cybersecurity.",
+      "key_points": [
+        "Procurement of advanced diagnostic tool.",
+        "For predictive maintenance of transmission lines.",
+        "Includes real-time equipment health monitoring, alerts, and analytics.",
+        "Requires IT/OT cybersecurity.",
+        "Location: Kumaon Zone, Haldwani and Garhwal Zone, Roorkee."
+      ],
+      "deadline_utc": "2026-08-21T00:00:00Z",
+      "published_utc": "2026-08-20T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDquwDPmCcHnZrMm1M-TRTGgMjqtWIrZHkDhpcMXrccSEeDeIH77Eh5Phej_wItxi76SsgQijsHUPOpYVp7Koi8s-W3kWpBqDOhhf4UG51dQkT35FaAXWbDk_qbkwe5Bu55GYqfIyE9eUU8Ng_NxC9MnAUWzJPXGhlJfxMMlyyjyB-xzg",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/predictive-maintenance-tenders"
+    },
+    {
+      "id": "b3e04e9c3e53303b",
+      "title": "Implementation Of Ai-Based Predictive Maintenance And Asset Management Solution For Stage-1 Tdbfp Auxiliary Oil Pumps",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Power",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Corrigendum to a tender for the implementation of an AI-based predictive maintenance and asset management solution for Stage-1 TDBFP Auxiliary Oil Pumps.",
+      "key_points": [
+        "Implementation of AI-based predictive maintenance solution.",
+        "Includes asset management solution.",
+        "Specific to Stage-1 TDBFP Auxiliary Oil Pumps.",
+        "Location: Odisha."
+      ],
+      "deadline_utc": "2026-08-31T00:00:00Z",
+      "published_utc": "2026-08-28T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGuqI0Hsaq9N8qX9unV7IfL5F_y8Q1E4oZaeCFFx459DLTAJza_uaMJsCDNb6Z47CcK-6pZLYhOBrSkoZYTiKX1tU7o3z4EkUpQd_4SkKL5t-PwBx5975BagHcBGBBbW1-X_1u-sGMtC58R_HedMO4n73BR5KmOhSv4op6ulhwl18",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/it-asset-management-tenders"
+    },
+    {
+      "id": "e43b17c992d9c031",
+      "title": "Facility Management Services - Lumpsum Based - Asset Management Contract For Powergrid, M P Hall And E- Tower Guest House At Sector -43, Gurugram, Haryana",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Government Departments",
+      "domain_industry": "Public Administration",
+      "service_bucket": "AIM",
+      "scope_summary": "Bids are invited for facility management services on a lumpsum basis, specifically an asset management contract for Powergrid, M P Hall and E-Tower Guest House at Sector-43, Gurugram, Haryana. The scope of work includes consumables to be provided by the service provider.",
+      "key_points": [
+        "Facility management services on a lumpsum basis.",
+        "Asset management contract for Powergrid, M P Hall and E-Tower Guest House.",
+        "Consumables to be provided by the service provider.",
+        "Location: Sector-43, Gurugram, Haryana."
+      ],
+      "deadline_utc": "2026-08-29T00:00:00Z",
+      "published_utc": "2026-08-28T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGuqI0Hsaq9N8qX9unV7IfL5F_y8Q1E4oZaeCFFx459DLTAJza_uaMJsCDNb6Z47CcK-6pZLYhOBrSkoZYTiKX1tU7o3z4EkUpQd_4SkKL5t-PwBx5975BagHcBGBBbW1-X_1u-sGMtC58R_HedMO4n73BR5KmOhSv4op6ulhwl18",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tenderdetail.com/Indian-tender/it-asset-management-tenders"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDquwDPmCcHnZrMm1M-TRTGgMjqtWIrZHkDhpcMXrccSEeDeIH77Eh5Phej_wItxi76SsgQijsHUPOpYVp7Koi8s-W3kWpBqDOhhf4UG51dQkT35FaAXWbDk_qbkwe5Bu55GYqfIyE9eUU8Ng_NxC9MnAUWzJPXGhlJfxMMlyyjyB-xzg=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGuqI0Hsaq9N8qX9unV7IfL5F_y8Q1E4oZaeCFFx459DLTAJza_uaMJsCDNb6Z47CcK-6pZLYhOBrSkoZYTiKX1tU7o3z4EkUpQd_4SkKL5t-PwBx5975BagHcBGBBbW1-X_1u-sGMtC58R_HedMO4n73BR5KmOhSv4op6ulhwl18=",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
