@@ -1,0 +1,33 @@
+{
+  "run_timestamp_utc": "2026-09-02T10:36:00Z",
+  "lookback_days": 1,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "e6f4a8b7c0d1e2f7",
+      "title": "Supply Of Digital Twin Development For Aircraft Motorized Butterfly Valve And Rul Estimation",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": null,
+      "domain_industry": "Aerospace",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for the supply and development of a digital twin for aircraft motorized butterfly valves, including Remaining Useful Life (RUL) estimation.",
+      "key_points": [
+        "Digital Twin Development",
+        "Aircraft Motorized Butterfly Valve",
+        "Remaining Useful Life (RUL) Estimation"
+      ],
+      "deadline_utc": "2026-09-01T00:00:00Z",
+      "published_utc": "2026-09-01T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2E2LAGOtHY1sstbv4MTGuU_25ehpUggthrIqgE515rPHTApBwRkv9O8oUGxgQ4jzu0J5kJMPJhjyhEoL_Km2hPgr2DIozJLDfHxh1CUNt7FLyVh8wscV2nQFy4_UAUcFXFNaYtdSV61NoBvRjRQPNHiShSqgcki8H",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [],
+  "shard": "india"
+}
