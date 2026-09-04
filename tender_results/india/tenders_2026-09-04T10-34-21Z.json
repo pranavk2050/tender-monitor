@@ -1,0 +1,111 @@
+{
+  "run_timestamp_utc": "2026-09-04T10:34:00Z",
+  "lookback_days": 1,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "e7225c56d2524d78",
+      "title": "Development and Commissioning of VR Training Module for Pot Room Activities",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Aluminium Company Limited (NALCO)",
+      "domain_industry": "Mining & Metallurgy (Aluminium Smelter)",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Development of an enterprise-grade AR/VR training solution for safety, operations, and maintenance activities at NALCO's Pot Line, Angul Smelter Plant. The solution must include hardware, software, and integration services for immersive training in critical plant areas like Pot Room activities, anode change processes, and emergency workflows.",
+      "key_points": [
+        "Develop enterprise-grade AR/VR training solution for safety, operations, and maintenance at Pot Line.",
+        "Solution must include hardware, software, and integration services.",
+        "Focus on immersive training for Pot Room activities, anode change processes, and emergency workflows.",
+        "Includes VR Safety Training Module for SOPs, hazard identification, PPE usage, emergency response, and plant walkthroughs.",
+        "Includes a VR PTM Simulator for simulating PTM operation.",
+        "Bid closing deadline: May 30, 2026, 10:00 AM.",
+        "EMD of \u20b920,000.",
+        "Tender listed under GeM Bid No. GEM/2026/B/7486931, dated May 09, 2026."
+      ],
+      "deadline_utc": "2026-05-30T04:30:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKivsKjhkYrnlaVhnMBdW-2o_lE4m8hxriKdinNto_gM3oOfiQUsXZ6OfdgT2xbiwRsHHKv-NjI2AFqtajhNPoVkw_xFLBw1t_Zk_e0exNrqp2Vkp6hLI95wcF9ec9mwHa5wi6b0EqlHyXiu1p3mDMMqEt",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1d297925c04c5544",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Airport Operations / Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "Comprehensive data acquisition, processing, modelling, system integration, application development, deployment, training, and long-term support to implement an integrated GIS-based asset management platform for Cochin International Airport Limited (CIAL). The solution should include GIS-enabled asset management and operational solutions comprising mobile inspection applications, workflow and work-order management, indoor and outdoor navigation, and configurable role-based dashboards.",
+      "key_points": [
+        "Implement an integrated GIS-based asset management platform.",
+        "Undertake comprehensive data acquisition, processing, modelling, system integration, application development, deployment, training, and long-term support.",
+        "Provide GIS-enabled asset management and operational solutions including mobile inspection, workflow/work-order management, indoor/outdoor navigation, and role-based dashboards.",
+        "Solution must support open standards, integration with existing enterprise systems, and scalability.",
+        "Experience of supplying Enterprise based GIS software for 3 projects, at least one in each for Port and an Airport in India in last 3 financial years is required for the Bidder/OEM.",
+        "Project duration: 96 months (12 months for Implementation & Commissioning, 12 months of Defects Liability Period & 72 months AMC).",
+        "Tender document issued only to prequalified firms.",
+        "EMD required; tenders without EMD will be summarily rejected."
+      ],
+      "deadline_utc": "2026-06-06T10:30:00Z",
+      "published_utc": "2026-02-25T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6M0k7RkLPwNGuW5o2J3I_-SyHEPwWV2Hmk49zuWXc8ijbibNif5jJN3YsOXFDr6_ZB2eRB0nst4Yy5_45aPyWM55kriJYRSjJr7Nabnod8DKRibZ7r_ae_iSb870d1oGm48LgP0rXnA==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "f5e933e14a1a384c",
+      "title": "Survey and Updating of GIS-based Asset Data for Cochin International Airport",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Airport Operations / Aviation",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Comprehensive aerial survey, high-resolution photogrammetry, DGPS ground control surveys, and Ground Penetrating Radar (GPR) surveys for accurate mapping of surface and subsurface utilities across the Cochin International Airport area. The acquired data will be processed and modeled to generate 2D/3D topographic maps, orthophotos, DEM/DSM, classified point clouds, and enterprise-grade GIS datasets.",
+      "key_points": [
+        "Conduct ICAO-compliant aerial survey, high-resolution photogrammetry, DGPS ground control surveys.",
+        "Perform Ground Penetrating Radar (GPR) surveys for accurate mapping of surface and subsurface utilities.",
+        "Process and model data to generate 2D/3D topographic maps, orthophotos, DEM/DSM, classified point clouds, and enterprise-grade GIS datasets.",
+        "Creation of high-quality basemaps and integration with existing/third-party enterprise systems.",
+        "Bidder must have experience in LIDAR, Drone, and GPR surveys.",
+        "OEM/bidder must have experience of supplying Enterprise based GIS software for 3 projects, at least one in each for Port and an Airport in India in the last 3 financial years.",
+        "Project duration: 96 months (12 months for Implementation & Commissioning, 12 months of Defects Liability Period & 72 months AMC).",
+        "Work experience of Three works of Rs 4.8 Cr. in any of the past 7 financial years is required.",
+        "Tender document issued only to prequalified firms on payment of Rs 3540/- (GST inclusive)."
+      ],
+      "deadline_utc": "2026-06-13T10:30:00Z",
+      "published_utc": "2026-05-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVu_YBFPdZWPuMxxfqjgb-RNbtxN4PWqkUvbya6iTqmU6zJRSYDvVN2kUPPf7crUq6d78yqzYVDvsaaKVH6LnJwp1zZujirUGJ1T9M4tIgOnFir22v35pWl5fEFQEywhWPFK3VerEQ5A==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.cial.aero/Tender-Details?TdId=2766"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKivsKjhkYrnlaVhnMBdW-2o_lE4m8hxriKdinNto_gM3oOfiQUsXZ6OfdgT2xbiwRsHHKv-NjI2AFqtajhNPoVkw_xFLBw1t_Zk_e0exNrqf2Vkp6hLI95wcF9ec9mwHa5wi6b0EqlHyXiu1p3mDMMqEt",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6M0k7RkLPwNGuW5o2J3I_-SyHEPwWV2Hmk49zuWXc8ijbibNif5jJN3YsOXFDr6_ZB2eRB0nst4Yy5_45aPyWM55kriJYRSfJr7Nabnod8DKRibZ7r_ae_iSb870d1oGm48LgP0rXnA==",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVu_YBFPdZWPuMxxfqjgb-RNbtxN4PWqkUvbya6iTqmU6zJRSYDvVN2kUPPf7crUq6d78yqzYVDvsaaKVH6LnJwp1zZujirUGJ1T9M4tIgOnFir22v35pWl5fEFQEywhWPFK3VerEQ5A==",
+      "title": "cial.aero"
+    }
+  ],
+  "shard": "india"
+}
