@@ -1,0 +1,260 @@
+{
+  "run_timestamp_utc": "2026-09-07T11:33:00Z",
+  "lookback_days": 2,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "2d2e1f2a3c4b5a6d",
+      "title": "VR Training Module for Pot Room Activities at Angul Smelter Plant",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "National Aluminium Company Limited (NALCO)",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Development and commissioning of an enterprise-grade AR/VR training solution for safety, operations, and maintenance activities at NALCO's Angul Smelter Plant. The solution must include hardware, software, and integration services for immersive training in critical plant areas such as Pot Room activities, anode change processes, and emergency workflows.",
+      "key_points": [
+        "Develop an enterprise-grade AR/VR training solution for safety, operations, and maintenance.",
+        "Solution must include hardware, software, and integration services.",
+        "Focus on Pot Room activities, anode change processes, and emergency workflows.",
+        "Bid closing deadline: May 30, 2026, 10:00 AM.",
+        "Minimum average annual turnover of \u20b911.36 Lakhs required.",
+        "Bidder should have executed/supplied at least 1 VR Training Module in the last 7 years."
+      ],
+      "deadline_utc": "2026-05-30T04:30:00Z",
+      "published_utc": "2026-05-09T08:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DltavSYkV4n6wg_GVRtn5nSPxrm0OcQwooBop8K4p7sEq2tUZ8fd-hYfmsaFeYW0kX4E9CZlwlljaLZ4HqwjMVcan4j_GvDgxIIO3egKs8lvU2-edS6ET9GHGe3CyTb1Xrdo_JFzmyp1MYXmeG1w8LDFVQ==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.skillcouncils.com/tender-details.php?jid=1874"
+    },
+    {
+      "id": "f5f0f0c0d0e0a1a3",
+      "title": "RFP for 3D Laser Scanning and Imaging System as per MHA QRs",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Department Of Electronics And Information Technology",
+      "domain_industry": "Security & Surveillance",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Procurement of a 3D Laser Scanning and Imaging System as per Ministry of Home Affairs (MHA) Quality Requirements (QRs). This is a product bid with a quantity of 1 set for delivery to Bengaluru Urban, Karnataka.",
+      "key_points": [
+        "Procurement of 1 set of 3D Laser Scanning and Imaging System.",
+        "System must comply with MHA QRs.",
+        "Location: Bengaluru Urban, Karnataka.",
+        "Bid Opening: August 13, 2026.",
+        "Published Date: July 21, 2026.",
+        "Required experience: 1 year."
+      ],
+      "deadline_utc": "2026-08-13T00:00:00Z",
+      "published_utc": "2026-07-21T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjI2z_YZmPH0kdilKnjw43eV3WA2hQOuVlpVDudt-bwrDF5ki6dQ7pknpSEgIbvhakJcnBCHBTg3dETvj--cnF4ggcVYtTyyK51Utt_2-Pgfacg0vdAg3br9ynPfIEUHvh3pGBTxqCO-ynm8Kft13AADY0WrgeWiwfBf2U",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "c7a1b2c3d4e5f6g7",
+      "title": "Hiring of Agency for IT Projects - AI-Enabled CBME-Aligned Integrated Academics Management System",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Education And Research Institute Etawah",
+      "domain_industry": "Education",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Hiring an agency for IT projects, specifically for an AI-enabled CBME-aligned Integrated Academics Management System. The project involves a quantity of 1 unit.",
+      "key_points": [
+        "Hiring agency for IT projects.",
+        "Focus on AI-Enabled CBME-Aligned Integrated Academics Management System.",
+        "Quantity: 1 unit.",
+        "Estimated value: \u20b95.88 Crore.",
+        "EMD: \u20b95.88 Lakh.",
+        "Due date: August 18, 2026."
+      ],
+      "deadline_utc": "2026-08-18T00:00:00Z",
+      "published_utc": "2026-08-08T00:00:00Z",
+      "estimated_value": {
+        "amount": 58800000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwAeiuG6dp27rKhxaoyDRWmfl6uEap-ny6s_tUqFfl574E8ogYFY7wHKDFGiSSBqQ12bDlbkto3NM_F-Cha0q5JvnDFJVHcDPMfz93CL5VnpjOA3CD2UAd4GrxfLAhn7wSnorEdBO7DHV8mZJFR7fltoFaeX-FlZGqRsq",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.co.in/global-keyword/bim-software-tenders"
+    },
+    {
+      "id": "1a2b3c4d5e6f7a8b",
+      "title": "Supply, Installation and Operationalization of 3D Virtual Reality System",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Unspecified (GeM Tender)",
+      "domain_industry": "Technology/Training",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Open tender for the supply, installation, and operationalization of a 3D Virtual Reality System along with a 3-year comprehensive onsite warranty and subsequent annual maintenance contracts for 4 years.",
+      "key_points": [
+        "Supply, installation, and operationalization of a 3D Virtual Reality System.",
+        "Includes 3-year comprehensive onsite warranty.",
+        "Covers CAMC for 1st, 2nd, 3rd, and 4th year after warranty.",
+        "Delivery within 120 days for the system.",
+        "Delivery within 365 days for each year of CAMC.",
+        "Published Date: August 6, 2026."
+      ],
+      "deadline_utc": "2026-08-26T00:00:00Z",
+      "published_utc": "2026-08-06T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFT1iVxiSkjMXxIfH96_P3UxOhTiMlczUZ63Ur-F7MkKTDQdOiN2RnHd-BJtfHmgzomOGHkRu0V_IjAOcy6zO5qEWVlYWJCcH6dj08UIf-u_yZzQd_LArRIeMGShpFGzqagEJTde_FdDQeaT4tAw==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1e9a2b3c4d5e6f7b",
+      "title": "Business Intelligence and Data Analysis Software (V2)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Municipal Corporations Mumbai",
+      "domain_industry": "Information Technology",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Tender invited for Business Intelligence and Data Analysis Software (V2) for Municipal Corporations Mumbai. The tender specifies a quantity of 1 unit.",
+      "key_points": [
+        "Procurement of Business Intelligence and Data Analysis Software (V2).",
+        "Quantity: 1 unit.",
+        "Estimated value: \u20b92.03 Crore.",
+        "EMD: \u20b94.06 Lakh.",
+        "Due date: August 06, 2026."
+      ],
+      "deadline_utc": "2026-08-06T00:00:00Z",
+      "published_utc": "2026-07-27T00:00:00Z",
+      "estimated_value": {
+        "amount": 20300000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwAeiuG6dp27rKhxaoyDRWmfl6uEap-ny6s_tUqFfl574E8ogYFY7wHKDFGiSSBqQ12bDlbkto3NM_F-Cha0q5JvnDFJVHcDPMfz93CL5VnpjOA3CD2UAd4GrxfLAhn7wSnorEdBO7DHV8mZJFR7fltoFaeX-FlZGqRsq",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.co.in/global-keyword/bim-software-tenders"
+    },
+    {
+      "id": "c6a1e3b2d4e5f8g8",
+      "title": "Tender for Designing Software (V3) in KHORDHA, ODISHA",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Chief Engineer(dpi&roads), eic(civil), R&b, Orissa, Bhubaneswar",
+      "domain_industry": "Infrastructure - Road & Bridge Design",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "Public tender for Designing Software (V3) for infrastructure projects in Khordha, Odisha. The software should include features like site planning, road and bridge design, earthwork calculation, terrain modeling, drainage and water network design, clash detection, pavement design, utility network design, and traffic simulation.",
+      "key_points": [
+        "Procurement of Designing Software (V3).",
+        "Includes features for infrastructure design, clash detection, and terrain modeling.",
+        "Quantity: 30.",
+        "Location: Khordha, Odisha.",
+        "Original Submission Deadline: July 11, 2026, 19:00:00 (extended from an earlier date).",
+        "Issue Date: June 29, 2026, 18:25."
+      ],
+      "deadline_utc": "2026-07-11T13:30:00Z",
+      "published_utc": "2026-06-29T12:55:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBr3sxrxYjOJAp5lU97uf0N-SklHHjFtdJelafnqC0seaY9UjV-YthYzGGr_hZb81Jo3MGBu26IqC7PtJ3diFq9O_V1E_jZ3oRenZy61uZyABRWZWiKg51FXalDFTjywNLKPmuQqNSk_9FtSOc7A==",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "b064c15320092c70",
+      "title": "RFP for AI-Powered GIS And Digital Twin Deployment in DISCOMs",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "International Solar Alliance (ISA) and Ajmer Vidyut Vitran Nigam Limited (AVVNL)",
+      "domain_industry": "Power Distribution",
+      "service_bucket": "AIM",
+      "scope_summary": "Request for Proposal for the appointment of System Integrators (SIs) to implement an advanced AI-powered digital transformation project for power distribution companies (DISCOMs). The project aims to strengthen Distributed Energy Resources (DER) integration through GIS-based Asset Management, Network Analysis, and Load Forecasting solutions, including the creation of digital twins.",
+      "key_points": [
+        "Implement an AI-powered digital transformation project for DISCOMs.",
+        "Focus on GIS-based Asset Management, Network Analysis, and Load Forecasting.",
+        "Includes deployment of digital twins and advanced analytics capabilities.",
+        "Selected SI responsible for end-to-end deployment, software, licensing, updates, and 5 years of O&M.",
+        "Environment Setup and hosting within three months (5% payment).",
+        "Deployment of mobile application and digital tools within six months (10% payment).",
+        "Field surveys and data digitization within six months (20% payment).",
+        "Core functional modules (asset management, network analysis) within twelve months (20% payment).",
+        "Advanced AI-enabled analytics and digital modules also within twelve months (5% payment)."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-18T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgCtavFmf0Jehvk1ogccWR_ljd_Zi6283kmsEUQWZdE1TkItMIbyWlHJug6W5621dt20_b6k_GZHmvsgEm0D1Ob5pG7f_3rW-I4OmcV190vT2uxlu01hRypzADX0yGmua9HUxRJpl1Kc4CkBCZ7qJR9fxj29vaBZxXKkQQISKMcoqnowewLIaTIDvBu_OIHaHVhiM9dKqRTg4SGAOfz070I_Pju6lHWNGWrHAc250hoyTCHw==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://solarquarter.com/2026/06/18/isa-and-avvnl-invite-bids-for-ai-powered-gis-and-digital-twin-deployment-in-discoms/"
+    },
+    {
+      "id": "f5e933e14a1a384e",
+      "title": "Service Rate Contract for IIOT Vibration Monitoring System",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Steel Authority Of India Limited",
+      "domain_industry": "Steel Manufacturing",
+      "service_bucket": "APM",
+      "scope_summary": "Service rate contract for the implementation of an IIoT Vibration Monitoring System at Bokaro, Jharkhand, India. The project focuses on equipment health monitoring and predictive maintenance.",
+      "key_points": [
+        "Service rate contract for IIoT Vibration Monitoring System.",
+        "Location: Bokaro, Jharkhand, India.",
+        "Worth: \u20b999,000,000.00.",
+        "Published on: June 23, 2025.",
+        "Due on: July 07, 2025 (this date appears to be in the past but the tender is listed as 'live')."
+      ],
+      "deadline_utc": "2025-07-07T00:00:00Z",
+      "published_utc": "2025-06-23T00:00:00Z",
+      "estimated_value": {
+        "amount": 99000000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmt9ZfY426F0TeLpps3mErdWyNEOTmkuM3p7_uumFSrCgBqFn3807f6IQ14BVQ3iWrTOlGWdasNJpNVxnWCW-ypcwKemFrQ5acvhAd2KH7oPprSaotYA2bGrwGgXpiU3vSVzNoa2CXtvHanbgysqHJl5KapQpnF9_DODnq6j5pH8fpsQ2RlRvnXlfFfjnfxiMAGAvBElzZg-EnUk7lXRllTvYEiDrUCDtx-dB4JFBoy9fANBTQk4zXUypw2yU0P1Y9_6wrVCPChTrhqIDTcXyHFs9ImrFinedZOIniaOTcmrQzEGBjo0RSxmrBMGH6",
+      "confidence": "medium",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendertiger.com/TenderDetail/Tenderinformation?tenderNo=1qv7PmAWyoycZKqsT4WBvkqgqvQ83Tm1mb7Ggyf83wc=&tcNo=qdS694L+Ylh+0AP0+jBSYwoEVbMxf0O1j+RyTxuuvmw=&tendertype=Live"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DltavSYkV4n6wg_GVRtn5nSPxrm0OcQwooBop8K4p7sEq2tUZ8fd-hYfmsaFeYW0kX4E9CZlwlljaLZ4HqwjMVcan4j_GvDgxIIO3egKs8lvU2-edS6ET9GHGe3CyTb1Xrdo_JFzmyp1MYXmeG1w8LDFVQ==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjI2z_YZmPH0kdilKnjw43eV3WA2hQOuVlpVDudt-bwrDF5ki6dQ7pknpSEgIbvhakJcnBCHBTg3dETvj--cnF4ggcVYtTyyK51Utt_2-Pgfacg0vdAg3br9ynPfIEUHvh3pGBTxqCO-ynm8Kft13AADY0WrgeWiwfBf2U",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfwAeiuG6dp27rKhxaoyDRWmfl6uEap-ny6s_tUqFfl574E8ogYFY7wHKDFGiSSBqQ12bDlbkto3NM_F-Cha0q5JvnDFJVHcDPMfz93CL5VnpjOA3CD2UAd4GrxfLAhn7wSnorEdBO7DHV8mZJFR7fltoFaeX-FlZGqRsq",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFT1iVxiSkjMXxIfH96_P3UxOhTiMlczUZ63Ur-F7MkKTDQdOiN2RnHd-BJtfHmgzomOGHkRu0V_IjAOcy6zO5qEWVlYWJCcH6dj08UIf-u_yZzQd_LArRIeMGShpFGzqagEJtde_FdDQeaT4tAw==",
+      "title": "tenderdekho.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBr3sxrxYjOJAp5lU97uf0N-SklHHjFtdJelafnqC0seaY9UjV-YthYzGGr_hZb81Jo3MGBu26IqC7PtJ3diFq9O_V1E_jZ3oRenZy61uZyABRWZWiKg51FXalDFTjywNLKPmuQqNSk_9FtSOc7A==",
+      "title": "tenderdekho.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgCtavFmf0Jehvk1ogccWR_ljd_Zi6283kmsEUQWZdE1TkItMIbyWlHJug6W5621dt20_b6k_GZHmvsgEm0D1Ob5pG7f_3rW-I4OmcV190vT2uxlu01hRypzADX0yGmua9HUxRJpl1Kc4CkBCZ7qJR9fxj29vaBZxXKkQQISKMcoqnowewLIaTIDvBu_OIHaHVhiM9dKqRTg4SGAOfz070I_Pju6lHWNGWrHAc250hoyTCHw==",
+      "title": "solarquarter.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmt9ZfY426F0TeLpps3mErdWyNEOTmkuM3p7_uumFSrCgBqFn3807f6IQ14BVQ3iWrTOlGWdasNJpNVxnWCW-ypcwKemFrQ5acvhAd2KH7oPprSaotYA2bGrwGgXpiU3vSVzNoa2CXtvHanbgysqHJl5KapQpnF9_DODnq6j5pH8fpsQ2RlRvnXlfFfjnfxiMAGAvBElzZg-EnUk7lXRllTvYEiDrUCDtx-dB4JFBoy9fANBTQk4zXUypw2yU0P1Y9_6wrVCPChTrhqIDTcXyHFs9ImrFinedZOIniaOTcmrQzEGBjo0RSxmrBMGH6",
+      "title": "tendertiger.com"
+    }
+  ],
+  "shard": "india"
+}
