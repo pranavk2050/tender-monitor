@@ -1,0 +1,242 @@
+{
+  "run_timestamp_utc": "2026-09-16T10:49:00Z",
+  "lookback_days": 1,
+  "tenders_found": 8,
+  "tenders": [
+    {
+      "id": "cd9000080875b331",
+      "title": "Rental Hiring of Laser Scanning Camera for Scanning of Converter Refractory Lining in BOF-SMS",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Durgapur Steel Plant (SAIL)",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "Tender for the rental hiring of a laser scanning camera for scanning converter refractory lining in the Basic Oxygen Furnace (BOF) and Steel Melting Shop (SMS). This is for Durgapur Steel Plant.",
+      "key_points": [
+        "The tender reference is CD/9000080875 dtd 15.09.2026.",
+        "The tender was published on September 15, 2026.",
+        "The deadline for submission is September 30, 2026 at 2:00 PM."
+      ],
+      "deadline_utc": "2026-09-30T14:00:00Z",
+      "published_utc": "2026-09-15T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.sail.co.in/tenders/tender-list",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "1d297925c04c554a",
+      "title": "Development and Commissioning of a VR Training Module for Pot Room Activities",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NALCO",
+      "domain_industry": "Mining & Metals - Aluminium Smelting",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "NALCO has issued a tender for the development and commissioning of a VR Training Module for Pot Room Activities at its Angul Smelter Plant. The project aims to enhance industrial safety training through immersive AR/VR-based simulations, SOP-based learning, PTM simulator operations, hazard identification, emergency workflows, and performance analytics.",
+      "key_points": [
+        "The solution must include hardware, software, and integration services for immersive training in critical plant areas like Pot Room activities and anode change processes.",
+        "The proposed system must include a VR Safety Training Module for SOPs, hazard identification, PPE usage, emergency response, and plant walkthroughs, along with a VR PTM Simulator.",
+        "Bidders should have executed or supplied at least one VR Training Module project within the last seven years, with the supplied module in successful operation for at least two years.",
+        "The bid closing deadline is May 30, 2026, at 10:00 AM.",
+        "EMD is \u20b920,000, with exemption available as per GeM GTC and NALCO conditions."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.fooccinoheights.com/nalco-vr-training-module-tender-2026/",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "f5e933e14a1a384d",
+      "title": "GIS BASED INTEGRATED AIRPORT ASSET MANAGEMENT SYSTEM at Cochin International Airport (including 6 years AMC)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Cochin International Airport Limited (CIAL)",
+      "domain_industry": "Aviation",
+      "service_bucket": "AIM",
+      "scope_summary": "Tender for a GIS-based Integrated Airport Asset Management System at Cochin International Airport, including 6 years of Annual Maintenance Contract. The project involves comprehensive data acquisition, processing, modeling, system integration, application development, deployment, training, and long-term support for an integrated GIS-based asset management platform.",
+      "key_points": [
+        "The scope includes ICAO-compliant aerial survey, high-resolution photogrammetry, DGPS ground control surveys, and Ground Penetrating Radar (GPR) surveys for mapping surface and subsurface utilities.",
+        "The bidder will process and model data to generate 2D/3D topographic maps, orthophotos, DEM/DSM, classified point clouds, and enterprise-grade GIS datasets.",
+        "The solution must support integration with existing systems and create a Digital Twin for advanced 3D visualization.",
+        "The project duration is 96 months (12 months for implementation & commissioning, 12 months defects liability period, and 72 months AMC).",
+        "The bidder/OEM must be operational for a minimum of 5 years.",
+        "Tender reference is CIAL/OPS/TENDER/2026/2, dated 13/05/2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-05-13T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.cial.aero/contents/Tenders",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://validate.perfdrive.com/?ssa=6086358c-6d53-483d-a498-974e7774a69a&ssb=97363259474&ssc=https%3A%2F%2Fwww.cial.aero%2FError%2F404.aspx&ssi=5f288dd6-d61a-4d50-a22e-ddece7b4f393&ssk=botmanager_support@radware.com&ssm=30661340747653814100392345331861&ssn=69115e15a9ceeee246648e14cc5b75b369c6e5e8efb0-79d3-4832-bfc69c&sso=f3653f1e-f5b013bf338e3c875596abb03b08fdd32a25ac554c7be0ed&ssp=77559758471789593166178951337318003&ssq=45154685581344160133555813231471516304231&ssr=MjAuODMuMTc1LjE4&sst=Mozilla/5.0%20(TenderMonitor/1.0;%20+https://example.invalid)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBlNWU4ZWZiMC03OWQzLTQ4MzItYmYxZS1mNWIwMTNiZjMzOGUxLTE3ODk1NTU4MTMwMTkwLTAwNDNiZjJhOGY0MDhlYWMwMDExMCIsInJkIjoiY2lhbC5hZXJvIiwidXpteCI6IjdmYzAwMGZiMGI3YWY4LWZkZGQtNGMwMi05NjQ3LTU2MWZkNzgyNzZiYzEtMTc4OTU1NTgxMzAxOTAtMDA1YWFjMTUxYjY1MGI5NDM0ODEwIn0="
+    },
+    {
+      "id": "2d2e1f2a3c4b5a6c",
+      "title": "AR/VR Training Module Development",
+      "region": "India",
+      "country": "Telangana",
+      "tendering_authority": "Education And Research Institute",
+      "domain_industry": "Education",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Tender invited for the development of an AR/VR Training Module.",
+      "key_points": [
+        "The tender is for a quantity of 1 AR/VR Training Module.",
+        "The EMD amount is 62835.",
+        "The tender closing date is May 20, 2026."
+      ],
+      "deadline_utc": "2026-05-20T00:00:00Z",
+      "published_utc": "2026-05-19T00:00:00Z",
+      "estimated_value": {
+        "amount": 62835.0,
+        "currency": "INR"
+      },
+      "source_url": "https://www.telangananews.com/tenders-from-telangana",
+      "confidence": "medium",
+      "url_status": "broken"
+    },
+    {
+      "id": "1a2b3c4d5e6f7a8c",
+      "title": "Implementation of APM & AIP Across Tata Power",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Tata Power",
+      "domain_industry": "Power",
+      "service_bucket": "APM",
+      "scope_summary": "Corrigendum to a tender for the implementation of Asset Performance Management (APM) and Asset Investment Planning (AIP) solutions across Tata Power. The bidder must have successfully implemented APM and AIP solutions for power utilities in at least three projects during the last five years.",
+      "key_points": [
+        "The bidder must demonstrate expertise in AI/ML analytics, predictive maintenance, enterprise data engineering, and utility analytics frameworks.",
+        "The bidder must establish AI/ML governance frameworks.",
+        "The tender reference number is 4100067197.",
+        "The tender advertisement was published on June 30, 2026."
+      ],
+      "deadline_utc": null,
+      "published_utc": "2026-06-30T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tatapower.com/businesses/power-generation/corrigendum-to-tender-issued-vide-advertisement-published-dated-30-06-2026-notice-inviting-expression-of-interest-eoi-to-ente",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tatapower.com/error-pages/404"
+    },
+    {
+      "id": "c6a1e3b2d4e5f8ga",
+      "title": "RFP for Rate Analysis Of C Us Management Digital Twin Digital Twin System (Cmsdts) Related Items For New Administrative Building Of Pcmc",
+      "region": "India",
+      "country": "Maharashtra",
+      "tendering_authority": "PCMC Local Bodies",
+      "domain_industry": "Government - Local Administration",
+      "service_bucket": "AIM",
+      "scope_summary": "Request for Proposal for rate analysis of C Us Management Digital Twin System (CMSDTS) related items for the new administrative building of PCMC, as per specifications mentioned in Annexure 1.",
+      "key_points": [
+        "The tender closes on September 15, 2026."
+      ],
+      "deadline_utc": "2026-09-15T00:00:00Z",
+      "published_utc": "2026-09-14T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.tendersinfo.com/software-development-tenders/india",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "b064c15320092c71",
+      "title": "Tender for Repairs of Jetty No. 1 and Approach No. 1 & 2 (PR 4580677)",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "APM Terminals Pipavav (GPPL)",
+      "domain_industry": "Ports & Shipping",
+      "service_bucket": "APM",
+      "scope_summary": "APM Terminals Pipavav is inviting tenders for repairs of Jetty No. 1 and Approach No. 1 & 2. The tender requires a company profile, customer list, financial report for the last 2 years, and experience letter in similar projects.",
+      "key_points": [
+        "The deadline for participation is September 2, 2026.",
+        "Responses should be sent to narendra.rawal@apmterminals.com.",
+        "The subject line of the email must be 'Tender for Repairs of Jetty No. 1 and Approach No. 1 & 2 (PR 4580677)'.",
+        "Standard payment terms are 60 days credit, 30 days for MSME suppliers."
+      ],
+      "deadline_utc": "2026-09-02T00:00:00Z",
+      "published_utc": "2026-09-01T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.apmterminals.com/en/pipavav/procurement",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "f5e933e14a1a384f",
+      "title": "PDF CONSTRUCTION DRAWINGS TO EDITABLE AUTOCAD DWG + REVISIONS",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Freelancer (Private Client)",
+      "domain_industry": "Construction & Architecture",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "A private client is seeking an experienced architectural CAD technician/draftsperson to recreate two existing sets of professional construction drawings from PDF into clean, professionally structured, and fully editable AutoCAD DWG files. The drawings relate to two phases of a commercial facility and include architectural and MEP drawings.",
+      "key_points": [
+        "The scope of work includes accurately recreating PDF drawings in AutoCAD, maintaining original dimensions, scale, layout, and content.",
+        "Modifications to existing plans will be required, with changes provided through written instructions and/or marked-up drawings.",
+        "A paid test drawing will be required as Milestone 1 for technical review.",
+        "The deadline for proposals is September 7, 2026."
+      ],
+      "deadline_utc": "2026-09-07T00:00:00Z",
+      "published_utc": "2026-09-06T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.freelancer.in/projects/autocad/pdf-construction-drawings-editable-autocad",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhRNV60kXRgPwk27ZEZlDhHBr9N7iuDDDoCQo42JcCLrlEhcTfRMJLmYGDyXUa4ya_OWdZlAaH9vDKGneAF2AcQXwTrCEwJBHggoEqCY5mov3ypFU1BJokRvcU-_M_pTCr-AmNfJLYGhvr4Z_S",
+      "title": "sailtenders.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjBmHOlTTekjQt9WY2sxMLRzj2oV4IBDF6Y5nmgg39ulbGyquX5fNFH3ZS1ZKV6BxjYLhaa36T3PROYcbmRP1ZGVJgBXUO8f0ukzZf1uDOtUJZV4__9t8RQnEL0M0r0up4dKgSkDDaadAdBZBS-3Mva4KmTg==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFEh2FFS20hOp9dbp0YF2Lmw3o72V5R8JnehBU9oPGjmd9SyCS8keYMPRX3qGgGvAkwWOiOamVXViwipMIhR1WXcghb_kqoSzRQQr96nIrkm8x0jL0rpXNO1K8uNI2jKNuM65bAWsUWng=",
+      "title": "cial.aero"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4fzNzpwDPMsswiM06ia20Y-VIQVddy100uAYi-rZK9W-a6Hgubt-QTeCstwMLJtUbK4p8TtrymxVHv1JJjeELxKlH24Ghf22FLUfDTFOWy5-_YV7cPheGEWSeN0g_RQVzZbgcr-kqkW6iMMqW8A_zEHQOiLiS7EoiOLagGJP9E7jzPCdvAEynVs1p4NYR41OUgLaQUMMmocWwccxX5k5RMRontw=",
+      "title": "telanganatender.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRegY7VDsBbMFgxM_6IbuuymAHgF683v4l8xtv4ErSaVZpIUEURsh-I5aSVAxZEkQrVr3JqERhNazHxziUYKVT_NzmcEQpO8SHEeSZiOO9zLChmhq5M9wMFPcnpeWwj4__qW1AfdnkInrLfRHckVTHUOH5lVGojneKPB5qxeihZwBMzXOMp3IW7X-ajPpLOxLga0PcD8HZKI1RCWmXphGBZFSMHsw4hsx_ePTNO9rX",
+      "title": "tatapower.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNZfj3lknKyesNGUX8p_9-oqCA0yueHVXmnqdcicTJ2Zk1Bci2EfvV_2nPBCJbq1EKTxUabEcuB6IuDshCTvbXbLIDDx6vAK2UPt3W9HLMzb6lT4GQB99jWvCkgPyh1BM6DEczOg5dYdBPbfizLdHNuOmwelgL_v7ysiBLHGxucJP6O-8sO94=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETFR8ffVwYNkrzZX7IUBj9sf86HXN_sJrQrURrgxzRmt5Z7UovZ44KyHi71UT-SpD79cx5NH-OY9h8oI9rrupjTkKjn73SGUf_NZYav4CqOO0NVJTQekDxcGvoQJD3QueCh162N_g0j6tePH5Laicqeq3r5-Ptd60t3LieJHq2c0TIk2l7KNmxq0zTXw==",
+      "title": "apmterminals.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER3YcGN9ONcUzsZmqtEJqhN379FmwWRxwYqrgdHWyaHmNqW6kj9fJ7g19JPP6cKE5L2YUAzfwix7YFP1xlu80k1keTT9AueEdXP4m5XpQR01F-I1Vi_X5hxvufCXlYbXlnDszleZPmuh0ieY7-_PocneBPAalUA8MykieBb2UKE-eaNPRGawxAvXeSNng=",
+      "title": "freelancer.com"
+    }
+  ],
+  "shard": "india"
+}
