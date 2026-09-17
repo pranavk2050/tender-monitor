@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-09-17T10:56:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhQhTm1xZAThyocmnb0EhO7CX-dwY3CgR1knBzc81d_-iZBgknLYwv3eHSrLWhozT8l7v8xuSPt5kYHiLzyqGHicj1I1_UpesWtmVn7wDU0sZm4CGJ8Tops7vttUJQxdiqygm0PWVVQixlNg==",
+      "title": "moef.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rAC5h04C_zni_kEaFtVHfluSE3atCbT1jm9CysZoaSKK-47Jy9G5OGTB85vJWzHZZ7xyFJujACPzayAOI2VlDTGNFvW3lrf2ODnlyixGIPOm37CCKowb9PEz-WJzL1rJiOr6qfvAnTgA5IrzEbODpMiPpUprzHIjwGqDKzMW-lSV-ar3XvprcTV_YqyDMoPZt2oFSEREcgp_tCEpAX5a-VyefVEF9Tozpkkyd5ODaF2jdpvMzD5yq5T-8_roVVs=",
+      "title": "apeasternpower.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdtiVz_kus079cuimdP-lUXT_ohaVUIYB0niubRpEy-m6GyQUpXOGZxOwirivTWaHM3r-h2VG0itCCUGPADo103HiGFcyjSxBU9sJ1YvyX2T9AFb54uJ3vuPZU9BRUJNyqe9x2CQ22sKVsAyuTuqgMtQgMUN5WJuFo_9qrEKXW5eZQVEU=",
+      "title": "hgb.bank.in"
+    }
+  ],
+  "shard": "india"
+}
