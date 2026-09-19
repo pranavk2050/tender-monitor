@@ -1,0 +1,33 @@
+{
+  "run_timestamp_utc": "2026-09-19T10:17:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlV5ssUyrop3je0PEIkpH2E-BrtpBI5mYMCtU7E3uIeNprfSlDquWO0Tl33zENCDgT4GOkK-17FbFIDWhexY49nc3fqzZ-tR96rZB2j7fderWqzCkhjQxaAsuUa0_gPknR0mjIQN_GI6x3yxAM2Y0jZBU4Cjd6x-oTnYpS6dik",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXPfLvQAuZyQRWHQjlOJgb89MvpeL3nehFygmtTMb7zC43iV9Q0sTnQevnWmKt5ewl4W4sLFTAHVcGXz2qHh7Hzvj1S_r-kNW62h7fdjAIb2bj-CbM9BhZrCqmZzP0Tr7s8EKufenmaBXDRuG6A3IncwGqkvsaE-owfQpO",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj3ywbLWJ2C-dD_vu3HwEhpEOH3TR5M1OnRgTmsm1-UTD6vK3SUF5hw579ZO8p2CUzfUiJB3hlCuh35bBJ4gwOUKBFAxutLtbLSSXYXmte6uoweYlz8tKU7K-k0GrOAQboqMzyuz81LkRzqLvUT7TH627MK-tUS3k0j3vwoXXwqFQNBtUE",
+      "title": "cgwb.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB47_PNvx1PqwCZXFRxKI1XLq75okCBkAyOrhTEyoMrcwGZ3j7awIdLNdRvqfZhGSSxfPeYhiTR_ygJg6DpC56T99yTqIq_RFXcyNG2uXqIeRIYA1H1iYMOPBOhUQ9ZNfDsrTpKxMEjQT3crY8W7dk7zS1B-A8FqLywQ==",
+      "title": "tendertiger.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9PoW_uAGXauWR3O_MBy-7Xb3kMU4xcALbOK0jVHxLJ_tBFilOaE3RGjbB36hn76yAc7oSshioljcZBZC67540NCgrzXlo1MnP8iDaTOfx6eA5GqVsHtJ7A2EEraxbbFldrlYVsy2JDe6euP87eoDnqe2ZHBrPuXNAhFkND69rVThXOR85ylih1GxcYJbiAV4F3Q==",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLB9lPkYM8T0bkroSyujVt0yonvOQ8UiaY_Ns0LHckYlH9agstB42vqu2o2lH-5cJjqude2OdS_G8HX8a0N8SJZdrM1WgAIh-6psP-Wb_3w2b5_40CwZXTbM7T85hqk6Yo1pRLDyD4jWNQgdUE0mViTBU22GhLnpLw3PW0hoD_H3ARW3Av9S6YKRFza5KH",
+      "title": "tendertiger.co.in"
+    }
+  ],
+  "shard": "india"
+}
