@@ -1,0 +1,71 @@
+{
+  "run_timestamp_utc": "2026-09-22T10:56:00Z",
+  "lookback_days": 1,
+  "tenders_found": 2,
+  "tenders": [
+    {
+      "id": "8b80b741e15b533e",
+      "title": "Procurement of 3D Laser Scanning and Imaging System for Indian Army",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Ministry of Defence / Department of Military Affairs, Indian Army",
+      "domain_industry": "Defense",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender is for the procurement of one unit of a 3D Laser Scanning and Imaging System as per MHA QRs (Q3) for the Indian Army. The system is essential for enhancing the operational capabilities of the Indian Army.",
+      "key_points": [
+        "Procurement of one 3D Laser Scanning and Imaging System.",
+        "Issued by the Department of Military Affairs, Ministry of Defence.",
+        "Bidding process started on 2026-09-18 at 8:11 PM and closes on 2026-09-22 at 9:00 PM.",
+        "Tender ID: GEM/2026/B/8031827.",
+        "Location: Jalpaiguri, West Bengal."
+      ],
+      "deadline_utc": "2026-09-22T21:00:00Z",
+      "published_utc": "2026-09-18T08:11:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtbFTajuUOpHAhcUvaNWkGDB38mYt8J3WHoSFBnLglGatpMEA6e5k4bYET5LTZH1fh_39lME7umPY0mM-MtTgO0Jch2w1lLvpGEsS_-NtrJhI1ENDMRj9GVig5CE4E_-JCQU2fJnO6dIFkuMzaJNmXgdz9f0CMRlb2EOmYTFACp5v4BbtH-ik3mELswuN1qMshk7IUcmVIhpZrBBQM3I8CyWg",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.tendershark.com/details/west-bengal-tender/indian-army/bd94302a-a71b-4337-9618-de07e50dd482"
+    },
+    {
+      "id": "1d855dd4e92d7b88",
+      "title": "Procurement of 3D Mechanical CAD Software Solution",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Andrew Yule And Company Limited (Ministry of Heavy Industries and Public Enterprises)",
+      "domain_industry": "Heavy Industry",
+      "service_bucket": "DIGITALIZATION_2D_3D",
+      "scope_summary": "This tender is for the procurement of a 3D Mechanical CAD Software Solution, with a total quantity of one unit required, as detailed in the attached specification sheet.",
+      "key_points": [
+        "Procurement of one unit of 3D Mechanical CAD Software.",
+        "Issued by Andrew Yule And Company Limited, Department of Heavy Industry.",
+        "Bidding process commenced on 2026-08-31 at 3:58 PM and concluded on 2026-09-21 at 4:00 PM.",
+        "Tender ID: GEM/2026/B/7978466.",
+        "Location: Kalyani, Nadia, West Bengal."
+      ],
+      "deadline_utc": "2026-09-21T16:00:00Z",
+      "published_utc": "2026-08-31T15:58:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6WwPGrWo2EM4kxQygRGltuqGI_SAktQNAOvUwTUGlZu75irLLseO-VGnRSi7FEsRGTvi-RzADWGiqaxIiKjOTS7OTuUhpxU2xcedtIi2vXmDaa20Qs2PmWXpfQEIRUzKc56f-PG02jMKlImprMJvlPtVTbjcOiY9uMXQwm4ra5HlfrU0VCTyzB8p6gufbjhCokN6eUnoNcRS4OSRAuNZvs0FSgwZEQ2u0-zy0lqMBpAkYKUYuhA",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtbFTajuUOpHAhcUvaNWkGDB38mYt8J3WHoSFBnLglGatpMEA6e5k4bYET5LTZH1fh_39lME7umPY0mM-MtTgO0Jch2w1lLvpGEsS_-NtrJhI1ENDMRj9GVig5CE4E_-JCQU2fJnO6dIFkuMzaJNmXgdz9f0CMRlb2EOmYTFACp5v4BbtH-ik3mELswuN1qMshk7IUcmVIhpZrBBQM3I8CyWg=",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6WwPGrWo2EM4kxQygRGltuqGI_SAktQNAOvUwTUGlZu75irLLseO-VGnRSi7FEsRGTvi-RzADWGiqaxIiKjOTS7OTuUhpxU2xcedtIi2vXmDaa20Qs2PmWXpfQEIRUzKc56f-PG02jMKkImprMJvlPtVTbjcOiY9uMXQwm4ra5HlfrU0VCTyzB8p6gufbjhCokN6eUnoNcRS4OSRAuNZvs0FSgwZEQ2u0-zy0lqMBpAkYKUYuhA==",
+      "title": "tendershark.com"
+    }
+  ],
+  "shard": "india"
+}
