@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-10-02T11:51:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Hr2nAOEgH4i1dlCGPBpL8pSo71e7qIEnUMOTtMpGz5fyE908boAcJj-zbHyNSCBClEPCY1hWYiVCs6708AUvnmUUJlvb2eFx16ifzLvUE88wUPuKEGFOLgAJuiJIJgm-IICZZZFLKVhDTOobBWKFmQEBeFuPhQK1pcc8WEMOtg==",
+      "title": "tendertiger.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETfjhzZQSNK2gOtFzKVv306x_AlpK_Cmi961F4YreD5cvItg3lnClK-xUmVEH_2tr3NhMKSpXnSVlVxcJexJgq6VimR3XGTaXliftJdqUCyfvwvYbkVzyC22avFgMO2WHeveOdFar7WdXwruKBDZ7zNds1u10imcRC",
+      "title": "tendertiger.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdXFsywAmySKPbv8l0U7TkFvPL5YY88BZYfC5GmY6r8QzirmXXfR23LD_YMJzwVNXHOLTLqCq6aJy7WLp5yMeeq3O-AqV5nV0bd8HNbuWMoA019zY-SBv8mCe0Nne_vGJeFDq3NCVw5-GEoror9p75Wb6W-76iGJtBJn0I8PVgYPWioBcjMctN",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELq3dlu06r3uegxg8L7qyq_lUzK_hAT_lV11UjLVDh1Ou4uzOMiwQzrzDynPVHWL4PqjIqtyKuXXLi3N0S7h7MEjJjl7WwWyQ6bcsPyhqAVzxzMyc1b1FrB8NNSNXfBgaj3f9kUDf4lO5q6gD5CUKzu-Bay87KGmNsXWtN4A==",
+      "title": "tendertiger.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_lasCkTNqZ7QrMlbm89253AoKB-yRmFM5UFjRdW6Jxl2RNE2tiY6e1KpAA2DJhscxVE5pJ3r4cQh0tnpKLu73jdyxKDi5T_QPlBhjJx5qPyKe0eTst0KRSNlxGvMrf2Ou-fPr48oPKIhDRplFszJB7ly7XXq_XWvCoSVEe1rs0ZTjVTwzbey4UWW9L8TkYQ3hn5s=",
+      "title": "newmangaloreport.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg7AHpcdF5uasy4iltV3wrWlPmXH6BdtJyq3_rp8o_ZbEIF0Nb1bELz6h3Mr_k9TpD6mIq6-6cXFirt0PmXmA--RbksCGNPXK3y2pB_n03BPmmW87r-A5UqFY3OK8L0gVnj8whQDWNUZYmUQ9HIy7-JTSsRBs2_I9f611F",
+      "title": "gujarat.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp3HQQTB2pGpjEWCosPU0tIrfyPU69I3cllzIcIl67l_6EtP_u3g4Wn_mS641fc_h3wydChRstX6TjzRLaBI92EzYI_EpoyJiY30kUAJCSLh7fjI5hvc6nWyzmFAoXoTKO_eCImrZxn-SnjCZjV0qTGr7eFjxJp04=",
+      "title": "maharashtra-tenders.co.in"
+    }
+  ],
+  "shard": "india"
+}

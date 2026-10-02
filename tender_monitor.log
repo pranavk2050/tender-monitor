@@ -385,3 +385,5 @@
 [2026-09-30T11:54:24+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-09-30T11-54-24Z.json
 [2026-10-01T12:25:07+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 127, sent: 127
 [2026-10-01T12:25:48+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-10-01T12-25-48Z.json
+[2026-10-02T11:51:40+00:00] Calling gemini-2.5-flash  shard=india  seen_ids cached: 127, sent: 127
+[2026-10-02T11:52:01+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-10-02T11-52-01Z.json
