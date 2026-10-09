@@ -1,0 +1,41 @@
+{
+  "run_timestamp_utc": "2026-10-09T12:33:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxVuBrxecLSpvKNfEbe5hg2WGP2N-r4gSrtrE9B2yEuWj_ij9VV2st0KzCSgYSbQ-mtXaP2KHC0YD12pkPQtsr8Emxs4XPEgDdm0jjoKi9KaxPWVqFbJk_e8e3lPx2yHxHb4J7yABBOaoI5zAt14BV9Ovg_wwislWU3paxkKF-",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzN09QCjZ3FaePxD6zA5bDgE4RjrIZzNokEAcOgeWCsOaZYJdzBRcunHOVkh3_-He_XxNX8RXcwghcMaJtOpnXdcaQLhls4rE2tN_A3DB5wpsyxIEnBrz6750CKAprcKwgte615QvRauLOBX_QEUX-uhIyBlJlN08xyp-8NnczEzNSNmwL-IzYYW0m6DRSKTl4SZOTAhYlvt3QcYjZuTE3OZJXY9ScdLnRETIZZ6rXLgUY9nU6v8ok",
+      "title": "projectsinindia.ai"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOaVxXpxv-RvSeNyQfJWOhCmcDFi9iF8cJgZLzHBCZdVj8NQyra-wjR5LyBG7LJB7sEzRGnXogRUqwQ3VO-NiWbMCS0b48m92ebVawi-M8Cxum9AHkKokudcrJt7BCD-_6rk6kSBn3jWeqVJ3AePklqJd9x3cBFHg=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYZj_HZFWNs9woiOMvIC0OsCh66hpNJELJIW2zXaW5Zqjf1JmoPvjoXBQBz-cSZe-KtdKriANterMwIH9WHnUmqHQdjWrZbAXA4dS8dFiZ41Q0gNhI-RFnFAOZvuYpAcuUehMGWoV-IBwVQkYHfQpGhmY9xF-fRLxoMkXnew==",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBNppxlizNvH2aNM4aDOPW3205Nh585Fw6xQlV20e8yfjJ8NNbH58u16hw2eJzoQuPbume3oVJ0qy6M099CZE_utOUdvZLTTq8R7O0rjrRhAF85rTdIJgfgNCJGCr5vtnRFrm7p1w4SfaPMMmAM9VvRkN4TNNvi1TpuH9Xf9FkAzI=",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE01CjcqYxiehBit9xEPZHhOPMdvqqHPWHdM-Yy6pIjkbyx_N7EPunA3M7waZpcLvLIvf-wpRfmjFh9TSJoZyn526VnKMRMuqI4wWh__L17XRZM3rQG55E4cW572rsfAKKwiv4xWkFFsZKRMWZ1LWAhUahJQpmBBPmdfzJcgICt0DWG66-Cn4hLpIN_wnXofwjgKZmzO6fkdBO2dn2ovkxYwg==",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjPSMtKGit77A8OlFlmqpEFFgtQdgoJcKrfVaWQXe4Pk0COB53g9pS0XGuy86Q6q2h6VpCvUCjxmUS3ijYPNECo-j2S-34vBsEdqKlmfp6R-PwVyl9QiYg-EfKZZ2B2lLyRzm9aEJ1faQzEOInj_IQ_GnVYx-aOV4qaH2B_I_F-ok6tYXMAaLvLXu4i_7TyevbSqN-5xFKBxCGQgNKtZBy-gO0ZP_cyrjetEzXKorTawRm3cDbLe8988xMrTdq3Ru_iS4dDl8iZaVU9DAEhUXE",
+      "title": "licindia.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcqE93Upsxj0ws9snG1GKFpNh6E7mPg5helb8QFZGWKX2KJ3mXJlv9Kq8MEu9UhfiG_aWIwTdoYYMpqN0gMHOU-G50WKmGF7IbJBy9MNActpLJjG7jhOrzeKj5hJGRtqpGoTs6BIhcFLP_EkOakG7MqujJSg==",
+      "title": "skillcouncils.com"
+    }
+  ],
+  "shard": "india"
+}
