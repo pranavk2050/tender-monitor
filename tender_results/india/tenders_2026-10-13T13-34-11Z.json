@@ -1,0 +1,53 @@
+{
+  "run_timestamp_utc": "2026-10-13T13:32:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCTVLiMmxj0lEbm6KYPNwDhBLUh0guCCMU4bklxCwaTo_NNBL3ACFDVnZjDNA1KxUlE_eAM4ov-W79dxpjfTofalD5qCzdSbo5VLwW-Eqm1Jb8ChfGWICdVPAInbIlmxKq-u6EFD6yaVwBOX0zs0rQHn56P2nAqBOuDdjAgh_5TF1rKZnVST1Q5RTbY9gd7_ip9QZ6JObFWW8KOaXKUUrxk3CFVmsulxZ_mQ==",
+      "title": "tenderleadsdaily.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWP9P1XdOLPtHKY03cNcXC7gZIfKl1g8JvZQTWWZwnd5qB4Ik71D3Cj2hhheVoXaAA06nTdJq9anuB4hfMz2lM1VVPoMtSWTr1t4AGWD7LoiRQ8muTeZUOkD_rJlf3D_ZZVu7T6NMwkOdLGA-ZZqCsQMmk8hIrC9Sznwhmb8ekHZLTlmj5D6CkksWW5O9uzywc5B2lXg==",
+      "title": "cleat.ai"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPnnPDb8Sx808XcjFGFlenkvYwxhckuvNB_1ceaeIH_fi1nBiKjLHTgvhGgTXV2rMrx3Y8Y58bvPxVCqXqUuT5yILU5r_udT4SP6Qk_FqiGWYqw5CA7rSTj83r9_6_BF9_A4I=",
+      "title": "mangofetch.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5TXrc6mruDeQuu8qMvFcME4W3aQl5C67zHMIKfraU8vd2U3FFwGLBXfEz8KDSFsMzY9o_V0gFoKGFiUI-R7WpaYOHdfmeOm64F6CeErWAWuQiDr9gR3aOoPzYDhgArSLQfH_UFof2iXBNGOVjayJAP6ZwI4j_SlxrouzADqYMPJ1wCDHhNfbdRRiEu2BHArUjxEtnZc3Jmo5Nqx_fLIcxrFTAtHiCVnnCc-1dXkQqCvaEo43Kgzi-Xzu3RhINDl428YZ-2auLB0cT3KuMuQSGO5Dv3NwPfh8cgl29rYumo3N",
+      "title": "tenderkart.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTemsSb0w9j1QcaI417jezY_cAW90GeXzk6ZIlL1mXjMHIazgoguVyEqpe_RpY7OCdd6lBk9yepjR7iinGuW2cNMwldo6o4jZkboSt3Z3pCDKZUCqfMOsf2l3gaD2Hj92xpARri-ubZMipVyJUio71y9GZEQMkX9nNYgPiPwU1-tdkdLhwfljoFEYmSvs=",
+      "title": "ihmcl.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGli8o-wXlhsjAt0P6EKwbHsg-XuPwDSEQ2VMSGdxPWGGT2sqra9Xzj6QWAd-kIUVgA-4mWQizCj_gMWVzfePcqQ0jgziCP3O4HWQWPzldMwdY8XyGKLmLDCMZgsS6Ys-UzrZthWxf7Gvhycp0YCcCL8p9zQYHlYP9KoANbSfk=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxg5akdwdI6O03Ebj7o_g_Vpm9G-FuBCJEtB0Zkybn9Z1d-lsPwtIHK7-wS6-bPu0-k7yP8CZDdnDju6I2x5nRmWGD3khpQHrymsOjuUJEczTaGMoHG2yXqxWxz0etXl2OJ8Tge1lLeTlQ1og7Cb3qppPtYTKAS1jGw7DPbh_1-K7SiTBKxyFHFD1SnJpIUE6BFsYCaYVJOY_cdTuM_ME06kEpuLA=",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv4Iy7jrNURrWJCTIgjorRV2ZgJaT4b-I1wpwv3O69V70LNPB52AVa5bE3iHZAdLtOiuInQq3aycFb12oy35iikaPn40eLmKYYLNHked68rGMUJBbLj1ry7TUd1XgdsJ1Gn_QK-Y4j_Cm5TSpL1B2l-aLGEaTob6loMTjC-ciggNwK_IE4r0jepxDkvSViS9m_dW6NDP0C63zL5Zz1vmrK7cgF5-pEQ75IKjWDoF4NSKZ21DerQPp1gYrzNV4BJOO3m1WfQrGulnwo9oTLezDWidbbl2gJ",
+      "title": "indiantenders.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjGumlTzVR3ujHXKSIPB-ivb7KFm9z7a1wTCmxa55lVvqCMOtSrnePv1YqEoQ0OKkrIp68dhraT9SmH4LvkP4z1dRNCUK2j9wm8XahlZiBD0v0DE1AfALKbp8TjXWQRuLSO6tgLo70QbysHlZ9wTaIJCThE85FuTlEpc-bY8ZO7Vq2ADyFygFsbT2rD-jTwiwRvVTlmcHJtyxxRfCyYzspAWudwg==",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOGGYFaeXzFxSyukncFJ9NlnwTL3djecIQAEgoMwHQAOEAK-IDEWNIKp2NcjsGTLc_X2apvTjWWL3fjYENLS4NLtnFmhClp-Niomg-85larmJISXZdVq78iILkRDVXylB3mJ-rHLzo0O3M5-8Q5y6BEbHCsCeQvz5TpL4w0s0bNOyer5UvsvRiHtjkVp_RWkbyZPc=",
+      "title": "sbi.bank.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTHi336bfL4J4n3qoxT1VQE_pg3XOXToQO5kHxXyVajvsYWxbRpO_YfASOdeu7npnn-vJZc-YTAmsa78JIhBR6fjCip8jx90_ZDZVoogvH9adul5yPfIa260WQ-NQ3vBgCx-X7idFDHh993RK_bkTU8CJZoCVJTMzGDGvGeYyVGDV7iry6KQv3t-6NOkn2wO9SMw3fMXusnCqFvnSAyX51dmnwFrib80wvvqO2Dfc9cw1KKQ==",
+      "title": "solarquarter.com"
+    }
+  ],
+  "shard": "india"
+}
