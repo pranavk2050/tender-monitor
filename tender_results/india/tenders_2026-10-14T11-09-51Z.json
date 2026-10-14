@@ -1,0 +1,21 @@
+{
+  "run_timestamp_utc": "2026-10-14T11:09:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Vtg6mB1I5307JkBChOZzRdOMDMcyPzhPh_8g6ix81SzIxKTULTxko95Epg3-MNOtOmWdWqUEnNwXypQhYDL7qc7PnaUGpyIuQTDuSMsWUxnPlOnCu6qrTWAU7jCyHMKLTsg4PXtfY6h1lvRpt10QfRyF3fJgwyrGiVnC",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbF1Qtp_3XHECUfV5B8NamueTj3iP5ALn72d3SnGhTgnkwTfEx5gMJoxVM3lne2JZDNPrLl6ZPp5bZ3M76zI6w1ZmdvAusjuDLZCAMBDgc-LtmdD_7OqaJvmR-dG6FkPCVQIXqu_ehvJoedHaLLoqbYaHfKV80si1t2SKf-a_kO-Rr7GGIAQwbr2QKPMCTRsbUKMWN-r89oPuJW_P06Mcsm0YP00POD-4ZO0pWe1ibfss-zNH-nyYPlFxP9aYndotaqCQ3-_mt7w==",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtcKRQnQZIxeb24OBY-gidPQaEVBrJXpwKpxbS3Rtvb9aUU-dABusS-b9xE0xHTZl1lgd8swjE5ADrvbgsRXWqH5Fmnl5wj2JHUV_bKxS-4Rf8xAcDPN5riIoossIzCvQjxWn5Lz4FDDlvMtAbmrZkLvLOfUII3Aw7dTiG-VKoUAYdCnPyoJEpZzN-uEaL7oS6oZQIDlm3Bd1Ymeq8qikoRQ==",
+      "title": "tendershark.com"
+    }
+  ],
+  "shard": "india"
+}
