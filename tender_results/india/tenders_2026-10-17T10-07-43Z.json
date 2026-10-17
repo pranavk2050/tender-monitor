@@ -1,0 +1,13 @@
+{
+  "run_timestamp_utc": "2026-10-17T10:07:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFF40z6kvHjSAyOqBEXNMtXYUTPOuYAdwiNhp9PxAcq728WoBBfy3yDrTWT97552ml-NPf4b4QMuvJ6L0dfiPGH50UjD2l8PtH_J1DqPEY20oqAqYi2CCtX81MMUzC0r-LZvS9a_uvc5ffENf9iw==",
+      "title": "ntpc.co.in"
+    }
+  ],
+  "shard": "india"
+}
