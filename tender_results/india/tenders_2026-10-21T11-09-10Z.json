@@ -1,0 +1,13 @@
+{
+  "run_timestamp_utc": "2026-10-21T11:08:00Z",
+  "lookback_days": 2,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5E7jTaBOAt3BbzpTVycARM_sVqZcAR0Hwv1XIBCh4eLPkkKzEPfWFVA8uuWCYMPCZK_iz_6OWmsRbc1fWw7-2TQFzwJphTaBC4ee77idaJJ0M",
+      "title": "nitk.ac.in"
+    }
+  ],
+  "shard": "india"
+}
