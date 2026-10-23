@@ -1,0 +1,105 @@
+{
+  "run_timestamp_utc": "2026-10-23T11:01:00Z",
+  "lookback_days": 136,
+  "tenders_found": 3,
+  "tenders": [
+    {
+      "id": "038e23f03a6365b2",
+      "title": "Procurement, Supply, Installation, Testing & Commissioning Of Asset Performance Management System (APMS) As Per PPMC Specification No. DS-01:2026 On Turnkey Basis",
+      "region": "APAC",
+      "country": "Pakistan",
+      "tendering_authority": "Ministry of Energy (Power Division) Pakistan",
+      "domain_industry": "Power - Generation & Distribution",
+      "service_bucket": "APM",
+      "scope_summary": "This tender seeks a contractor for the procurement, supply, installation, testing, and commissioning of an Asset Performance Management System (APMS) on a turnkey basis, adhering to PPMC specification No. DS-01:2026. The system aims to enhance operational efficiency and equipment health monitoring within the power sector.",
+      "key_points": [
+        "Turnkey basis for APMS implementation.",
+        "Compliance with PPMC specification No. DS-01:2026.",
+        "Includes procurement, supply, installation, testing, and commissioning.",
+        "Bid security is 45,000,000.00.",
+        "Bid validity period is 150 days.",
+        "Electronic submission of bids is likely (not explicitly stated for this specific tender, but common for Pakistan tenders)."
+      ],
+      "deadline_utc": "2026-10-22T11:30:00Z",
+      "published_utc": "2026-09-18T00:00:00Z",
+      "estimated_value": {
+        "amount": 45000000.0,
+        "currency": "PKR"
+      },
+      "source_url": "https://www.globaltenders.com/tender-notices/machinery-and-equipments/pakistan/procurement-supply-installation-testing-commissioning-of-asset-performance-management-system-apms-as-per-ppmc-specification-no-ds-01-2026-on-turnkey-basis/146534451",
+      "confidence": "high",
+      "url_status": "ok"
+    },
+    {
+      "id": "1804f35b4815a510",
+      "title": "Supply and Installation of Asset Performance Management System for Pole Mounted Distribution Transformers",
+      "region": "APAC",
+      "country": "Pakistan",
+      "tendering_authority": "Sukkur Electric Power Company (SEPCO)",
+      "domain_industry": "Power - Distribution",
+      "service_bucket": "APM",
+      "scope_summary": "Sukkur Electric Power Company (SEPCO) is inviting bids for the procurement, supply, installation, testing, and commissioning of an Asset Performance Management System (APMS) specifically for Pole Mounted Distribution Transformers. This aims to improve the monitoring and management of critical distribution assets.",
+      "key_points": [
+        "Procurement, supply, installation, testing, and commissioning of APMS.",
+        "System specifically for Pole Mounted Distribution Transformers.",
+        "Open to eligible national and international bidders, firms, and joint ventures.",
+        "Follows National Competitive Bidding (NCB) and Single Stage One Envelope bidding procedure."
+      ],
+      "deadline_utc": "2026-11-06T00:00:00Z",
+      "published_utc": "2026-09-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://dailytenderalert.pk/tenders/supply-and-installation-of-asset-performance-management-system-for-pole-mounted-distribution-transformers/",
+      "confidence": "low",
+      "url_status": "broken"
+    },
+    {
+      "id": "2d8f9c06611f7294",
+      "title": "3D Laser Scanning of Heritage Sites in Velika Ho\u010da/Ho\u00e7\u00eb e Madhe and Letnic\u00eb/Letnica in Kosovo",
+      "region": "Europe",
+      "country": "Kosovo",
+      "tendering_authority": "OSCE Procurement",
+      "domain_industry": "Cultural Heritage / Public Sector",
+      "service_bucket": "LASER_SCANNING_GPR",
+      "scope_summary": "This tender seeks services for 3D digital documentation of heritage assets in two villages in Kosovo, Velika Ho\u010da/Ho\u00e7\u00eb e Madhe and Letnic\u00eb/Letnica. The scope also includes a detailed condition survey of the historic Mici\u0107 winery for future restoration.",
+      "key_points": [
+        "3D digital documentation of heritage assets.",
+        "Focus on Velika Ho\u010da/Ho\u00e7\u00eb e Madhe and Letnic\u00eb/Letnica villages in Kosovo.",
+        "Includes detailed condition survey of Mici\u0107 winery.",
+        "Aim is for future restoration planning.",
+        "Pre-bid minutes published on 09.09.2026.",
+        "Deadline extended and Clarification Note no. 1 published on 17.09.2026."
+      ],
+      "deadline_utc": "2026-10-09T00:00:00Z",
+      "published_utc": "2026-10-09T00:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://www.osce.org/procurement/rfp-omik-017-2026",
+      "confidence": "low",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tiu5TEShqr0wpbKvSFTf7IIv-qvy2FvPEio33u5EjvTJEP2gq-zUBjOIyzn72aitA3QV4cbNN27RAG0G1U20fYdNqMrG05z3fX1e9qPdNfN69KmLnE_gBADjbJs7SAqdyyTP_zIFDkw0E6BWIdwPViTII7C2_zFo-_g9oM5aL7V_D0hc7V1NsNMdG146ELE5qXFzoVqs87SYzDw3wZtxfIJ9nyn2N65x8f8ush3JBUW0U2Gz",
+      "title": "mytendernotice.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW8hc7KNf0EyjKWLqCgdZw79zEUkyZDwKch8FZ2HFHWHCGkV7zBMvPi0kSQFW76hd2Q_XW3qFvje_zPwCpPrf_Tu5vATbY6_WiwZBl6tx60hf_lc29Cpyt6LJtp86wYLeCKSE1RW_RqdGslWjd03O4WCFwulQ0STooDZMCXt6DiW3E8JmLp9AUR5zqGsvxRFQ60TjROShJXoH3Rvrq8nI=",
+      "title": "globaltenders.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-xM3nEadD6LXX1zjlB7ElTjj8HhHMgHUlBypPAVC1QudfHUvQvMyjtLRGXp3leCGwd55xtuo2vIsL3mCWrDfyfu-NbrFCRFKepokSYa1XwW6SrB1GMFEeFsj3dvDQOz4NTZlnKo9iL3gkEksTq5jDtqVIfrmPIG28sE0wEyt9-lHMwy_cs6YCI9se68zK8q3nodbhbt48pcZKyXrta6Ywfg==",
+      "title": "dailytenderalert.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENal4TJhK1OEkzfH48sZcuIfHu5uFzzdI6oIkzrD4mdbh9Q_nvz6GTii51cKnk1aYLmKXvIGV__kQZGE4k6CgfO3wKDQEZWcnLYiAVNlsuXxCBlPaMKQeNBvmGFe0oNejmNLw888EIMd_AMrfVGucQ-F10nUG_UPye5knHMDTd3A3-mRVw9BWImwNvNJ7VxjmZJLGlOg9PFZPMED0wKnP4NJ4Sz3U3ohTFfHNaqqBCWJ5Q",
+      "title": "osce.org"
+    }
+  ],
+  "shard": "apac"
+}

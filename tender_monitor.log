@@ -429,3 +429,7 @@
 [2026-10-21T11:09:10+00:00] DONE: 0 new tender(s) -> tender_results/india/tenders_2026-10-21T11-09-10Z.json
 [2026-10-22T11:09:43+00:00] Calling gemini-2.5-flash  shard=middle_east  seen_ids cached: 8, sent: 8
 [2026-10-22T11:10:07+00:00] DONE: 0 new tender(s) -> tender_results/middle_east/tenders_2026-10-22T11-10-07Z.json
+[2026-10-23T11:01:29+00:00] Calling gemini-2.5-flash  shard=apac  seen_ids cached: 6, sent: 6
+[2026-10-23T11:02:14+00:00] verifying 3 source URL(s)...
+[2026-10-23T11:02:18+00:00]   url verification: 1 ok, 2 broken
+[2026-10-23T11:02:18+00:00] DONE: 3 new tender(s) -> tender_results/apac/tenders_2026-10-23T11-02-18Z.json

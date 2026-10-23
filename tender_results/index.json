@@ -1037,7 +1037,13 @@
       "shard": "middle_east",
       "run_utc": "2026-10-22T11:10:07Z",
       "tenders_found": 0
+    },
+    {
+      "file": "apac/tenders_2026-10-23T11-02-18Z.json",
+      "shard": "apac",
+      "run_utc": "2026-10-23T11:02:18Z",
+      "tenders_found": 3
     }
   ],
-  "updated_utc": "2026-10-22T11:10:07Z"
+  "updated_utc": "2026-10-23T11:02:18Z"
 }
