@@ -1,0 +1,39 @@
+{
+  "run_timestamp_utc": "2026-10-26T12:14:00Z",
+  "lookback_days": 2,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "b064c15320092c72",
+      "title": "Replacement of 33 KV single core XLPE UG cable from 220 K...",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "Unnamed (details not provided in snippet)",
+      "domain_industry": "Power Transmission",
+      "service_bucket": "APM",
+      "scope_summary": "The tender is for the replacement of a 33 KV single core XLPE underground cable. The estimated value is \u20b925.52 L. The tender also mentions IIoT based devices.",
+      "key_points": [
+        "Replacement of 33 KV single core XLPE UG cable.",
+        "Estimated value of \u20b925.52 L.",
+        "Includes IIoT based devices.",
+        "Closing date for bids is November 2."
+      ],
+      "deadline_utc": "2026-11-02T23:59:59Z",
+      "published_utc": "2026-10-25T00:00:00Z",
+      "estimated_value": {
+        "amount": 2552000.0,
+        "currency": "INR"
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHdZpOc92NDDNq_TSA_7g2UgdYOqkG-eHhcosKaq5LKt-jbOlX9gFNo9kGG0Sc03T_bppKvI2E02g1NJD-W2LBmBm9LPMNSP8S7Y_63c94jAyY9nvkZCZcYmT88Ze6IWdSWlVm9yQMlmXNBkmRUGej6uxlmloZYlm_7vy3XFg2FnQVa4H5q4-A4PVEltzyE9GwvxxIs4T9Pi31wVbvkU9x",
+      "confidence": "medium",
+      "url_status": "broken"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHdZpOc92NDDNq_TSA_7g2UgdYOqkG-eHhcosKaq5LKt-jbOlX9gFNo9kGG0Sc03T_bppKvI2E02g1NJD-W2LBmBm9LPMNSP8S7Y_63c94jAyY9nvkZCZcYmT88Ze6IWdSWlVm9yQMlmXNBkmRUGej6uxlmloZYlm_7vy3XFg2FnQVa4H5q4-A4PVEltzyE9GwvxkIs4T9Pi31wVbvkU9x",
+      "title": "infralens.in"
+    }
+  ],
+  "shard": "india"
+}
