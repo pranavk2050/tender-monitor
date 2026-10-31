@@ -1,0 +1,53 @@
+{
+  "run_timestamp_utc": "2026-10-31T11:40:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVzXM0EQE7hQ4d-i9ZgoK7a9Uy-IU3bCyQKVGBVkjEtR5ox9pUODm3VUZvuTgA9c0QtENqOL_HSVNTYENQZT-BHnXVSSUpobaqDqoNAFTVqhLMsA7FYXEHfcJ6LqePqohHO3TaFcB2WuNycBud8gk9ejW9fCeQAMHfolUCM7MT_YB_IbxIonspeTCS5KpybsPfXQ==",
+      "title": "iimb.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Vr_fXvfwnUG2mVm7fibY8G6Hq9uqWMFoc7ZcuQ_PUvOFL0MahduAS8ZRG1tnki1grZWg2l0_11zFJJNTsTdw9BfsH2PAM22DK7E6lOi9bocc3uPW6f960vVl3PQmJYFp0SCDa_qVRFW_TDF5zi-YDY45Ci6WhfVG0nxM0BiTJm25cIfVIWUN6bKArIAUswdTe69imUhicLHxj3YD8vejU2N7KOxZetwF6AuBownZ7U62jrR7ZLiH4ihRgryfmLbK08KNY_VEKP3ZtBDmKAVqmqGAveimoliQpAyEOMD9tHjgLIa5qopon-DnVZpj",
+      "title": "tendertiger.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0uOV2n55MkibWWAMNAej4ZFsxF1dmTS0Te7xxYT7PIH--_VKyGfCRuvWkaMCq0AvD48btgXZYUxZggqyhBcTrjd3hQRK16PXXbhL_vZYynQvT-m9pA8gUXt3dd2SHJw1M2k4MLdr4m1NYQrRQLl8CAwe6-45iuRkUSyCDymj-8kXmLbZZMQ1nv46k8MJhNix0IYS7vrD2CXfSTOl5jywAXejmknimnBL1Fg==",
+      "title": "rajasthan.gov.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETtisofaV4gmgQg63ZvRsXg9sHHHzpD1EnLrM5sIILzYCPD6UwcdN2hsXi9VdV1fPrIyLAOmWvE92aFUMVYxN55T_ASPxucj8Jqmy_nuW9O7yPVsiA1d2C7raDtt3Ali3s9KTZC2dXCTbssD6QwjgSjCAJYA==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH11ij4lXn0VkpX7EtD4jgMfhi2eZ9Zpb27XQy6FyIrtNS3ctDyRgSg4bqlpoLoN5_4oLwCyZsCn5v8YRqbIRMeSTWWIqCQ5b4Wyg8PGoVZ8o9enr4EYdw83sMzOCoEuXA03W8Ap4BEzmBPrIeqlN0lJjXHMX9Msd6zLYDsp7NUjKb3K1c-zsXae7hPvCbSMTrZeos=",
+      "title": "sbi.bank.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYuEdm-jGG1xpNiPsTWOpLpV_-_rsYwQBQJ2mMWKfDY9D-0C-sFiDSUQM0K3Aza3Ds2yuDsTAn-z2ZdmNZ70kdGpXRnmVe9YPEpmzBDc_9sE6vF12u3mV38UwOFeHBXFhHpdW2ao1ju4RJ2mgh5ZTM41k=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPqFkzjJbH9xurmc-HnnJ9yVe5Br-_cyB0h1yoDGD40AdGXi-uA8kxLQYu0mvlje9ju0Ooa4CVLwqLb1TxlwNhJ3eeQPUYueb_-f8tEgEj2TJLXlCUjxg0YfF2MuhkKIPH5vAMz2UAe8wpViCvzb1eyJAO44yuem1fMHW9aWDhDQyeLtVWvWp8ZQ==",
+      "title": "tenderdetail.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp2MCQkvY5_WPZeocOaI8VDhIQZDSOWwEVb7tCXvACYH0eV0fDouBx9fmJ61Qd60HXwvfM_mbzvop-8KiTjuzVebRoKQpe4BlJmohJAd9AN7N4Ks87OHVOn7AyEqoibRPYdH-JEan5VxP5XfR5t4wZnyLYv0vTNhgYVKSc3YDQboth5OeuU-zlijch0ktEM0jm1VT8g5qEtMo-z4pGBIZpowE=",
+      "title": "tendershark.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMFNhti4sJYH_Mm2aatIGHnn7XfyZOF0uoexyLMKuW_IHqag_AHKRBnoLIDiwbPj3fzdQzAo91ai4SiOJe621NJXtX-VMmU-8LJgIWdTzHdB2YVuZA6vxQIv7jlKY1hHVSqWXfIXmMNoNulAS1cTw3XW_kQaeakPKmM6FgVZchGUciBsp91R5DS-DaQkTja4kFRUeIKIm_Z4T9byfziwU1iUh4VS6_9dZOZru2Ewr8xGI1ri8kzMSUuhyKQQcTajQiIO6FGymWUK1YPkkYs8My6A1RZ4Y=",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl5wHVGQbWhGCcWvrjKIv9ZqoxcI7A0FJSoYWugLch7vzjLJ_JicR_XItKK6AEQ8lZ5fnz3iGiyVPATP5LWgSb6_JqnsHGOMVxRS04nqo4bhhtlbZlCGfqJNNXprOrQc7n37fqePdBBKbjw_Wg40FPF6u-X3N2fEpNw-BwDgcgnJtrqHnwaxZv1D_mBpRAARaMAvEs0pGkB469eEuqeXr5hSZBw21ohm5iHKNo",
+      "title": "tenderfiles.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFugj1ysHuu-R9LHY_opR2TN3TnoPBedkDdmBKL_mPpEqNuqm1nHbkYyh7OC7dKEJx2G7QRLegnDahB4gfQNVZsZSi5_GxHklUrC4mQQmUX5E8uLKhjPlRd_Vfiabpx6bSikcUPeoA0AuBDfoLr",
+      "title": "tenderdetail.com"
+    }
+  ],
+  "shard": "india"
+}
