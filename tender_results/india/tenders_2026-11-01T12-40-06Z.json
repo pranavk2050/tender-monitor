@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-11-01T12:39:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK3bJ1_cByzPiMOS6fgyfEic5uIAIMGQM7yfm-W91afQcjnQpzPIGJKUhnh-5KtarQNikephe6eBa4cjG4dg6XLrYXsHKVsWOKfgSGGJHRyw3j0kguWVRNw340TJOiiA7etzSzqR2WHBHVMRH0fuCbkpd1eg==",
+      "title": "skillcouncils.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKSqmwJFHgvUrUFLPNXgOETh68F7L2msGyrPR9Z9aOKirmrHwvtz87VgMMG8WHebX5Ru6y21NmeYrzWccRq4VDJ-X4SnvwMA7NsNpiS7vmp4o84gJUDz7ejEulA9VGEjs588KqmrzCGgTzox6Q8beNwaNDHchX72Phpa2WcU4P86vLgX4YQEtjogLOhHetSOiJAs9Mo5vzFDkodEJhRRc=",
+      "title": "bidassist.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmlMsIhFfE61kGX4SfnoEkOIH2K6oCkzcZzAED2U-RoyvNYb9fk8mik3KkSk9MUmli-wuY7L69ZJO1GR05tnQPMRHrwz43fteWoj3eY9DqyZHnBdz6uthz21QPfk6YgnUvJHnyREQGgb9V0nyqdg==",
+      "title": "tender247.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7txBGRY8fdlV0hoEVOUMH4oVqVNl6ZoEKMplciuCCwEC0BtQMYT4Sm8naHqvJ0ekrqh91g9CXB3MqI-hOO1t3PbcA25srrRUug9RmE582cmyx3HTHLqd63stsnIxWCb51906Y2aqT6kGQwQqTSiDz1b20vX_PNKXt7v0kxzu4g6n-9NY7btH0gBgOldTZF6c=",
+      "title": "tendernews.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMC60zVPwFM9FsF7e4JBNwYYrFit2WRq4V_nzIi-2QXRIJRrLbH2IcW7c5LLzckLXyPShQJbreRFGjlDATZZB-nhhJMakGiSVHnt7T9p3RzU0G7tycoVbue93stEauBFzQmHS4NEXP_k1umlVzbkZuxLb4ZcsT9aTug9zdQu7Pi1ZMLg==",
+      "title": "cdac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFgOeZsssHTFkqu8mVKRqpmKuTqOwzqoI-sD5kRQwQrCWeH7iD1DK5eetFHEiugesy4lr2rDmhquSj6gFsVhhhioLgNjs9JmpoC93abxrYmeRi57lvQ5Ej7tx_Fh2CCB4yvVjZAOfcQ-9AXD2H",
+      "title": "sailtenders.co.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDaS99uDSGWlqiR6vIVZ3m2FRRSTa-CKHsnt-7mX-oJ4GON2USxkEfxG74dFW0VzsSLvkjrPF1M9ZRc-dVNukUet_LOz3meMd6TdoYD8rkU9m5faEi4AN96-_nq9JKOjf5P1KMQYKYhQZCwfO8Eh7i7tGSx0T0E0I=",
+      "title": "tendernews.com"
+    }
+  ],
+  "shard": "india"
+}
