@@ -1,0 +1,45 @@
+{
+  "run_timestamp_utc": "2026-11-03T13:36:00Z",
+  "lookback_days": 1,
+  "tenders_found": 1,
+  "tenders": [
+    {
+      "id": "6e3d231a47b5c8d9",
+      "title": "VR Training Module for Pot Room Activities at Angul Smelter Plant",
+      "region": "India",
+      "country": "India",
+      "tendering_authority": "NALCO",
+      "domain_industry": "Mining & Metals",
+      "service_bucket": "SOFTWARE_AI_MOBILITY",
+      "scope_summary": "Development and commissioning of an enterprise-grade AR/VR training solution for safety, operations, and maintenance activities at NALCO's Angul Smelter Plant. The solution must include hardware, software, and integration services for immersive training in critical plant areas such as Pot Room activities, anode change processes, and emergency workflows.",
+      "key_points": [
+        "Bid Closing Date: May 30, 2026, 10:00 AM.",
+        "Estimated Value: Not specified, EMD \u20b920,000.",
+        "Bidder should have executed/supplied at least 1 VR Training Module during the last 7 years.",
+        "Minimum Average Annual Turnover: \u20b911.36 Lakhs during the last three financial years.",
+        "Submission via GeM portal (Bid No. GEM/2026/B/7486931)."
+      ],
+      "deadline_utc": "2026-05-30T10:00:00Z",
+      "published_utc": "2026-05-09T08:00:00Z",
+      "estimated_value": {
+        "amount": null,
+        "currency": null
+      },
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeB0XASVXcXQEdfE6F11CADSLCR3RhIojxDOAOx9F1AgG4peOaFcCL1s2CL89dwA1BkVhrCtSi7muR5nXRla9yQXNnnp92cC3zzwytcKuaruHZOOU_UVMf4fX0kqBc5Z-ayHO-Yz9x8_qWydYQvwDawwqLmA==",
+      "confidence": "high",
+      "url_status": "redirect_ok",
+      "source_url_resolved": "https://www.skillcouncils.com/tender-details.php?jid=1874"
+    }
+  ],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvrT1azzB0UwhvvWV2Wan1hnLvpVhBn-FPQQYgdCS_G-8hcJ2pEBJQtcLg04RJPtQeyabFAKupG-mlfNrbpfDvJWYNsEHS3HTXw_m-dmb4aOBb8VvsVZ6FAZBgltxqrbKSfFHjreBuPhD2IIdVDtygcdI=",
+      "title": "iitbhilai.ac.in"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp9YHuMFxNwYBcDPGlCwZfwBtX2bgxqBl6sNak6EZFJ1pXL-4WfkRPmA6va4CfbeGzNZjdgqxc0FPR0_o0T6yGddu0Zitz2nQmYaF1Fsn-82uMH7DWghxD5d3BHM2JzJleN-hj1ffrdU01t-2GoQjkXCrQzHX1JYs=",
+      "title": "tendernews.com"
+    }
+  ],
+  "shard": "india"
+}
