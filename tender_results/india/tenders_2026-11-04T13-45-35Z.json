@@ -1,0 +1,13 @@
+{
+  "run_timestamp_utc": "2026-11-04T13:45:00Z",
+  "lookback_days": 1,
+  "tenders_found": 0,
+  "tenders": [],
+  "grounding_urls": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH05qZ-p5f_fJHJ9Qg-_SZNeiUcaD-UGOqRKKkIe-3SEb195B5cK5hFxRBl7evk03yBA00-ip-5f6XeFN7o2DA6LXzIPTme6D2o9lMOdLaNeKq_z1naYBimrtHBGKUwyEJSwYPGUMLoTdtB5z5_XwQ0j2w6vXOzwj4xOjzP6RV3dla6YMcPGVRN5LxazV_TtSU8t1ZGXLIHedU1wVj8jdyiDLg=",
+      "title": "tendershark.com"
+    }
+  ],
+  "shard": "india"
+}
